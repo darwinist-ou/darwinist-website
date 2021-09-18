@@ -1,0 +1,125 @@
+---
+row: 1
+column: 1
+style: is-light
+height: is-medium
+card-image: /img/python-card.png
+url: python
+name: Python Skill Sprint
+problem:
+    description:
+      - text: Less technical business users are forced to make do with limited desktop tools for quite large and complex data sets.
+      - text: Business needs to be able to independently create and maintain processes and logic that are powerful, safe and flexible.
+      - text: These processes and logic need to have a flexible change control system that allows four-eyes principles.
+    type: is-success
+    icon: fa-atom
+    media: text
+
+solution:
+    description: 
+      - text: Business users are introduced to writing code in Python. They learn to extract and transform data using modern powerful tools. 
+      - text: A modern, web based development environment is provided which prevents the potential for sensitive data landing on user laptops. 
+      - text: Participants are upskilled and enabled by seasoned industry professionals - real value will be delivered during the Skill-Sprint.
+    type: is-link
+    icon: fa-atom
+    media: text
+scenario: A team of people using Microsoft Excel or other similar tools. There is a lot of manual work with an ever increasing error rate. Some of my team have expressed an interest in learning to code.
+
+tech:
+  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aim to help programmers write clear, logical code for small and large-scale projects.
+  name: Python
+  type: Programming Language
+  url: https://www.python.org/
+  benefits:
+    - Scalable compute platform
+    - Flexible
+    - Global
+    - Microsoft Centric Technologies
+
+benefits:
+  - title: Skill Sprints are a hybrid training and consultancy product for the introduction of new technologies.
+    description: 
+      - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide small teams to deliver something with the new technology with the support, guidance and motivation of an expert. This carefully managed process dramatically reduces the Time to First Value.
+    type: is-success
+    icon: fa-atom
+    media: text
+
+  - title: Python is the most popular and easiest to learn programming language.
+    description: 
+      - Python was originally designed as a training language by Dutch computer scientist Guido van Rossum. Guido’s emphasis on readability and simplicity ensured a bright future for Python. Today it is by far the most popular programming language. 
+    type: is-link
+    icon: fa-code
+    media: text
+
+  - title: Employees learn coding and basic software development protocols with a flexible 40 hour programme. Useful working Python programs are delivered by the participants.
+    description: 
+      - Learning coding from online resources is extremely difficult to get to grips with. Everything is very abstract and it’s often extremely difficult for people to bring their new skills back to their workplace. Skill Sprints give participants direct experience by coaching them to deliver real value to their teams and organisation.
+    type: is-success
+    icon: fa-lightbulb
+    media: text
+
+  - image: /img/pairing.png
+    media: image
+
+  - title: Invest in your staff and your business simultaneously.
+    description: 
+      - Skill Sprints are a Micro Transformation methodology that coaches people to deliver value to their organisations using new technologies by an accomplished expert. The expert will help to ensure that a sustainable transformation is taking place - preparing the ground and helping to break down barriers.
+    type: is-school
+    icon: fa-school
+    media: text
+
+  - title: We ensure the participants gain sustainable access to web based data and development tools.
+    description: 
+      - Setting up and maintaining access to a development environment and safe, secure data access is an important factor for a successful project. 
+    type: is-success
+    icon: fa-shapes
+    media: text
+
+  - title: Business people can develop and maintain lightweight data processing pipelines which are much more scalable and powerful than desktop tools.
+    description: 
+      - Test text
+    type: is-link
+    icon: fa-satellite
+    media: text
+
+  - title: Business people get a better understanding of the data dimensions - data does not have to be “flattened” to 2d spreadsheets by IT for business consumption.
+    description: 
+      - Test text
+    type: is-success
+    icon: fa-wave-square
+    media: text
+
+  - title: Business and IT enjoy a more productive relationship because of an improved common understanding.
+    description: 
+      - Test text
+    type: is-link
+    icon: fa-smile
+    media: text
+
+  - title: Business are able to independently create and maintain business logic which is subject to strict change control and 4 eyes principles.
+    description: 
+      - Test text
+    type: is-success
+    icon: fa-git-alt
+    media: text
+
+  - title: Business people are able to process much larger and more complex data without a dependency on IT.
+    description: 
+      - Test text
+    type: is-link
+    icon: fa-atom
+    media: text
+
+  - title: Much less pressure on IT with more technically enabled business departments.
+    description: 
+      - Test text
+    type: is-success
+    icon: fa-atom
+    media: text
+
+  - title: IT no longer has to spoon feed Business teams with formatted data.
+    description: 
+      - Test text
+    type: is-link
+    icon: fa-atom
+    media: text

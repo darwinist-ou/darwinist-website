@@ -1,0 +1,59 @@
+---
+row: 2
+column: 1
+style: is-light
+height: is-medium
+card-image: /img/gcp-card.png
+url: gcp
+name: GCP Skill Sprint
+problem:
+  description:
+    - subtitle: Engineering the cloud
+      text: Efficiently getting to grips with Google Cloud Platform can be extremely challenging. 
+    - text: Teams that choose to outsource control of their cloud consumption are often hamstrung by lockin to sub-standard proprietary services.
+    - subtitle: Infrastructure as Code 
+      text: Teams need to choose the right set of tools to configure their cloud to ensure changes are effectively controlled.
+  type: is-success
+  icon: fa-atom
+  media: text
+
+solution:
+  description:
+    - subtitle: Skill Sprint
+      text: The Google Cloud Platform Skill Sprint is designed to help teams of people leverage cloud computing in Google Cloud Platform. 
+    - text: During the Skill Sprint participants will be guided and coached through the deployment of data and services on Google Cloud Platform. 
+
+  type: is-link
+  icon: fa-atom
+  media: text
+
+tech:
+  description: Google Cloud Platform (GCP), offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products.
+  name: GCP
+  type: Cloud Computing Platform
+  url: https://cloud.google.com/
+  benefits:
+    - Scalable compute platform
+    - Flexible
+    - Global
+    - Very Reliable
+
+
+scenario: A Development or Analytics team that wants to start using Google Cloud Platform for storage and processing of data.
+
+benefits:
+  - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
+    description: 
+      - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
+    type: is-success
+    icon: fa-atom
+    media: text
+
+  - title: Team members learn how to deploy and manage their application in GCP.
+    description: 
+      - | 
+        During the Skill Sprint the participants will be tasked with the deployment and management of their own applications within Google Cloud Platform. 
+        They will experience first hand how to create and maintain their deployments.
+    type: is-link
+    icon: fa-code
+    media: text

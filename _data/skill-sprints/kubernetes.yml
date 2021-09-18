@@ -1,0 +1,50 @@
+---
+row: 1
+column: 2
+card-image: /img/kubernetes-card.png
+url: kubernetes
+name: Kubernetes Skill Sprint
+scenario: An advanced Development Team that want to take full control of deployments and application lifecycle.
+
+problem:
+  description:
+    - text: |
+        Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task. 
+        It typically involves a separate team of DevOps engineers who need a lot of time to create and maintain a working system.
+    - text: |
+        Because these systems are quite complex and managed by a separate team of engineers - they are typically very inflexible.
+        When Developers don't own their CI/CD pipelines they are unable to be truly effective.
+    - text: |
+        Without Kubernetes it is nearly impossible to manage the complexity that comes with modern application development. 
+        Even with two or three separate services more traditional systems of deployment quickly become outmoded.
+
+solution:
+    description: 
+      - text: The Kubernetes Skill Sprint teaches a development team how to take control of their CI/CD processes and deploy their application to Kubernetes - either on the cloud or on premise. 
+      - text: The Kubernetes hosting platform is now ubiquitous. Available from all of the major and most of the minor cloud providers - Kubernetes is designed to be directly consumed by Developers - putting them in complete control of the software lifecycle.
+      - text: Skill Sprints have been delivered to many development teams; helping them to take direct independent control of their deployments without having to rely on external help.
+
+scenario: A development team that is ready to take full control of their deployments and application lifecycle.
+
+tech:
+  description: Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
+  name: Kubernetes
+  type: Container Orchestration System
+  url: https://kubernetes.io/
+  benefits:
+    - Open Source
+    - Available from all Cloud Providers
+    - Automated rollouts and rollbacks
+    - Service discovery and load balancing
+    - Storage orchestration
+    - Secret and configuration management
+    - Horizontal scaling
+    - Self-healing
+
+benefits:
+  - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
+    description: 
+      - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
+    type: is-success
+    icon: fa-atom
+    media: text

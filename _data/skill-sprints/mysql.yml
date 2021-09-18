@@ -1,0 +1,47 @@
+---
+row: 3
+column: 1
+style: is-light
+height: is-medium
+card-image: /img/mysql-card.png
+url: mysql
+name: MySQL Skill Sprint
+problem:
+    description:
+      - subtitle: Structured storage of data
+        text: I really have to think carefully about the problem and solution of MYSQL skill sprints. Are we talking about only extracting data?
+      - With code running on laptops comes a very high chance of sensitive data lying around on laptop hard-drives. This could present a serious compliance problem if the data contains personal information.
+      - With people using their own laptops and not checking code into git for peer review there is often high error rates and less opportunity for collaboration between team members. 
+    type: is-success
+    icon: fa-atom
+    media: text
+
+solution:
+    description: 
+      - Skill Sprints train people already introduced to coding to be able to using collaboration tools like git and resources from cloud providers like AWS or Google.
+      - During the Skill Sprint, the participants will deliver tangible value to their teams and organisation - a micro-transformation project that upskills by solving real world challenges.
+      - Skill Sprints are delivered by a seasoned expert. As part of the Skill Sprint we ensure that the participants gain sustainable and secure access to data and development tools.
+    type: is-link
+    icon: fa-atom
+    media: text
+
+tech:
+  description: MySQL is an open-source relational database management system (RDBMS)
+  name: GCP
+  type: Relational Database
+  url: https://www.mysql.com/
+  benefits:
+    - Open Source
+    - Available from all cloud providers
+    - Mature - more than 25 years old
+    - Very Reliable
+
+
+scenario: A team that is already using programming languages such as Python or R that need to have a more formalised development process.
+items:
+  - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
+    description: 
+      - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
+    type: is-success
+    icon: fa-atom
+    media: text
