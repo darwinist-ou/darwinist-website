@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.meow | default: site.description }}">
+  <meta property="og:title" content="{{ page.meow | default: site.title }}" />
+  <meta property="og:description" content="{{ page.meow | default: site.description }}" />
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image }}" />
+  {% endif %}
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/darwinist.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/css/darwinist-bulma.css" | relative_url }}">
+</head>

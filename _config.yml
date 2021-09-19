@@ -33,6 +33,7 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-datapage-generator
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +54,20 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+page_gen:
+- data: skill-sprints
+  template: skill-sprint
+  dir: skill-sprint
+  index_files: false
+  name: url
+  # name_expr: [a Ruby expression to generate the filename (alternative to name)]
+  title: name
+  subtitle: scenario
+  meow: meow
+  # title_expr: [a Ruby expression to generate the filename (alternative to title)]
+  # extension: [extension used to generate the filename]
+  # filter: [property to filter data records by]
+  # filter_condition: [a Ruby expression to filter data]
+  debug: true
