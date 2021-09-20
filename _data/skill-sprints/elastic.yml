@@ -4,7 +4,7 @@ row: 3
 column: 1
 style: is-light
 height: is-medium
-card-image: /img/elastic-card.png
+card-image: /img/technologies/elastic-card.png
 url: elastic
 name: ElasticSearch Skill Sprint
 problem:

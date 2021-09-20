@@ -3,7 +3,7 @@ row: 3
 column: 2
 style: is-light
 height: is-medium
-card-image: /img/postgres-card.png
+card-image: /img/technologies/postgres-card.png
 url: postgres
 name: Git Skill Sprint
 problem:

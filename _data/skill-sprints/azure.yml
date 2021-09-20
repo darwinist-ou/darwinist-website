@@ -4,7 +4,7 @@ row: 2
 column: 2
 style: is-light
 height: is-medium
-card-image: /img/azure-card.png
+card-image: /img/technologies/azure-card.png
 url: azure
 name: Azure Skill Sprint
 problem:

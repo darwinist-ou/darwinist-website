@@ -4,7 +4,7 @@ row: 2
 column: 1
 style: is-light
 height: is-medium
-card-image: /img/aws-card.png
+card-image: /img/technologies/aws-card.png
 url: aws
 name: AWS Skill Sprint
 problem:

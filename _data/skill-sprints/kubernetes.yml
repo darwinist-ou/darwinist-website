@@ -2,7 +2,7 @@
 meow: fuck
 row: 1
 column: 2
-card-image: /img/kubernetes-card.png
+card-image: /img/technologies/kubernetes-card.png
 url: kubernetes
 name: Kubernetes Skill Sprint
 scenario: An advanced Development Team that want to take full control of deployments and application lifecycle.
