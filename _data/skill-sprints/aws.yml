@@ -6,7 +6,7 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/aws-card.png
 url: aws
-name: AWS
+name: AWS Skill Sprint
 problem:
   description:
     - subtitle: Engineering the cloud
@@ -47,20 +47,3 @@ tech:
 
 
 scenario: A development or Analytics team that wants to start using AWS for storage and processing of data.
-
-benefits:
-  - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
-    description: 
-      - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
-    type: is-success
-    icon: fa-atom
-    media: text
-
-  - title: Team members learn how to deploy and manage their application in AWS.
-    description: 
-      - | 
-        During the Skill Sprint the participants will be tasked with the deployment and management of their own applications within Amazon Web Services. 
-        They will experience first hand how to create and maintain their deployments.
-    type: is-link
-    icon: fa-code
-    media: text

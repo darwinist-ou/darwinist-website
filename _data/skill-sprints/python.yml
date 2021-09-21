@@ -123,3 +123,5 @@ benefits:
     type: is-link
     icon: fa-atom
     media: text
+
+    scenario: A team of people using Microsoft Excel or other similar tools. There is a lot of manual work with an ever increasing error rate. Some of my team have expressed an interest in learning to code.
