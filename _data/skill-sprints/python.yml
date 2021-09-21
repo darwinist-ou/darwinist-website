@@ -5,7 +5,7 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/python-card.png
 url: python
-name: Python Skill Sprint
+name: Python
 problem:
     description:
       - text: Less technical business users are forced to make do with limited desktop tools for quite large and complex data sets.

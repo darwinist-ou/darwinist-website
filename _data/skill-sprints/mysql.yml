@@ -5,7 +5,7 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/mysql-card.png
 url: mysql
-name: MySQL Skill Sprint
+name: MySQL
 problem:
     description:
       - subtitle: Structured storage of data

@@ -5,7 +5,7 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/postgres-card.png
 url: postgres
-name: Git Skill Sprint
+name: Git
 problem:
     description: 
       - Teams that have recently started using programming languages may need to start thinking about using version control to track changes to their code.
