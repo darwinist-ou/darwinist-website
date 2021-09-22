@@ -2,8 +2,8 @@
 layout: post
 title:  "The Theatre of Tech"
 date:   2020-06-30
-excerpt: "The worlds a stage - blah blah"
-description: "The worlds a stage - blah blah"
+excerpt: "The world is a stage - blah blah"
+description: "The world is a stage - blah blah"
 image: "/img/ballet.jpg"
 ---
 
