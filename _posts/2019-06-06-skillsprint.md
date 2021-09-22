@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /skill-sprint/
+permalink: /skill-sprint-description/
 date: 2018-12-01 00:00:00
 blog_title: "Skill Sprints: The effective way to adopt new technologies for tech teams."
 blog_description: >-

@@ -6,7 +6,8 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/gcp-card.png
 url: gcp
-name: GCP
+name: Google Cloud Platform
+scenario: Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products.
 problem:
   description:
     - subtitle: Engineering the cloud
@@ -38,9 +39,6 @@ tech:
     - Flexible
     - Global
     - Very Reliable
-
-
-scenario: A Development or Analytics team that wants to start using Google Cloud Platform for storage and processing of data.
 
 benefits:
   - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.

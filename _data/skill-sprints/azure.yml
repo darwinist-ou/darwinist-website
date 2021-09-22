@@ -7,6 +7,7 @@ height: is-medium
 card-image: /img/technologies/azure-card.png
 url: azure
 name: Azure
+scenario: Microsoft Azure is a cloud computing service for building, testing, deploying and managing applications and services.
 problem:
   description:
     - subtitle: Engineering the cloud
@@ -44,10 +45,6 @@ tech:
     - Flexible
     - Global
     - Microsoft Centric Technologies
-
-
-
-scenario: A development or Analytics team that wants to start using Azure for storage and processing of data.
 
 benefits:
   - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.

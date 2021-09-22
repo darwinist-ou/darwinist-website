@@ -5,7 +5,8 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/postgres-card.png
 url: postgres
-name: Git
+name: PostgreSQL
+scenario: PostgreSQL is a powerful, open source object-relational database system.
 problem:
     description: 
       - Teams that have recently started using programming languages may need to start thinking about using version control to track changes to their code.
@@ -24,8 +25,6 @@ solution:
     icon: fa-atom
     media: text
 
-
-scenario: A team that is already using programming languages such as Python or R that need to have a more formalised development process.
 items:
   - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
     description: 

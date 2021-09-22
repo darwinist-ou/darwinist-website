@@ -6,7 +6,8 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/aws-card.png
 url: aws
-name: AWS Skill Sprint
+name: Amazon Web Services
+scenario: Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
 problem:
   description:
     - subtitle: Engineering the cloud
@@ -44,6 +45,3 @@ tech:
     - Flexible
     - Global
     - Very Reliable
-
-
-scenario: A development or Analytics team that wants to start using AWS for storage and processing of data.

@@ -5,7 +5,7 @@ column: 2
 card-image: /img/technologies/kubernetes-card.png
 url: kubernetes
 name: Kubernetes
-scenario: An advanced Development Team that want to take full control of deployments and application lifecycle.
+scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
 
 problem:
   description:
@@ -24,8 +24,6 @@ solution:
       - text: The Kubernetes Skill Sprint teaches a development team how to take control of their CI/CD processes and deploy their application to Kubernetes - either on the cloud or on premise. 
       - text: The Kubernetes hosting platform is now ubiquitous. Available from all of the major and most of the minor cloud providers - Kubernetes is designed to be directly consumed by Developers - putting them in complete control of the software lifecycle.
       - text: Skill Sprints have been delivered to many development teams; helping them to take direct independent control of their deployments without having to rely on external help.
-
-scenario: A development team that is ready to take full control of their deployments and application lifecycle.
 
 tech:
   description: Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.

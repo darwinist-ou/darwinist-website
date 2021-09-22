@@ -7,6 +7,7 @@ height: is-medium
 card-image: /img/technologies/elastic-card.png
 url: elastic
 name: ElasticSearch
+scenario: Elasticsearch is a popular open source search and analytics engine.
 problem:
     description: 
       - Teams that have recently started using programming languages may need to start thinking about using version control to track changes to their code.
@@ -25,8 +26,6 @@ solution:
     icon: fa-atom
     media: text
 
-
-scenario: A team that is already using programming languages such as Python or R that need to have a more formalised development process.
 items:
   - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
     description: 
@@ -66,87 +65,3 @@ items:
     icon: fa-shapes
     media: text
 
-  - title: Business people can develop and maintain lightweight data processing pipelines which are much more scalable and powerful than desktop tools.
-    description: 
-      - Test text
-    type: is-link
-    icon: fa-satellite
-    media: text
-
-  - title: Business people get a better understanding of the data dimensions - data does not have to be “flattened” to 2d spreadsheets by IT for business consumption.
-    description: 
-      - Test text
-    type: is-success
-    icon: fa-wave-square
-    media: text
-
-  - title: Business and IT enjoy a more productive relationship because of an improved common understanding.
-    description: 
-      - Test text
-    type: is-link
-    icon: fa-smile
-    media: text
-
-  - title: Business are able to independently create and maintain business logic which is subject to strict change control and 4 eyes principles.
-    description: 
-      - Test text
-    type: is-success
-    icon: fa-git-alt
-    media: text
-
-  - title: Business people are able to process much larger and more complex data without a dependency on IT.
-    description: 
-      - Test text
-    type: is-link
-    icon: fa-atom
-    media: text
-
-  - title: Much less pressure on IT with more technically enabled business departments.
-    description: 
-      - Test text
-    type: is-success
-    icon: fa-atom
-    media: text
-
-  - title: IT no longer has to spoon feed Business teams with formatted data.
-    description: 
-      - Test text
-    type: is-link
-    icon: fa-atom
-    media: text
-
-
-
-
-
-
-
-
-  # - title: Example callout 1
-  #   subtitle: Example subtitle 1
-  #   icon: fa-space-shuttle
-  #   description: - title:
-  #     The example description text goes here and can be multiple lines.
-
-  #     For example, such as this. 
-  #   call_to_action_name: Call to action 1
-  #   call_to_action_link: /page-1/
-  # - title: Example callout 2
-  #   subtitle: Example subtitle 2
-  #   icon: fa-wrench
-  #   description: >
-  #     The example description text goes here and can be multiple lines.
-
-  #     For example, such as this.
-  #   call_to_action_name: Call to action 2
-  #   call_to_action_link: /page-2/
-  # - title: Example callout 3
-  #   subtitle: Example subtitle 3
-  #   icon: fa-github
-  #   icon_brand: true
-  #   description: >
-  #     The example description text goes here and can be multiple lines.
-
-  #     For example, such as this.
-  #   call_to_action_name: Call to action 3
-  #   call_to_action_link: https://www.csrhymes.com/bulma-clean-theme/page-3/
