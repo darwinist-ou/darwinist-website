@@ -6,7 +6,7 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/elastic-card.png
 url: elastic
-name: ElasticSearch Skill Sprint
+name: ElasticSearch
 problem:
     description: 
       - Teams that have recently started using programming languages may need to start thinking about using version control to track changes to their code.

@@ -6,7 +6,7 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/git-card.png
 url: git
-name: Git Skill Sprint
+name: Git
 problem:
   description:
     - subtitle: Change Control, Visibility & Collaboration

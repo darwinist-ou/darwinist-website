@@ -3,102 +3,79 @@ layout: default
 # tabs: example_tabs
 # show_sidebar: false
 ---
-
-<div class="content">
-    <div class="columns is-centered">
-        <div class="column"> <!-- Problem card starts here -->  
-                <div class="card has-equal-height">
-                        <div class="card-content">
-                            <p class="title">Problem</p>
-                            {% for item in page.problem.description %}
-                            {% if item.subtitle != nil  %}
-                                <span class="icon-text has-text-info">
-                                    <span class="icon">
-                                    <i class="fas fa-sm fa-cog"></i>
-                                    </span>
-                                    <span class="subtitle">{{ item.subtitle }}</span>
-                                </span>
-                            {% endif %}
-                            <p>{{ item.text }}</p>
-                            {% endfor %}
+<body>
+    <section class="section is-small">
+        <div class="container">
+            <div class="columns is-desktop">
+                <div class="column"> <!-- Tech profile card starts here --> 
+                    <div class="card card-equal-height">
+                        <div class="card-image">
+                            <figure class="image">
+                            <img src="{{ page.card-image }}" alt="Placeholder image">
+                            </figure>
                         </div>
-                </div>
-        </div> <!-- Problem card ends here --> 
-        <div class="column"> <!-- Tech profile card starts here --> 
-            <div class="card has-equal-height">
-                <div class="card-content">
-                    <p class="title">{{ page.tech.name }} - Tech Profile</p>
-                    <p class="subtitle">{{ page.tech.type }}</p>
-                    {% for item in page.tech.benefits %}
-                    <div class="icon-text">
-                        <span class="icon has-text-success">
-                          <i class="fas fa-check-square"></i>
-                        </span>
-                        <span>{{ item }}</span>
+                        <div class= "card-content">
+                                <p class="title has-text-black">{{ page.tech.name }} - Tech Profile</p>
+                                <p class="subtitle">{{ page.tech.type }}</p>
+                                {% for item in page.tech.benefits %}
+                                <div class="icon-text">
+                                    <span class="icon has-text-success">
+                                    <i class="fas fa-check-square"></i>
+                                    </span>
+                                    <span>{{ item }}</span>
+                                </div>
+                                {% endfor %}
+                                <a target="_blank" rel="noopener noreferrer" href="{{ page.tech.url }}">
+                                <div class="icon-text">
+                                    <span class="icon has-text-info">
+                                    <i class="fas fa-link"></i>
+                                    </span>
+                                    <span>{{ page.tech.url }}</span>
+                                </div></a></br>
+                            <p> {{ page.tech.description }}</p>
+                        </div>
                     </div>
-                    {% endfor %}
-                    <a target="_blank" rel="noopener noreferrer" href="{{ page.tech.url }}">
-                    <div class="icon-text">
-                        <span class="icon has-text-info">
-                          <i class="fas fa-link"></i>
-                        </span>
-                        <span>{{ page.tech.url }}</span>
-                    </div></a>
-                    </br>
-                    <p>{{ page.tech.description }}</p>
-                </div>
-                <div class="card-image">
-                    <figure class="image is-4by3">
-                      <img src="{{ page.card-image }}" alt="Placeholder image">
-                    </figure>
-                </div>
+                </div> <!-- Tech profile card ends here --> 
+
+                <div class="column"> <!-- Problem card starts here -->  
+                        <div class="card card-equal-height">
+                                <div class="card-content">
+                                    <p class="title has-text-black">Problem</p>
+                                    {% for item in page.problem.description %}
+                                    {% if item.subtitle != nil  %}
+                                        <span class="icon-text has-text-info">
+                                            <span class="icon">
+                                            <i class="fas fa-sm fa-cog"></i>
+                                            </span>
+                                            <span class="subtitle">{{ item.subtitle }}</span>
+                                        </span>
+                                    {% endif %}
+                                    <p>{{ item.text }}</p>
+                                    {% endfor %}
+                                </div>
+                        </div>
+                </div> <!-- Problem card ends here --> 
+            
+                <div class="column"> <!-- Solution profile card starts here --> 
+                        <div class="card card-equal-height">
+                            <div class="card-content">
+                                <p class="title has-text-black">Solution</p>
+                                {% for item in page.solution.description %}
+                                {% if item.subtitle != nil  %}
+                                    <span class="icon-text has-text-info">
+                                        <span class="icon">
+                                        <i class="fas fa-sm fa-cog"></i>
+                                        </span>
+                                        <span class="subtitle">{{ item.subtitle }}</span>
+                                    </span>
+                                {% endif %}
+                                <p>{{ item.text }}</p>
+                                {% endfor %}
+                            </div>
+                        </div>
+                </div> <!-- Solution profile card ends here --> 
             </div>
-        </div> <!-- Tech profile card ends here --> 
-        <div class="column"> <!-- Solution profile card starts here --> 
-                <div class="card has-equal-height">
-                    <div class="card-content">
-                        <p class="title">Solution</p>
-                        {% for item in page.solution.description %}
-                        {% if item.subtitle != nil  %}
-                            <span class="icon-text has-text-info">
-                                <span class="icon">
-                                <i class="fas fa-sm fa-cog"></i>
-                                </span>
-                                <span class="subtitle">{{ item.subtitle }}</span>
-                            </span>
-                        {% endif %}
-                        <p>{{ item.text }}</p>
-                        {% endfor %}
-                    </div>
-                </div>
-        </div> <!-- Solution profile card ends here --> 
-    </div>
-
-
-
-    {% for item in page.benefits %}
-    <section class="section">
-    {% if item.media == "text" %} 
-        <h4 class="title">
-            <span class="icon-text">
-            <span class="icon">
-              <i class="fas {{ item.icon }}"></i>
-            </span>
-            <span>{{ item.title }}</span>
-        </h4>
-
-          <p>
-            {{ item.description }}
-          </p>
-
-    {% elsif item.media == "image" %}
-            <section class="section">
-            <figure class="image is-4by3">
-                <img src="{{ item.image }}">
-            </figure>
-        
-    {% endif %}
+        </div>
     </section>
-    {% endfor %}
-</div>
+</body>
 

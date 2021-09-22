@@ -6,7 +6,7 @@ style: is-light
 height: is-medium
 card-image: /img/technologies/gcp-card.png
 url: gcp
-name: GCP Skill Sprint
+name: GCP
 problem:
   description:
     - subtitle: Engineering the cloud
