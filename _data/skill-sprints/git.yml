@@ -39,10 +39,11 @@ tech:
   type: Version Controlled Code Repository
   url: https://git-scm.com/
   benefits:
-    - Open source - free to use
-    - Perfect change control
-    - Enforced peer review
-    - Wide acceptance as standard tool.
+    - Used by nearly all dev teams today.
+    - Near perfect change control
+    - Excellent collaboration features
+    - Scales easily to a large number of users
+    - Established cloud versions; Github and Gitlab. 
 
 benefits:
   - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
