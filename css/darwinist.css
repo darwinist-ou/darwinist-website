@@ -6,20 +6,23 @@
 }
 
 .titled {
-  font-family: 'Merriweather', serif !important;
-  font-size: 58px !important;
-  font-weight: 400 !important;
-  line-height: 64px !important;
+  font-family: 'Merienda', cursive !important;
 }
 
 .subtitled {
-  font-family: 'Merriweather', serif !important;
+  font-family: 'Karla' !important;
   font-size: 22px !important;
   font-weight: 400 !important;
   line-height: 36px !important;
 }
 #colored-dna-back {
   background: url(/img/home/colored-dna.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+#colored-lines {
+  background: url(/img/home/colored-lines.svg);
   background-position: center;
   background-size: cover;
 }
