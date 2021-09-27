@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/cosmopolitanka/bulma-templates#readme",
   "devDependencies": {
+    "@vizuaalog/bulmajs": "^0.12.1",
     "bulma": "^0.9.3",
     "node-sass": "^6.0.1"
   },
