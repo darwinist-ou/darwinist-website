@@ -1,16 +1,5 @@
 ---
-layout: post
-permalink: /humanitec/
-date: 2018-12-01 00:00:00
-blog_title: "Case study: Humanitec"
-blog_description: >-
-  How Kubernetes helped one company validate its development direction.
-blog_image: "/img/posts/humanitec.svg"
-title: "Case study: How Google-specific Kubernetes helped one company validate its development direction"
-description: >-
-  How Kubernetes helped one company validate its development direction
-image: "/img/og.png"
-featured: true
+layout: case-study
 ---
 <figure>
   <img src="/img/posts/humanitec/humanitec.svg" alt="Case study: Humanitec" />

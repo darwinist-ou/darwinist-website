@@ -1,12 +1,5 @@
 ---
-layout: post
-title:  "Camping.info - DevOps Skill Sprint - Case Study"
-date:   2020-02-01
-excerpt: "From an AWS disaster to GKE dream in a week."
-description: "From an AWS disaster to GKE dream in a week."
-image: "/img/camping-info.png"
-show: true
-sitemap: true
+layout: case-study
 ---
 
 ## Camping.info DevOps Skill Sprint – from an AWS disaster to GKE dream in a week

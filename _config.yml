@@ -33,6 +33,12 @@ plugins:
   - jekyll-feed
   - jekyll-datapage-generator
 
+collections:
+  case-study: 
+    output: true
+    permalink: /:collection/:name
+    layout: case-study
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

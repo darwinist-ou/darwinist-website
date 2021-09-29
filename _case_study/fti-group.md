@@ -1,12 +1,5 @@
 ---
-layout: post
-title:  "FTI Group - DevOps Skill Sprint - Case Study"
-date:   2020-1-31
-excerpt: "How a Devops Skill Sprint took FTI Group on a major leap forward"
-description: "How a Devops Skill Sprint took FTI Group on a major leap forward"
-image: "/img/fti-group.png"
-show: true
-sitemap: true
+layout: case-study
 ---
 
 ## How a Devops Skill Sprint took FTI Group on a major leap forward

@@ -1,18 +1,5 @@
 ---
-layout: post
-permalink: /repay-me/
-date: 2018-12-01 00:00:00
-blog_title: "Case study: RepayMe"
-blog_description: >-
-  How collaboration resulted in production-ready infrastructure and upskilled
-  developers.
-blog_image: "/img/posts/repay-me.svg"
-title: "Case study: Using Kubernetes to reach development milestones"
-description: >-
-  How a collaboration between Otter Networks and Repay.me resulted in
-  production-ready infrastructure and upskilled developers
-image: "/img/og.png"
-featured: true
+layout: case-study
 ---
 <figure>
   <img src="/img/posts/repay-me/repayme.svg" alt="Case study: RepayMe" />
