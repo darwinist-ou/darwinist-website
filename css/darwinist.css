@@ -6,7 +6,11 @@
 }
 
 .titled {
-  font-family: 'Merienda', cursive !important;
+  font-family: 'Orbitron' !important;
+}
+
+.content-style {
+  font-family: 'Karla' !important;
 }
 
 .subtitled {
