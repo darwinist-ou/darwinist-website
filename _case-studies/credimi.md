@@ -1,12 +1,15 @@
 ---
 layout: case-study
+company: Credimi
+technology: Kubernetes
+image: /img/case-studies/credimi-kubernetes.png
+technology_image: /img/technologies/kubernetes-card
+subtitle: FinTech Startup Credimi Smashes DevOps with a Skill Sprint
 ---
 
-## FinTech Startup Credimi Smashes DevOps with a Skill Sprint - Case Study
+## FinTech Startup Credimi Smashes DevOps with a Skill Sprint
 
 ### The collaboration between Credimi and Otter Networks resulted in new infrastructure and best practices using Kubernetes and Codefresh. Because it’s not just about building – it’s about owning.
-
-<span class="image right"><img src="{{ "/images/credimi.png" | absolute_url }}" alt="" /></span>
 
 From its inception, Italian-based digital lending platform, Credimi, had always looked to build a continuous integration pipeline. The B2B company aims to be the fastest, simplest and most transparent of its kind – a vision that CTO Edmondo Porcu has extended onto his development team.
 

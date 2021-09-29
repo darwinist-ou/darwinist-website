@@ -1,5 +1,10 @@
 ---
 layout: case-study
+company: FTI Group
+technology: Kubernetes
+company_image: /img/companies/credimi.png
+technology_image: /img/technologies/kubernetes-card
+subtitle: How a Devops Skill Sprint took FTI Group on a major leap forward
 ---
 
 ## How a Devops Skill Sprint took FTI Group on a major leap forward

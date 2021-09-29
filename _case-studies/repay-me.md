@@ -1,5 +1,10 @@
 ---
 layout: case-study
+company: Repay.me
+technology: Kubernetes
+image: /img/case-studies/credimi-kubernetes.png
+technology_image: /img/technologies/kubernetes-card
+subtitle: This Case Study is defunct
 ---
 <figure>
   <img src="/img/posts/repay-me/repayme.svg" alt="Case study: RepayMe" />

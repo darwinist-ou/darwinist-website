@@ -1,5 +1,10 @@
 ---
 layout: case-study
+company: Humanitec
+technology: Kubernetes
+company_image: /img/companies/credimi.png
+technology_image: /img/technologies/kubernetes-card
+subtitle: Getting to grips with Google Cloud Platform
 ---
 <figure>
   <img src="/img/posts/humanitec/humanitec.svg" alt="Case study: Humanitec" />

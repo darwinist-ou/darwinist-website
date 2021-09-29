@@ -1,5 +1,10 @@
 ---
 layout: case-study
+company: Camping.info
+technology: Kubernetes
+company_image: /img/companies/credimi.png
+technology_image: /img/technologies/kubernetes-card
+subtitle: from an AWS disaster to GKE dream in a week
 ---
 
 ## Camping.info DevOps Skill Sprint – from an AWS disaster to GKE dream in a week

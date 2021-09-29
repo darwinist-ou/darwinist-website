@@ -7,12 +7,12 @@ layout: default
         <div class="columns  is-vcentered">
           <div class="column">
             <figure class="image">
-              <img src={{ page.image }}>
+              <img src="/img/home/women-at-a-desk.svg">
             </figure>
           </div>
           <div class="column">
             <h1 class="title titled is-1 has-text-white">
-            Case Study: {{ page.company }}
+            Case Studies
             </h1>
             <h1 class="subtitle subtitled is-3 has-text-white">Reduced Costs. Better infrastructure. No strings attached.</h1>
           </div>
@@ -24,9 +24,19 @@ layout: default
 <div class="content">
     <div class="section">
         <div class="container">
-        {{ content }}
+     
+            {% for case-study in site.case-studies %}
+             <div class="card card-equal-height">
+                <h2 class="has-text-black">{{ case-study.company }}</h2>
+                <span class="has-text-black">{{ case-study.subtitle }}</span>
+            </div> 
+            {% endfor %}
+            
         </div>
     </div>
 </div>
+
+
+
 
 

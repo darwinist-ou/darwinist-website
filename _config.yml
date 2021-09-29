@@ -34,7 +34,7 @@ plugins:
   - jekyll-datapage-generator
 
 collections:
-  case-study: 
+  case-studies:
     output: true
     permalink: /:collection/:name
     layout: case-study
