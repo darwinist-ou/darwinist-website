@@ -4,19 +4,37 @@ layout: default
 
 <section id="colored-lines" class="hero is-white is-fullweight">
     <div class="hero-body ">
-        <div class="columns  is-vcentered">
-          <div class="column">
+      <div class="columns is-mobile is-three-quarter-mobile">
+        <div class="column">
+          <h1 class="title titled is-1 has-text-white has-text-right">
+          Case Study: {{ page.company }}
+          </h1>
+          <h1 class="subtitle subtitled has-text-right is-3 has-text-white">Reduced Costs. Better infrastructure. No strings attached.</h1>
+        </div>
+      </div>
+        <div class="columns is-mobile is-vcentered">
+          <div class="column"></div>
+          <div class="column is-three-quarter-desktop">
             <figure class="image">
-              <img src={{ page.image }}>
+              <img src={{ page.company_logo }}>
             </figure>
           </div>
           <div class="column">
-            <h1 class="title titled is-1 has-text-white">
-            Case Study: {{ page.company }}
-            </h1>
-            <h1 class="subtitle subtitled is-3 has-text-white">Reduced Costs. Better infrastructure. No strings attached.</h1>
+            <figure class="image">
+              <img src="\img\technologies\gcp-card.png">
+            </figure>
           </div>
-        </div>
+          <div class="column">
+            <figure class="image">
+              <img src="\img\technologies\excel-card.png">
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="image">
+              <img src="\img\technologies\python-card.png">
+            </figure>
+          </div>
+        </div> 
       </div>
     </div>
   </section>
