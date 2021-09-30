@@ -5,6 +5,7 @@ technology: Kubernetes
 company_logo: /img/companies/credimi.png
 technology_image: /img/technologies/kubernetes-card
 subtitle: FinTech Startup Credimi Smashes DevOps with a Skill Sprint
+technologies: [kubernetes, python, git]
 ---
 
 ## FinTech Startup Credimi Smashes DevOps with a Skill Sprint

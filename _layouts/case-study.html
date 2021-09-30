@@ -13,28 +13,14 @@ layout: default
         </div>
       </div>
         <div class="columns is-mobile is-vcentered">
-          <div class="column"></div>
-          <div class="column is-three-quarter-desktop">
-            <figure class="image">
-              <img src={{ page.company_logo }}>
-            </figure>
-          </div>
-          <div class="column">
-            <figure class="image">
-              <img src="\img\technologies\gcp-card.png">
-            </figure>
-          </div>
-          <div class="column">
-            <figure class="image">
-              <img src="\img\technologies\excel-card.png">
-            </figure>
-          </div>
-          <div class="column">
-            <figure class="image">
-              <img src="\img\technologies\python-card.png">
-            </figure>
-          </div>
-        </div> 
+          {% for tech in page.technologies %}
+            <div class="column">
+              <figure class="image">
+                <img src="{{ site.data.skill-sprints[tech].card-image }}">
+              </figure>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </section>
