@@ -11,22 +11,22 @@ layout: default
         </div>
         {% for row in (1..4) %}
         
-        {% assign filtered = site.data.skill-sprints | where: 'row', row %}
+        {% assign filtered = site.data.technology | where: 'row', row %}
         <div class="tile is-ancestor is-centered">
-            {% for skill-sprint in filtered %}
-                <a href="/skill-sprint{{ skill-sprint.url | datapage_url: url }}">
+            {% for technology in filtered %}
+                <a href="/technology{{ skill-sprint.url | datapage_url: url }}">
                     <div class="tile is-parent">
                         <div class="tile is-child box">
                             <div class="card-image">
                                 <figure class="image">
-                                <img src="{{ skill-sprint.card-image }}" alt="Placeholder image">
+                                <img src="{{ technology.card-image }}" alt="Placeholder image">
                                 </figure>
                             </div>
 
                             <div class="card-content">
-                                <a href="/skill-sprint{{ skill-sprint.url | datapage_url: url }}" class="button is-info is-fullwidth">{{ skill-sprint.name }}</a>
+                                <a href="/technology{{ skill-sprint.url | datapage_url: url }}" class="button is-info is-fullwidth">{{ skill-sprint.name }}</a>
                                 </br>
-                                <p class="bd-notification is-primary">{{ skill-sprint.scenario }} <b><a href="/skill-sprint{{ skill-sprint.url | datapage_url: url }}">more info</a></b></p>
+                                <p class="bd-notification is-primary">{{ technology.scenario }} <b><a href="/technology{{ skill-sprint.url | datapage_url: url }}">more info</a></b></p>
                                 </br>
                             </div>
                         </div>

@@ -13,11 +13,13 @@ layout: default
       </div>
         <div class="columns is-mobile is-vcentered">
           <div class="column"></div>
-          {% for technology in page.technologies %}
+          {% for tech in page.technologies %}
           <div class="column is-three-quarter-desktop">
-            <figure class="image">
-              <img src={{ technology }}>
-            </figure>
+            <a href="/technology/{{ site.data.technology[tech].url }}"></a>
+              <figure class="image">
+                <img src="{{ site.data.technology[tech].card-image }}">
+              </figure>
+            </a>
           </div>
           {% endfor %}
         </div> 

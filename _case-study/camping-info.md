@@ -4,10 +4,7 @@ company: Camping.info
 technology: Kubernetes
 logo: /img/companies/camping-info-logo.png
 subtitle: from an AWS disaster to GKE dream in a week
-technologies:
-  - /img/technologies/python-card.png
-  - /img/technologies/excel-card.png
-  - /img/technologies/kubernetes-card.png
+technologies: [kubernetes, python, git]
 ---
 
 <!-- <figure>
