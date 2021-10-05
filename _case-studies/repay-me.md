@@ -3,7 +3,6 @@ layout: case-study
 company: Repay.me
 technology: Kubernetes
 logo: /img/companies/repay-me-logo.png
-technology_image: /img/technologies/kubernetes-card
 subtitle: Empowering milestone hits the smart way
 technologies:
   - /img/technologies/python-card.png

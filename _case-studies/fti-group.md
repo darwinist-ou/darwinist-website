@@ -3,7 +3,6 @@ layout: case-study
 company: FTI Group
 technology: Kubernetes
 logo: /img/companies/fti-group-logo.png
-technology_image: /img/technologies/kubernetes-card
 subtitle: How a Devops Skill Sprint took FTI Group on a major leap forward
 technologies:
   - /img/technologies/python-card.png

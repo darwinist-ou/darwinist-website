@@ -3,7 +3,6 @@ layout: case-study
 company: Camping.info
 technology: Kubernetes
 logo: /img/companies/camping-info-logo.png
-technology_image: /img/technologies/kubernetes-card
 subtitle: from an AWS disaster to GKE dream in a week
 technologies:
   - /img/technologies/python-card.png

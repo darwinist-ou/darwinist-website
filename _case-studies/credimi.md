@@ -3,7 +3,6 @@ layout: case-study
 company: Credimi
 technology: Kubernetes
 logo: /img/companies/credimi-logo.png
-technology_image: /img/technologies/kubernetes-card
 subtitle: FinTech Startup Credimi Smashes DevOps with a Skill Sprint
 technologies:
   - /img/technologies/python-card.png
