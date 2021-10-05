@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -34,7 +34,7 @@ plugins:
   - jekyll-datapage-generator
 
 collections:
-  case-studies:
+  case-study:
     output: true
     permalink: /:collection/:name
     layout: case-study
@@ -61,15 +61,15 @@ collections:
 
 
 page_gen:
-- data: skill-sprints
-  template: skill-sprint
-  dir: skill-sprint
-  index_files: false
-  name: url
+- data: technology
+  # template: technology
+  # dir: technology
+  index_files: true
+  url: url
+  name: name
   # name_expr: [a Ruby expression to generate the filename (alternative to name)]
-  title: name
-  subtitle: scenario
-  meow: meow
+  # title: title
+  # subtitle: scenario
   # title_expr: [a Ruby expression to generate the filename (alternative to title)]
   # extension: [extension used to generate the filename]
   # filter: [property to filter data records by]

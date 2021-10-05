@@ -14,7 +14,7 @@ layout: default
           </div>
           <div class="column">
             <h1 class="title titled is-1 has-text-white">
-                {{ page.tech-name }} Skill Sprints
+                {{ page.title }} Skill Sprints
             </h1>
             <h1 class="subtitle subtitled is-3 has-text-white">{{ page.slogan }}</h1>
           </div>
@@ -33,18 +33,18 @@ layout: default
                                 <img src="{{ page.card-image }}" alt="Placeholder image">
                                 </figure>
                             </div>
-                            <p class="title has-text-black">{{ page.tech.name }} - Tech Profile</p>
-                            <p class="subtitle">{{ page.tech.type }}</p>
+                            <p class="title has-text-black">{{ page.title }} - Tech Profile</p>
+                            <p class="subtitle has-text-black">{{ page.tech-card-info.type }}</p>
                         </div>
                     </div>
                     <div class="column is-one-third">
                         <div class= "card-content">
-                            {% for item in page.tech.benefits %}
-                            <div class="icon-text">
+                            {% for item in page.tech-card-info.benefits %}
+                            <div class="icon-text is-flex-wrap-nowrap">
                                 <span class="icon has-text-success">
                                 <i class="fas fa-check-square"></i>
                                 </span>
-                                <span>{{ item }}</span>
+                                <span class="has-text-black">{{ item }}</span>
                             </div>
                             {% endfor %}
                             <a target="_blank" rel="noopener noreferrer" href="{{ page.tech.url }}">
@@ -52,22 +52,22 @@ layout: default
                                 <span class="icon has-text-info">
                                 <i class="fas fa-link"></i>
                                 </span>
-                                <span>{{ page.tech.url }}</span>
+                                <span>{{ page.tech-card-info.url }}</span>
                             </div></a>
                         </div>
                     </div>
                     <div class="column is-one-third">
                         <div class="card-content has-text-justified">
-                            {% for item in page.blurb %}
+                            {% for item in page.tech-card-info.blurb %}
                             {% if item.subtitle != nil  %}
                                 <span class="icon-text has-text-info">
                                     <span class="icon">
                                     <i class="fas fa-sm fa-cog"></i>
                                     </span>
-                                    <span class="subtitle">{{ item.subtitle }}</span>
+                                    <span class="subtitle has-text-black"">{{ item.subtitle }}</span>
                                 </span>
                             {% endif %}
-                            <p>{{ item.text }}</p>
+                            <p class="has-text-black">{{ item.text }}</p>
                             {% endfor %}
                         </div>       
                     </div>
@@ -87,7 +87,7 @@ layout: default
 
                 {% for item in page.features %}
                 <div class="content">
-                <div class="icon-text has-text-success">
+                <div class="icon-text has-text-success is-flex-wrap-nowrap">
                   <span class="icon">
                     <i class="fas fa-check"></i>
                   </span>
@@ -95,8 +95,6 @@ layout: default
                 </div>
                 </div>
                 {% endfor %}
-
- 
             <div class="column is-vertical is-centered">
               <a class="button titled is-info is-medium" href="https://darwinist.io/whitepaper.html">
                 <span>Request a prospect</span> 

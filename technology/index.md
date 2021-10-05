@@ -1,7 +1,7 @@
 ---
-title: Skill Sprints
+title: Technologies
 subtitle: Skill Sprints help you deliver first value with new technologies adoption within days rather than months. 
-layout: skill-sprint-category
+layout: technology-category
 show_sidebar: false
 # sort: price
 ---
