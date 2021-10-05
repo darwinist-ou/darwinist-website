@@ -3,17 +3,18 @@ row: 1
 column: 2
 card-image: /img/technologies/kubernetes-card.png
 url: kubernetes
-tech-name: Kubernetes
+name: Kubernetes
 slogan: Reduced Costs. Better infrastructure. No strings attached.
 lead: Take control of your CD/CI processes
-sub-lead: Deploy your application to Kubernetes - either in the cloud or on-premise
+sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
 scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
 features:
   - Skill sprint that is designed to be directly consumed by Developers
   - Puts the Developers in complete control of the software lifecycle
   - After the course you don't rely on further external help
 
-tech:
+
+tech-card-info:
   name: Kubernetes
   type: Container Orchestration System
   url: https://kubernetes.io/
@@ -26,20 +27,19 @@ tech:
     - Secret and configuration management
     - Horizontal scaling
     - Self-healing
-
-blurb:
-  - text: |
-      Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
-  - subtitle: Meow Subtitle - foo / bar
-  - text: |
-      Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task. 
-      It typically involves a separate team of DevOps engineers who need a lot of time to create and maintain a working system.
-  - text: |
-      Because these systems are quite complex and managed by a separate team of engineers - they are typically very inflexible.
-      When Developers don't own their CI/CD pipelines they are unable to be truly effective.
-  - text: |
-      Without Kubernetes it is nearly impossible to manage the complexity that comes with modern application development. 
-      Even with two or three separate services more traditional systems of deployment quickly become outmoded.
+  blurb:
+    - text: |
+        Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.
+    - subtitle: Meow Subtitle - foo / bar
+    - text: |
+        Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task. 
+        It typically involves a separate team of DevOps engineers who need a lot of time to create and maintain a working system.
+    - text: |
+        Because these systems are quite complex and managed by a separate team of engineers - they are typically very inflexible.
+        When Developers don't own their CI/CD pipelines they are unable to be truly effective.
+    - text: |
+        Without Kubernetes it is nearly impossible to manage the complexity that comes with modern application development. 
+        Even with two or three separate services more traditional systems of deployment quickly become outmoded.
 
 
 

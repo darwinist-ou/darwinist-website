@@ -5,6 +5,7 @@ technology: Kubernetes
 company_image: /img/companies/credimi.png
 technology_image: /img/technologies/kubernetes-card
 subtitle: from an AWS disaster to GKE dream in a week
+technologies: [kubernetes, python, git]
 ---
 
 ## Camping.info DevOps Skill Sprint – from an AWS disaster to GKE dream in a week
