@@ -1,13 +1,46 @@
 ---
-meow: fuck
 row: 4
 column: 1
-style: is-light
-height: is-medium
 card-image: /img/technologies/access-card.png
 url: access
 name: Microsoft Access
+slogan: Create your own database apps easily in formats that serve your business best.
+lead: Create and share apps without being a developer
+sub-lead: Customize apps to grow with your business
 scenario: Microsoft Access is a database management system from Microsoft that combines the relational Microsoft Jet Database Engine with a graphical user interface and software-development tools.
+features:
+  - Access is an easy-to-use tool for creating business applications, from templates or from scratch. 
+  - With its rich and intuitive design tools, Access can help you create appealing and highly functional applications in a minimal amount of time.
+  - Tailor your custom apps to your business and your customers, easily editing as needed to meet evolving needs.
+
+tech-card-info:
+  name: Kubernetes
+  type: Container Orchestration System
+  url: https://www.microsoft.com/en-ww/microsoft-365/access
+  benefits:
+    - Open Source
+    - Available from all Cloud Providers
+    - Automated rollouts and rollbacks
+    - Service discovery and load balancing
+    - Storage orchestration
+    - Secret and configuration management
+    - Horizontal scaling
+    - Self-healing
+  blurb:
+    - text: |
+        Kubernetes is a relatively new open-source container-orchestration system for automating computer application deployment, scaling, and management.
+    - text: |
+        Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task typically requiring a dedicated team of DevOps engineers.
+    - text: |
+        Today Kubernetes is offered by all the major cloud providers. It enables Developers to completely own DevOps.
+
+solution:
+    description: 
+      - text: The Kubernetes Skill Sprint teaches a development team how to take control of their CI/CD processes and deploy their application to Kubernetes - either on the cloud or on premise. 
+      - text: The Kubernetes hosting platform is now ubiquitous. Available from all of the major and most of the minor cloud providers - Kubernetes is designed to be directly consumed by Developers - putting them in complete control of the software lifecycle.
+      - text: Skill Sprints have been delivered to many development teams; helping them to take direct independent control of their deployments without having to rely on external help.
+
+
 problem:
   description:
     - subtitle: Engineering the cloud
