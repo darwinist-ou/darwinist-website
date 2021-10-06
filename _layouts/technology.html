@@ -9,7 +9,7 @@ layout: default
         <div class="columns  is-vcentered">
           <div class="column">
             <figure class="image">
-              <img src="/img/home/women-at-a-desk.svg">
+              <img src="{{ page.card-image }}">
             </figure>
           </div>
           <div class="column">
@@ -26,19 +26,10 @@ layout: default
     <div class="container">
             <div class="card card-equal-height">
                 <div class="columns">
-                    <div class="column is-one-third">
+                    <div class="column is-one-half">
                         <div class= "card-content">
-                            <div class="card-image">
-                                <figure class="image">
-                                <img src="{{ page.card-image }}" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <p class="title has-text-black">{{ page.title }} - Tech Profile</p>
-                            <p class="subtitle has-text-black">{{ page.tech-card-info.type }}</p>
-                        </div>
-                    </div>
-                    <div class="column is-one-third">
-                        <div class= "card-content">
+                          <p class="title has-text-black">{{ page.title }} - Tech Profile</p>
+                          <p class="subtitle has-text-black">{{ page.tech-card-info.type }}</p>
                             {% for item in page.tech-card-info.benefits %}
                             <div class="icon-text is-flex-wrap-nowrap">
                                 <span class="icon has-text-success">
@@ -47,7 +38,7 @@ layout: default
                                 <span class="has-text-black">{{ item }}</span>
                             </div>
                             {% endfor %}
-                            <a target="_blank" rel="noopener noreferrer" href="{{ page.tech.url }}">
+                            <a target="_blank" rel="noopener noreferrer" href="{{ page.tech-card-info.url }}">
                             <div class="icon-text">
                                 <span class="icon has-text-info">
                                 <i class="fas fa-link"></i>
@@ -56,7 +47,7 @@ layout: default
                             </div></a>
                         </div>
                     </div>
-                    <div class="column is-one-third">
+                    <div class="column is-one-half">
                         <div class="card-content has-text-justified">
                             {% for item in page.tech-card-info.blurb %}
                             {% if item.subtitle != nil  %}
