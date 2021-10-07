@@ -4,10 +4,7 @@ company: Repay.me
 technology: Kubernetes
 logo: /img/companies/repay-me-logo.png
 subtitle: Empowering milestone hits the smart way
-technologies:
-  - /img/technologies/python-card.png
-  - /img/technologies/excel-card.png
-  - /img/technologies/kubernetes-card.png
+technologies: [kubernetes, python, excel]
 ---
 <!-- <figure>
   <img src="/img/posts/repay-me/repayme.svg" alt="Case study: RepayMe" />
