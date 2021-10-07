@@ -9,7 +9,7 @@ layout: default
         <div class="container">
             <h1 class="title titled is-1 mb-6 has-text-white">Technologies</h1>
         </div>
-        {% for row in (1..4) %}
+        {% for row in (1..5) %}
         
         {% assign filtered = site.data.technology | where: 'row', row %}
         <div class="tile is-ancestor is-centered">

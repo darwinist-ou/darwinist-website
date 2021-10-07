@@ -1,6 +1,6 @@
 ---
-row: 1
-column: 1
+row: 5
+column: 3
 card-image: /img/technologies/sql-server-card.png
 url: microsoft-sql-server
 name: Microsoft SQL Server

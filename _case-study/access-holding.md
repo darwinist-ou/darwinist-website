@@ -1,9 +1,8 @@
 ---
 layout: case-study
 company: Access Holding
-company_image: /img/companies/credimi.png
-technology_image: /img/technologies/kubernetes-card
-subtitle: from an AWS disaster to GKE dream in a week
+logo: /img/companies/access-holding-logo.png
+subtitle: Orginizing the workflow on a multinational level
 technologies: [python, git, mysql]
 ---
 
