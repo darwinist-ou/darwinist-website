@@ -1,0 +1,26 @@
+---
+name: 
+company: GlobalSoft d.o.o
+company-url: https://www.globalsoft.ba/
+company-logo: /img/companies/globalsoft-logo.png
+company-description: GlobalSoft is a software development company in Bosnia and Herzgovenia. Founded in 2018 they now have a staff of 20 and an international client list.
+location: Mostar, Bosnia and Herzgovenia 🇧🇦
+
+testimonials:
+    - name: Drago Ćorić
+      position: Managing Director
+      linked-in-url: https://www.linkedin.com/company/globalsoft-doo/
+      photo: /img/people/drago-coric.png
+      text: The thing about Skill Sprints I like the most is the intensity. Nowadays companies don’t have the time for the long and boring two times a week, 1-hour education lessons but they can offer their developers a week long Skill Sprint. Not only do developers learn but the business gets something tangible out of it. It is the ideal mix of investment into the education of your workers but also the business as a whole.
+    - name: Jozo Spajic
+      position: Software Developer
+      linked-in-url: https://www.linkedin.com/in/jozo-spaji%C4%87-751802187/
+      photo: /img/people/jozo-spajic.jpeg
+      text: Since I already had some previous knowledge about docker, scripting, networking, linux.. etc. the Skill Sprint made me combine it all together and took my knowledge to a whole new level. With this new hands-on experience in Kubernetes, the total lifecycle has become much clearer to me, boosting my development output. All of the knowledge I gathered in this Skill Sprint has definitely brought future projects to a higher standard.
+skill-sprints:
+    - blurb: Complete re-engineering of application deployment and management.
+      technologies: [kubernetes, git, postgres]
+    - blurb: Refactoring of the company's use of the popular search engine.
+      technologies: [elastic, golang]
+    - blurb: Teaching monolithic PHP developers to create golang microservices.
+      technologies: [golang]
