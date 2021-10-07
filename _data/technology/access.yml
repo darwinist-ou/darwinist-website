@@ -2,7 +2,7 @@
 row: 4
 column: 1
 card-image: /img/technologies/access-card.png
-url: access
+url: microsoft-access
 name: Microsoft Access
 slogan: Create your own database apps easily in formats that serve your business best.
 lead: Create and share apps without being a developer
@@ -16,7 +16,7 @@ features:
 tech-card-info:
   name: Microsoft Access
   type: Relational Database
-  url: https://www.microsoft.com/en-ww/microsoft-365/access
+  url: https://www.microsoft.com/access
   benefits:
     - Cost-Effective Database Solution
     - Easy-To-Use System For Business Application
