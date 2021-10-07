@@ -1,12 +1,44 @@
 ---
 row: 1
 column: 1
-style: is-light
-height: is-medium
 card-image: /img/technologies/git-card.png
 url: git
 name: Git
-scenario: We help teams get to grips with git - the preeminent code version control system. Git enables excellent collaboration and change control.
+slogan: Better collaboration, change control and security for teams working with code.
+lead: Get real power from Git
+scenario: Git is the most commonly used version control system. It makes collaboration easier, allowing changes by multiple people to all be merged into one source. 
+features:
+  - Skill sprint that for advanced and beginner levels
+  - Participants learn to properly leverage the change control, versioning and collaboration features.
+  - After the course you don't rely on further external help
+
+tech-card-info:
+  # description: Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+  name: Git
+  type: Version Controlled Code Repository
+  url: https://git-scm.com/
+  benefits:
+    - Used by nearly all dev teams today.
+    - Near perfect change control
+    - Excellent collaboration features
+    - Scales easily to a large number of users
+    - Established cloud versions; Github and Gitlab.
+  blurb:
+    - text: |
+        Git is a very powerful collaboration and change control tool used by the vast majority of development teams around the world.
+    - text: |
+        Github and Gitlab are popular cloud based platforms used for hosting software projects.
+    - text: |
+        Git has a quite steep learning curve but, once initiated, teams can benefit from its excellent change control and collaboration features.
+
+solution:
+    description: 
+      - text: The Git Skill Sprint is designed for a team that are already writing code to solve problems but are suffering from change control, visibility and safety problems.
+      - text: During the Skill Sprint participants are coached on how to leverage Git for its powerful change control features.
+      - text: Git Skill Sprints have been delivered to advanced development teams and to business teams that are just starting to write code.
+
+
+# scenario: We help teams get to grips with git - the preeminent code version control system. Git enables excellent collaboration and change control.
 problem:
   description:
     - subtitle: Change Control, Visibility & Collaboration
@@ -19,56 +51,3 @@ problem:
   type: is-success
   icon: fa-atom
   media: text
-
-solution:
-  description:
-    - subtitle: Change Control
-    - text: During the Skill Sprint participants are coached on how to leverage Git for its powerful change control features.
-    - subtitle: Collaboration
-    - text: Development teams are able to collaborate together extremely efficiently over very complex work. Git is the pinnacle of collaboration tools.
-    - subtitle: Visibility
-    - text: With work checked into a repository it is much easier to see who is working on what.
-  type: is-link
-  icon: fa-atom
-  media: text
-
-tech:
-  description: Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
-  name: Git
-  type: Version Controlled Code Repository
-  url: https://git-scm.com/
-  benefits:
-    - Used by nearly all dev teams today.
-    - Near perfect change control
-    - Excellent collaboration features
-    - Scales easily to a large number of users
-    - Established cloud versions; Github and Gitlab. 
-
-benefits:
-  - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
-    description: 
-      - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
-    type: is-success
-    icon: fa-atom
-    media: text
-
-  - title: Collaboration with Git
-    description: 
-      - Git is a very powerful collaboration tool. During the Skill Sprint participants will gain practical, hands on experience working as a team with Git.
-    type: is-link
-    icon: fa-code
-    media: text
-
-  - title: Change Control with Git
-    description: 
-      - Git gives us a very powerful protocol for change control. Participants will learn how to ensure that changes to their code happens in a safe, peer reviewed way.
-    type: is-link
-    icon: fa-code
-    media: text
-
-  - title: Automation with Git
-    description: 
-      - There are powerful techniques which allow us to automate environments with Git. Participants will learn how to automatically test and deploy their code using Git.
-    type: is-link
-    icon: fa-code
-    media: text
