@@ -1,0 +1,32 @@
+---
+row: 1
+column: 1
+card-image: /img/technologies/sql-server-card.png
+url: microsoft-sql-server
+name: Microsoft SQL Server
+slogan: Python is an easy to use general purpose programming language.
+lead: Take control of your Data
+sub-lead: Learn how to write versatile and powerful programs in Python
+features:
+  - Foo
+  - Bar
+  - Neque porro quisquam est qui dolorem ipsum
+
+tech-card-info:
+  name: Python
+  type: Programming Language
+  url: https://www.python.org/
+  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aim to help programmers write clear, logical code for small and large-scale projects.
+  benefits:
+    - Easy to Read, Learn and Write.
+    - Free and Open-Source.
+    - Fantastic data science tools
+    - Fast to develop
+  blurb:
+      - text: |
+          Python was originally designed as a programming language for beginners but quickly became the most popular and versatile language in the world.
+      - text: |
+          Python is a natural upgrade from Excel when the volume and complexity of data gets too high.
+      - text: |
+          With the right environment - Python can be very quickly learnt.
+

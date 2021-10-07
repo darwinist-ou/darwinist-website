@@ -1,10 +1,17 @@
 ---
 layout: case-study
+company: Camping.info
+technology: Kubernetes
+logo: /img/companies/camping-info-logo.png
+subtitle: from an AWS disaster to GKE dream in a week
+technologies: [kubernetes, python, git]
 ---
 
-## Camping.info DevOps Skill Sprint – from an AWS disaster to GKE dream in a week
+<!-- <figure>
+  <img src="/img/case-studies/camping-info-logo.png" alt="Case study: Camping.info">
+</figure> -->
 
-<span class="image right"><img src="{{ "/images/camping-info.png" | absolute_url }}" alt="" /></span>
+## Camping.info DevOps Skill Sprint – from an AWS disaster to GKE dream in a week
 
 Germany’s camping.info is the leading online portal for camping enthusiasts. With a database of over 23,000 campsites across 44 European countries, German-speaking campers worldwide consult camping.info’s guides and apps and share their own experiences with other members of the community. Each campsite record contains specific site information and ratings from users, so the site’s technical infrastructure needs to be both flexible and powerful.
 
@@ -14,11 +21,11 @@ camping.info could not ignore its biggest issue any longer: it was dealing with 
 
 It’s no easy task to develop and maintain search and filtering for over 23,000 campsites – all with multiple features and properties. Finke and his team required intelligent clustering and flexible infrastructure to quickly make changes as needed. Unfortunately, a legacy setup on Amazon Web Services (AWS) wasn’t getting the job done.
 
-“We had a complicated AWS Terraform setup,” Finke said. “We weren’t satisfied with it. None of us could handle it, and we needed a change.”
+<p class="box has-background-dark">“We had a complicated AWS Terraform setup,” Finke said. “We weren’t satisfied with it. None of us could handle it, and we needed a change.”</p>
 
 Finke began looking for a solution and eventually found it in Kubernetes - Google’s cluster and container management tool famed for being developer friendly. camping.info decided to move forward with the technology and inquired within their professional network about ways to outsource the migration. Cloudwürdig, the longest operating Google Cloud partner in the DACH region, and leading expert in cloud adoption techniques came recommended.
 
-“Initially, I didn’t want to have this task on my table – I wanted to outsource it,” Finke said. “I thought that training up our own team would be expensive and time- consuming – and that we’d almost certainly still need a consultant to help with the migration.”
+<p class="box has-background-dark">“Initially, I didn’t want to have this task on my table – I wanted to outsource it,” Finke said. “I thought that training up our own team would be expensive and time- consuming – and that we’d almost certainly still need a consultant to help with the migration.”</p>
 
 However, a subject matter expert from Cloudwürdig explained a different method to me: the Skill Sprint. We would handle the migration ourselves - but under the guidance of an expert.”
 
@@ -26,11 +33,11 @@ The principle of the Skill Sprint method is that expertise is developed in-house
 
 Although the most powerful Skill Sprints involve two or more developers working with a subject matter expert, this instance saw Finke working as the sole developer with Cloudwürdig to achieve this migration. Despite the downsized setup, the result was a significant portion of infrastructure being moved over to Kubernetes. Most importantly, Finke was able to reproduce the Skill Sprints among his team so that they all became self-sufficient in owning their new infrastructure.
 
-“It was an ambitious goal to get everything moved over to Kubernetes in one week, and we almost made it,” Finke said. “I did two mini skill sprints with two of my developers, so they are also able to maintain this.”
+<p class="box has-background-dark">“It was an ambitious goal to get everything moved over to Kubernetes in one week, and we almost made it,” Finke said. “I did two mini skill sprints with two of my developers, so they are also able to maintain this.”</p>
 
 Finke and his team are thrilled to be moving forward with their beta launch with newfound ease. This change, facilitated by the Skill Sprint, brought the power of Kubernetes, Google Cloud and technical ownership to a busy team at a critical time.
 
-“Before the Skill Sprint, I was not able to maintain or make changes in the way I needed to,” Finke said. “Now I’m in full control, and I’m able to add new projects and microservices to the Kubernetes cluster and use it in the same way. Plus, I adopted the Skill Sprint method within our team and it went quite well. I’m very happy about it.“
+<p class="box has-background-dark">“Before the Skill Sprint, I was not able to maintain or make changes in the way I needed to,” Finke said. “Now I’m in full control, and I’m able to add new projects and microservices to the Kubernetes cluster and use it in the same way. Plus, I adopted the Skill Sprint method within our team and it went quite well. I’m very happy about it.“</p>
 
 
 camping.info is poised for success in creating a truly user-centric platform for camping enthusiasts. With help from its partnership with Cloudwürdig, the company feels better equipped to tackle its ambitious year ahead.

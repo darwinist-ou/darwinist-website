@@ -1,0 +1,37 @@
+---
+row: 2
+column: 1
+card-image: /img/technologies/gcp-card.png
+url: google-cloud-platform
+name: Google Cloud Platform
+slogan: Getting to grips with Google Cloud Platform
+lead: Take control of your cloud consumption
+sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
+scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
+features:
+  - Skill sprint that is designed to be directly consumed by Developers
+  - Puts the Developers in complete control of the software lifecycle
+  - After the course you don't rely on further external help
+
+tech-card-info:
+  name: GCP
+  type: Cloud Computing Platform
+  url: https://cloud.google.com/
+  benefits:
+    - Scalable compute platform
+    - Flexible
+    - Global
+    - Very Reliable
+  blurb:
+    - text: |
+        Google Cloud Platform (GCP), offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products.
+    - text: |
+        GCP is has a strong user focus and is generally much easier to adopt than other cloud computing platforms.
+    - text: |
+        GCP offers excellent data analytics tools such as Big Query.
+
+solution:
+    description: 
+      - text: The Google Cloud Platform Skill Sprint is designed to help teams of people leverage cloud computing in Google Cloud Platform. 
+      - text: During the Skill Sprint the participants will be tasked with the deployment and management of their own applications within Google Cloud Platform. 
+      - text: Participants will be guided and coached through the deployment of data and services on Google Cloud Platform. 

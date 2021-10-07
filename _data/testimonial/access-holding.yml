@@ -1,0 +1,21 @@
+---
+company: Access Holding AG
+company-url: https://accessholding.com/
+company-description: Access Holding is a commercial microfinance investment and holding company based in Germany. They are majority shareholders in several banks in Africa, Brazil and Eastern europe.
+company-logo: /img/companies/access-holding-logo.png
+location: Berlin, Germany 🇩🇪
+
+testimonials:
+  - name: Kyle Lackner
+    position: Head of Risk
+    linked-in-url: https://www.linkedin.com/in/kyle-lackner-9200487/
+    photo: /img/people/kyle-lackner.jpeg
+    text: Skill Sprints enabled us to drop new skills on our people without having to worry about the dependencies. Problems uncovered during the Skill Sprints which were not immediately solvable could be fixed before the next sprint” 
+
+skill-sprints:
+    - blurb: Upskill risk team with modern software development practice and tools.
+      technologies: [git, aws, python]
+      date: September 2020
+    - blurb: Introducing a senior business team to data analytics using Python Pandas
+      technologies: [git, python]
+      date: November 2020
