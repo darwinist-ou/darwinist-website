@@ -6,6 +6,7 @@ url: git
 name: Git
 slogan: Better collaboration, change control and security for teams working with code.
 lead: Get real power from Git
+scenario: Git is the most commonly used version control system. It makes collaboration easier, allowing changes by multiple people to all be merged into one source. 
 features:
   - Skill sprint that for advanced and beginner levels
   - Participants learn to properly leverage the change control, versioning and collaboration features.

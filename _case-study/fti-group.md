@@ -4,10 +4,7 @@ company: FTI Group
 technology: Kubernetes
 logo: /img/companies/fti-group-logo.png
 subtitle: How a Devops Skill Sprint took FTI Group on a major leap forward
-technologies:
-  - /img/technologies/python-card.png
-  - /img/technologies/excel-card.png
-  - /img/technologies/kubernetes-card.png
+technologies: [kubernetes, python, excel]
 ---
 
 ## How a Devops Skill Sprint took FTI Group on a major leap forward
