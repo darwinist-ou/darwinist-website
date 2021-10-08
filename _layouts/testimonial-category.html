@@ -27,7 +27,7 @@ layout: default
             <div class="media-content">
               <p class="title titled is-4 has-text-black">Delivered Skill Sprints</p>
               {% for skill-sprint in company[1].skill-sprints %}
-              <p class="subtitle is-size-6 has-text-black">{{ skill-sprint.blurb }}</p>
+              <p class="subtitle bodytext is-size-6 has-text-black">{{ skill-sprint.blurb }}</p>
               <div class="columns is-mobile">
                 {% for tech in skill-sprint.technologies %}
                 <div class="tile is-ancestor">
@@ -59,7 +59,7 @@ layout: default
                   </div>
                   <div class="media-content">
                     <p class="title is-4 titled has-text-black">{{ testimonial.name }}</p>
-                    <p class="subtitle subtitled is-bold is-6 has-text-black">{{ testimonial.position }}</p>
+                    <p class="subtitle subtitled is-6 has-text-black">{{ testimonial.position }}</p>
                   </div>
                 </div>
 
