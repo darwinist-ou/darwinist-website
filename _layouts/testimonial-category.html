@@ -4,75 +4,75 @@ layout: default
 ---
 
 
+<body>
+  <div id="colored-dna-back" class="section">
+      <div class="container">
+          <h1 class="title titled is-1 is-size-2-mobile mb-2 has-text-centered has-text-white">Testimonials</h1>
+      </div>
+  </div>
 
-<div class="section">
+        {% for company in site.data.testimonial %}
+  <div class="section">
     <div class="container">
-        <h1 class="title titled is-2 mb-2 has-text-centered has-text-white">Testimonials</h1>
-    </div>
-</div>
-
-      {% for company in site.data.testimonial %}
-<div class="section">
-  <div class="container">
-    <div class="columns">
-      <div class="column">
-        <div class="box">
-          <div class="card-content">
-            <figure class="image mb-6">
-              <img src="{{ company[1].company-logo }}" alt="Placeholder image">
-            </figure>
-            <p class="subtitle bodytext is-6 has-text-black">{{ company[1].company-description }}</p>
-          </div>
-          <div class="card-content">
-            <div class="media-content">
-              <p class="title titled is-4 has-text-black">Delivered Skill Sprints</p>
-              {% for skill-sprint in company[1].skill-sprints %}
-              <p class="subtitle bodytext is-size-6 has-text-black">{{ skill-sprint.blurb }}</p>
-              <div class="columns is-mobile">
-                {% for tech in skill-sprint.technologies %}
-                <div class="tile is-ancestor">
-                 <div class="tile is-parent">
-                  <div class="tile is-child is-centered is-5">
-                      <figure class="image">
-                        <img src={{ site.data.technology[tech].card-image }}>
-                      </figure>
-                      <p class="subtitle bodytext is-size-7 has-text-centered has-text-black">{{ site.data.technology[tech].name }}</p>
-                    </div>
-                  </div> 
+      <div class="columns">
+        <div class="column">
+          <div class="box">
+            <div class="card-content">
+              <figure class="image mb-6">
+                <img src="{{ company[1].company-logo }}" alt="Placeholder image">
+              </figure>
+              <p class="subtitle bodytext is-6 has-text-black">{{ company[1].company-description }}</p>
+            </div>
+            <div class="card-content">
+              <div class="media-content">
+                <p class="title titled is-4 has-text-black">Delivered Skill Sprints</p>
+                {% for skill-sprint in company[1].skill-sprints %}
+                <p class="subtitle bodytext is-size-6 has-text-black">{{ skill-sprint.blurb }}</p>
+                <div class="columns is-mobile">
+                  {% for tech in skill-sprint.technologies %}
+                  <div class="tile is-ancestor">
+                  <div class="tile is-parent">
+                    <div class="tile is-child is-centered is-5">
+                        <figure class="image">
+                          <img src={{ site.data.technology[tech].card-image }}>
+                        </figure>
+                        <p class="subtitle bodytext is-size-7 has-text-centered has-text-black">{{ site.data.technology[tech].name }}</p>
+                      </div>
+                    </div> 
+                  </div>
+                  {% endfor %}
                 </div>
                 {% endfor %}
               </div>
+            </div>
+          </div>  
+        </div>
+          <div class="column">
+            {% for testimonial in company[1].testimonials %}
+            <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="{{ testimonial.photo }}" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4 titled has-text-black">{{ testimonial.name }}</p>
+                      <p class="subtitle subtitled is-6 has-text-black">{{ testimonial.position }}</p>
+                    </div>
+                  </div>
+
+                  <div class="content bodytext has-text-justified has-text-black">
+                    {{ testimonial.text }}
+                  </div>
+                </div>
+              </div> 
               {% endfor %}
             </div>
-          </div>
-        </div>  
-      </div>
-        <div class="column">
-          {% for testimonial in company[1].testimonials %}
-          <div class="card">
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="{{ testimonial.photo }}" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4 titled has-text-black">{{ testimonial.name }}</p>
-                    <p class="subtitle subtitled is-6 has-text-black">{{ testimonial.position }}</p>
-                  </div>
-                </div>
-
-                <div class="content bodytext has-text-justified has-text-black">
-                  {{ testimonial.text }}
-                </div>
-              </div>
-            </div> 
-            {% endfor %}
-          </div>
-        </div>    
-    </div>  
+          </div>    
+      </div>  
+    </div>
   </div>
-</div>
-      {% endfor %}       
-
+        {% endfor %}       
+</body>
