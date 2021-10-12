@@ -25,9 +25,9 @@ tech-card-info:
     - Fast to develop
   blurb:
       - text: |
-          Python was originally designed as a programming language for beginners but quickly became the most popular and versatile language in the world.
+          DevOps is the process of configuring cloud resources and automating the deployment of applications. 
       - text: |
-          Python is a natural upgrade from Excel when the volume and complexity of data gets too high.
+          Because of the relatively high complexity and poor integration of cloud compute platforms like AWS the customer must invest in their own automation to consume the service. This automation is commonly described as DevOps.
       - text: |
-          With the right environment - Python can be very quickly learnt.
+          Platforms like Kubernetes have hugely decreased the amount of DevOps work to do by automating away most of the hard bits. 
 

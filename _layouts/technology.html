@@ -50,15 +50,17 @@ layout: default
                     <div class="column is-one-half">
                         <div class="card-content has-text-justified">
                             {% for item in page.tech-card-info.blurb %}
-                            {% if item.subtitle != nil  %}
-                                <span class="icon-text has-text-info">
-                                    <span class="icon">
-                                    <i class="fas fa-sm fa-cog"></i>
-                                    </span>
-                                    <span class="subtitle has-text-black"">{{ item.subtitle }}</span>
-                                </span>
-                            {% endif %}
-                            <p class="has-text-black">{{ item.text }}</p>
+                            <div class=block>
+                              {% if item.subtitle != nil  %}
+                                  <span class="icon-text has-text-info">
+                                      <span class="icon">
+                                      <i class="fas fa-sm fa-cog"></i>
+                                      </span>
+                                      <span class="subtitle has-text-black"">{{ item.subtitle }}</span>
+                                  </span>
+                              {% endif %}
+                              <p class="has-text-black">{{ item.text }}</p>
+                            </div>
                             {% endfor %}
                         </div>       
                     </div>
