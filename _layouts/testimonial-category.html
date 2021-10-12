@@ -21,20 +21,38 @@ layout: default
               <figure class="image mb-6">
                 <img src="{{ company[1].company-logo }}" alt="Placeholder image">
               </figure>
-              <p class="subtitle bodytext is-6 has-text-black">{{ company[1].company-description }}</p>
+              <p class="subtitle bodytext is-size-5 has-text-black">{{ company[1].company-description }}</p>
 
+              <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
+                <div class="icon-text">
+                    <span class="icon has-text-info">
+                    <i class="fas fa-link"></i>
+                    </span>
+                    <span>{{ company[1].company-url }}</span>
+                </div></a>
+
+              <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
+                <div class="icon-text">
+                    <span class="icon has-text-info">
+                    <i class="fas fa-book"></i>
+                    </span>
+                    <span>Case Study</span>
+                </div></a>
+          </div>
+          <div class="card-content">
+        
             {% for testimonial in company[1].testimonials %}
             <div class="notification">
 
                 <div class="media">
                   <div class="media-left">
-                    <figure class="image is-48x48">
+                    <figure class="image is-96x96">
                       <img src="{{ testimonial.photo }}" alt="Placeholder image">
                     </figure>
                   </div>
                   <div class="media-content">
-                    <p class="title is-4 titled has-text-black">{{ testimonial.name }}</p>
-                    <p class="subtitle subtitled is-6 has-text-black">{{ testimonial.position }}</p>
+                    <p class="title is-4 has-text-black">{{ testimonial.name }}</p>
+                    <p class="subtitle is-6 has-text-black">{{ testimonial.position }}</p>
                   </div>
                 </div><!-- media  -->
 
@@ -50,22 +68,40 @@ layout: default
         </div><!-- column 1 -->   
           
         <div class="column">
-          <p class="title titled is-4 has-text-white">Delivered Skill Sprints</p>
-          {% for skill-sprint in company[1].skill-sprints %}
-          <div class="notification">
-            <p class="subtitle is-size-4 has-text-black">{{ skill-sprint.blurb }}</p>
-            <div class="columns is-vcentered is-mobile">
-              {% for tech in skill-sprint.technologies %}
-                <div class="column is-one-quarter is-one-half-mobile">
-                      <figure class="image is-centered">
-                        <img src={{ site.data.technology[tech].card-image }}>
-                      </figure>
-                      <p class="is-size-5 has-text-centered has-text-black">{{ site.data.technology[tech].name }}</p>
+          <div class="card">
+            <div class="card-content">
+            <p class="title titled is-4 has-text-black has-text-centered">Delivered Skill Sprints</p>
+            {% for skill-sprint in company[1].skill-sprints %}
+            <div class="notification">
+              <div class="columns is-reversed is-mobile">
+                <div class="column is-8">
+                  <p class="subtitle bodytext is-size-5 is-size-6-mobile has-text-black">{{ skill-sprint.blurb }}
+                    <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
+                      <div class="icon-text">
+                          <span class="icon has-text-info">
+                          <i class="fas fa-arrow-right"></i>
+                          </span>
+                          <span class="has-text-info">Case Study</span>
+                      </div></a>
+                  </p>
                 </div>
-              {% endfor %}
-            </div><!-- columns --> 
-          </div><!-- notification --> 
-          {% endfor %} 
+                <div class="column is-4">
+              
+                {% for tech in skill-sprint.technologies %}
+                <div class="block">
+                  <figure class="image is-centered">
+                    <img src={{ site.data.technology[tech].card-image }}>
+                  </figure>
+                  <p class="is-size-5 is-size-7-mobile has-text-centered has-text-black">{{ site.data.technology[tech].name }}</p>
+                </div>
+                {% endfor %}
+              </div>
+                
+              </div><!-- columns --> 
+            </div><!-- notification --> 
+            {% endfor %}
+          </div><!-- card content -->  
+          </div><!-- card -->  
         </div><!-- column 2 -->  
       </div><!-- columns  -->
     </div><!-- container  -->

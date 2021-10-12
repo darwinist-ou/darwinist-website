@@ -4,7 +4,7 @@ company: Humanitec
 technology: Kubernetes
 logo: /img/companies/humanitec-logo.jpg
 subtitle: Getting to grips with Google Cloud Platform
-technologies: [kubernetes, python, excel]
+technologies: [kubernetes, git]
 ---
 <!-- <figure>
   <img src="/img/posts/humanitec/humanitec.svg" alt="Case study: Humanitec" />

@@ -3,7 +3,7 @@ layout: case-study
 company: Access Holding
 logo: /img/companies/access-holding-logo.png
 subtitle: Orginizing the workflow on a multinational level
-technologies: [python, git, mysql]
+technologies: [python, git, sql-server]
 ---
 
 ## Business Departments from Major Microfinance Bank learn new technical tricks with Skill Sprints from Darwinist.
