@@ -16,7 +16,7 @@ technologies: [python, git, sql-server]
 
 Kyle, the head of risk in Berlin ordered a Skill Sprint to get the work of his team organised. Orkhan and Felix were already using Python for various risk management calculations since they were far past the point where Excel was useful due to the complexity and size of the data.
 
-Whilst to some extent Felix and Orkhan were already developing software, they had no protocol. There was no change control of the code and there was no peer review of changes. Therefore, serious errors were starting to appear in their output. 
+Whilst to some extent Felix and Orkhan were already developing software, they had no protocol. There was no change control of the code and there was no peer review of changes. Therefore, quality control became increasingly onerous.
 
 During the Skill Sprint sprint, their work flow was formalised with Github - a popular source control tool. This provided them with high quality change control and four eyed peer review.
 
