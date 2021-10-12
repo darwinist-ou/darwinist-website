@@ -3,13 +3,12 @@ layout: default
 # tabs: example_tabs
 ---
 
-<body>
-    <div id="colored-dna-back" class="section">
+
+<div class="content">
+    <div class="section">
         <div class="container">
-            <h1 class="title titled is-1 is-size-2-mobile mb-2 has-text-centered has-text-white">Technologies</h1>
+            <h1 class="title titled has-text-white">Technologies</h1>
         </div>
-    </div>
- <div class="section">
         {% for row in (1..5) %}
         
         {% assign filtered = site.data.technology | where: 'row', row %}
@@ -17,16 +16,16 @@ layout: default
             {% for technology in filtered %}
             <a href="/technology/{{ technology.url}}/">
                 <div class="tile is-parent">
-                    <div class="tile is-child box has-background-white">
+                    <div class="tile is-child card">
                         <div class="card-image">
                             <figure class="image">
                             <img src="{{ technology.card-image }}" alt="Placeholder image">
                             </figure>
                         </div>
                         <div class="card-content">
-                            <a href="/technology/{{ technology.url }}/" class="button is-info titled is-fullwidth">{{ technology.name }}</a>
+                            <a href="/technology/{{ technology.url }}/" class="button is-info is-fullwidth">{{ technology.name }}</a>
                             </br>
-                            <p class="bd-notification bodytext has-text-justified has-text-white">{{ technology.scenario }} <b><a href="/technology/{{ technology.url }}">more info</a></b></p>
+                            <p class="bd-notification has-text-black">{{ technology.scenario }} <b><a href="/technology/{{ technology.url }}">more info</a></b></p>
                             </br>
                         </div>
                     </div>
@@ -35,5 +34,6 @@ layout: default
             {% endfor %}
         </div>
         {% endfor %}
+        
     </div>
-</body>    
+</div>
