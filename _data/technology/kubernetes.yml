@@ -17,10 +17,10 @@ tech-card-info:
   type: Container Orchestration System
   url: https://kubernetes.io/
   benefits:
-    - Open Source and available from all Cloud Providers
-    - Fully Automated application management platform
-    - Horizontally scaling - add more resources easily
-    - Self-healing - fault tolerant & high availability
+    - Open Source and ubiquitous
+    - Fully Automated application management
+    - Horizontally scaling
+    - Self-healing
   blurb:
     - text: |
         Kubernetes is a relatively new open-source container-orchestration system for automating computer application deployment, scaling, and management.
