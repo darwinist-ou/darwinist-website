@@ -1,10 +1,11 @@
 ---
-row: 1
-column: 1
-card-image: /img/technologies/python-card.png
+row: 5
+column: 2
+card-image: /img/technologies/devops-card.png
 url: devops
 name: Devops
 slogan: Devops is the automation of application deployment and monitoring.
+scenario: Devops is the automation of cloud resources and application deployments.
 lead: Take control of your Data
 sub-lead: Learn how to write versatile and powerful programs in Python
 features:

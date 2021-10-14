@@ -1,11 +1,12 @@
 ---
-row: 1
+row: 5
 column: 1
 card-image: /img/technologies/golang-card.png
 url: golang
 name: Golang
 slogan: Golang is an advanced programming language developed by Google.
 lead: Take control of your Data
+scenario: Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 sub-lead: Learn how to write versatile and powerful programs in Python
 features:
   - Foo

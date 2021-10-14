@@ -5,22 +5,35 @@ company-url: https://www.globalsoft.ba/
 company-logo: /img/companies/globalsoft-logo.png
 company-description: GlobalSoft is a software development company in Bosnia and Herzgovenia. Founded in 2018 they now have a staff of 20 and an international client list.
 location: Mostar, Bosnia and Herzgovenia 🇧🇦
+case-study: globalsoft
 
 testimonials:
     - name: Drago Ćorić
       position: Managing Director
       linked-in-url: https://www.linkedin.com/company/globalsoft-doo/
       photo: /img/people/drago-coric.png
-      text: The thing about Skill Sprints I like the most is the intensity. Nowadays companies don’t have the time for the long and boring two times a week, 1-hour education lessons but they can offer their developers a week long Skill Sprint. Not only do developers learn but the business gets something tangible out of it. It is the ideal mix of investment into the education of your workers but also the business as a whole.
+      text: The thing I like most about Skill Sprints is the intensity. Nowadays companies don’t have the time for the long and boring two times a week, 1-hour education lessons but they can offer their developers a week long Skill Sprint. Not only do developers learn but the business gets something tangible out of it. It is the ideal mix of investment into the education of your workers but also the business as a whole.
     - name: Jozo Spajic
       position: Software Developer
       linked-in-url: https://www.linkedin.com/in/jozo-spaji%C4%87-751802187/
       photo: /img/people/jozo-spajic.jpeg
       text: Since I already had some previous knowledge about docker, scripting, networking, linux.. etc. the Skill Sprint made me combine it all together and took my knowledge to a whole new level. With this new hands-on experience in Kubernetes, the total lifecycle has become much clearer to me, boosting my development output. All of the knowledge I gathered in this Skill Sprint has definitely brought future projects to a higher standard.
-skill-sprints:
-    - blurb: Complete re-engineering of application deployment and management.
-      technologies: [kubernetes, git, postgres]
+    - name: Filip Galic
+      position: Senior Software Developer
+      linked-in-url: https://www.linkedin.com/in/jozo-spaji%C4%87-751802187/
+      photo: /img/people/filip-galic.jpg
+      text: During 5 days of extensive work with Jilles we have successfully created a boilerplate pattern that later helped us refactor a part of our system from monolith to microservice. Overall a great experience and definitely worth while!
+
+projects:
+    - blurb: Led by an specialist engineer from Darwinist three of Globalsoft developers completely refactored their CI-CD and DevOps processes. During the Skill Sprint they accomplished a complete re-engineering of application deployment and management.
+      technology: kubernetes
+      title: Kubernetes Skill Sprint
+      subtitle: Three participants - one week
     - blurb: Refactoring of the company's use of the popular search engine.
-      technologies: [elastic, golang]
-    - blurb: Teaching monolithic PHP developers to create golang microservices.
-      technologies: [golang]
+      technology: elastic
+      title: Elasticsearch Skill Sprint
+      subtitle: Three participants - one week
+    - blurb: Two skill-sprints run in parallel to retraining and enable PHP developers to create golang microservices. Two senior Golang from Darwinist led two teams whilst they refactored a significant part of their PHP monolith application to Golang microservices.
+      technology: golang
+      title: Golang Skill Sprint
+      subtitle: Four participants - one week

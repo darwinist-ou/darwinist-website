@@ -7,16 +7,16 @@ layout: default
 <div class="content">
     <div class="section">
         <div class="container">
-            <h1 class="title titled is-1 mb-6 has-text-white">Technologies</h1>
+            <h1 class="title titled has-text-white">Technologies</h1>
         </div>
-        {% for row in (1..4) %}
+        {% for row in (1..5) %}
         
         {% assign filtered = site.data.technology | where: 'row', row %}
         <div class="tile is-ancestor is-centered">
             {% for technology in filtered %}
             <a href="/technology/{{ technology.url}}/">
                 <div class="tile is-parent">
-                    <div class="tile is-child box">
+                    <div class="tile is-child card">
                         <div class="card-image">
                             <figure class="image">
                             <img src="{{ technology.card-image }}" alt="Placeholder image">
