@@ -4,14 +4,18 @@ column: 2
 card-image: /img/technologies/azure-card.png
 url: microsoft-azure
 name: Microsoft Azure
-slogan: Learn how to leverage Azure
+slogan: Leverage Microsoft Azure without getting stuck in the mud
+lead: Learn best practices for Azure
+sub-lead: Get power from cloud computing without breaking the bank
 scenario: Microsoft Azure is a cloud computing service for building, testing, deploying and managing applications and services.
 
 features:
-  - The Microsoft Azure Skill Sprint is designed to help teams leverage cloud computing - a practice commonly labelled as DevOps.
-  - During the Skill Sprint participants will be guided and coached through the deployment of data and services on Microsoft Azure.
-  - Teams will be guided to find the right set of tools to configure the cloud and deploy their applications.
-
+  - Develop a DevOps strategy for Azure
+  - Designed to help teams leverage cloud computing in Azure
+  - Learn how to deploy data and services on Azure
+  - Understand the tools and services needed to use Azure efficiently
+  - Save money and avoid bill shock
+ 
 tech-card-info:
   name: Microsoft Azure
   type: Cloud Computing Platform
@@ -23,75 +27,8 @@ tech-card-info:
     - Microsoft Centric Technologies
   blurb:
     - text: |
-        Microsoft Azure is one of the "top three" cloud computing platform competing with Google Cloud Platform and Amazon Web Services.
+        Microsoft Azure is one of the top three cloud computing platforms. It is popular with Microsoft centric organisations due to familiar interfaces and ease of migration. However, developing an effective architecture on Azure can be difficult. 
     - text: |
-        Azure is popular with Microsoft centric organisations due to familiar interfaces and ease of migration.
-    - text: |
-        Office365 is a strong product that drives a lot of business to Azure.
+        Office365 is a strong product that drives a lot of business to Azure. With less emphasis on technical excellence, Microsoft relies on their deep relationships with their clients to drive adoption of Azure.
 
 
-
-
-# ---
-# row: 2
-# column: 2
-# style: is-light
-# height: is-medium
-# card-image: 
-# url: azure
-# name: Azure
-# scenario: 
-# problem:
-#   description:
-#     - subtitle: Engineering the cloud
-#       text: Efficiently getting to grips with Microsoft Azure can be extremely challenging. 
-#     - text: As a massive corporation with often cross competing unsynchronised interests - the sheer volume of services available from Azure is bewildering.  
-#     - text: AWS follows the internal open market strategy which causes pain, confusion and sometimes substandard implementation.
-#     - text: However it's is also incredibly powerful. Like all powerful tools you must watch your fingers.
-#     - text: Teams that choose to outsource control of their cloud consumption are often hamstrung by lockin to sub-standard proprietary services.
-#     - subtitle: Infrastructure as Code 
-#       text: Teams need to choose the right set of tools to configure their cloud to ensure changes are effectively controlled.
-#   type: is-success
-#   icon: fa-atom
-#   media: text
-
-# solution:
-#   description:
-#     - subtitle: Skill Sprint
-#       text: The Azure Skill Sprint is designed to help teams of people leverage cloud computing in AWS. 
-#     - text: During the Skill Sprint participants will be guided and coached through the deployment of data and services on AWS. 
-#     - subtitle: Web Services
-#       text: Development teams are able to collaborate together extremely efficiently over very complex work. Git is the pinnacle of collaboration tools.
-#     - subtitle: Visibility
-#       text: With work checked into a repository it is much easier to see who is working on what.
-#   type: is-link
-#   icon: fa-atom
-#   media: text
-
-# tech:
-#   description: Microsoft Azure is a cloud computing service for building, testing, deploying and managing applications and services.
-#   name: Microsoft Azure
-#   type: Cloud Computing Platform
-#   url: https://azure.microsoft.com/
-#   benefits:
-#     - Scalable compute platform
-#     - Flexible
-#     - Global
-#     - Microsoft Centric Technologies
-
-# benefits:
-#   - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
-#     description: 
-#       - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
-#     type: is-success
-#     icon: fa-atom
-#     media: text
-
-#   - title: Team members learn how to deploy and manage their applications in Microsoft Azure.
-#     description: 
-#       - | 
-        
-#         They will experience first hand how to create and maintain their deployments.
-#     type: is-link
-#     icon: fa-code
-#     media: text

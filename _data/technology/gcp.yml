@@ -1,18 +1,19 @@
 ---
 row: 2
-column: 1
+column: 3
 card-image: /img/technologies/gcp-card.png
 url: google-cloud-platform
 name: Google Cloud Platform
 slogan: Getting to grips with Google Cloud Platform
-lead: Take control of your cloud consumption
-sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
-scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
+lead: Learn best practices for GCP
+sub-lead: Get power from cloud computing without breaking the bank
+scenario: Google Cloud Platform is a cloud computing platform from Google.
 features:
-  - Skill sprint that is designed to be directly consumed by Developers
-  - Puts the Developers in complete control of the software lifecycle
-  - After the course you don't rely on further external help
-
+  - Develop a DevOps strategy for GCP
+  - Designed to help teams leverage cloud computing in GCP
+  - Learn how to deploy data and services on GCP
+  - Understand the tools and services needed to use GCP efficiently
+  - Save money and avoid bill shock
 tech-card-info:
   name: GCP
   type: Cloud Computing Platform
@@ -26,12 +27,4 @@ tech-card-info:
     - text: |
         Google Cloud Platform (GCP), offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products.
     - text: |
-        GCP is has a strong user focus and is generally much easier to adopt than other cloud computing platforms.
-    - text: |
-        GCP offers excellent data analytics tools such as Big Query.
-
-solution:
-    description: 
-      - text: The Google Cloud Platform Skill Sprint is designed to help teams of people leverage cloud computing in Google Cloud Platform. 
-      - text: During the Skill Sprint the participants will be tasked with the deployment and management of their own applications within Google Cloud Platform. 
-      - text: Participants will be guided and coached through the deployment of data and services on Google Cloud Platform. 
+        GCP is has a strong user focus and is generally much easier to adopt than other cloud computing platforms however it lacks some of the advanced features of the other major providers. GCP offers excellent data analytics tools such as Big Query.
