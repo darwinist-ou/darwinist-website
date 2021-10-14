@@ -5,12 +5,14 @@ card-image: /img/technologies/git-card.png
 url: git
 name: Git
 slogan: Better collaboration, change control and security for teams working with code.
-lead: Get real power from Git
+lead: Learn to harness the power of Git
+sub-lead: Designed for teams at the begining of their journey toward coding
 scenario: Git is the most commonly used version control system. It makes collaboration easier, allowing changes by multiple people to all be merged into one source. 
 features:
-  - Skill sprint that for advanced and beginner levels
-  - Participants learn to properly leverage the change control, versioning and collaboration features.
-  - After the course you don't rely on further external help
+  - Available in both beginner and advanced levels
+  - Master the technology that makes dev teams so effective
+  - Discover better ways to collaborate and manage change
+  - Quickly get over the learning curve
 
 tech-card-info:
   # description: Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
@@ -18,11 +20,9 @@ tech-card-info:
   type: Version Controlled Code Repository
   url: https://git-scm.com/
   benefits:
-    - Used by nearly all dev teams today.
+    - Used by nearly all dev teams today
     - Near perfect change control
     - Excellent collaboration features
-    - Scales easily to a large number of users
-    - Established cloud versions; Github and Gitlab.
   blurb:
     - text: |
         Git is a very powerful collaboration and change control tool used by the vast majority of development teams around the world.
