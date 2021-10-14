@@ -5,19 +5,19 @@ card-image: /img/technologies/kubernetes-card.png
 url: kubernetes
 name: Kubernetes
 slogan: Reduced Costs. Better infrastructure. No strings attached.
-lead: Developers can take control of their own DevOps and CI/CD with a Kubernetes Skill Sprint. 
+lead: Take control of DevOps and CI/CD with a Kubernetes Skill Sprint
 sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
 scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
 features:
-  - The Kubernetes Skill Sprint coaches and trains a development team as they take control of their CI/CD processes and learn how to deploy their applications to Kubernetes - either on the cloud or on premise. 
-  - The Kubernetes hosting platform is now ubiquitous. Available from all of the major and most of the minor cloud providers - Kubernetes is designed to be directly consumed by Developers - putting them in complete control of the software lifecycle.
-  - Skill Sprints have been delivered to many development teams; helping them to take direct independent control of their deployments without having to rely on external help.
+  - The Kubernetes Skill Sprint coaches a development team to take control of CI/CD and deployments to Kubernetes.
+  - Learn how to leverage Kubernetes directly. Get complete control of your software lifecycle.
+  - Teams take independent control of their deployments without having to rely on further external help.
 tech-card-info:
   name: Kubernetes
   type: Container Orchestration System
   url: https://kubernetes.io/
   benefits:
-    - Open Source and vailable from all Cloud Providers
+    - Open Source and available from all Cloud Providers
     - Fully Automated application management platform
     - Horizontally scaling - add more resources easily
     - Self-healing - fault tolerant & high availability
