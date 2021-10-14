@@ -5,6 +5,7 @@ card-image: /img/technologies/sql-server-card.png
 url: microsoft-sql-server
 name: Microsoft SQL Server
 slogan: Python is an easy to use general purpose programming language.
+scenario: Microsoft SQL Server is a relational database management system developed by Microsoft. 
 lead: Take control of your Data
 sub-lead: Learn how to write versatile and powerful programs in Python
 features:

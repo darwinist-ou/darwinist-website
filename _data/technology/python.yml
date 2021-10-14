@@ -6,6 +6,7 @@ url: python
 name: Python
 slogan: Python is an easy to use general purpose programming language.
 lead: Take control of your Data
+scenario: Python is a programming language that lets you work quickly and integrate systems more effectively.
 sub-lead: Learn how to write versatile and powerful programs in Python
 features:
   - Foo
@@ -18,8 +19,8 @@ tech-card-info:
   url: https://www.python.org/
   description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aim to help programmers write clear, logical code for small and large-scale projects.
   benefits:
-    - Easy to Read, Learn and Write.
-    - Free and Open-Source.
+    - Easy to Read, Learn and Write
+    - Free and Open-Source
     - Fantastic data science tools
     - Fast to develop
   blurb:

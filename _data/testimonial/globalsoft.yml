@@ -24,11 +24,16 @@ testimonials:
       photo: /img/people/filip-galic.jpg
       text: During 5 days of extensive work with Jilles we have successfully created a boilerplate pattern that later helped us refactor a part of our system from monolith to microservice. Overall a great experience and definitely worth while!
 
-
-skill-sprints:
+projects:
     - blurb: Led by an specialist engineer from Darwinist three of Globalsoft developers completely refactored their CI-CD and DevOps processes. During the Skill Sprint they accomplished a complete re-engineering of application deployment and management.
-      technologies: [kubernetes, git, postgres]
+      technology: kubernetes
+      title: Kubernetes Skill Sprint
+      subtitle: Three participants - one week
     - blurb: Refactoring of the company's use of the popular search engine.
-      technologies: [elastic, golang]
+      technology: elastic
+      title: Elasticsearch Skill Sprint
+      subtitle: Three participants - one week
     - blurb: Two skill-sprints run in parallel to retraining and enable PHP developers to create golang microservices. Two senior Golang from Darwinist led two teams whilst they refactored a significant part of their PHP monolith application to Golang microservices.
-      technologies: [golang]
+      technology: golang
+      title: Golang Skill Sprint
+      subtitle: Four participants - one week

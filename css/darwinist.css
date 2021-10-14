@@ -52,6 +52,11 @@ margin-right: 0.5em;
   height: 100%;
 }
 
+.column {
+  display: flex;
+  height: 100%;
+}
+
 /* .carousel {
   position: relative;
   overflow: hidden;
