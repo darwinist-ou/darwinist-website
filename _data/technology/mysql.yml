@@ -1,46 +1,33 @@
 ---
 row: 3
 column: 1
-style: is-light
-height: is-medium
 card-image: /img/technologies/mysql-card.png
 url: mysql
 name: MySQL
-scenario: MySQL is an open-source relational database management system.
-problem:
-    description:
-      - subtitle: Structured storage of data
-        text: I really have to think carefully about the problem and solution of MYSQL skill sprints. Are we talking about only extracting data?
-      - With code running on laptops comes a very high chance of sensitive data lying around on laptop hard-drives. This could present a serious compliance problem if the data contains personal information.
-      - With people using their own laptops and not checking code into git for peer review there is often high error rates and less opportunity for collaboration between team members. 
-    type: is-success
-    icon: fa-atom
-    media: text
+slogan: MySQL allows us to store large volumes of structured data.
+scenario: MySQL is an open-source relational database management system
+lead: Get access to data stored in MySQL databases
+sub-lead: Learn how to extract and transform data directly from MySQL with a Skill Sprint
+features:
+  - Learn how to communicate with relational databases through SQL
+  - Get direct experience with building queries to filter, sort, summarize and manipulate data
+  - Understand how databases are designed and how this design can empower or constrain your business
+  - Deep dive into how your business's reliance on this key technology
 
-solution:
-    description: 
-      - Skill Sprints train people already introduced to coding to be able to using collaboration tools like git and resources from cloud providers like AWS or Google.
-      - During the Skill Sprint, the participants will deliver tangible value to their teams and organisation - a micro-transformation project that upskills by solving real world challenges.
-      - Skill Sprints are delivered by a seasoned expert. As part of the Skill Sprint we ensure that the participants gain sustainable and secure access to data and development tools.
-    type: is-link
-    icon: fa-atom
-    media: text
-
-tech:
-  description: MySQL is an open-source relational database management system (RDBMS)
-  name: GCP
+tech-card-info:
+  name: MySQL
   type: Relational Database
   url: https://www.mysql.com/
+  description: MySQL is a relational database management system maintained by Oracle.
   benefits:
-    - Open Source
-    - Available from all cloud providers
-    - Mature - more than 25 years old
-    - Very Reliable
-
-items:
-  - title: Skill Sprints are a 40 hour hybrid training and consultancy product for introducing new technologies.
-    description: 
-      - Introducing new technologies into a business is a difficult task which is often a long drawn out - tortuous affair. Skill Sprints are designed to guide two or three individuals to deliver something with the new technology with the support, guidance and motivation of an expert. This managed process dramatically reduces the Time to First Value.
-    type: is-success
-    icon: fa-atom
-    media: text
+    - Storage of data in structured tables 
+    - Tables are linked together using relationships
+    - Suitable for large volumes of data
+    - Complex queries are relatively easy to perform
+  blurb:
+      - text: |
+          MySQL and MariaDB are two, virtually identical Open Source relational database engines in development since 1995. MySQL was taken over by Oracle in 2010 which caused the project to be forked. MySQL and MariaDB are by far the most popular open-source databases.
+      - text: |
+          SQL or Structured Query Language was designed in the nearly 50 years ago to allow easy querying of data from relational databases. It is a common language across all relational databases.
+      - text: |
+          Sometimes called 'Sequel', SQL is very effective at creating, reading, updating and deleting complex data from a database.

@@ -1,33 +1,34 @@
 ---
-row: 5
+row: 3
 column: 3
 card-image: /img/technologies/sql-server-card.png
 url: microsoft-sql-server
 name: Microsoft SQL Server
-slogan: Python is an easy to use general purpose programming language.
-scenario: Microsoft SQL Server is a relational database management system developed by Microsoft. 
-lead: Take control of your Data
-sub-lead: Learn how to write versatile and powerful programs in Python
+slogan: Microsoft SQL Server is a key Microsoft technology allows us to store large volumes of structured data.
+scenario: Microsoft SQL Server is a relational database management system developed by Microsoft
+lead: Get access to data stored in SQL Server databases
+sub-lead: Learn how to extract and transform data directly from SQL Server with a Skill Sprint
 features:
-  - Foo
-  - Bar
-  - Neque porro quisquam est qui dolorem ipsum
+  - Learn how to communicate with relational databases through SQL
+  - Get direct experience with building queries to filter, sort, summarize and manipulate data
+  - Understand how databases are designed and how this design can empower or constrain your business
+  - Deep dive into how your business's reliance on this key technology.
 
 tech-card-info:
-  name: Python
-  type: Programming Language
-  url: https://www.python.org/
-  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aim to help programmers write clear, logical code for small and large-scale projects.
+  name: Microsoft SQL Server
+  type: Relational Database
+  url: https://www.microsoft.com/sql-server/
+  description: Microsoft SQL Server is a relational database management system developed by Microsoft.
   benefits:
-    - Easy to Read, Learn and Write.
-    - Free and Open-Source.
-    - Fantastic data science tools
-    - Fast to develop
+    - Storage of data in structured tables 
+    - Tables are linked together using relationships
+    - Suitable for large volumes of data
+    - Complex queries are relatively easy to perform
   blurb:
       - text: |
-          Python was originally designed as a programming language for beginners but quickly became the most popular and versatile language in the world.
+          SQL Server is a relational database engine developed by Microsoft since 1989. It is by far the most popular closed source database.
       - text: |
-          Python is a natural upgrade from Excel when the volume and complexity of data gets too high.
+          SQL or Structured Query Language was designed in the nearly 50 years ago to allow easy querying of data from relational databases. It is a common language across all relational databases.
       - text: |
-          With the right environment - Python can be very quickly learnt.
+          Sometimes called 'Sequel', SQL is very effective at creating, reading, updating and deleting complex data from a database.
 

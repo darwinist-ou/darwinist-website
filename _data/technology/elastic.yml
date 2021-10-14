@@ -1,6 +1,6 @@
 ---
-row: 3
-column: 1
+row: 5
+column: 3
 card-image: /img/technologies/elastic-card.png
 url: elasticsearch
 name: Elasticsearch
