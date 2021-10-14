@@ -5,37 +5,26 @@ card-image: /img/technologies/kubernetes-card.png
 url: kubernetes
 name: Kubernetes
 slogan: Reduced Costs. Better infrastructure. No strings attached.
-lead: Take control of your CD/CI processes
+lead: Take control of DevOps and CI/CD with a Kubernetes Skill Sprint
 sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
 scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
 features:
-  - Skill sprint that is designed to be directly consumed by Developers
-  - Puts the Developers in complete control of the software lifecycle
-  - After the course you don't rely on further external help
-
+  - The Kubernetes Skill Sprint coaches a development team to take control of CI/CD and deployments to Kubernetes.
+  - Learn how to leverage Kubernetes directly. Get complete control of your software lifecycle.
+  - Teams take independent control of their deployments without having to rely on further external help.
 tech-card-info:
   name: Kubernetes
   type: Container Orchestration System
   url: https://kubernetes.io/
   benefits:
-    - Open Source
-    - Available from all Cloud Providers
-    - Automated rollouts and rollbacks
-    - Service discovery and load balancing
-    - Storage orchestration
-    - Secret and configuration management
-    - Horizontal scaling
+    - Open Source and ubiquitous
+    - Fully Automated application management
+    - Horizontally scaling
     - Self-healing
   blurb:
     - text: |
         Kubernetes is a relatively new open-source container-orchestration system for automating computer application deployment, scaling, and management.
     - text: |
-        Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task typically requiring a dedicated team of DevOps engineers.
+        Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task typically requiring a dedicated teams of DevOps engineers.
     - text: |
-        Today Kubernetes is offered by all the major cloud providers. It enables Developers to completely own DevOps.
-
-solution:
-    description: 
-      - text: The Kubernetes Skill Sprint teaches a development team how to take control of their CI/CD processes and deploy their application to Kubernetes - either on the cloud or on premise. 
-      - text: The Kubernetes hosting platform is now ubiquitous. Available from all of the major and most of the minor cloud providers - Kubernetes is designed to be directly consumed by Developers - putting them in complete control of the software lifecycle.
-      - text: Skill Sprints have been delivered to many development teams; helping them to take direct independent control of their deployments without having to rely on external help.
+        Today Kubernetes is offered by all the major cloud providers. It can enable dev teams to independently own DevOps negating the need for dedicated DevOps teams.
