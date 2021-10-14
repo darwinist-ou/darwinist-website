@@ -4,7 +4,7 @@ column: 1
 style: is-light
 height: is-medium
 card-image: /img/technologies/aws-card.png
-url: aws
+url: amazon-web-services
 name: Amazon Web Services
 scenario: Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.
 problem:

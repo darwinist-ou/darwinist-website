@@ -4,8 +4,8 @@ column: 2
 style: is-light
 height: is-medium
 card-image: /img/technologies/azure-card.png
-url: azure
-name: Azure
+url: microsoft-azure
+name: Microsoft Azure
 scenario: Microsoft Azure is a cloud computing service for building, testing, deploying and managing applications and services.
 problem:
   description:

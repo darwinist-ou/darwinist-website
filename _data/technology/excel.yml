@@ -5,7 +5,7 @@ column: 2
 style: is-light
 height: is-medium
 card-image: /img/technologies/excel-card.png
-url: excel
+url: microsoft-excel
 name: Microsoft Excel
 scenario: Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS.
 problem:
