@@ -28,6 +28,6 @@ tech-card-info:
       - text: |
           PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
       - text: |
-          SQL or Structured Query Language was designed in the nearly 50 years ago to allow easy querying of data from relational databases. It is a common language across all relational databases.
+          SQL or Structured Query Language was designed nearly 50 years ago to allow easy querying of data from relational databases. It is a common language across all relational databases.
       - text: |
           Sometimes called 'Sequel', SQL is very effective at creating, reading, updating and deleting complex data from a database.
