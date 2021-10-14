@@ -4,6 +4,7 @@ column: 2
 card-image: /img/technologies/azure-card.png
 url: microsoft-azure
 name: Microsoft Azure
+slogan: Learn how to leverage Azure
 scenario: Microsoft Azure is a cloud computing service for building, testing, deploying and managing applications and services.
 
 features:
