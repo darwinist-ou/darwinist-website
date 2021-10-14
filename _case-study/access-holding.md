@@ -8,21 +8,15 @@ technologies: [python, git, sql-server]
 
 ## Business Departments from Major Microfinance Bank learn new technical tricks with Skill Sprints from Darwinist.
 
-### Access Holding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running Skill Sprints to help Access Holding invest in their employees and transform their business.
-
-<span class="image right"><img src="{{ "/images/camping-info.png" | absolute_url }}" alt="" /></span>
+### AccessHolding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running Skill Sprints to help Access Holding invest in their employees and transform their business.
 
 # Risk Department (Berlin)
 
-Kyle, the head of risk in Berlin ordered a Skill Sprint to get the work of his team organised. Orkhan and Felix were already using Python for various risk management calculations since they were far past the point where Excel was useful due to the complexity and size of the data.
+As the AccessHolding Risk Department expanded their data analytics, it became clear to the Head of the Department that dedicated developers were needed. This pushed the Risk Department into new territory. While the problems of overly complex and error-prone excel sheets was reduced, new problems arose.
 
-Whilst to some extent Felix and Orkhan were already developing software, they had no protocol. There was no change control of the code and there was no peer review of changes. Therefore, quality control became increasingly onerous.
+Business-side people were no longer able to independently confirm the method of the analytics, leading to a new type of model risk. Furthermore, this reliance on developers created key person risks. Previously, excel sheets could be deciphered in case of an analyst's departure - but now the work was performed inside of code that might disappear entirely.
 
-During the Skill Sprint sprint, their work flow was formalised with Github - a popular source control tool. This provided them with high quality change control and four eyed peer review.
-
-Orkhan and Felix also learned how to use cloud resources from Amazon Web Services which allowed them access to much larger and more reliable computer resources which then further facilitated their journey with Artificial Intelligence based fraud detection. 
-
-Kyle found that the work of his team is much more reliable since completing the Skill Sprint.
+As such, the Head of Risk commissioned a Skill Sprint from darwinist to ensure that quality control was embedded into the new coding processes - ensuring 4-eyes for key analytics prior to publishing. Furthermore, the team established a code repository on Github, ensuring that the loss of one employee would not result in the loss of years of development.
 
 # Business Department (Berlin)
 
