@@ -4,30 +4,30 @@ column: 1
 card-image: /img/technologies/python-card.png
 url: python
 name: Python
-slogan: Python is an easy to use general purpose programming language.
-lead: Take control of your Data
+slogan: Python is an easy to use, general purpose programming language.
+lead: Take control of your data
 scenario: Python is a programming language that lets you work quickly and integrate systems more effectively.
 sub-lead: Learn how to write versatile and powerful programs in Python
 features:
-  - Foo
-  - Bar
-  - Neque porro quisquam est qui dolorem ipsum
+  - Extract more value from your data, faster
+  - Simplify Data science with the Pandas module
+  - Learn to work smarter
 
 tech-card-info:
   name: Python
   type: Programming Language
   url: https://www.python.org/
-  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aim to help programmers write clear, logical code for small and large-scale projects.
+  description: Python is an interpreted, high-level, general-purpose programming language with an emphasis on code readability. It aims to help programmers write clear, logical code for small and large-scale projects.
   benefits:
-    - Easy to Read, Learn and Write
-    - Free and Open-Source
-    - Fantastic data science tools
+    - Free and open-source
+    - Easy to read, write and learn
+    - Powerful data science tools
     - Fast to develop
   blurb:
       - text: |
-          Python was originally designed as a programming language for beginners but quickly became the most popular and versatile language in the world.
+          Designed as a programming language for beginners, Python quickly became the most popular and versatile language in the world. Youtube, Google and Firefox all have adopted Python in their design. 
       - text: |
-          Python is a natural upgrade from Excel when the volume and complexity of data gets too high.
+          Simple and powerful, it is the logical upgrade from Excel when the volume and complexity of data gets too high.
       - text: |
-          With the right environment - Python can be very quickly learnt.
+          With the right guidance, Python can be learnt very quickly.
 
