@@ -1,52 +1,52 @@
 ---
 layout: default
 ---
-
-<section id="colored-lines" class="hero is-white is-fullweight">
-    <div class="hero-body ">
-        <div class="columns is-vcentered">
-          <div class="column">
-            <figure class="image">
-              <img src="/img/graphics/pile-of-books.svg">
-            </figure>
-          </div>
-          <div class="column">
-            <h1 class="title titled is-1 has-text-white">
-            Case Studies
-            </h1>
-            <h1 class="subtitle subtitled is-vcentered is-3 has-text-white">Smart investment that made an impact</h1>
+<body>
+  <section id="colored-lines" class="hero is-white is-fullweight">
+      <div class="hero-body ">
+          <div class="columns is-vcentered">
+            <div class="column">
+              <figure class="image">
+                <img src="/img/graphics/pile-of-books.svg">
+              </figure>
+            </div>
+            <div class="column">
+              <h1 class="title titled is-1 has-text-white">
+              Case Studies
+              </h1>
+              <h1 class="subtitle subtitled is-vcentered is-3 has-text-white">Smart investments that make an impact</h1>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-<div class="content">
-  <div class="section">
-    <div class="container">
-        {% for case-study in site.case-study %}
-        <div class="box">
-          <div class="columns is-vcentered">
-            <div class="column is-5">
-              <figure class="image pt-2">
-                <img src="{{ case-study.logo }}">
-              </figure>
-                <span class="sutitle subtitled is-3 has-text-centered has-text-black">{{ case-study.subtitle }}</span>
+  <div class="content">
+    <div class="section">
+      <div class="container is-fluid">
+          {% for case-study in site.case-study %}
+          <div class="box">
+            <div class="columns is-vcentered">
+              <div class="column is-5">
+                <figure class="image pt-2">
+                  <img src="{{ case-study.logo }}">
+                </figure>
+                  <span class="sutitle subtitled is-3 has-text-centered has-text-black">{{ case-study.subtitle }}</span>
+              </div>
+                {% for tech in case-study.technologies %}
+              <div class="column is-2">
+                <figure class="image">
+                  <img src={{ site.data.technology[tech].card-image }}>
+                </figure>
+              </div>
+                {% endfor %}
             </div>
-              {% for tech in case-study.technologies %}
-            <div class="column is-2">
-              <figure class="image">
-                <img src={{ site.data.technology[tech].card-image }}>
-              </figure>
-            </div>
-              {% endfor %}
-          </div>
-        </div> 
-        {% endfor %}
+          </div> 
+          {% endfor %}
+      </div>
     </div>
   </div>
-</div>
-
+</body>
 
 
 
