@@ -4,15 +4,15 @@ column: 3
 card-image: /img/technologies/sql-server-card.png
 url: microsoft-sql-server
 name: Microsoft SQL Server
-slogan: Microsoft SQL Server is a key Microsoft technology allows us to store large volumes of structured data.
+slogan: Microsoft SQL Server is a key technology which enables storage of large structured data
 scenario: Microsoft SQL Server is a relational database management system developed by Microsoft
 lead: Get access to data stored in SQL Server databases
-sub-lead: Learn how to extract and transform data directly from SQL Server with a Skill Sprint
+sub-lead: Extract and transform data directly from SQL Server
 features:
-  - Learn how to communicate with relational databases through SQL
-  - Get direct experience with building queries to filter, sort, summarize and manipulate data
-  - Understand how databases are designed and how this design can empower or constrain your business
-  - Deep dive into how your business's reliance on this key technology.
+  - Learn how to communicate with relational databases
+  - Build queries to filter, sort, summarize and manipulate data
+  - Understand how databases design can empower or constrain your business
+  - Dive deep into your business's reliance on databases
 
 tech-card-info:
   name: Microsoft SQL Server
@@ -20,13 +20,13 @@ tech-card-info:
   url: https://www.microsoft.com/sql-server/
   description: Microsoft SQL Server is a relational database management system developed by Microsoft.
   benefits:
-    - Storage of data in structured tables 
-    - Tables are linked together using relationships
+    - Store data in structured tables
+    - Linked tables together using relationships
     - Suitable for large volumes of data
-    - Complex queries are relatively easy to perform
+    - Perform complex queries easily
   blurb:
       - text: |
-          SQL Server is a relational database engine developed by Microsoft since 1989. It is by far the most popular closed source database.
+          Microsoft SQL Server is a relational database engine developed by Microsoft since 1989. It is by far the most popular proprietary database.
       - text: |
           SQL or Structured Query Language was designed nearly 50 years ago to allow easy querying of data from relational databases. It is a common language across all relational databases.
       - text: |

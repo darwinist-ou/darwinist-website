@@ -7,12 +7,12 @@ name: PostgreSQL
 slogan: PostgreSQL allows us to store large volumes of structured data.
 scenario: PostgreSQL is an open-source relational database management system
 lead: Get access to data stored in PostgreSQL databases
-sub-lead: Learn how to extract and transform data directly from PostgreSQL with a Skill Sprint
+sub-lead: Extract and transform data directly from PostgreSQL
 features:
-  - Learn how to communicate with relational databases through SQL
-  - Get direct experience with building queries to filter, sort, summarize and manipulate data
-  - Understand how databases are designed and how this design can empower or constrain your business
-  - Deep dive into how your business's reliance on this key technology
+  - Learn how to communicate with relational databases
+  - Build queries to filter, sort, summarize and manipulate data
+  - Understand how databases design can empower or constrain your business
+  - Dive deep into your business's reliance on databases
 
 tech-card-info:
   name: PostgreSQL
@@ -20,10 +20,10 @@ tech-card-info:
   url: https://www.postgresql.org/
   description: PostgreSQL is a relational database management system.
   benefits:
-    - Storage of data in structured tables 
-    - Tables are linked together using relationships
+    - Store data in structured tables
+    - Linked tables together using relationships
     - Suitable for large volumes of data
-    - Complex queries are relatively easy to perform
+    - Perform complex queries easily
   blurb:
       - text: |
           PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
