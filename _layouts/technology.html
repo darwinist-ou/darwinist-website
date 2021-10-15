@@ -23,50 +23,48 @@ layout: default
     </div>
   </section>
   <section class="section is-small">
-    <div class="container">
-            <div class="card has-background-white-bis card-equal-height">
-                <div class="columns">
-                    <div class="column is-one-half">
-                        <div class= "card-content">
-                          <p class="title has-text-black">{{ page.title }} - Tech Profile</p>
-                          <p class="subtitle has-text-black">{{ page.tech-card-info.type }}</p>
-                            {% for item in page.tech-card-info.benefits %}
-                            <div class="icon-text is-flex-wrap-nowrap">
-                                <span class="icon has-text-success">
-                                <i class="fas fa-check-square"></i>
-                                </span>
-                                <span class="has-text-black">{{ item }}</span>
-                            </div>
-                            {% endfor %}
-                            <a target="_blank" rel="noopener noreferrer" href="{{ page.tech-card-info.url }}">
-                            <div class="icon-text">
-                                <span class="icon has-text-info">
-                                <i class="fas fa-link"></i>
-                                </span>
-                                <span>{{ page.tech-card-info.url }}</span>
-                            </div></a>
-                        </div>
+    <div class="card has-background-white-bis card-equal-height">
+        <div class="columns">
+            <div class="column is-one-half">
+                <div class= "card-content">
+                  <p class="title has-text-black">{{ page.title }} - Tech Profile</p>
+                  <p class="subtitle has-text-black">{{ page.tech-card-info.type }}</p>
+                    {% for item in page.tech-card-info.benefits %}
+                    <div class="icon-text is-flex-wrap-nowrap">
+                        <span class="icon has-text-success">
+                        <i class="fas fa-check-square"></i>
+                        </span>
+                        <span class="has-text-black">{{ item }}</span>
                     </div>
-                    <div class="column is-one-half">
-                        <div class="card-content has-text-justified">
-                            {% for item in page.tech-card-info.blurb %}
-                            <div class=block>
-                              {% if item.subtitle != nil  %}
-                                  <span class="icon-text has-text-info">
-                                      <span class="icon">
-                                      <i class="fas fa-sm fa-cog"></i>
-                                      </span>
-                                      <span class="subtitle has-text-black"">{{ item.subtitle }}</span>
-                                  </span>
-                              {% endif %}
-                              <p class="has-text-black">{{ item.text }}</p>
-                            </div>
-                            {% endfor %}
-                        </div>       
-                    </div>
+                    {% endfor %}
+                    <a target="_blank" rel="noopener noreferrer" href="{{ page.tech-card-info.url }}">
+                    <div class="icon-text">
+                        <span class="icon has-text-info">
+                        <i class="fas fa-link"></i>
+                        </span>
+                        <span>{{ page.tech-card-info.url }}</span>
+                    </div></a>
                 </div>
             </div>
+            <div class="column is-one-half">
+                <div class="card-content has-text-justified">
+                    {% for item in page.tech-card-info.blurb %}
+                    <div class=block>
+                      {% if item.subtitle != nil  %}
+                          <span class="icon-text has-text-info">
+                              <span class="icon">
+                              <i class="fas fa-sm fa-cog"></i>
+                              </span>
+                              <span class="subtitle has-text-black"">{{ item.subtitle }}</span>
+                          </span>
+                      {% endif %}
+                      <p class="has-text-black">{{ item.text }}</p>
+                    </div>
+                    {% endfor %}
+                </div>       
+            </div>
         </div>
+    </div>
   </section>
   <section class="hero">
     <div class="hero-body">
@@ -112,60 +110,54 @@ layout: default
     </div>
   </section>  
   <section class="section is-medium">
-    <div class="container">
       <h3 class="title titled is-2 has-text-white">Case studies</h3></div>
-    </div>
     <div class="hero-body">
-      <div class="container is-vcentered">
-        <div class="columns is-centered">
-          <div class="column is-1"></div>
-          <div class="column is-3 box">
-            <figure class="image is-256x256">
-              <img src="/img/case-studies/camping-info-logo.png">
-            </figure>
-            <p class="content subtitled  has-text-black has-text-centered is-size-6">
-              From an AWS disaster to GKE dream in a week
-            </p>
-          </div>
-          <div class="column is-1"></div>
-          <div class="column is-3 box">
-            <figure class="image is-256x256">
-              <img src="/img/case-studies/credimi-logo.png">
-            </figure>
-            <p class="content subtitled has-text-centered has-text-black is-size-6">
-                Fintech startup smashes DevOps with a skill sprint
-            </p>
-          </div>
-          <div class="column is-1"></div>
-          <div class="column is-3 box">
-            <figure class="image is-256x256 is-centered">
-              <img src="/img/case-studies/fti-group-logo.png">
-            </figure>
-            <p class="content subtitled  has-text-black has-text-centered is-size-6">
-                How a Devops Skill Sprint took FTI Group on a major leap forward
-            </p>
-          </div>
-          <div class="column is-1"></div>
+      <div class="columns is-centered">
+        <div class="column is-1"></div>
+        <div class="column is-3 box">
+          <figure class="image is-256x256">
+            <img src="/img/case-studies/camping-info-logo.png">
+          </figure>
+          <p class="content subtitled  has-text-black has-text-centered is-size-6">
+            From an AWS disaster to GKE dream in a week
+          </p>
         </div>
+        <div class="column is-1"></div>
+        <div class="column is-3 box">
+          <figure class="image is-256x256">
+            <img src="/img/case-studies/credimi-logo.png">
+          </figure>
+          <p class="content subtitled has-text-centered has-text-black is-size-6">
+              Fintech startup smashes DevOps with a skill sprint
+          </p>
+        </div>
+        <div class="column is-1"></div>
+        <div class="column is-3 box">
+          <figure class="image is-256x256 is-centered">
+            <img src="/img/case-studies/fti-group-logo.png">
+          </figure>
+          <p class="content subtitled  has-text-black has-text-centered is-size-6">
+              How a Devops Skill Sprint took FTI Group on a major leap forward
+          </p>
+        </div>
+        <div class="column is-1"></div>
       </div>
     </div>  
   </section>
   
   <section class="section is-centered">
-    <div class="container">
-      <div class="columns is-gapless">
-        <div class="column is-1"></div>
-        <div class="column">
-          <h4 class="title titled is-1 has-text-white is-centered">Doesn't seem fit for you?</h4>
-          <p class="subtitle subtitled is-2 has-text-success">Check out our other option!</p>
-        </div>
-        <div class="column is-one-quarter">
-          <figure class="image is-256x256 is-centered">
-            <img src="/img/graphics/puzzle-pieces.svg">
-          </figure>
-        </div>
-        <div class="column is-1"></div>
+    <div class="columns is-gapless">
+      <div class="column is-1"></div>
+      <div class="column">
+        <h4 class="title titled is-1 has-text-white is-centered">Doesn't seem fit for you?</h4>
+        <p class="subtitle subtitled is-2 has-text-success">Check out our other option!</p>
       </div>
+      <div class="column is-one-quarter">
+        <figure class="image is-256x256 is-centered">
+          <img src="/img/graphics/puzzle-pieces.svg">
+        </figure>
+      </div>
+      <div class="column is-1"></div>
     </div>   
   </section>
 
