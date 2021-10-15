@@ -1,13 +1,12 @@
   {%- include head.html -%}
 
-<body>
+  <body>
+    <div class="container">
+      {%- include nav-bar.html -%}
 
-    {%- include nav-bar.html -%}
+      {{ content }}
 
-    {{ content }}
-
+    </div>
     {%- include footer.html -%}
-
   </body>
-
 </html>

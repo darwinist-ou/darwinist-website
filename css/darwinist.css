@@ -57,6 +57,10 @@ margin-right: 0.5em;
   height: 100%;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 /* .carousel {
   position: relative;
   overflow: hidden;
