@@ -58,7 +58,7 @@ layout: default
                   <p class="subtitle is-6 has-text-black">{{ testimonial.position }}</p>
                 </div>
               </div><!-- media -->
-              <div class="subtitle bodytext is-size-5 is-size-6-mobile has-text-justified has-text-black">
+              <div class="subtitle bodytext is-size-6 is-size-7-mobile has-text-justified has-text-black">
                 {{ testimonial.text }}
               </div>
             </div><!-- notification -->
@@ -68,7 +68,7 @@ layout: default
       
         <div class="column">
           <div class="card-content">
-          <p class="title titled is-4 has-text-black has-text-centered">Delivered Projects</p>
+          <p class="title titled is-4 has-text-black has-text-centered"> <u>Delivered Projects</u></p>
           {% for project in company[1].projects %}
             <div class="notification has-background-white-bis">
               <div class="media">
@@ -78,11 +78,11 @@ layout: default
                   </figure>
                 </div>
                 <div class="media-content">
-                  <p class="title is-4 has-text-black">{{ project.title }}</p>
-                  <p class="subtitle is-6 has-text-black">{{ project.subtitle }}</p>
+                  <p class="title titled is-size-5 has-text-black">{{ project.title }}</p>
+                  <p class="subtitle subtited is-size-6 has-text-black">{{ project.subtitle }}</p>
                 </div>
               </div>
-                <p class="subtitle bodytext is-size-5 is-size-6-mobile has-text-justified has-text-black">{{ project.blurb }}
+                <p class="subtitle bodytext is-size-6 is-size-7mobile has-text-justified has-text-black">{{ project.blurb }}
                 <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
                 <div class="icon-text">
                     <span class="icon has-text-info">
