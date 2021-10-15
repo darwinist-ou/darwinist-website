@@ -20,7 +20,7 @@ layout: default
             </figure>
           </div>
           <div class="column is-9">
-            <p class="subtitle bodytext is-size-5 has-text-black">{{ company[1].company-description }}</p>
+            <p class="subtitle bodytext is-size-6 has-text-black">{{ company[1].company-description }}</p>
           
             <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
             <div class="icon-text">
@@ -44,9 +44,9 @@ layout: default
       <div class="columns">
         <div class="column">
           <div class="card-content">
-            <p class="title titled is-4 has-text-black has-text-centered">What they say</p>
+            <p class="title titled is-size-4 has-text-dark has-text-left">What they say</p>
             {% for testimonial in company[1].testimonials %}
-            <div class="notification">
+            <div class="notification has-background-white-bis">
               <div class="media">
                 <div class="media-left">
                   <figure class="image is-128x128">
@@ -58,17 +58,17 @@ layout: default
                   <p class="subtitle is-6 has-text-black">{{ testimonial.position }}</p>
                 </div>
               </div><!-- media -->
-              <div class="subtitle bodytext is-size-6 is-size-7-mobile has-text-justified has-text-black">
+              <div class="subtitle bodytext is-size-6 has-text-justified has-text-black">
                 {{ testimonial.text }}
               </div>
             </div><!-- notification -->
             {% endfor %}
           </div><!-- card-content -->
         </div><!-- what they say column -->
-      
+        <div class="is-divider-vertical"></div>
         <div class="column">
           <div class="card-content">
-          <p class="title titled is-4 has-text-black has-text-centered"> <u>Delivered Projects</u></p>
+          <p class="title titled is-size-4 has-text-dark has-text-left"> Delivered Projects</p>
           {% for project in company[1].projects %}
             <div class="notification has-background-white-bis">
               <div class="media">
@@ -79,18 +79,20 @@ layout: default
                 </div>
                 <div class="media-content">
                   <p class="title titled is-size-5 has-text-black">{{ project.title }}</p>
-                  <p class="subtitle subtited is-size-6 has-text-black">{{ project.subtitle }}</p>
+                  <p class="subtitle subtited is-size-6 has-text-grey">{{ project.subtitle }}</p>
                 </div>
               </div>
-                <p class="subtitle bodytext is-size-6 is-size-7mobile has-text-justified has-text-black">{{ project.blurb }}
-                <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
-                <div class="icon-text">
-                    <span class="icon has-text-info">
-                    <i class="fas fa-arrow-right"></i>
-                    </span>
-                    <span class="has-text-info">Case Study</span>
-                </div></a>
-                </p>
+              <p class="subtitle bodytext is-size-6 as-text-justified has-text-black">{{ project.blurb }}</p>
+                <button class="button is-ghost">
+                    <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
+                      <div class="icon-text">
+                        <span class="icon has-text-info">
+                        <i class="fas fa-arrow-right"></i>
+                        </span>
+                        <span class="has-text-black">Case Study</span>
+                      </div>
+                    </a>
+                </button>
             </div><!-- notification -->
           {% endfor %}
         </div><!-- card content -->  
