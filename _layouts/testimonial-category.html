@@ -3,8 +3,6 @@ layout: default
 # tabs: example_tabs
 ---
 
-
-<body>
   <div id="colored-dna-back" class="section">
       <div class="container">
           <h1 class="title titled is-1 is-size-2-mobile mb-2 has-text-centered has-text-white">Testimonials</h1>
@@ -13,94 +11,91 @@ layout: default
 
   {% for company in site.data.testimonial %}
   <div class="section">
-    <div class="container">
-      <div class="card">
-        <div class="card-content">
-          <div class="columns">
-            <div class="column is-3">
-              <figure class="image mb-6">
-                <img src="{{ company[1].company-logo }}" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="column is-9">
-              <p class="subtitle bodytext is-size-5 has-text-black">{{ company[1].company-description }}</p>
-            
-              <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
-              <div class="icon-text">
-                  <span class="icon has-text-info">
-                  <i class="fas fa-link"></i>
-                  </span>
-                  <span>{{ company[1].company-url }}</span>
-              </div></a>
-
-              <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
-              <div class="icon-text">
-                  <span class="icon has-text-info">
-                  <i class="fas fa-book"></i>
-                  </span>
-                  <span>Case Study</span>
-              </div></a>
-            </div><!-- column  -->
-          </div><!-- columns  -->
-        </div><!-- card-content  -->
-
+    <div class="card has-background-white-bis">
+      <div class="card-content">
         <div class="columns">
-          <div class="column">
-            <div class="card-content">
-              <p class="title titled is-4 has-text-black has-text-centered">What they say</p>
-              {% for testimonial in company[1].testimonials %}
-              <div class="notification">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-128x128">
-                      <img src="{{ testimonial.photo }}" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4 has-text-black">{{ testimonial.name }}</p>
-                    <p class="subtitle is-6 has-text-black">{{ testimonial.position }}</p>
-                  </div>
-                </div><!-- media -->
-                <div class="subtitle bodytext is-size-5 is-size-6-mobile has-text-justified has-text-black">
-                  {{ testimonial.text }}
+          <div class="column is-3">
+            <figure class="image mb-6">
+              <img src="{{ company[1].company-logo }}" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="column is-9">
+            <p class="subtitle bodytext is-size-5 has-text-black">{{ company[1].company-description }}</p>
+          
+            <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
+            <div class="icon-text">
+                <span class="icon has-text-info">
+                <i class="fas fa-link"></i>
+                </span>
+                <span>{{ company[1].company-url }}</span>
+            </div></a>
+
+            <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
+            <div class="icon-text">
+                <span class="icon has-text-info">
+                <i class="fas fa-book"></i>
+                </span>
+                <span>Case Study</span>
+            </div></a>
+          </div><!-- column  -->
+        </div><!-- columns  -->
+      </div><!-- card-content  -->
+
+      <div class="columns">
+        <div class="column">
+          <div class="card-content">
+            <p class="title titled is-4 has-text-black has-text-centered">What they say</p>
+            {% for testimonial in company[1].testimonials %}
+            <div class="notification">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-128x128">
+                    <img src="{{ testimonial.photo }}" alt="Placeholder image">
+                  </figure>
                 </div>
-              </div><!-- notification -->
-              {% endfor %}
-            </div><!-- card-content -->
-          </div><!-- what they say column -->
-        
-          <div class="column">
-            <div class="card-content">
-            <p class="title titled is-4 has-text-black has-text-centered">Delivered Projects</p>
-            {% for project in company[1].projects %}
-              <div class="notification">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-128x128">
-                      <img src="{{ site.data.technology[project.technology].card-image }}" alt="Placeholder image">
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4 has-text-black">{{ project.title }}</p>
-                    <p class="subtitle is-6 has-text-black">{{ project.subtitle }}</p>
-                  </div>
+                <div class="media-content">
+                  <p class="title is-4 has-text-black">{{ testimonial.name }}</p>
+                  <p class="subtitle is-6 has-text-black">{{ testimonial.position }}</p>
                 </div>
-                  <p class="subtitle bodytext is-size-5 is-size-6-mobile has-text-justified has-text-black">{{ project.blurb }}
-                  <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
-                  <div class="icon-text">
-                      <span class="icon has-text-info">
-                      <i class="fas fa-arrow-right"></i>
-                      </span>
-                      <span class="has-text-info">Case Study</span>
-                  </div></a>
-                  </p>
-              </div><!-- notification -->
+              </div><!-- media -->
+              <div class="subtitle bodytext is-size-5 is-size-6-mobile has-text-justified has-text-black">
+                {{ testimonial.text }}
+              </div>
+            </div><!-- notification -->
             {% endfor %}
-          </div><!-- card content -->  
-        </div><!-- column -->  
-      </div><!-- columns  -->
-    </div><!-- container  -->
+          </div><!-- card-content -->
+        </div><!-- what they say column -->
+      
+        <div class="column">
+          <div class="card-content">
+          <p class="title titled is-4 has-text-black has-text-centered">Delivered Projects</p>
+          {% for project in company[1].projects %}
+            <div class="notification has-background-white-bis">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-128x128">
+                    <img src="{{ site.data.technology[project.technology].card-image }}" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4 has-text-black">{{ project.title }}</p>
+                  <p class="subtitle is-6 has-text-black">{{ project.subtitle }}</p>
+                </div>
+              </div>
+                <p class="subtitle bodytext is-size-5 is-size-6-mobile has-text-justified has-text-black">{{ project.blurb }}
+                <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
+                <div class="icon-text">
+                    <span class="icon has-text-info">
+                    <i class="fas fa-arrow-right"></i>
+                    </span>
+                    <span class="has-text-info">Case Study</span>
+                </div></a>
+                </p>
+            </div><!-- notification -->
+          {% endfor %}
+        </div><!-- card content -->  
+      </div><!-- column -->  
+    </div><!-- columns  -->
   </div><!-- section  -->
 </div> 
 {% endfor %}       
-</body>

@@ -4,11 +4,11 @@ layout: default
 ---
 
 
-<div class="content">
-    <div class="section">
-        <div class="container">
-            <h1 class="title titled has-text-white">Technologies</h1>
-        </div>
+<div id="colored-dna-back" class="section">
+    <div class="container">
+        <h1 class="title titled is-1 is-size-2-mobile mb-2 has-text-centered has-text-white">Technologies</h1>
+    </div>
+</div>
         {% for row in (1..5) %}
         
         {% assign filtered = site.data.technology | where: 'row', row %}
@@ -16,7 +16,7 @@ layout: default
             {% for technology in filtered %}
             <a href="/technology/{{ technology.url}}/">
                 <div class="tile is-parent">
-                    <div class="tile is-child card">
+                    <div class="tile is-child card has-background-white-bis">
                         <div class="card-image">
                             <figure class="image">
                             <img src="{{ technology.card-image }}" alt="Placeholder image">
@@ -34,6 +34,3 @@ layout: default
             {% endfor %}
         </div>
         {% endfor %}
-        
-    </div>
-</div>
