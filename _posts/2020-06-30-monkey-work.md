@@ -4,7 +4,8 @@ title:  "The Machines are coming for your job! How to fight back."
 date:   2020-06-30
 excerpt: "Our only hope is to automate it first and become the master of these machines."
 description: "Our only hope is to automate it first and become the master of these machines."
-image: "/img/the-machines.jpg"
+image: "/img/posts/the-machines.jpg"
+headline: "By Andrew Holway - Darwinist Founder"
 show: true
 ---
 

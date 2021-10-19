@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Why Developers Should Embrace Productivity Engineering"
-date:   2020-1-15
+date:   2020-01-15
 excerpt: "It’s come time to face the facts: we’re living in a post-DevOps engineer world."
 description: "It’s come time to face the facts: we’re living in a post-DevOps engineer world."
-image: "/img/learning-child.png"
+image: "/img/posts/learning-child.png"
+headline: "By Andrew Holway - Darwinist Founder"
 show: true
 sitemap: true
 ---

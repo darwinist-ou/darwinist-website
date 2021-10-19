@@ -1,13 +1,10 @@
 ---
 layout: post
 permalink: /pairing-is-the-new-training/
-date: 2019-02-12 00:00:00
-blog_title: "Pairing is the New Training"
-blog_description: >-
-   Training is letting us down and it’s time for a new approach. Here's why development teams need to rethink traditional methods of knowledge sharing.
-blog_image: "/img/posts/pairing/Blog_pairing.png"
-image: "/img/posts/pairing/OG_pairing.png"
-headline: "By Andrew Holway - Otter Networks Founder - 12th February 2019"
+date: 2019-02-12 
+blog_image: "/img/posts/Blog_pairing.png"
+image: "/img/posts/OG_pairing.png"
+headline: "By Andrew Holway - Darwinist Founder"
 title: "Pairing is the New Training: Why Development Teams Need to Rethink Traditional Methods of Knowledge Sharing"
 description: >-
   Training is letting us down. It’s time for a new approach.

@@ -2,14 +2,14 @@
 layout: post
 title:  "Business Managed I.T. - How and Why"
 date:   2020-09-08
-excerpt: "Business departments have to improve their own technology game for better capabilities and a better relationship with central I.T."
 description: "Business departments have to improve their own technology game for better capabilities and a better relationship with central I.T."
-image: "/img/propeller-head.png"
+image: "/img/posts/propeller-head.png"
+headline: "By Andrew Holway - Darwinist Founder"
 sitemap: true
 show: true
 ---
 
-<span class="image right"><img src="{{ "/images/excel-stopped-working.png" | absolute_url }}" alt="" /></span>
+<span class="image right"><img src="{{ /images/excel-stopped-working.png | absolute_url }}" alt="" /></span>
 
 Many business teams are currently finding themselves at an impasse because of a flood of information and an over-centralisation of data control. Consider the average risk department for example. Expected to calculate complex actuarial positions on complex data sets, crippled by outmoded tools and processes. The business needs more complex reporting but IT cannot provide access to the data and tools because, really, no one knows what to ask for.
 

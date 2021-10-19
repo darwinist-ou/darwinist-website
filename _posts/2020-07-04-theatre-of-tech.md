@@ -4,7 +4,8 @@ title:  "The Theatre of Tech"
 date:   2020-06-30
 excerpt: "The worlds a stage - blah blah"
 description: "The worlds a stage - blah blah"
-image: "/img/ballet.jpg"
+headline: "By Andrew Holway - Darwinist Founder"
+image: "/img/posts/ballet.jpg"
 ---
 
 Theatrics is probably not a word that technologists want associated with their projects. There is a projection of steady development. A graceful swan making its way across the genteel lake. In reality tech is mostly some kind of improvised theatre. No one has a script, very few people have a clue and everyone is terrified of the reviews.

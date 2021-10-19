@@ -1,13 +1,10 @@
 ---
 layout: post
 permalink: /codefresh-partnership/
-date: 2019-02-01 00:00:00
-blog_title: "Welcoming the Post-DevOps Era: Codefresh and Otter Networks Announce Partnership"
-blog_description: >-
-  Two startups are coming together to introduce the ultimate toolkit for developer empowerment.
-blog_image: "/img/posts/codefresh-webinar/Blog_Webinar.svg"
-image: "/img/posts/codefresh-webinar/OG_Webinar.png"
-headline: "By Andrew Holway - Otter Networks Founder - 1st February 2019"
+date: 2019-02-01
+blog_image: "/img/posts/Blog_Webinar.svg"
+image: "/img/posts/OG_Webinar.png"
+headline: "By Andrew Holway - Darwinist Founder"
 title: "Welcoming the Post-DevOps Era: Codefresh and Otter Networks Announce Partnership"
 description: >-
   Two startups are coming together to introduce the ultimate toolkit for developer empowerment.

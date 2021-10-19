@@ -4,12 +4,13 @@ title:  "Training astronauts, not drillers"
 date:   2020-06-24
 excerpt: "It can be easier to teach a business domain expert to code than to teach a developer to grasp the business"
 description: "It can be easier to teach a business domain expert to code than to teach a developer to grasp the business"
-image: "/img/armageddon.png"
+image: "/img/posts/armageddon.png"
+headline: "By Andrew Holway - Darwinist Founder"
 show: true
 sitemap: true
 ---
 
-<span class="image right"><img src="{{ "/images/armageddon-still.jpg" | absolute_url }}" alt="" /></span>
+<span class="image right"><img src="{{ /images/armageddon-still.jpg | absolute_url }}" alt="" /></span>
 
 In the 1998 action movie Armageddon, the world’s best deep-sea oil-driller, Harry Stamper, (Bruce Willis) is taught, along with his team, how to become an astronaut. The plan is for him to drill a big hole in a giant asteroid so that it can be blown up by a nuclear bomb before it destroys the Earth. Makes perfect sense for a sci-fi drama, but - as Ben Affleck ventured to ask the director - Michael Bay - wouldn’t it have been easier to train the astronauts to drill holes?
 

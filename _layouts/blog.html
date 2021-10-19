@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<hr />
+<section class="hero is-halfheight has-background">
+    <img class="hero-background is-transparent" src="/img/blog-banner.jpg">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title titled is-size-1 has-text-white">Darwinist Blog</h1>
+            <p class="subtitle subtitled has-text-grey is-size-4">Take your knowledge further</p>
+        </div>
+    </div>
+</section>
+<hr />
+
+<section class="section">
+    <div class="columns is-multiline">
+        <div class="column is-8">
+            <div class="column is multiline">
+                {% for posts in site.posts %}
+                <div class="column is-12">
+                    <div class="card has-background-dark my-3">
+                        <div class="card-content">
+                            <div class="content has-text-centered">
+                                <a class="title titled is-size-4" href="{{ posts.url }}">{{ posts.title }}</a>
+                                <p></p>
+                                <p class="subtitled is-size-6">{{ posts.description }}</p>
+                                <p></p>
+                            </div>
+                            <div class="card-image my-3 ">
+                                <img src={{ posts.image }}>   
+                             </div>
+                            <p></p>
+                            <div class="has-text-centered">
+                                <a href="{{ posts.url }}" class="button is-fullwidth mt-3 is-warning has-text-black">Full Story</a>
+                            </div>
+                            <footer class="card-footer-item has-text-grey">By Andew Holway - Darwinist founder</footer>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="column is-4-desktop is-4-tablet">
+            <p class="title titled is-size-5 has-text-grey has-text-centered">Latest posts</p>
+            <hr />
+            <div class="columns is-multiline">
+                <div class="column is-12">
+                    <div class="card has-background-dark">
+                        <div class="card-image">
+                            <img src="..." alt="...">
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <a class="title is-size-5" href="...">title</a>
+                                <p></p>
+                                <p>description</p>
+                                <p></p>
+                            </div>
+                            <div class="has-text-centered">
+                                <a href="..." class="button is-warning">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

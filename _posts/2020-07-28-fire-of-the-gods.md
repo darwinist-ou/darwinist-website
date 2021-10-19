@@ -4,7 +4,8 @@ title:  "Git - The Fire of the Gods"
 date:   2020-07-28
 excerpt: "Git is ubiquitous in technology development - why is it so important?"
 description: "Git is ubiquitous in technology development - why is it so important?"
-image: "/img/prometheus_git.png"
+image: "/img/posts/prometheus_git.png"
+headline: "By Andrew Holway - Darwinist Founder"
 sitemap: true
 show: true
 ---
