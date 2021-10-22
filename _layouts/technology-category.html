@@ -2,14 +2,14 @@
 layout: default
 # tabs: example_tabs
 ---
-
-<section class="section mb-5 is-medium" id="colored-dna-back">
+<section class="section is-medium" id="colored-dna-back">
     <div class="container">
-        <h1 class="title titled is-size-1 is-size-2-mobile mb-2 has-text-centered has-text-white">Technologies</h1>
+        <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered has-text-white">Technologies</h1>
     </div>
 </section>
+<hr />
 
-<section class="mx-3">
+<section class="mx-3 py-5">
     {% for row in (1..5) %}
     
     {% assign filtered = site.data.technology | where: 'row', row %}
