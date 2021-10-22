@@ -1,168 +1,163 @@
 ---
 layout: default
-# tabs: example_tabs
-# show_sidebar: false
 ---
 
-<section id="colored-lines" class="hero">
-    <div class="hero-body">
-        <div class="columns  is-vcentered">
-          <div class="column">
-            <figure class="image">
-              <img src="{{ page.card-image }}">
-            </figure>
-          </div>
-          <div class="column">
-            <h1 class="title titled is-1 has-text-white">
-                {{ page.title }} Skill Sprints
-            </h1>
-            <h1 class="subtitle subtitled is-3 has-text-white">{{ page.slogan }}</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section is-small">
-    <div class="card has-background-white-bis card-equal-height">
-        <div class="columns">
-            <div class="column is-one-half">
-                <div class= "card-content">
-                  <p class="title has-text-black">{{ page.title }} - Tech Profile</p>
-                  <p class="subtitle has-text-black">{{ page.tech-card-info.type }}</p>
-                    {% for item in page.tech-card-info.benefits %}
-                    <div class="icon-text is-flex-wrap-nowrap">
-                        <span class="icon has-text-success">
-                        <i class="fas fa-check-square"></i>
-                        </span>
-                        <span class="has-text-black">{{ item }}</span>
-                    </div>
-                    {% endfor %}
-                    <a target="_blank" rel="noopener noreferrer" href="{{ page.tech-card-info.url }}">
-                    <div class="icon-text">
-                        <span class="icon has-text-info">
-                        <i class="fas fa-link"></i>
-                        </span>
-                        <span>{{ page.tech-card-info.url }}</span>
-                    </div></a>
-                </div>
-            </div>
-            <div class="column is-one-half">
-                <div class="card-content has-text-justified">
-                    {% for item in page.tech-card-info.blurb %}
-                    <div class=block>
-                      {% if item.subtitle != nil  %}
-                          <span class="icon-text has-text-info">
-                              <span class="icon">
-                              <i class="fas fa-sm fa-cog"></i>
-                              </span>
-                              <span class="subtitle has-text-black"">{{ item.subtitle }}</span>
-                          </span>
-                      {% endif %}
-                      <p class="has-text-black">{{ item.text }}</p>
-                    </div>
-                    {% endfor %}
-                </div>       
-            </div>
-        </div>
-    </div>
-  </section>
-  <section class="hero">
-    <div class="hero-body">
-        <div class="container">
-          <h2 class="title titled is-3 mb-7 has-text-white">What is a Skill Sprint?</h2>
-          <h2 class="subtitle subtitled is-4 has-text-grey">A Skill Sprint is a customised course intended to help a team get to grips with a new technology. Led by a subject expert, the participants are coached as they deliver on a real goal with the target technology.</h2>
-        </div>
-      </div> 
-  </section>
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns is-vcentered">
-          <div class="column">
-            <div class="content">
-                <h2 class="title titled is-3 mb-7 has-text-white">{{ page.lead }}</h2>
-                <h2 class="subtitle subtitled is-4 has-text-grey">{{ page.sub-lead }}</h2>
-            </div>
-
-                {% for item in page.features %}
-                <div class="content">
-                <div class="icon-text has-text-success is-flex-wrap-nowrap">
-                  <span class="icon">
-                    <i class="fas fa-check"></i>
-                  </span>
-                  <span class="content has-text-white">{{ item }}</span>
-                </div>
-                </div>
-                {% endfor %}
-            <div class="column is-vertical is-centered">
-              <a class="button titled is-info is-medium" href="https://darwinist.io/whitepaper.html">
-                <span>Request a prospect</span> 
-               </a>
-            </div>
-          </div>
-          <div class="column">
-            <figure class="image">
-              <img src="/img/graphics/33.svg">
-            </figure>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>  
-  <section class="section is-medium">
-      <h3 class="title titled is-2 has-text-white">Case studies</h3></div>
-    <div class="hero-body">
-      <div class="columns is-centered">
-        <div class="column is-1"></div>
-        <div class="column is-3 box">
-          <figure class="image is-256x256">
-            <img src="/img/case-studies/camping-info-logo.png">
-          </figure>
-          <p class="content subtitled  has-text-black has-text-centered is-size-6">
-            From an AWS disaster to GKE dream in a week
-          </p>
-        </div>
-        <div class="column is-1"></div>
-        <div class="column is-3 box">
-          <figure class="image is-256x256">
-            <img src="/img/case-studies/credimi-logo.png">
-          </figure>
-          <p class="content subtitled has-text-centered has-text-black is-size-6">
-              Fintech startup smashes DevOps with a skill sprint
-          </p>
-        </div>
-        <div class="column is-1"></div>
-        <div class="column is-3 box">
-          <figure class="image is-256x256 is-centered">
-            <img src="/img/case-studies/fti-group-logo.png">
-          </figure>
-          <p class="content subtitled  has-text-black has-text-centered is-size-6">
-              How a Devops Skill Sprint took FTI Group on a major leap forward
-          </p>
-        </div>
-        <div class="column is-1"></div>
-      </div>
-    </div>  
-  </section>
-  
-  <section class="section is-centered">
-    <div class="columns is-gapless">
-      <div class="column is-1"></div>
+<section id="colored-dna-back" class="hero">
+  <div class="hero-body">
+    <div class="columns  is-vcentered">
       <div class="column">
-        <h4 class="title titled is-1 has-text-white is-centered">Doesn't seem fit for you?</h4>
-        <p class="subtitle subtitled is-2 has-text-success">Check out our other option!</p>
-      </div>
-      <div class="column is-one-quarter">
-        <figure class="image is-256x256 is-centered">
-          <img src="/img/graphics/puzzle-pieces.svg">
+        <figure class="image">
+          <img src="{{ page.card-image }}">
         </figure>
       </div>
-      <div class="column is-1"></div>
-    </div>   
-  </section>
+      <div class="column">
+        <h1 class="title titled is-1 has-text-white">
+            {{ page.title }} Skill Sprints
+        </h1>
+        <h1 class="subtitle subtitled is-3 has-text-white">{{ page.slogan }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small">
+  <div class="card has-background-white-bis card-equal-height">
+    <div class="columns">
+      <div class="column">
+        <div class= "card-content">
+          <p class="title has-text-black">{{ page.title }} - Tech Profile</p>
+          <p class="subtitle has-text-black">{{ page.tech-card-info.type }}</p>
+            {% for item in page.tech-card-info.benefits %}
+            <div class="icon-text is-flex-wrap-nowrap">
+                <span class="icon has-text-success">
+                <i class="fas fa-check-square"></i>
+                </span>
+                <span class="has-text-black">{{ item }}</span>
+            </div>
+            {% endfor %}
+            <a target="_blank" rel="noopener noreferrer" href="{{ page.tech-card-info.url }}">
+            <div class="icon-text">
+                <span class="icon has-text-info">
+                <i class="fas fa-link"></i>
+                </span>
+                <span>{{ page.tech-card-info.url }}</span>
+            </div></a>
+        </div>
+      </div>
+      <div class="column is-one-half">
+        <div class="card-content has-text-justified">
+            {% for item in page.tech-card-info.blurb %}
+            <div class=block>
+              {% if item.subtitle != nil  %}
+                  <span class="icon-text has-text-info">
+                      <span class="icon">
+                      <i class="fas fa-sm fa-cog"></i>
+                      </span>
+                      <span class="subtitle has-text-black"">{{ item.subtitle }}</span>
+                  </span>
+              {% endif %}
+              <p class="has-text-black">{{ item.text }}</p>
+            </div>
+            {% endfor %}
+        </div>       
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr/>
+<section class="section">
+    <h2 class="title titled is-3 mb-7 has-text-white">What is a Skill Sprint?</h2>
+    <h2 class="subtitle subtitled is-4 has-text-grey-light">A Skill Sprint is a customised course intended to help a team get to grips with a new technology. Led by a subject expert, the participants are coached as they deliver on a real goal with the target technology.</h2>
+</section>
+<hr/>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="columns is-vcentered">
+      <div class="column">
+        <div class="content">
+            <h2 class="title titled is-3 mb-7 has-text-white">{{ page.lead }}</h2>
+            <h2 class="subtitle subtitled is-4 has-text-grey">{{ page.sub-lead }}</h2>
+        </div>
+
+        {% for item in page.features %}
+        <div class="content">
+        <div class="icon-text has-text-success is-flex-wrap-nowrap">
+          <span class="icon">
+            <i class="fas fa-check"></i>
+          </span>
+          <span class="content has-text-white">{{ item }}</span>
+        </div>
+        </div>
+        {% endfor %}
+        <div class="column is-vertical is-centered">
+          <a class="button titled is-info is-medium" href="https://darwinist.io/whitepaper.html">
+            <span>Request a prospect</span> 
+            </a>
+        </div>
+      </div>
+      <div class="column">
+        <figure class="image">
+          <img src="/img/graphics/33.svg">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>  
+
+<section class="section is-small">
+  <h3 class="title titled is-2 pb-5 has-text-white">Case studies</h3>
+  <div class="columns is-centered">
+    <div class="column is-1"></div>
+    <div class="column is-3 box">
+      <figure class="image is-256x256">
+        <img src="/img/case-studies/camping-info-logo.png">
+      </figure>
+      <p class="content subtitled  has-text-black has-text-centered is-size-6">
+        From an AWS disaster to GKE dream in a week
+      </p>
+    </div>
+    <div class="column is-1"></div>
+    <div class="column is-3 box">
+      <figure class="image is-256x256">
+        <img src="/img/case-studies/credimi-logo.png">
+      </figure>
+      <p class="content subtitled has-text-centered has-text-black is-size-6">
+          Fintech startup smashes DevOps with a skill sprint
+      </p>
+    </div>
+    <div class="column is-1"></div>
+    <div class="column is-3 box">
+      <figure class="image is-256x256 is-centered">
+        <img src="/img/case-studies/fti-group-logo.png">
+      </figure>
+      <p class="content subtitled  has-text-black has-text-centered is-size-6">
+          How a Devops Skill Sprint took FTI Group on a major leap forward
+      </p>
+    </div>
+    <div class="column is-1"></div>
+  </div>
+</section>
+
+<section class="section is-small py-6 is-centered">
+  <div class="columns is-gapless">
+    <div class="column is-1"></div>
+    <div class="column">
+      <h4 class="title titled is-1 has-text-white is-centered">Doesn't seem fit for you?</h4>
+      <p class="subtitle subtitled is-2 has-text-success">Check out our other option!</p>
+    </div>
+    <div class="column is-one-quarter">
+      <figure class="image is-256x256 is-centered">
+        <img src="/img/graphics/puzzle-pieces.svg">
+      </figure>
+    </div>
+    <div class="column is-1"></div>
+  </div>   
+</section>
 
 
 
 
 
-    
+  

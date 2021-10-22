@@ -1,38 +1,35 @@
 ---
 layout: default
 ---
-<section id="colored-lines" class="hero is-white is-fullweight">
-    <div class="hero-body ">
-      <div class="columns is-mobile is-three-quarter-mobile">
-        <div class="column">
-          <h1 class="title titled is-1 has-text-white has-text-right">
-          Case Study: {{ page.company }}
-          </h1>
-          <h1 class="subtitle subtitled has-text-right is-3 has-text-white">{{ page.subtitle }}</h1>
-        </div>
-      </div>
-        <div class="columns is-mobile is-vcentered">
-          <div class="column"></div>
-          {% for tech in page.technologies %}
-          <div class="column is-three-quarter-desktop">
-            <a href="/technology/{{ site.data.technology[tech].url }}">
-              <figure class="image">
-                <img src="{{ site.data.technology[tech].card-image }}">
-              </figure>
-            </a>
-          </div>
-          {% endfor %}
-        </div> 
-      </div>
+<section id="colored-dna-back" class="section">
+  <div class="columns is-mobile is-three-quarter-mobile">
+    <div class="column">
+      <h1 class="title titled is-1 has-text-white has-text-right">
+      Case Study: {{ page.company }}
+      </h1>
+      <h1 class="subtitle subtitled has-text-right is-3 has-text-white">{{ page.subtitle }}</h1>
     </div>
-  </section>
+  </div>
+    <div class="columns is-mobile is-vcentered">
+      <div class="column"></div>
+      {% for tech in page.technologies %}
+      <div class="column is-three-quarter-desktop">
+        <a href="/technology/{{ site.data.technology[tech].url }}">
+          <figure class="image">
+            <img src="{{ site.data.technology[tech].card-image }}">
+          </figure>
+        </a>
+      </div>
+      {% endfor %}
+    </div> 
+  </div>
+</section>
 
-<div class="content bodytext px-2 is-size- has-text-justified">
-    <div class="section">
-        <div class="container">
-        {{ content }}
-        </div>
+<div class="content">
+    <div class="container bodytext px-2 py-6 is-size-6 has-text-justified">
+      {{ content }}
     </div>
+  </div>
 </div>
 
 
