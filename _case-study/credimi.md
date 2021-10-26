@@ -9,8 +9,6 @@ technologies: [kubernetes, git]
 
 ## FinTech Startup Credimi Smashes DevOps with a Skill Sprint
 
-### The collaboration between Credimi and Otter Networks resulted in new infrastructure and best practices using Kubernetes and Codefresh. Because it’s not just about building – it’s about owning.
-
 From its inception, Italian-based digital lending platform, Credimi, had always looked to build a continuous integration pipeline. The B2B company aims to be the fastest, simplest and most transparent of its kind – a vision that CTO Edmondo Porcu has extended onto his development team.
 
 Credimi embraced microservices from Day 1, but it soon found that the management of all the architecture components was becoming increasingly complicated.
@@ -22,13 +20,13 @@ Porcu began looking for microservice architecture that was new and Docker-native
 Codefresh and Kubernetes brought opportunity for the Credimi development team, but several challenges still remained: 1) to set up the full pipeline enabled by these platforms, and 2) to bring knowledge to the development team that would allow it to unlock the full-featured potential of these technologies.
 
 ### Transforming potential value into tangible value
-Two of Porcu’s top engineers began working alongside Otter Networks in a one-week skill sprint to achieve these crucial steps of migration and knowledge transfer.
+Two of Porcu’s top engineers began worked with the Skill Sprint leader over one-week to achieve these crucial steps of migration and knowledge transfer.
 
 <p class="box has-background-dark">“Our participating engineers ended up having a much clearer understanding of the different features Kubernetes, and how they should use them to get the best value,” Porcu said.</p>
 
 That’s the very idea behind DevOps skill sprint methodology. Not only do developers get flexible new infrastructure, but they build it themselves, and truly own their full pipeline.
 
-<p class="box has-background-dark">“Our engineers worked with Otter Networks CEO and Sprint Leader, Andrew, who could guide their strategy and discuss it. They were able to validate what they thought they should be doing,” Porcu said. “Andrew was there to give help or provide quick scripts when necessary to avoid long processes. Our engineers didn’t spend precious time writing annoying scripts, and instead focused on the important work.”</p>
+<p class="box has-background-dark">“Our engineers worked with the Sprint Leader who could guide their strategy and discuss it. They were able to validate what they thought they should be doing,” Porcu said. “Andrew was there to give help or provide quick scripts when necessary to avoid long processes. Our engineers didn’t spend precious time writing annoying scripts, and instead focused on the important work.”</p>
 
 The skill sprint kept Credimi engineers in high gear for a full week, allowing them to migrate 10 of their most tightly coupled services into a continuous delivery pipeline. Through a pairing approach and exchange of tacit knowledge – or knowledge that is learned through repetition and quality social interaction – the team gained a firm grasp on how to build and operate their new infrastructure.
 

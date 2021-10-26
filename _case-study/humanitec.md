@@ -21,7 +21,7 @@ The result was a step in the right direction, but it still left a lot to be desi
 
 It was then that Lind turned to Google as a possible solution. His belief was that Kubernetes, with the right implementation, would work for his team. Lind approached Darwinist under these circumstances, and with the desire for an introduction to Kubernetes on Google.
 
-In a one week design sprint, Darwinist and two of Humanitec’s engineers completed a deep dive into the company’s CI/CD pipeline, kickstarted the implementation of Kubernetes on Google and began utilizing the infrastructure’s specific features. This collaboration with Otter brought Google cloud into the Humanitec development experience in both a practical and sustainable manner.
+In a one week design sprint, Darwinist and two of Humanitec’s engineers completed a deep dive into the company’s CI/CD pipeline, kickstarted the implementation of Kubernetes on Google and began utilizing the infrastructure’s specific features. This collaboration with Darwinist brought Google cloud into the Humanitec development experience in both a practical and sustainable manner.
 
 Moreover, the engineers’ initial expectations were surpassed after they gained new skills through the sprint. The two who participated in the sprint noted the action-oriented, engaging nature of the program, after which they felt better equipped to act on necessary changes.
 

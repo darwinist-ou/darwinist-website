@@ -75,3 +75,17 @@ page_gen:
   # filter: [property to filter data records by]
   # filter_condition: [a Ruby expression to filter data]
   debug: true
+- data: product
+  # template: technology
+  # dir: technology
+  index_files: true
+  url: url
+  name: name
+  # name_expr: [a Ruby expression to generate the filename (alternative to name)]
+  # title: title
+  # subtitle: scenario
+  # title_expr: [a Ruby expression to generate the filename (alternative to title)]
+  # extension: [extension used to generate the filename]
+  # filter: [property to filter data records by]
+  # filter_condition: [a Ruby expression to filter data]
+  debug: true
