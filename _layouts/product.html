@@ -2,22 +2,9 @@
 layout: default
 ---
 
-<section id="colored-dna-back" class="hero">
-  <div class="hero-body">
-    <div class="columns  is-vcentered">
-      <div class="column">
-        <figure class="image">
-          <img src="{{ page.card-image }}">
-        </figure>
-      </div>
-      <div class="column">
-        <h1 class="title titled is-1 has-text-white">
-            {{ page.title }}
-        </h1>
-        <h1 class="subtitle subtitled is-3 has-text-white">{{ page.slogan }}</h1>
-      </div>
-    </div>
-  </div>
+<section class="section is-medium" id="colored-dna-back">
+  <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered has-text-white">{{ page.title }}</h1>
+  <h1 class="subtitle subtitled is-3 has-text-centered has-text-white">{{ page.subtitle }}</h1>
 </section>
 
 <section class="section">
@@ -30,8 +17,13 @@ layout: default
   <div class="card has-background-white-bis block">
     {% for benefit in page.benefits %}
     <div class="card-content">
-        <p class="title has-text-black">{{benefit.title}}</p>
-        <p class="subtitle has-text-black">{{benefit.text}}</p>
+      <div class="icon-text is-flex-wrap-nowrap block">
+        <span class="icon has-text-success ">
+        <i class="fas fa-3x fa-check-square"></i>
+        </span>
+        <span class="titled is-size-3 has-text-black ml-3">{{benefit.title}}</span>
+      </div>
+      <p class="subtitle has-text-black">{{benefit.text}}</p>
     </div>
     {% endfor %}
   </div>
