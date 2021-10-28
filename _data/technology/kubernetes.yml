@@ -4,7 +4,7 @@ column: 2
 card-image: /img/technologies/kubernetes-card.png
 url: kubernetes
 name: Kubernetes
-slogan: We help you retool with Kubernetes
+slogan: We help you retool with Kubernetes.
 lead: Refactor your CI/CD pipelines and get control of DevOps with a Kubernetes Skill Sprint
 sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
 scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
