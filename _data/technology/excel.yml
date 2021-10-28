@@ -1,47 +1,33 @@
 ---
-meow: fuck
 row: 4
 column: 2
-style: is-light
-height: is-medium
 card-image: /img/technologies/excel-card.png
 url: microsoft-excel
 name: Microsoft Excel
 scenario: Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS.
-problem:
-  description:
-    - subtitle: Engineering the cloud
-      text: Efficiently getting to grips with Amazon Web Services can be extremely challenging. 
-    - text: As a massive corporation with often cross competing unsynchronised interests - the sheer volume of services available from AWS is bewildering.  
-    - text: AWS follows the internal open market strategy which causes pain, confusion and sometimes substandard implementation.
-    - text: However it's is also incredibly powerful. Like all powerful tools you must watch your fingers.
-    - text: Teams that choose to outsource control of their cloud consumption are often hamstrung by lockin to sub-standard proprietary services.
-    - subtitle: Infrastructure as Code 
-      text: Teams need to choose the right set of tools to configure their cloud to ensure changes are effectively controlled.
-  type: is-success
-  icon: fa-atom
-  media: text
+slogan: The strength and weaknesses of Excel, and how data democratization is the next step for your business.
+lead: Unlock access to larger, more complex data sets
+sub-lead: Discover complementary and alternative tools to Excel
+features:
+  - Learn the structure and nature of your data
+  - Find, trust and understand your data more easily
+  - Fuel data-driven decision-making
+  - Increase the impact of analytics
 
-solution:
-  description:
-    - subtitle: Skill Sprint
-      text: The AWS Skill Sprint is designed to help teams of people leverage cloud computing in AWS. 
-    - text: During the Skill Sprint participants will be guided and coached through the deployment of data and services on AWS. 
-    - subtitle: Web Services
-      text: Development teams are able to collaborate together extremely efficiently over very complex work. Git is the pinnacle of collaboration tools.
-    - subtitle: Visibility
-      text: With work checked into a repository it is much easier to see who is working on what.
-  type: is-link
-  icon: fa-atom
-  media: text
-
-tech:
-  description: Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide a variety of basic abstract technical infrastructure and distributed computing building blocks and tools.
-  name: AWS
-  type: Cloud Computing Platform
-  url: https://aws.amazon.com/
+tech-card-info:
+  name: Microsoft Excel
+  type: Spreadsheet
+  url: https://www.microsoft.com/en-us/microsoft-365/excel
+  description: Excel is...
   benefits:
-    - Scalable compute platform
-    - Flexible
-    - Global
-    - Very Reliable
+    - Easy to learn
+    - Ubiquitous
+    - Good for small, simple data sets
+    
+  blurb:
+      - text: |
+          Created in 1987, Microsoft Excel is part of the Microsoft Office suite and has become the industry standard for spreadsheets.  
+      - text: |
+          Within business environment, Excel users are fed data extracted from databases by the IT department. The process of extracting the data flatens it, removing one or more dimensions which gives business people a skewed view of the situation.
+      - text: |
+          Excel has hard limits on the size and complexity of data it can handle. Understanding these limitations will allow you to choose better alternatives for your business.
