@@ -4,14 +4,14 @@ column: 2
 card-image: /img/technologies/kubernetes-card.png
 url: kubernetes
 name: Kubernetes
-slogan: Reduced Costs. Better infrastructure. No strings attached.
-lead: Take control of DevOps and CI/CD with a Kubernetes Skill Sprint
+slogan: We help you retool with Kubernetes
+lead: Refactor your CI/CD pipelines and get control of DevOps with a Kubernetes Skill Sprint
 sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
 scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
 features:
-  - The Kubernetes Skill Sprint coaches a development team to take control of CI/CD and deployments to Kubernetes.
+  - The Kubernetes Skill Sprint helps a development team refactor their deployments to Kubernetes.
   - Learn how to leverage Kubernetes directly. Get complete control of your software lifecycle.
-  - Teams take independent control of their deployments without having to rely on further external help.
+  - Teams take independent control of their DevOps without having to rely on further external help.
 tech-card-info:
   name: Kubernetes
   type: Container Orchestration System
@@ -25,6 +25,6 @@ tech-card-info:
     - text: |
         Kubernetes is a relatively new open-source container-orchestration system for automating computer application deployment, scaling, and management.
     - text: |
-        Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task typically requiring a dedicated teams of DevOps engineers.
+        Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task typically requiring a dedicated teams of DevOps engineers. Today Developers can handle their own DevOps without dependencies.
     - text: |
         Today Kubernetes is offered by all the major cloud providers. It can enable dev teams to independently own DevOps negating the need for dedicated DevOps teams.
