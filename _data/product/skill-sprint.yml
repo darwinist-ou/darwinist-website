@@ -2,9 +2,11 @@ name: Skill Sprint
 title: Skill Sprints
 subtitle: The Third Way
 blurb:
-  - Short, focussed events enabling participants to design and execute a minimal scope, technology centric transformation under the guidance on an expert.
-  - Skill Sprints address the fundamental weaknesses with technical training and consultancy. The approach weaves elements of training and consulting with Agile principles.
-
+  - Skill Sprints blend elements of consultancy, training and agile. A small group of participants designs and executes a minimal scope, technology centric transformation
+  - A Standardized solution is developed into a syllabus. Participants are encouraged to adapt the solution during the delivery process.
+  - Their compact nature reduces risk and allows everyone to clearly see the inputs and outputs. 
+  - Skill Sprints address the fundamental weaknesses with technical training and consultancy. 
+  - They deliver a tried and tested solution whilst up-skilling and enabling the participants.
 benefits:
   - title: Deliverable
     text: "Participants will deliver a product useful to their organization. A process automated, redeveloped or transformed: a direct, measurable ROI."
@@ -23,4 +25,4 @@ benefits:
   - title: Transformational
     text: Skill Sprints enable the participants to drive a transformation under the guidance of a subject expert.
   - title: Independent
-    text: Skill sprints set teams up with the target technology. Our clients leave the Skill Sprint in a sustainable position, able to stand freely without depending on us.
+    text: Skill sprints set teams up with the target technology. Our clients finish the Skill Sprint in a sustainable position, able to stand freely without depending on us.
