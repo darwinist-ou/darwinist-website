@@ -9,7 +9,7 @@ layout: default
 
 <section class="section">
   <div class="columns">
-    <div class="column">
+    <div class="column is-6">
       <div class="block mb-6">
          <span class="icon-text is-flex-wrap-nowrap block is-size-2 is-size-4-mobile">
             <span class="icon has-text-danger">
@@ -37,11 +37,14 @@ layout: default
         </span>
         <h1 class="subtitle subtitled has-text-white">Real change delivered by <i>your</i> staff with <i>our</i> guidance.</h1>
       </div>
-      <div class="column">
-      {% for blurb in page.blurb %}
-        <h1 class="subtitle subtitled has-text-white">{{ blurb }}</h1>
-      {% endfor %}
-      </div>
+    </div>
+
+    <div class="column is-6">
+    {% for blurb in page.blurb %}
+      <h1 class="subtitle subtitled has-text-white">{{ blurb }}</h1>
+    {% endfor %}
+    </div>
+
     </div>
   </div>
 </section>
