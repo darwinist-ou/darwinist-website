@@ -31,13 +31,6 @@
   background-size: cover;
 }
 
-#review-banner {
-  background: url(/img/typing-machine.jpg);
-  background-position: center;
-  background-size: cover;
-  opacity: 0.3;
-}
-
 .hero.has-background {
   position: relative;
   overflow: hidden;
