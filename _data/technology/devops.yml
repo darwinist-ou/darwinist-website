@@ -6,28 +6,27 @@ url: devops
 name: Devops
 slogan: Devops is the automation of application deployment and monitoring.
 scenario: Devops is the automation of cloud resources and application deployments.
-lead: Take control of your Data
-sub-lead: Learn how to write versatile and powerful programs in Python
+lead: Take control of your Deployments
+sub-lead: Learn how to set up CI/CD pipelines and cloud deployments
 features:
-  - Foo
-  - Bar
-  - Neque porro quisquam est qui dolorem ipsum
+  - Learn how to automate application deployments
+  - Set up monitoring and alerting
 
 tech-card-info:
-  name: Python
-  type: Programming Language
-  url: https://www.python.org/
-  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aim to help programmers write clear, logical code for small and large-scale projects.
+  name: DevOps
+  type: Automation
+  url: https://en.wikipedia.org/wiki/DevOps
+  description: DevOps is the automation of application deployment testing and monitoring.
   benefits:
-    - Easy to Read, Learn and Write.
-    - Free and Open-Source.
-    - Fantastic data science tools
-    - Fast to develop
+    - Continuous Integration
+    - Continuous Deployment
+    - Better developer productivity
+    - Better reliability
   blurb:
       - text: |
           DevOps is the process of configuring cloud resources and automating the deployment of applications. 
       - text: |
           Because of the relatively high complexity and poor integration of cloud compute platforms like AWS the customer must invest in their own automation to consume the service. This automation is commonly described as DevOps.
       - text: |
-          Platforms like Kubernetes have hugely decreased the amount of DevOps work to do by automating away most of the hard bits. 
+          Platforms like Kubernetes have hugely decreased the amount of DevOps work to do by automating away most of the hard bits.
 

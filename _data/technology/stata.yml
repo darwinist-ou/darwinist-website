@@ -8,40 +8,27 @@ card-image: /img/technologies/stata-card.png
 url: stata
 name: Stata
 scenario: Stata is a general-purpose statistical software package developed by StataCorp for data manipulation, visualization, statistics, and automated reporting.
-problem:
-  description:
-    - subtitle: Engineering the cloud
-      text: Efficiently getting to grips with Amazon Web Services can be extremely challenging. 
-    - text: As a massive corporation with often cross competing unsynchronised interests - the sheer volume of services available from AWS is bewildering.  
-    - text: AWS follows the internal open market strategy which causes pain, confusion and sometimes substandard implementation.
-    - text: However it's is also incredibly powerful. Like all powerful tools you must watch your fingers.
-    - text: Teams that choose to outsource control of their cloud consumption are often hamstrung by lockin to sub-standard proprietary services.
-    - subtitle: Infrastructure as Code 
-      text: Teams need to choose the right set of tools to configure their cloud to ensure changes are effectively controlled.
-  type: is-success
-  icon: fa-atom
-  media: text
-
-solution:
-  description:
-    - subtitle: Skill Sprint
-      text: The AWS Skill Sprint is designed to help teams of people leverage cloud computing in AWS. 
-    - text: During the Skill Sprint participants will be guided and coached through the deployment of data and services on AWS. 
-    - subtitle: Web Services
-      text: Development teams are able to collaborate together extremely efficiently over very complex work. Git is the pinnacle of collaboration tools.
-    - subtitle: Visibility
-      text: With work checked into a repository it is much easier to see who is working on what.
-  type: is-link
-  icon: fa-atom
-  media: text
-
-tech:
-  description: Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide a variety of basic abstract technical infrastructure and distributed computing building blocks and tools.
-  name: AWS
-  type: Cloud Computing Platform
-  url: https://aws.amazon.com/
+slogan: The strength and weaknesses of Stata, and how learning code is the next step for your business.
+lead: Unlock access to more powerful statistical tools and large data sets
+sub-lead: Discover complementary and alternative tools to Stata
+tech-card-info:
+  name: Stata
+  type: Statistical software
+  url: https://www.microsoft.com/en-us/microsoft-365/excel
+  description: Excel is...
   benefits:
-    - Scalable compute platform
-    - Flexible
-    - Global
-    - Very Reliable
+    - Accessible GUI
+    - Online help system
+    - Standard and advanced statistical tools
+  blurb:
+      - text: |
+          Created in 1985, Stata is a software that is built to handle statistics from the ground up. It comes with a lot of documentation and there are numerous tutorials to learn how to use it properly.
+      - text: |
+          It is not, however, free. It is a proprietary software with its own internal logic, unrelated to the rest of the computer science world. Which means that the knowledge you acquire when learning to use it is not transferable.
+      - text: |
+          Compare that to a programming language like Python, which is easy to learn, open-source and modular, and you will understand why learning even the most basic Python could be a positive game changer for you.
+features:
+  - Get rid of matrix size limitations 
+  - Create beautiful graphics of your data
+  - Easier webscraping and numerical analysis
+  - Easily customize your own functions
