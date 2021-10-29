@@ -4,38 +4,33 @@ column: 1
 card-image: /img/technologies/access-card.png
 url: microsoft-access
 name: Microsoft Access
-slogan: Create your own database apps easily in formats that serve your business best.
-lead: Create and share apps without being a developer
-sub-lead: Customize apps to grow with your business with a Microsoft Access Skill Sprint
+slogan: The strength and weaknesses of Access, and how discovering alternatives to it means simplifying your life.
+lead: Simplify your life by learning the modern way of doing databases
+sub-lead: Easier, faster and safer access to your business' data
 scenario: Microsoft Access is a database management system from Microsoft that combines the relational Microsoft Jet Database Engine with a graphical user interface and software-development tools.
 features:
-  - Learn how to set up Microsoft Access databases 
-  - With its rich and intuitive design tools, Access can help you create appealing and highly functional applications in a minimal amount of time.
-  - Tailor your custom apps to your business and your customers, easily editing as needed to meet evolving needs.
+  - Improved user experience
+  - Virtually unlimited database complexity
+  - Better compliance with security protocols
 
 tech-card-info:
   name: Microsoft Access
   type: Relational Database
   url: https://www.microsoft.com/access
   benefits:
-    - Cost-Effective Database Solution
-    - Easy-To-Use System For Business Application
-    - Data Integration From Multiple Sources
-    - Integrated With Other MS Office Programs
-    - App Customization
+    - Cost-Effective solution
+    - Easy to learn and easy to use
+    - Ubiquitous
   blurb:
     - text: |
-        Access is an easy-to-use tool for creating business applications, from templates or from scratch. 
+        Access is a database management system (DBMS) first created in 1992. It is an easy-to-use tool for creating highly functional business applications, from templates or from scratch, in no time. 
     - text: |
-        With its rich and intuitive design tools, Access can help you create appealing and highly functional applications in a minimal amount of time.
+        It is, however, severely limited compared to modern DBMS. The main limitations stem from its single file system: all data is stored in a single file with a finite size limit. Reaching it leads to lower performances.
     - text: |
-        Tailor your custom apps to your business and your customers, easily editing as needed to meet evolving needs.
+        This also means difficult integration of multimedia data, which tends to be voluminous, as well as severe limitations on the number of users who can access the database simultaneously.
 
 solution:
     description: 
       - text: The Microsoft Access Skill Sprint enables a team how to create and develop Microsoft Access Databases. 
       - text: Participants will learn how to integrate data from other sources and create reports.
       - text: Skill Sprints help teams master technology for their own benefit.
-
-
-
