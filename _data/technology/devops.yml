@@ -18,7 +18,7 @@ tech-card-info:
   name: DevOps
   type: Automation
   url: https://en.wikipedia.org/wiki/DevOps
-  description: DevOps is the automation of application deployment, testing and monitoring.
+  description: DevOps is the automation of application deployment, testing and monitoring
   benefits:
     - Continuous integration/deployment
     - Better collaboration

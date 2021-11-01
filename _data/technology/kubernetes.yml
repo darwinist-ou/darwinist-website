@@ -9,16 +9,16 @@ lead: Retool with Kubernetes and get control of DevOps
 sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
 scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers it streamlines the software dev process. 
 features:
-  - The Kubernetes Skill Sprint helps a development team refactor their deployments to Kubernetes.
-  - Learn how to leverage Kubernetes directly. Get complete control of your software lifecycle.
-  - Teams take independent control of their DevOps without having to rely on further external help.
+  - The Kubernetes Skill Sprint helps a development team refactor their deployments to Kubernetes
+  - Learn how to leverage Kubernetes directly and get complete control of your software lifecycle
+  - Teams take independent control of their DevOps without having to rely on further external help
 tech-card-info:
   name: Kubernetes
   type: Container Orchestration System
   url: https://kubernetes.io/
   benefits:
-    - Open Source and ubiquitous
-    - Fully Automated application management
+    - Open-source and ubiquitous
+    - Fully automated application management
     - Horizontally scaling
     - Self-healing
   blurb:
@@ -27,4 +27,4 @@ tech-card-info:
     - text: |
         Prior to Kubernetes the management of application deployment and lifecycle was a quite arduous task typically requiring a dedicated teams of DevOps engineers. Today Developers can handle their own DevOps without dependencies.
     - text: |
-        Today Kubernetes is offered by all the major cloud providers. It can enable dev teams to independently own DevOps negating the need for dedicated DevOps teams.
+        Today, Kubernetes is offered by all the major cloud providers. It can enable dev teams to independently own DevOps negating the need for dedicated DevOps teams.
