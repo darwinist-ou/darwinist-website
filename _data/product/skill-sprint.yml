@@ -7,7 +7,8 @@ blurb:
   - Their compact nature reduces risk and allows everyone to clearly see the inputs and outputs. 
   - Skill Sprints address the fundamental weaknesses with technical training and consultancy. 
   - They deliver a tried and tested solution whilst up-skilling and enabling the participants.
-benefits:
+
+features:
   - title: Deliverable
     text: "Participants will deliver a product useful to their organization. A process automated, redeveloped or transformed: a direct, measurable ROI."
   - title: Educational
@@ -21,7 +22,7 @@ benefits:
   - title: Standardized
     text: Skill Sprints starts with a tried and tested standardized set of best practices.
   - title: Customizable
-    text: From this pattern, a simple, customised solution is tailored to our client and delivered by the participants.
+    text: From this pattern, a simple, customized solution is tailored to our client and delivered by the participants.
   - title: Transformational
     text: Skill Sprints enable the participants to drive a transformation under the guidance of a subject expert.
   - title: Independent

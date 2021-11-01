@@ -2,11 +2,11 @@
 layout: case-study
 company: Globalsoft d.o.o
 logo: /img/companies/globalsoft-logo.png
-subtitle: Re-engineering key technologies with a Skill Sprint
+subtitle: Re-engineering key technologies with Skill Sprints
 technologies: [kubernetes, elastic, golang, postgres]
 ---
 
-## Globalsoft re-engineers and refactors consumption of key technologies with Skill Sprint from Darwinist
+## Globalsoft re-engineers and refactors consumption of key technologies with Skill Sprints from Darwinist
 
 Globalsoft is a software development company based near Mostar in Bosnia and Herzegovina. With a staff of around 15 engineers Globalsoft undertakes software engineering work for customers around the world. With the IT market in BiH rapidly heating up GlobalSoft CEO, Drago Ćorić has to work hard to build and maintain skills in his company.
 
