@@ -4,29 +4,30 @@ column: 2
 card-image: /img/technologies/devops-card.png
 url: devops
 name: Devops
-slogan: Devops is the automation of application deployment and monitoring.
+slogan: Devops is the automation of application deployment, testing and monitoring.
 scenario: Devops is the automation of cloud resources and application deployments.
-lead: Take control of your Deployments
-sub-lead: Learn how to set up CI/CD pipelines and cloud deployments
+lead: Learn how to set up CI/CD pipelines and cloud deployments
+sub-lead: Retool DevOps and put developers in the driving seat
 features:
-  - Learn how to automate application deployments
+  - Automate application deployment
   - Set up monitoring and alerting
+  - Shorten your time to market
+  - Save time and focus on improving the business
 
 tech-card-info:
   name: DevOps
   type: Automation
   url: https://en.wikipedia.org/wiki/DevOps
-  description: DevOps is the automation of application deployment testing and monitoring.
+  description: DevOps is the automation of application deployment, testing and monitoring.
   benefits:
-    - Continuous Integration
-    - Continuous Deployment
+    - Continuous integration/deployment
+    - Better collaboration
     - Better developer productivity
     - Better reliability
   blurb:
       - text: |
-          DevOps is the process of configuring cloud resources and automating the deployment of applications. 
+          DevOps is the integration of system administration tasks into software development practice. Platforms like Kubernetes solve the hard parts which greatly decreases the amount of work.
       - text: |
-          Because of the relatively high complexity and poor integration of cloud compute platforms like AWS the customer must invest in their own automation to consume the service. This automation is commonly described as DevOps.
+          Today, the majority of DevOps can be handled by development teams without external support or specialist roles. 
       - text: |
-          Platforms like Kubernetes have hugely decreased the amount of DevOps work to do by automating away most of the hard bits.
-
+          Good quality, developer-owned DevOps improves transparency, communication and collaboration.
