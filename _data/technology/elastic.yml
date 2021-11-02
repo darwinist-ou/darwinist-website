@@ -4,29 +4,32 @@ column: 3
 card-image: /img/technologies/elastic-card.png
 url: elasticsearch
 name: Elasticsearch
-scenario: Elasticsearch is a distributed, free and open search and analytics engine for all types of data, including textual, numerical, geospatial, structured, and unstructured.
+slogan: Retool with Elasticsearch.
+lead: Retool with Elasticsearch and get control of search
+sub-lead: Get best practices and direct hands on experience
+scenario: Elasticsearch is a distributed, free and open search and analytics engine for all types of data, including textual, numerical and geospatial.
 
 features:
-  - The Elasticsearch Skill Sprint is designed to help teams of people leverage the popular search technology. 
-  - During the participants will be guided and coached through the architecture and consumption of elasticsearch. 
-  - Efficiently getting to grips with Elasticsearch can be somewhat challenging. We help you past the steep learning curve.
+  - Structure, Query and analyze your data
+  - Get insight into your logs and APM
+  - Detect trends and anomalies
+  - Access metrics and forecast accordingly
 
 tech-card-info:
   name: Elasticsearch
   type: Document Database
   url: https://www.elastic.co/
   benefits:
-    - Application search
-    - Website search
-    - Enterprise search
-    - Logging and log analytics
-    - Infrastructure metrics and container monitoring
-    - Application performance monitoring
-    - Geospatial data analysis and visualization
-    - Security analytics
-    - Business analytics
+    - Free and open-source core products
+    - Easy to use
+    - Highly scalable
+    - Effortlessly handles large volumes
+    - Takes data from any source
+  
   blurb:
     - text: |
-        Elasticsearch is a distributed, free and open search and analytics engine for all types of data, including textual, numerical, geospatial, structured, and unstructured.
+        Released in 2010, Elasticsearch is a cross-platform, distributed, open-source search and analytics engine. Companies such as Ebay, Netflix and Walmart all use Elasticsearch.
     - text: |
-        Elasticsearch can analyze billions of records in few seconds and provides aggregations which can explore trends and patterns in your data.
+        Its power resides in its simplicity of use and multiplicity of data it can accept, including textual, numerical and geospatial.
+    - text: |
+        Elasticsearch can analyze billions of records in few seconds and provides aggregations which can explore patterns in your data.
