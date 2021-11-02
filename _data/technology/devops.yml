@@ -4,31 +4,29 @@ column: 2
 card-image: /img/technologies/devops-card.png
 url: devops
 name: Devops
-slogan: Devops is the automation of application deployment, testing and monitoring.
+slogan: Devops is the automation of application deployment and monitoring.
 scenario: Devops is the automation of cloud resources and application deployments.
-lead: Learn how to set up CI/CD pipelines and cloud deployments
-sub-lead: Collaborate, automate, innovate
+lead: Take control of your Deployments
+sub-lead: Learn how to set up CI/CD pipelines and cloud deployments
 features:
-  - Automate application deployment
+  - Learn how to automate application deployments
   - Set up monitoring and alerting
-  - Shorten your time to market
-  - Save time and focus on improving the business
 
 tech-card-info:
   name: DevOps
   type: Automation
   url: https://en.wikipedia.org/wiki/DevOps
-  description: DevOps is the automation of application deployment, testing and monitoring
+  description: DevOps is the automation of application deployment testing and monitoring.
   benefits:
-    - Continuous integration/deployment
-    - Better collaboration
+    - Continuous Integration
+    - Continuous Deployment
     - Better developer productivity
     - Better reliability
   blurb:
       - text: |
-          DevOps is a set of principles that integrates software developers (Dev) and IT operations teams (Ops) in order to improve collaboration and productivity by automating infrastructure and workflows, and testing. 
+          DevOps is the process of configuring cloud resources and automating the deployment of applications. 
       - text: |
-          Because of the relatively high complexity and poor integration of cloud compute platforms like AWS, our clients must invest in automation in order to consume these services.
+          Because of the relatively high complexity and poor integration of cloud compute platforms like AWS the customer must invest in their own automation to consume the service. This automation is commonly described as DevOps.
       - text: |
-          Platforms like Kubernetes have greatly decreased the amount of DevOps work needed by automating away of the hard steps.
+          Platforms like Kubernetes have hugely decreased the amount of DevOps work to do by automating away most of the hard bits.
 
