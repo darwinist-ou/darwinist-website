@@ -1,3 +1,22 @@
 ---
 layout: default
 ---
+<hr />
+    <section class="section is-medium">
+        <h1 class="title titled is-size-1 is-size-3-mobile has-text-centered">{{ page.title}}</h1>
+        <br />
+        <h2 class="subtitle subtitled is-size-4 is-size-6-mobile has-text-centered">{{ page.description}}</h2>
+    </section>
+<hr />
+<section class="section">
+    <article class="post">
+
+        <div class="post-content bodytext is-size-5 is-size-6-mobile has-text-justified">
+            {{ content }}
+        </div>
+        <br />
+        <div class="subtitle subtitled is-size-5 has-text-right has-text-grey">
+            {{ page.headline }}
+        </div>
+    </article>
+</section>
