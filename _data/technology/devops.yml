@@ -7,7 +7,7 @@ name: Devops
 slogan: Devops is the automation of application deployment, testing and monitoring.
 scenario: Devops is the automation of cloud resources and application deployments.
 lead: Learn how to set up CI/CD pipelines and cloud deployments
-sub-lead: Collaborate, automate, innovate
+sub-lead: Retool DevOps and put developers in the driving seat
 features:
   - Automate application deployment
   - Set up monitoring and alerting
@@ -26,9 +26,8 @@ tech-card-info:
     - Better reliability
   blurb:
       - text: |
-          DevOps is a set of principles that integrates software developers (Dev) and IT operations teams (Ops) in order to improve collaboration and productivity by automating infrastructure and workflows, and testing. 
+          DevOps is the integration of system administration tasks into software development practice. Platforms like Kubernetes solve the hard parts which greatly decreases the amount of work.
       - text: |
-          Because of the relatively high complexity and poor integration of cloud compute platforms like AWS, our clients must invest in automation in order to consume these services.
+          Today, the majority of DevOps can be handled by development teams without external support or specialist roles. 
       - text: |
-          Platforms like Kubernetes have greatly decreased the amount of DevOps work needed by automating away of the hard steps.
-
+          Good quality, developer-owned DevOps improves transparency, communication and collaboration.
