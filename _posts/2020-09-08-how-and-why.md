@@ -27,5 +27,5 @@ Skill Sprints have been very successful for me. My relationships with my clients
 {:.block}
 Technical knowledge is _“tacit knowledge”_, meaning that in order to learn it, the student needs to have hands-on experience closely guided with expert tuition. Effective learning is built on top of our existing understanding and knowledge. Training, either online or on-site, does not provide support to implement the learnings back to your business. Traditional consultants deliver PowerPoints with recommendations and theory with little thought of a didactic approach.
 
-{:.block .box .has-text-warning .has-background-dark}
+{:.block .box .has-background-grey-lighter}
 _Skill Sprints are low risk, one or two week, intense “micro-transformation” projects. Side by side with your staff, we provide on-site guidance and experiential learning by helping them directly deliver something. During the Skill Sprint a tangible value must be created ensuring the output is applied and transformative. Skill Sprints guarantee the participants have all necessary support and timely feedback enabling them to deliver results that are measurable, specific and visible._
