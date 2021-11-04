@@ -2,7 +2,7 @@
 layout: case-study
 company: Access Holding
 logo: /img/companies/access-holding-logo.png
-subtitle: Orginizing the workflow on a multinational level
+subtitle: Organizing workflows on a multinational level
 technologies: [python, git, sql-server]
 ---
 
