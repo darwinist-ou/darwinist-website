@@ -17,7 +17,7 @@ tech-card-info:
   name: Python
   type: Programming Language
   url: https://golang.org/
-  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aim to help programmers write clear, logical code for small and large-scale projects.
+  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aims to help programmers write clear, logical code for small and large-scale projects.
   benefits:
     - Open-source
     - Easy to learn
@@ -28,6 +28,6 @@ tech-card-info:
       - text: |
           Released by Google in 2012, Golang is an open-source, high performance programming language born out of a dislike of C++.
       - text: |
-          Go is a powerful, concurrent language ideal for microservices. 
+          Go is a powerful, concurrent language ideal for web servers and microservices. 
       - text: |
           Golang is also used to build scalable cloud computing systems. Docker and Kubernetes are good examples of where Go has been used in cloud computing.
