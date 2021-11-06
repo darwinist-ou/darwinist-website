@@ -10,24 +10,33 @@ lead:
 
 features-1:
   - title: Deliverable
+    icon: fa-laptop-code
     text: "Participants will deliver a product useful to their organization. A process automated, redeveloped or transformed: a direct, measurable ROI."
   - title: Educational
+    icon: fa-graduation-cap
     text: "Technology topics are particularly tricky to learn, requiring a special hands-on approach: Skill Sprints use advanced didactic techniques to teach technology quickly and efficiently."
   - title: Intimate
+    icon: fa-user-friends
     text: Skill Sprints are designed for a small number of participants. That way, each participant receives quality instruction and has a direct hand in the outcome.
 
 features-2:
   - title: Compact
+    icon: fa-box
     text: Skill Sprints are short, intense procedures. By keeping them succinct we ensure the scope is manageable, well defined and to the point.
-  - title: Participant owned
-    text: "The expert solely guides the participants in delivering: the design and outcome of Skill Sprints is owned by the participants themselves."
   - title: Standardized
+    icon: fa-sitemap
     text: Skill Sprints starts with a tried and tested standardized set of best practices.
+  - title: Customizable
+    icon: fa-pencil-ruler
+    text: From this pattern, a simple, customized solution is tailored to our client and delivered by the participants.
 
 features-3: 
-  - title: Customizable
-    text: From this pattern, a simple, customized solution is tailored to our client and delivered by the participants.
+  - title: Participant owned
+    icon: fa-people-carry
+    text: "The expert solely guides the participants in delivering: the design and outcome of Skill Sprints is owned by the participants themselves."
   - title: Transformational
+    icon: fa-magic
     text: Skill Sprints enable the participants to drive a transformation under the guidance of a subject expert.
   - title: Independent
+    icon: fa-fist-raised
     text: Skill sprints set teams up with the target technology. Our clients finish the Skill Sprint in a sustainable position, able to stand freely without depending on us.

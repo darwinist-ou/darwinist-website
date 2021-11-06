@@ -48,67 +48,157 @@ layout: default
 </section>
  -->
 
- <section class="section is-medium">
+<section class="section is-small">
   <div class="columns is-12 has-text-centered">
-      <div class="column is-4">
-          <div class="card-image has-text-centered">
-              <span class="icon is-large has-text-danger">
-                  <i class="fas fa-3x fa-wrench"></i>
-              </span>
-              </div>
-              <div class="card-content">
-                  <div class="content">
-                      <h4 class="is-size-3"><span class="has-text-danger">Retool</span> your team</h4>
-                      <p class="subtitle subtitled is-size-5">Get to grips with new technology in a week.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="column is-4">
-              <div class="card-image has-text-centered">
-              <span class="icon is-large has-text-warning">
-                  <i class="fas fa-3x fa-user-graduate"></i>
-              </span>
-              </div>
-              <div class="card-content">
-                  <div class="content">
-                      <h4 class="is-size-3"><span class="has-text-warning">Invest</span> in people</h4>
-                      <p class="subtitle subtitled is-size-5">Everything we do accelerates professional development.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="column is-4">
-              <div class="card-image has-text-centered">
-              <span class="icon is-large has-text-success">
-                  <i class="fas fa-3x fa-dna"></i>
-              </span>
-              </div>
-              <div class="card-content">
-                  <div class="content">
-                      <h4 class="is-size-3"><span class="has-text-success">Evolve</span> the business</h4>
-                      <p class="subtitle subtitled is-size-5">Real change delivered by <i>your</i> staff with <i>our</i> guidance.</p>
-                  </div>
-              </div>
-          </div>
+    <div class="column is-4">
+      <div class="card-image has-text-centered">
+        <span class="icon is-large has-text-danger">
+            <i class="fas fa-3x fa-wrench"></i>
+        </span>
       </div>
+      <div class="card-content">
+        <div class="content">
+            <h4 class="is-size-3"><span class="has-text-danger">Retool</span> your team</h4>
+            <p class="subtitle subtitled is-size-5">Get to grips with new technology in a week.</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="card-image has-text-centered">
+        <span class="icon is-large has-text-warning">
+            <i class="fas fa-3x fa-user-graduate"></i>
+        </span>
+      </div>
+      <div class="card-content">
+        <div class="content">
+            <h4 class="is-size-3"><span class="has-text-warning">Invest</span> in people</h4>
+            <p class="subtitle subtitled is-size-5">Everything we do accelerates professional development.</p>
+        </div>
+      </div>
+    </div>
+    <div class="column is-4">
+      <div class="card-image has-text-centered">
+        <span class="icon is-large has-text-success">
+            <i class="fas fa-3x fa-dna"></i>
+        </span>
+      </div>
+      <div class="card-content">
+        <div class="content">
+            <h4 class="is-size-3"><span class="has-text-success">Evolve</span> the business</h4>
+            <p class="subtitle subtitled is-size-5">Real change delivered by <i>your</i> staff with <i>our</i> guidance.</p>
+        </div>
+      </div>
+    </div>
   </div>        
 </section>
 
+<section class="section is-small">
+  <h5 class="subtitle subtitled is-size-4 has-text-centered">
+    Skill Sprints address the fundamental weaknesses with technical training and consultancy. 
+  </h5>
+</section>
 
-<section class="section">
-  <div class="card has-background-white-bis block">
-    {% for benefit in page.features %}
-    <div class="card-content">
-      <div class="icon-text is-flex-wrap-nowrap block">
-        <span class="icon has-text-success ">
-        <i class="fas fa-3x fa-check-square"></i>
-        </span>
-        <span class="titled is-size-3 has-text-black ml-3">{{benefit.title}}</span>
-      </div>
-      <p class="subtitle has-text-black">{{benefit.text}}</p>
-    </div>
-    {% endfor %}
+<section class="section is-medium">
+  <div class="columns is-12 is-multiline ">
+    {% for benefit in page.features-1 %}
+    <div class="column is-4">
+      <div class="card has-background-dark">
+        <div class="card-content has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-3x {{benefit.icon}}"></i>
+          </span> 
+          <br />
+          <p class="title titled is-size-4">
+            {{benefit.title}}
+          </p>
+          <hr />
+          <p class="bodytext has-text-left is-size-6">
+            {{benefit.text}}
+          </p>
+        </div>  
+      </div>  
+    </div>  
+    {% endfor %}  
   </div>
 </section>
+
+<section class="section is-small">
+ <div class="columns is-vcentered">
+   <div class="column is-6">
+      <h5 class="subtitle subtitled">Skill Sprints blend elements of consultancy, training and agile. 
+        Supported by a Darwinist expert, a small group of participants designs and executes a minimal 
+        scope, technology centric transformation.
+        Their compact nature reduces risk and allows everyone to clearly see the inputs and outputs. 
+      </h5>
+      <button class="button is-rounded titled has-background-success has-text-black is-medium is-fullwidth" href="...">Learn more</button>
+    </div> 
+    <div class="column is-6">
+      <figure class="image is-square">
+        <img src="/img/skill-sprint-diagram.svg">
+      </figure>
+    </div> 
+  </div>   
+</section>
+
+<section class="section is-medium">
+  <div class="columns is-12 is-multiline">
+    {% for benefit in page.features-2 %}
+    <div class="column is-4">
+      <div class="card has-background-dark">
+        <div class="card-content has-text-centered"> 
+          <span class="icon is-large">
+            <i class="fas fa-3x {{benefit.icon}}"></i>
+          </span>  
+          <br />
+          <p class="title titled is-size-4">
+            {{benefit.title}}
+          </p>
+          <hr />
+          <p class="bodytext has-text-left is-size-6">
+            {{benefit.text}}
+          </p>
+        </div>  
+      </div>  
+    </div>  
+    {% endfor %}  
+  </div>
+</section>
+
+<section class="section is-medium">
+  <h5 class="subtitle subtitled has-text-centered">A Standardized solution is developed into a syllabus. 
+    Participants are encouraged to adapt the solution during the delivery process. They deliver a tried 
+    and tested solution whilst up-skilling and enabling the participants.
+  </h5>
+  <br />
+    <button class="button is-rounded titled has-background-success has-text-black is-medium is-fullwidth">Book a free consultation</button>
+</section>
+
+<section class="section is-medium">
+  <div class="columns is-12 is-multiline">
+    {% for benefit in page.features-3 %}
+    <div class="column is-4">
+      <div class="card has-background-dark">
+        <div class="card-content has-text-centered">
+          <span class="icon is-large"> 
+            <i class="fas fa-3x {{benefit.icon}}"></i>
+          </span>  
+          <br />
+          <p class="title titled is-size-4">
+            {{benefit.title}}
+          </p>
+          <hr />
+          <p class="bodytext has-text-left is-size-6">
+            {{benefit.text}}
+          </p>
+        </div>  
+      </div>  
+    </div>  
+    {% endfor %}  
+  </div>
+</section>
+
+
+
 
 
 
