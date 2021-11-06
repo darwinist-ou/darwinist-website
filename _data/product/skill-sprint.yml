@@ -1,26 +1,30 @@
 name: Skill Sprint
 title: Skill Sprint
 subtitle: The Third Way
-blurb:
+lead:
   - Skill Sprints blend elements of consultancy, training and agile. Supported by a Darwinist expert, A small group of participants designs and executes a minimal scope, technology centric transformation.
   - A Standardized solution is developed into a syllabus. Participants are encouraged to adapt the solution during the delivery process.
   - Their compact nature reduces risk and allows everyone to clearly see the inputs and outputs. 
   - Skill Sprints address the fundamental weaknesses with technical training and consultancy. 
   - They deliver a tried and tested solution whilst up-skilling and enabling the participants.
 
-features:
+features-1:
   - title: Deliverable
     text: "Participants will deliver a product useful to their organization. A process automated, redeveloped or transformed: a direct, measurable ROI."
   - title: Educational
     text: "Technology topics are particularly tricky to learn, requiring a special hands-on approach: Skill Sprints use advanced didactic techniques to teach technology quickly and efficiently."
   - title: Intimate
     text: Skill Sprints are designed for a small number of participants. That way, each participant receives quality instruction and has a direct hand in the outcome.
+
+features-2:
   - title: Compact
     text: Skill Sprints are short, intense procedures. By keeping them succinct we ensure the scope is manageable, well defined and to the point.
   - title: Participant owned
     text: "The expert solely guides the participants in delivering: the design and outcome of Skill Sprints is owned by the participants themselves."
   - title: Standardized
     text: Skill Sprints starts with a tried and tested standardized set of best practices.
+
+features-3: 
   - title: Customizable
     text: From this pattern, a simple, customized solution is tailored to our client and delivered by the participants.
   - title: Transformational
