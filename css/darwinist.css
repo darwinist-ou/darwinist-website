@@ -31,6 +31,31 @@
   background-size: cover;
 }
 
+#green-dna {
+  background: url(/img/dna/green-dna.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+#led-dna {
+  background: url(/img/dna/led-dna.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+#miscroscope-dna {
+  background: url(/img/dna/microscope-dna.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+#techno-dna {
+  background: url(/img/dna/techo-dna.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+
 .hero.has-background {
   position: relative;
   overflow: hidden;
