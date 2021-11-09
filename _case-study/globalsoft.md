@@ -6,28 +6,33 @@ subtitle: Retooling with Skill Sprints
 technologies: [kubernetes, elastic, golang, postgres]
 ---
 
-## Globalsoft re-engineers and refactors consumption of key technologies with Skill Sprints from Darwinist
+## Globalsoft refactors consumption of key technologies with Skill Sprints from Darwinist
 
-Globalsoft is a software development company based near Mostar in Bosnia and Herzegovina. With a staff of around 15 engineers Globalsoft undertakes software engineering work for customers around the world. With the IT market in BiH rapidly heating up GlobalSoft CEO, Drago Ćorić has to work hard to build and maintain skills in his company.
+Globalsoft is a software development company based near Mostar in Bosnia and Herzegovina. With a staff of around 15 engineers Globalsoft undertakes software engineering work for customers around the world. 
 
-GlobalSoft has been working heavily with Darwinist for Employee investment. Skill Sprints from Darwinist have enabled rapid up-skilling of employees whilst getting a direct benefit for the business.
+Maintaining talent is one of the most difficult aspects of technology: developers rarely have good career development options beyond looking for a new job.
+With the IT market in BiH rapidly heating up, GlobalSoft CEO Drago Ćorić has to work hard to build and maintain skills in his company.
+Prior to investing in new technologies, he needed employees with expert knowledge of the business and the target technology who would guide that investment.
 
-<p class="box has-background-dark">"The thing I like most about Skill Sprints is the intensity. Nowadays companies don’t have the time for the long and boring two times a week, 1-hour education lessons but they can offer their developers a week long Skill Sprint. Not only do developers learn but the business gets something tangible out of it. It is the ideal mix of investment into the education of your workers but also the business as a whole."</p>
+GlobalSoft has been working heavily with Darwinist on Employee investment. Skill Sprints from Darwinist have enabled rapid up-skilling of employees whilst getting a direct benefit for the business.
+About Skill Sprints, Drago said:
+
+<p class="box has-background-dark">"The thing I like most about Skill Sprints is the intensity. Nowadays companies don’t have the time for the boring, bi-weekly,  one hour long education lessons, but they can offer their developers a week long Skill Sprint. Not only do developers learn, but the business gets something tangible out of it. It is the ideal mix of investment into the education of your workers but also the business as a whole."</p>
 
 # Kubernetes
 
-Three software developers, Daniel, Mario and Jozo were guided by Skill Sprint leader, Andrew Holway to completely re-engineer the CI-CD and DevOps structure of several applications. The participants learned how to independently deploy and manage their applications on Kubernetes. By the end of the process the developers were able to quickly and efficiently perform the same work on other projects without any further support. 
+Three software developers, Daniel, Mario and Jozo, were guided by the Skill Sprint leader to completely re-engineer the CI-CD and DevOps structure of several applications. The participants learned how to independently deploy and manage their applications on Kubernetes. By the end of the process the developers were able to quickly and efficiently perform the same work on other projects without any further support. 
 
 # Elasticsearch
 
-Jilles van Gurp, Elasticsearch Savant helped Filip, Mateo and Tomislav to completely re-engineer the way an application used Elasticsearch by creating a new Golang search microservice from scratch using the best practice. The participants learned best practice and gained direct hands on experience with how to use elasticsearch for other projects.
+Elasticsearch savant Jilles van Gurp helped Filip, Mateo and Tomislav to completely re-engineer the way an application used Elasticsearch by creating a new Golang search microservice from scratch using the best practice. The participants learned best practice and gained direct hands-on experience on how to use elasticsearch for other projects.
 
 # Golang
 
-Globalsoft is primarily a PHP shop but many customers are demanding better performance - especially better latency. To serve these customers Globalsoft invested in two Golang Skill Sprints - each focussing on creating a Golang microservice to relieve pressure on a PHP monolith. The Skill Sprint was delivered by Darko and Gligor.
+Globalsoft is primarily a PHP shop and many customers demanded better performance, especially better latency. To serve these customers, Globalsoft invested in two Golang Skill Sprints each focussing on creating a Golang microservice to relieve pressure on a PHP monolith. The Skill Sprint was delivered by engineers Darko and Gligor.
 
 After the Skill Sprint, Darko commented:
 
 <p class="box has-background-dark">
-"The team adapted to the Golang syntax very fast, they were really good at catching the Golang code standards, best practices and at the same time implementing that in an hexagonal architecture. This intense 5-day sprint was enough to code the two micro-services and touch everything from simple Golang stuff to the most complex ones. Constructing, designing and coding concurrent tasks in the applications using Goroutines, channels, and mutexes."
+"The team adapted to the Golang syntax very fast, they were really good at catching the Golang code standards, best practices and at the same time implementing those in a hexagonal architecture. This intense five day long sprint was enough to code the two microservices and touch everything from simple Golang concepts to more complex ones: constructing, designing and coding concurrent tasks in the applications using Goroutines, channels, and mutexes."
 </p>
