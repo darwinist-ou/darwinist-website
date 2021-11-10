@@ -3,39 +3,35 @@ layout: case-study
 company: FTI Group
 technology: Kubernetes
 logo: /img/companies/fti-group-logo.png
-subtitle: How a Devops Skill Sprint took FTI Group on a major leap forward
+subtitle: How a DevOps Skill Sprint took FTI Group on a major leap forward
 technologies: [kubernetes, git]
 ---
 
-## How a Devops Skill Sprint took FTI Group on a major leap forward
+## How a DevOps Skill Sprint took FTI Group on a major leap forward
 
 <!-- <span class="image right"><img src="{{ "/images/fti-group.png" | absolute_url }}" alt="" /></span>
  -->
-The idea of dedicating an entire week for three members of a dev team to set up a new application on Google Kubernetes Engine, free from the usual distractions blighting all of us, may seem like a stretch on resources and an impossible task to complete. But for the FTI Group, Europe’s third-largest tour operator, this was something it recently managed to achieve. Not only did the team get the application up and running, but they were left equipped with the skills to take it forward on their own. Not bad for a week’s work. 
+Consolidated in 1995 from 15 different brands, FTI is today Europe’s third largest tour operator. Thanks to Darwinist and their Skill Sprints, three of FTI’s developers have recently managed to set up a new application on Google Kubernetes Engine in only one week. 
 
 ### Searching for a needle in a haystack
 
-For over a year, the development team at FTI had been dealing with a major issue with the organisation’s Kubernetes setup. Unable to determine the cause, the developers were left without a way to rectify the problem properly. Repeated website downtime was causing customer frustration and the team was left scratching its collective head searching for a solution.
+For over a year, the development team at FTI had been dealing with a major issue with their Kubernetes setup. Unable to determine the cause, the developers couldn’t rectify the problem properly. Repeated website downtime was causing customer frustration, and the team was left scratching its collective head searching for a solution.
 
 Alexander Duda, Head of Software Development at FTI, says: 
-<p class="box has-background-dark">“We couldn’t prevent the problems from happening and finding the source of the problem was like searching for a needle in a haystack.” The team was constantly having to figure out workarounds and deal with unfamiliar programming languages introduced by colleagues who had long since left the organisation. He continues: “Our main problem seemed to be with a legacy module controlling the deployments. This had been created by members of the team who had since left.”</p>
+<p class="box has-background-dark">“We couldn’t prevent the problems from happening, and finding the source of the problem was like searching for a needle in a haystack. Our main problem seemed to be with a legacy module controlling the deployments That had been created by members of the team who had since left.”</p>
 
-The application on-site needed altering in order to work with Kubernetes. This would require major architectural changes, yet Alexander was constantly fighting for the resources in order to achieve this. What he needed was a solution, fast.
-
-Alexander had heard about Andrew Holway’s approach to technology adoption from Cloudwürdig, shunning traditional training methods and tech consulting in favour of a new way: the Skill Sprint. 
+The application on-site needed altering in order to work with Kubernetes. This would mean major architectural changes and Alexander was constantly fighting for the resources to achieve this. What he needed was a solution, fast. From Cloudwürdig, he had heard about Andrew Holway’s approach to technology adoption, shunning traditional training methods and tech consulting in favour of a new way: the Skill Sprint.
 
 ### Enter the Skill Sprint Leader
 
-The Skill Sprint technique works by inviting an external expert to work with two or three members of a development team, performing the role of ‘Leader’. The Leader leads the group as they participate in a weeklong Skill Sprint with the aim of completing a ‘Minimum Viable Product’, or in other words the minimum functionality of the technology to be of any real value. As Andrew says, “there are no "Proof of Concepts" - real things have to change.”
+Skill Sprints work by inviting an external expert to work with two or three members of a development team, performing the role of leader. The leader guides the group as they participate in a weeklong Skill Sprint with the aim of completing a minimum viable product, that is, the minimum functionality of the technology to be of any real value. As Andrew says, “there is no proof of concept: real things have to change.”
 
-This approach, that would see successful implementation of a new Google Kubernetes Engine set up in just a week, appealed to Alexander. 
-<p class="box has-background-dark">“We decided to do it all in one big step and start from scratch”, he says. “We had never done a Skill Sprint before, and we liked the idea of inviting an external person in and doing something really concentrated. And the fact that knowledge would be applied as it was being learnt would mean that we could get the job done in one go, something we had been trying, and failing, to do for over a year.”</p>
+This approach, which would see successful implementation of a new Google Kubernetes Engine set up in just a week, appealed to Alexander: 
+<p class="box has-background-dark">“We decided to do it all in one big step and start from scratch. We had never done a Skill Sprint before, and we liked the idea of inviting an external person in and doing something really concentrated. The fact that knowledge would be applied as it was being learnt would mean that we could get the job done in one go, something we had been trying, and failing, to do for over a year.”</p>
 
-One of the criteria for selecting who should take part in the Skill Sprint was that those with a natural ability to teach others would be preferred, so they could then share their experiences with fellow developers. Leonardo Castro, Ogun Isik and Erik Witthauer were Andrew’s ‘victims’ (his word) for the project.  
+One of the criteria for selecting who should take part in the Skill Sprint was that those with a natural ability to teach others would be preferred, so they could then share their experiences with fellow developers. Leonardo Castro, Ogun Isik and Erik Witthauer were selected for the project.  
 
-Several meetings with Andrew ahead of the week-long sprint followed, allowing the team to prepare the environment and understand the issues they would be addressing. 
-
-And then came the week itself. 
+Several meetings with Andrew ahead of the week-long Sprint followed, allowing the team to prepare the environment and understand the issues they would be addressing. And then came the week itself. 
 
 ### Getting the job done
 
