@@ -24,7 +24,7 @@ The application on-site needed altering in order to work with Kubernetes. This w
 
 ### Enter the Skill Sprint Leader
 
-Skill Sprints work by inviting an external expert to work with two or three members of a development team, performing the role of leader. The leader guides the group as they participate in a weeklong Skill Sprint with the aim of completing a minimum viable product, that is, the minimum functionality of the technology to be of any real value. As Andrew - CEO of Darwinist - says, “there is no proof of concept: real things have to change.”
+Skill Sprints work by inviting an external expert to work with two or three members of a development team, performing the role of leader. The leader guides the group as they participate in a weeklong Skill Sprint with the aim of completing a minimum viable product, that is, the minimum functionality of the technology to be of any real value. As Andrew - CEO of Darwinist - says, “there is no proof of concept. Real things have to change.”
 
 This approach, which would see successful implementation of a new Google Kubernetes Engine set up in just a week, appealed to Alexander: 
 <p class="box has-background-dark">“We decided to do it all in one big step and start from scratch. We had never done a Skill Sprint before, and we liked the idea of inviting an external person in and doing something really concentrated. The fact that knowledge would be applied as it was being learnt would mean that we could get the job done in one go, something we had been trying, and failing, to do for over a year.”</p>
@@ -44,7 +44,7 @@ Despite some challenges along the way, including removing a dependence on an NFS
 
 ### Lessons learnt
 
-For Leonardo, the experience has made him consider exactly how the end-user uses the product, as opposed to purely looking at it as a developer. 
+For Leonardo, the experience has made him consider exactly how the end-user uses the product, as opposed to purely looking at it as a developer: 
 <p class="box has-background-dark">“It was a really interesting process to go through, thinking about putting things into production and delivering it to the customer. We are now more careful about what we do because we can appreciate how these things are going to be used.”</p>
 
 And there is no question that the investment in the week-long Skill Sprint was effective. Alexander says: 
