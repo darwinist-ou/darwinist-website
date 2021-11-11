@@ -47,6 +47,12 @@ layout: default
   </div>
 </section>
 
+<section class="section">
+  <h1 class="title titled is-size-3 has-text-white">{{ page.top-copy-title }}</h1>  
+  {% for text in page.top-copy %}
+  <h1 class="subtitle subtitled is-size-5 has-text-white">{{ text }}</h1>
+{% endfor %}
+</section>
 
 <section class="section">
   <div class="card has-background-white-bis block">
@@ -64,6 +70,12 @@ layout: default
   </div>
 </section>
 
+<section class="section">
+  <h1 class="title titled is-size-3 has-text-white">{{ page.bottom-copy-title }}</h1>
+  {% for text in page.bottom-copy %}
+  <h1 class="subtitle subtitled is-size-5 has-text-white">{{ text }}</h1>
+{% endfor %}
+</section>
 
 
 

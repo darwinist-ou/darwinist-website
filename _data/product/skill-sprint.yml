@@ -2,11 +2,21 @@ name: Skill Sprint
 title: Skill Sprint
 subtitle: The Third Way
 blurb:
-  - Skill Sprints blend elements of consultancy, training and agile. Supported by a Darwinist expert, A small group of participants designs and executes a minimal scope, technology centric transformation.
-  - A Standardized solution is developed into a syllabus. Participants are encouraged to adapt the solution during the delivery process.
-  - Their compact nature reduces risk and allows everyone to clearly see the inputs and outputs. 
-  - Skill Sprints address the fundamental weaknesses with technical training and consultancy. 
-  - They deliver a tried and tested solution whilst up-skilling and enabling the participants.
+  - A Skill Sprint is an intense methodology for retooling and retraining technical teams with a target technology. During the week-long session the participants adapt a solution based on a simplified pattern that we provide.
+  - By the end of the week, the business has a working implementation and the engineers have the knowledge to move forward into production with it.
+
+top-copy-title: "Investing in employees & technology: the chicken and egg problem" 
+top-copy:
+  - "Maintaining and developing talent is one of the most difficult aspects of technology: developers rarely have good career development options beyond looking for a new job. Retooling or repurposing people for new technology often leads companies to be ensnared in a gordian knot: traditionally, these technologies must already exist in the business in order to enable investment in developers’ skills and career development."
+  - In larger organisations, staff can be rotated through technology environments. In smaller organisations, external consultants or new hires may be brought in to support investments in technologies, which creates an uncontrollable risk as they have no context of the business. Therefore, prior to investing in technologies they need employees with expert knowledge of the business <i>and</i> of the target technology to guide that investment.
+  - While knowledge of the business environment is difficult to acquire, we can quickly and efficiently upskill people with the required technology understanding. Skill Sprints are designed to make this process fast and predictable. Skill Sprints blend elements of consultancy, training and Agile. Supported by a Darwinist expert, a small group of participants designs and executes a minimal scope, technology-centric transformation. A standardized solution is developed into a syllabus and participants are encouraged to adapt this solution during the delivery process.
+
+bottom-copy-title: "Skills Sprints: Re-engineering technology education, technology consulting and technology investment"  
+bottom-copy:
+  - Skill Sprints overcome the abstract nature of training with a learn-by-doing method. Learning, designing and executing in a safe and supportive environment, participants bond together. Free from distraction, they are brought through the threshold of a liminal experience.
+  - As they are given the trust and resources to get the job done, they take agency and responsibility, and their skills are developed.
+  - Placing people at the core of the transformation process, Skill Sprints ensure the delivery of a real project and therefore fully realize an investment in knowledge. 
+skill-sprint-title: Skill Sprint principles
 
 features:
   - title: Deliverable
