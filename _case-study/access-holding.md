@@ -1,6 +1,6 @@
 ---
 layout: case-study
-company: Access Holding
+company: AccessHolding
 logo: /img/companies/access-holding-logo.png
 subtitle: Organizing workflows on a multinational level
 technologies: [python, git, sql-server]
@@ -8,7 +8,7 @@ technologies: [python, git, sql-server]
 
 ## Business Departments from Major Microfinance Bank learn new technical tricks with Skill Sprints from Darwinist.
 
-AccessHolding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running Skill Sprints to help invest in their employees and transform their business.
+AccessHolding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running Skill Sprints to help AccessHolding invest in their employees and transform their business.
 
 <span class="image right"><img src="{{ "/images/camping-info.png" | absolute_url }}" alt="" /></span>
 
@@ -37,5 +37,9 @@ Mwaka is the head of risk and Marcus is the head of mobile payments (eTumba mobi
 Based on the lessons of the previous Skill Sprint with Marijana and Dusko, high quality data and access to a good development environment were provided. 
 
 Mwaka and Marcus learned to write complex queries and programs to extract and transform data from different sources. They gained a deep insight into the constraints, features and structure of the database, and how that related to their business.
+
+After the Sprint, Mwaka had this to say:
+
+<p class="box has-background-dark">“Participating in the Skill Sprint has given me a much deeper understanding of our core banking system database and the constraints it puts on our business. I can start hiring dedicated data analysts and be able to direct their work. It was a great experience, more so due to the Agile approach and the passion that the coach has for what he does..”</p>
 
 By the end, they were able to quickly query and process millions of rows of data, far exceeding the capacity of their previous Excel-based method. After the Skill Sprint, they reported feeling much more in-touch with the business and its IT systems and are planning on running further Skill Sprints for their subordinates. 
