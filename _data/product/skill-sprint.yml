@@ -25,7 +25,7 @@ principles:
   - title: Compact
     text: Short and intense. Normally executed within a week Skill Sprints keep the scope manageable, well defined and to the point.
   - title: Participant owned
-    text: The expert may not have a direct hand in the output. The design and output of Skill Sprints is owned by the participants themselves.     
+    text: The expert may not have a direct hand in the implementation. The output of a Skill Sprints must be delivered by the participants themselves.     
   - title: Deliverable
     text: Deliver something useful. A process automated, redeveloped or transformed. A direct, measurable ROI must be realised.
   - title: Educational
@@ -35,7 +35,7 @@ principles:
   - title: Standardized
     text: Tried and tested solution. Skill Sprints deliver a standardized solution based on best practices for the target technology.
   - title: Customizable
-    text: Tailored output. Participants are supported and encouraged to adapt our standard solution to their environment.
+    text: Tailored implementation. Participants are supported and encouraged to adapt our standard solution to their environment.
   - title: Transformational
     text: Participants drive the transformation under the guidance of a subject expert.
   - title: Independent
@@ -44,16 +44,16 @@ principles:
 steps:
   - title: 0. The Skill Sprint leader
     number: 0
-    text: The Leader of a Skill Sprint is an  expert in the target technology with a deep understanding of the caveats and special cases. The Leader is not permitted to have a direct hand in the delivery in the output.
+    text: The Leader of a Skill Sprint is an  expert in the target technology with a deep understanding of the caveats and special cases. The Leader does not have direct hand in the delivery in the implementation.
   - title: 1. Define the output
     number: 1
-    text: Define the first business impact that this technology should have. It is important that something actually changes for the Skill Sprint to be successful. There are no "Proof Of Concepts" - real things have to change.
+    text: Define the first implementation of the technology. It is important that something actually changes for the Skill Sprint to be successful. There are no "Proof Of Concepts" - real things have to change.
   - title: 2. Assemble the team
     number: 2
     text: Two or three permanent members of staff are committed to the Skill Sprint. Excused from their work for the duration of the sprint, These members of staff will do all of the work required to deliver the output.
   - title: 3. Plan to expose risks and caveats
     number: 3
-    text: New technologies have to be integrated with existing process and technology. Using a series of contexting calls the leader will work with the team to expose risks, uncertainties and possible sticking points. This shouldn't take more than a few hours - if it's getting laborious then the MVP is probably too ambitious.
+    text: New technologies have to be integrated with existing process and technology. With two or three contexting calls the leader will help team to expose risks, uncertainties and possible sticking points. 
   - title: 4. Just do it
     number: 4
-    text: Removed from interruptions - email, slack and other nuisances the team delivers the Minimum Viable Product. The Leader guides the process, keeping the team back on-course and focussed on the end goal.
+    text: Removed from interruptions - email, slack and other nuisances the team delivers the implementation. The Leader guides the process, keeping the team back on-course and focussed on the end goal.
