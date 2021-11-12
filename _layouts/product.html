@@ -10,7 +10,7 @@ layout: default
 <section class="section">
   <div class="columns">
     <div class="column is-6">
-      <div class="block mb-6">
+      <div class="mb-6">
          <span class="icon-text is-flex-wrap-nowrap block is-size-2 is-size-4-mobile">
             <span class="icon has-text-danger">
             <i class="fas fa-wrench"></i>
@@ -19,7 +19,7 @@ layout: default
         </span>
         <h1 class="subtitle subtitled has-text-white">Get to grips with new technology in a week.</h1>
       </div>
-      <div class="block mb-6">
+      <div class="mb-6">
         <span class="icon-text is-large is-flex-wrap-nowrap block is-size-2 is-size-4-mobile">
           <span class="icon has-text-warning">
           <i class="fas fa-user-graduate"></i>
@@ -28,7 +28,7 @@ layout: default
         </span>
         <h1 class="subtitle subtitled has-text-white">Everything we do accelerates professional development.</h1>
       </div>
-      <div class="block mb-6">
+      <div class="mb-6">
         <span class="icon-text is-medium is-flex-wrap-nowrap block is-size-2 is-size-4-mobile">
           <span class="icon has-text-success">
           <i class="fas fa-dna"></i>
@@ -38,45 +38,65 @@ layout: default
         <h1 class="subtitle subtitled has-text-white">Real change delivered by <i>your</i> staff with <i>our</i> guidance.</h1>
       </div>
     </div>
-
     <div class="column is-6">
-    {% for blurb in page.blurb %}
-      <h1 class="subtitle subtitled is-size-5 has-text-white">{{ blurb }}</h1>
-    {% endfor %}
+      <div class="card has-background-white-bis block">
+        <div class="card-content">
+          {% for blurb in page.blurb %}
+            <h1 class="subtitle subtitled is-size-5 has-text-black">{{ blurb }}</h1>
+          {% endfor %}
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <h1 class="title titled is-size-3 has-text-white">{{ page.top-copy-title }}</h1>  
+  <h1 class="title titled is-size-3 has-text-white mb-6">{{ page.top-copy-title }}</h1>  
   {% for text in page.top-copy %}
   <h1 class="subtitle subtitled is-size-5 has-text-white">{{ text }}</h1>
 {% endfor %}
 </section>
 
 <section class="section">
+  <h1 class="title titled is-size-3 has-text-white mb-6">Skill Sprint Principles</h1>
   <div class="card has-background-white-bis block">
-    {% for benefit in page.features %}
+    {% for principle in page.principles %}
     <div class="card-content">
       <div class="icon-text is-flex-wrap-nowrap block">
         <span class="icon has-text-success ">
         <i class="fas fa-3x fa-check-square"></i>
         </span>
-        <span class="titled is-size-3 has-text-black ml-3">{{benefit.title}}</span>
+        <span class="titled is-size-3 has-text-black ml-3">{{principle.title}}</span>
       </div>
-      <p class="subtitle has-text-black">{{benefit.text}}</p>
+      <p class="subtitle has-text-black">{{principle.text}}</p>
     </div>
     {% endfor %}
   </div>
 </section>
 
 <section class="section">
-  <h1 class="title titled is-size-3 has-text-white">{{ page.bottom-copy-title }}</h1>
+  <h1 class="title titled is-size-3 has-text-white mb-6">{{ page.bottom-copy-title }}</h1>
   {% for text in page.bottom-copy %}
   <h1 class="subtitle subtitled is-size-5 has-text-white">{{ text }}</h1>
 {% endfor %}
 </section>
 
-
-
+<section class="section">
+  <h1 class="title titled is-size-3 has-text-white mb-6">Skill Sprint Steps</h1>
+  <div class="card has-background-white-bis block">
+    {% for step in page.steps %}
+    <div class="card-content">
+      <div class="columns is-mobile">
+        <div class="column is-1">
+          <span class="titled is-size-3 has-text-black">{{step.number}}</span>
+        </div>
+        <div class="column">
+          <h1 class="title titled is-size-3 has-text-black">{{step.title}}</h1>
+          <span class="subtitle subtitled is-size-5 has-text-black">{{step.text}}</span>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 
