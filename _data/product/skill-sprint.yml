@@ -13,7 +13,7 @@ top-copy-title: "Investing in employees & technology: the chicken and egg proble
 top-copy:
   - "Maintaining and developing talent is one of the most difficult aspects of technology: developers rarely have good career development options beyond looking for a new job. Retooling or repurposing people for new technologies often leads companies to be ensnared in a Gordian knot. Target technologies must already exist in the business for people to be able to learn them."
   - Relying on external consultants or new hires to support technology investments results in unquantifiable risk as they have no context of the business. Prior to investing in new technologies, we need employees with expert knowledge of the business and the target technology to guide that investment.
-  - Knowledge of the business environment is much harder to acquire than knowledge of technology. We can, however, quickly and efficiently upskill people with technology. By blending elements of consultancy, on-the-job training and Agile, Skill Sprints are designed to make this process fast and predictable.
+  - Knowledge of the business environment is much harder to acquire than knowledge of technology. We can, however, quickly and efficiently up-skill people with technology. By blending elements of consultancy, on-the-job training and Agile, Skill Sprints are designed to make this process fast and predictable.
 
 bottom-copy-title: "Skills Sprints: Re-engineering technology education, technology consulting and technology investment"  
 bottom-copy:
@@ -53,7 +53,7 @@ steps:
     text: Two or three permanent members of staff are committed to the Skill Sprint. Excused from their work for the duration of the sprint, These members of staff will do all of the work required to deliver the output.
   - title: 3. Plan to expose risks and caveats
     number: 3
-    text: New technologies have to be integrated with existing process and technology. With two or three contexting calls the leader will help team to expose risks, uncertainties and possible sticking points. 
+    text: New technologies have to be integrated with existing process and technology. With two or three contexting calls the leader will help team to refine the scope, expose risks, uncertainties and possible sticking points. 
   - title: 4. Just do it
     number: 4
     text: Removed from interruptions - email, slack and other nuisances the team delivers the implementation. The Leader guides the process, keeping the team back on-course and focussed on the end goal.
