@@ -1,3 +1,7 @@
+### The "output" is very badly described
+### Liminal experiance is badly defined
+
+
 name: Skill Sprint
 title: Skill Sprint
 subtitle: The Third Way
@@ -13,7 +17,8 @@ top-copy:
 
 bottom-copy-title: "Skills Sprints: Re-engineering technology education, technology consulting and technology investment"  
 bottom-copy:
-  - Skill Sprints overcome the abstract and virtual nature of training with a learn-by-doing method. Learning, designing and executing in a safe and supportive environment, participants bond together. Free from distraction, they are brought through the threshold of a liminal experience.
+  - Skill Sprints overcome the abstract and virtual nature of training with a learn-by-doing method. Learning, designing and executing in a safe and supportive environment, participants bond together. 
+  - Liminality is the transitional phase experienced by a person during a rite of passage; a process of leaving behind an old identity, and becoming something new. Skill Sprints engineer the environment, ensuring that critical success factors are in place. Within this controlled environment participants are brought through the threshold of a liminal experience as they are able to truly enjoy the fruits of their labor.
   - As they are given the trust and resources to get the job done, they take agency and responsibility, and their skills are developed. Placing people at the core of the transformation process, Skill Sprints ensure the delivery of a real project and therefore fully realize an investment in knowledge.
 
 principles:
@@ -37,18 +42,18 @@ principles:
     text: No dependencies. Skill Sprints leave the customer in a sustainable position. Able to independently drive things forward.
 
 steps:
-  - title: The Skill Sprint leader
+  - title: 0. The Skill Sprint leader
     number: 0
     text: The Leader of a Skill Sprint is an  expert in the target technology with a deep understanding of the caveats and special cases. The Leader is not permitted to have a direct hand in the delivery in the output.
-  - title: Define the output
+  - title: 1. Define the output
     number: 1
     text: Define the first business impact that this technology should have. It is important that something actually changes for the Skill Sprint to be successful. There are no "Proof Of Concepts" - real things have to change.
-  - title: Assemble the team
+  - title: 2. Assemble the team
     number: 2
     text: Two or three permanent members of staff are committed to the Skill Sprint. Excused from their work for the duration of the sprint, These members of staff will do all of the work required to deliver the output.
-  - title: Plan to expose risks and caveats
+  - title: 3. Plan to expose risks and caveats
     number: 3
     text: New technologies have to be integrated with existing process and technology. Using a series of contexting calls the leader will work with the team to expose risks, uncertainties and possible sticking points. This shouldn't take more than a few hours - if it's getting laborious then the MVP is probably too ambitious.
-  - title: Just do it
+  - title: 4. Just do it
     number: 4
     text: Removed from interruptions - email, slack and other nuisances the team delivers the Minimum Viable Product. The Leader guides the process, keeping the team back on-course and focussed on the end goal.
