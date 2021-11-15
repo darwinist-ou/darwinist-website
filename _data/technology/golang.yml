@@ -4,30 +4,30 @@ column: 1
 card-image: /img/technologies/golang-card.png
 url: golang
 name: Golang
-slogan: Golang is an advanced programming language developed by Google.
-lead: Take control of your Data
+slogan: Retool with Golang.
+lead: Modernize your business and accelerate your services
 scenario: Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
-sub-lead: Learn how to write versatile and powerful programs in Python
+sub-lead: Learn how to write versatile and powerful programs in Golang
 features:
-  - Foo
-  - Bar
-  - Neque porro quisquam est qui dolorem ipsum
+  - Solve your processing-time bottlenecks
+  - Perfect for backend development with highly requested servers
+  - Get rid of bloated code affecting the user experience
 
 tech-card-info:
   name: Python
   type: Programming Language
-  url: https://www.python.org/
-  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aim to help programmers write clear, logical code for small and large-scale projects.
+  url: https://golang.org/
+  description: Python is an interpreted high-level general-purpose programming language with an emphasis on code readability. It aims to help programmers write clear, logical code for small and large-scale projects.
   benefits:
-    - Easy to Read, Learn and Write.
-    - Free and Open-Source.
-    - Fantastic data science tools
-    - Fast to develop
+    - Open-source
+    - Easy to learn
+    - Fast
+    - Built for concurrency
+    
   blurb:
       - text: |
-          Python was originally designed as a programming language for beginners but quickly became the most popular and versatile language in the world.
+          Released by Google in 2012, Golang is an open-source, high performance programming language born out of a dislike of C++.
       - text: |
-          Python is a natural upgrade from Excel when the volume and complexity of data gets too high.
+          Go is a powerful, concurrent language ideal for web servers and microservices. 
       - text: |
-          With the right environment - Python can be very quickly learnt.
-
+          Golang is also used to build scalable cloud computing systems. Docker and Kubernetes are good examples of where Go has been used in cloud computing.
