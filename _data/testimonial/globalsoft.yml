@@ -12,7 +12,7 @@ testimonials:
       position: Managing Director
       linked-in-url: https://www.linkedin.com/company/globalsoft-doo/
       photo: /img/people/drago-coric.png
-      text: The thing I like most about Skill Sprints is the intensity. Nowadays companies don’t have the time for the long and boring two times a week, 1-hour education lessons but they can offer their developers a week long Skill Sprint. Not only do developers learn but the business gets something tangible out of it. It is the ideal mix of investment into the education of your workers but also the business as a whole.
+      text: The thing I like most about Skill Sprints is the intensity. Nowadays companies don’t have the time for the boring, bi-weekly, one hour-long lessons, but they can offer their developers a week long Skill Sprint. Not only do developers learn, but the business gets something tangible out of it. It is the ideal mix of investment into the education of your workers but also the business as a whole.
     - name: Jozo Spajic
       position: Software Developer
       linked-in-url: https://www.linkedin.com/in/jozo-spaji%C4%87-751802187/
@@ -22,7 +22,7 @@ testimonials:
       position: Senior Software Developer
       linked-in-url: https://www.linkedin.com/in/jozo-spaji%C4%87-751802187/
       photo: /img/people/filip-galic.jpg
-      text: During 5 days of extensive work with Jilles we have successfully created a boilerplate pattern that later helped us refactor a part of our system from monolith to microservice. Overall a great experience and definitely worth while!
+      text: During five days of extensive work with Jilles we have successfully created a boilerplate pattern that later helped us refactor a part of our system from monolith to microservice. Overall a great experience and definitely worthwhile!
 
 projects:
     - blurb: Led by an specialist engineer from Darwinist three of Globalsoft developers completely refactored their CI-CD and DevOps processes. During the Skill Sprint they accomplished a complete re-engineering of application deployment and management.
