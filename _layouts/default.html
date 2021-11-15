@@ -1,39 +1,38 @@
-  {%- include head.html -%}
-
+{%- include head.html -%}
   <body>
-    <div class="container">
+        <div class="container">
+         {%- include nav-bar.html -%}
+        
+            {{ content }}
 
-      {%- include nav-bar.html -%}
-      
-        {{ content }}
 
-      <section class="section is-small py-6 is-centered">
-        <div class="block">
-            <a class="button titled has-background-success has-text-white is-medium is-fullwidth" target="_blank" href="https://calendly.com/darwinist-andrew/">
-              <span>Get in contact!</span>
-            </a>
+            <section class="section is-medium is-centered">
+                <div class="block">
+                    <a class="button titled has-background-success has-text-white is-medium is-fullwidth" target="_blank" href="https://calendly.com/darwinist-andrew/">
+                    <span>Get in contact!</span>
+                    </a>
+                </div>
+            </section>
         </div>
-      </section>
-    </div>
-    {%- include footer.html -%}
-  </body>
+       {%- include footer.html -%}
+    </body>
 <!-- Linkedin Ads -->
 <script type="text/javascript">
-  _linkedin_partner_id = "4004849";
-  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+_linkedin_partner_id = "4004849";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
 </script>
 <script type="text/javascript">
-  (function(l) {
-  if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-  window.lintrk.q=[]}
-  var s = document.getElementsByTagName("script")[0];
-  var b = document.createElement("script");
-  b.type = "text/javascript";b.async = true;
-  b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-  s.parentNode.insertBefore(b, s);})(window.lintrk);
+(function(l) {
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+window.lintrk.q=[]}
+var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})(window.lintrk);
 </script>
 <noscript>
-  <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=4004849&fmt=gif" />
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=4004849&fmt=gif" />
 </noscript>
 </html>
