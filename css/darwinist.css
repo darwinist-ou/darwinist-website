@@ -76,3 +76,10 @@ a {
   text-decoration: none !important;
 }
 
+@media screen and (max-width: 768px) {
+  .is-size-5-mobile {
+      font-size: 3.5vw!important;
+      word-break: break-word;
+  }
+
+}
