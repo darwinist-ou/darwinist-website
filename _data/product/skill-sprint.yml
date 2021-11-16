@@ -23,22 +23,31 @@ bottom-copy:
 
 principles:
   - title: Compact
+    icon: fa-box
     text: Short and intense. Normally executed within a week Skill Sprints keep the scope manageable, well defined and to the point.
   - title: Participant owned
+    icon: fa-people-carry
     text: The expert may not have a direct hand in the implementation. The output of a Skill Sprints must be delivered by the participants themselves.     
   - title: Deliverable
+    icon: fa-laptop-code
     text: Deliver something useful. A process automated, redeveloped or transformed. A direct, measurable ROI must be realised.
   - title: Educational
+    icon: fa-graduation-cap
     text: On-the-job Training. Technology topics are particularly tricky to learn, requiring a special hands-on approach., implementing our designs into their environment.
   - title: Intimate
+    icon: fa-user-friends
     text: Small number of participants. Each participant receives quality instruction and has a direct hand in the outcome.
   - title: Standardized
+    icon: fa-sitemap
     text: Tried and tested solution. Skill Sprints deliver a standardized solution based on best practices for the target technology.
   - title: Customizable
+    icon: fa-pencil-ruler
     text: Tailored implementation. Participants are supported and encouraged to adapt our standard solution to their environment.
   - title: Transformational
+    icon: fa-magic
     text: Participants drive the transformation under the guidance of a subject expert.
   - title: Independent
+    icon: fa-fist-raised
     text: No dependencies. Skill Sprints leave the customer in a sustainable position. Able to independently drive things forward.
 
 steps:
