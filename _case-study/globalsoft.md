@@ -22,10 +22,16 @@ About Skill Sprints, Drago said:
 # Kubernetes
 
 Three software developers, Daniel, Mario and Jozo, were guided by the Skill Sprint leader to completely re-engineer the CI-CD and DevOps structure of several applications. The participants learned how to independently deploy and manage their applications on Kubernetes. By the end of the process, the developers were able to quickly and efficiently perform the same work on other projects without any further support. 
+As Jozo said:
+
+<p class="box has-background-dark">“Since I already had some previous knowledge about docker, scripting, networking, linux, etc. the Skill Sprint made me combine it all together and took my knowledge to a whole new level. With this new hands-on experience in Kubernetes, the total life cycle has become much clearer to me, boosting my development output. All of the knowledge I gathered in this Skill Sprint has definitely brought future projects to a higher standard.”</p>
 
 # Elasticsearch
 
-Elasticsearch savant Jilles van Gurp helped Filip, Mateo and Tomislav to completely re-engineer the way an application used Elasticsearch by creating a new Golang search microservice from scratch using best practices. The participants learned these practices and gained direct hands-on experience on how to use elasticsearch for other projects.
+Elasticsearch savant Jilles van Gurp helped Filip, Mateo and Tomislav to completely re-engineer the way an application used Elasticsearch by creating a new Golang search microservice from scratch using best practices. About his experience during the Skill Sprint, Filip said: 
+
+<p class="box has-background-dark">“During five days of extensive work with Jilles, we successfully created a boilerplate pattern that later helped us refactor a part of our system from monolith to microservice. Overall a great experience and definitely worthwhile!”</p>
+
 
 # Golang
 

@@ -40,6 +40,6 @@ Mwaka and Marcus learned to write complex queries and programs to extract and tr
 
 After the Sprint, Mwaka had this to say:
 
-<p class="box has-background-dark">“Participating in the Skill Sprint has given me a much deeper understanding of our core banking system database and the constraints it puts on our business. I can start hiring dedicated data analysts and be able to direct their work. It was a great experience, more so due to the Agile approach and the passion that the coach has for what he does..”</p>
+<p class="box has-background-dark">“Participating in the Skill Sprint has given me a much deeper understanding of our core banking system database and the constraints it puts on our business. I can start hiring dedicated data analysts and be able to direct their work. I enjoyed my Sprint and surprised myself on how much I was able to grasp in such a short time. It was a great experience, more so due to the Agile approach and the passion that the coach has for what he does.”</p>
 
 By the end, they were able to quickly query and process millions of rows of data, far exceeding the capacity of their previous Excel-based method. After the Skill Sprint, they reported feeling much more in-touch with the business and its IT systems and are planning on running further Skill Sprints for their subordinates. 
