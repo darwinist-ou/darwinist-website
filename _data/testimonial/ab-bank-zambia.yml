@@ -11,10 +11,10 @@ testimonials:
     position: Head of Risk
     photo: /img/people/mwaka-mwamulima.png
     linked-in-url: https://www.linkedin.com/in/mwaka-mwamulima-mba-cerm-741243a4/
-    text: Participating in the Skill Sprint has given me a much deeper understanding of our core banking system database and the constraints it puts on our business. I'm now able to have much more productive conversations with IT. Off the back of the Skill Sprint, I am now able to hire dedicated data analysts and direct their work. I enjoyed my Sprint and surprised myself on how much I was able to grasp in such a short time. It was a great experience, more so due to the Agile approach and the passion that the coach has for what he does.
+    text: “I enjoyed my Sprint and surprised myself on how much I was able to grasp in such a short time.”
 
 projects:
-    - blurb: With 40 hours of training, enablement and support over a 1 month period a Darwinist expert delivered a Skill Sprint with the aim of teaching senior business leaders how to perform ETL processes (extract, transform and load) with SQL and Python. In the end the process was rather more powerful than anyone expected.
+    - blurb: With 40 hours of training, enablement and support over a one month period, a Darwinist expert delivered a Skill Sprint with the aim of teaching senior business leaders how to perform ETL processes (extract, transform and load) with SQL and Python. In the end, the process was more impactful than anyone expected.
       technology: sql-server
       title: SQL Server and Python Skill Sprint
       subtitle: Three participants - one week
