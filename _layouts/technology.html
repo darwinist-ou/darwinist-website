@@ -20,19 +20,36 @@ layout: default
   </div>
 </section>
 
-<section class="section is-small">
-  <div class="card has-background-white-bis card-equal-height">
+<section class="section">
+  <div class="card-equal-height">
     <div class="columns">
+      <div class="column is-one-half">
+        <div class="card-content bodytext is-size-6">
+            {% for item in page.tech-card-info.blurb %}
+            <div class="block">
+              {% if item.subtitle != nil  %}
+                  <span class="icon-text has-text-info">
+                      <span class="icon">
+                      <i class="fas fa-sm fa-cog"></i>
+                      </span>
+                      <span class="subtitle">{{ item.subtitle }}</span>
+                  </span>
+              {% endif %}
+              <p>{{ item.text }}</p>
+            </div>
+            {% endfor %}
+        </div>       
+      </div>
       <div class="column">
-        <div class= "card-content">
-          <p class="title has-text-black">{{ page.title }} - Tech Profile</p>
-          <p class="subtitle has-text-black">{{ page.tech-card-info.type }}</p>
+        <div class="card-content">
+          <p class="title">{{ page.title }} - Tech Profile</p>
+          <p class="subtitle">{{ page.tech-card-info.type }}</p>
             {% for item in page.tech-card-info.benefits %}
             <div class="icon-text is-flex-wrap-nowrap">
                 <span class="icon has-text-success">
                 <i class="fas fa-check-square"></i>
                 </span>
-                <span class="has-text-black">{{ item }}</span>
+                <span>{{ item }}</span>
             </div>
             {% endfor %}
             <a target="_blank" rel="noopener noreferrer" href="{{ page.tech-card-info.url }}">
@@ -44,64 +61,47 @@ layout: default
             </div></a>
         </div>
       </div>
-      <div class="column is-one-half">
-        <div class="card-content has-text-justified">
-            {% for item in page.tech-card-info.blurb %}
-            <div class=block>
-              {% if item.subtitle != nil  %}
-                  <span class="icon-text has-text-info">
-                      <span class="icon">
-                      <i class="fas fa-sm fa-cog"></i>
-                      </span>
-                      <span class="subtitle has-text-black">{{ item.subtitle }}</span>
-                  </span>
-              {% endif %}
-              <p class="has-text-black">{{ item.text }}</p>
-            </div>
-            {% endfor %}
-        </div>       
-      </div>
     </div>
   </div>
 </section>
 
-<hr/>
-<section class="section">
+
+<section class="section is-small">
     <h2 class="title titled is-3 mb-7 has-text-white">What is a Skill Sprint?</h2>
+    <br />
     <h2 class="subtitle subtitled is-4 has-text-grey-light">A Skill Sprint is a customised course intended to help a team get to grips with a new technology. Led by a subject expert, the participants are coached as they deliver on a real goal with the target technology.</h2>
 </section>
-<hr/>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="columns is-vcentered">
-      <div class="column">
-        <div class="content">
-            <h2 class="title titled is-3 mb-7 has-text-white">{{ page.lead }}</h2>
-            <h2 class="subtitle subtitled is-4 has-text-grey">{{ page.sub-lead }}</h2>
-        </div>
 
-        {% for item in page.features %}
-        <div class="content">
-        <div class="icon-text has-text-success is-flex-wrap-nowrap">
-          <span class="icon">
-            <i class="fas fa-check"></i>
-          </span>
-          <span class="content has-text-white">{{ item }}</span>
-        </div>
-        </div>
-        {% endfor %}
-        <div class="column is-vertical is-centered">
-          <a class="button titled is-info is-medium" href="https://darwinist.io/product/skill-sprint/">
-            <span>More on Skill Sprints</span> 
-            </a>
-        </div>
+
+<section class="section is-small">
+  <div class="columns is-vcentered">
+    <div class="column">
+      <div class="content">
+          <h2 class="title titled is-3 mb-7">{{ page.lead }}</h2>
+          <h2 class="subtitle subtitled is-4 has-text-grey-light">{{ page.sub-lead }}</h2>
       </div>
-      <div class="column">
-        <figure class="image">
-          <img src="/img/graphics/33.svg">
-        </figure>
+
+      {% for item in page.features %}
+      <div class="content">
+      <div class="icon-text has-text-success is-flex-wrap-nowrap">
+        <span class="icon">
+          <i class="fas fa-check"></i>
+        </span>
+        <span class="content bodytext has-text-white">{{ item }}</span>
       </div>
+      </div>
+      {% endfor %}
+      <div class="column is-vertical is-centered">
+        <a class="button titled is-light is-success is-medium" href="https://darwinist.io/product/skill-sprint/">
+          <span>More on Skill Sprints</span> 
+          </a>
+      </div>
+    </div>
+    <div class="column">
+      <figure class="image">
+        <img src="/img/graphics/33.svg">
+      </figure>
     </div>
   </div>
 </section>  
