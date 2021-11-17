@@ -6,6 +6,7 @@ subtitle: Retooling with Skill Sprints
 technologies: [kubernetes, elastic, golang, postgres]
 ---
 
+{:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 ## Globalsoft refactors consumption of key technologies with Skill Sprints from Darwinist
 
 Globalsoft is a software development company based near Mostar in Bosnia and Herzegovina (BiH). With a staff of around 15 engineers, Globalsoft undertakes software engineering work for customers around the world. 
@@ -19,6 +20,7 @@ About Skill Sprints, Drago said:
 
 <p class="box has-background-dark">"The thing I like most about Skill Sprints is the intensity. Nowadays, companies don’t have time for the boring, bi-weekly,  one hour long education lessons, but they can offer their developers a week long Skill Sprint. Not only do developers learn, but the business gets something tangible out of it. It is the ideal mix of investment into the education of your workers but also the business as a whole."</p>
 
+{:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 # Kubernetes
 
 Three software developers, Daniel, Mario and Jozo, were guided by the Skill Sprint leader to completely re-engineer the CI-CD and DevOps structure of several applications. The participants learned how to independently deploy and manage their applications on Kubernetes. By the end of the process, the developers were able to quickly and efficiently perform the same work on other projects without any further support. 
@@ -26,6 +28,7 @@ As Jozo said:
 
 <p class="box has-background-dark">“Since I already had some previous knowledge about docker, scripting, networking, linux, etc. the Skill Sprint made me combine it all together and took my knowledge to a whole new level. With this new hands-on experience in Kubernetes, the total life cycle has become much clearer to me, boosting my development output. All of the knowledge I gathered in this Skill Sprint has definitely brought future projects to a higher standard.”</p>
 
+{:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 # Elasticsearch
 
 Elasticsearch savant Jilles van Gurp helped Filip, Mateo and Tomislav to completely re-engineer the way an application used Elasticsearch by creating a new Golang search microservice from scratch using best practices. About his experience during the Skill Sprint, Filip said: 
@@ -33,6 +36,7 @@ Elasticsearch savant Jilles van Gurp helped Filip, Mateo and Tomislav to complet
 <p class="box has-background-dark">“During five days of extensive work with Jilles, we successfully created a boilerplate pattern that later helped us refactor a part of our system from monolith to microservice. Overall a great experience and definitely worthwhile!”</p>
 
 
+{:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 # Golang
 
 Globalsoft is primarily a PHP shop and many customers demanded better performance, especially better latency. To serve these customers, Globalsoft invested in two Golang Skill Sprints, each focusing on creating a Golang microservice to relieve pressure on a PHP monolith. The Skill Sprint was delivered by engineers Darko and Gligor.
