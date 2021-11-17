@@ -3,99 +3,87 @@ layout: default
 # tabs: example_tabs
 ---
 
-<section class="section is-medium" id="colored-dna-back">
+<section class="section is-small" id="colored-dna-back">
     <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered has-text-white">Testimonials</h1>
 </section>
 
 
   {% for company in site.data.testimonial %}
-<section class="section py-5">
-  <div class="card has-background-white-bis">
-    <div class="card-content">
-      <div class="columns">
-        <div class="column is-3">
-          <figure class="image mb-6">
-            <img src="{{ company[1].company-logo }}" alt="Placeholder image">
-          </figure>
-        </div>
-        <div class="column is-9">
-          <p class="subtitle bodytext is-size-6 has-text-black">{{ company[1].company-description }}</p>
-        
-          <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
-          <div class="icon-text">
-              <span class="icon has-text-info">
-              <i class="fas fa-link"></i>
-              </span>
-              <span>{{ company[1].company-url }}</span>
-          </div></a>
+<section class="section mt-6">
+    <div class="columns is-vcentered">
+      <div class="column is-3">
+        <figure class="image mb-6">
+          <img src="{{ company[1].company-logo }}" alt="Placeholder image">
+        </figure>
+      </div>
+      <div class="column is-9">
+        <p class="subtitle bodytext is-size-6 ">{{ company[1].company-description }}</p>
+      
+        <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
+        <div class="icon-text">
+            <span class="icon has-text-info">
+            <i class="fas fa-link"></i>
+            </span>
+            <span>{{ company[1].company-url }}</span>
+        </div></a>
 
-          <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
-          <div class="icon-text">
-              <span class="icon has-text-info">
-              <i class="fas fa-book"></i>
-              </span>
-              <span>Case Study</span>
-          </div></a>
-        </div><!-- column  -->
-      </div><!-- columns  -->
-    </div><!-- card-content  -->
+        <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
+        <div class="icon-text">
+            <span class="icon has-text-info">
+            <i class="fas fa-book"></i>
+            </span>
+            <span>Case Study</span>
+        </div></a>
+      </div><!-- column  -->
+    </div><!-- columns  -->
 
-    <div class="columns">
-      <div class="column">
-        <div class="card-content">
-          {% for testimonial in company[1].testimonials %}
-          <div class="notification has-background-dark">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-128x128">
-                  <img class="is-rounded" src="{{ testimonial.photo }}" alt="Placeholder image">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-4 ">{{ testimonial.name }}</p>
-                <p class="subtitle is-6">{{ testimonial.position }}</p>
-              </div>
-            </div><!-- media -->
-            <div class="subtitle bodytext is-size-6 has-text-justified has-text-grey-light">
-              {{ testimonial.text }}
-            </div>
-          </div><!-- notification -->
-          {% endfor %}
-        </div><!-- card-content -->
-      </div><!-- what they say column -->
-      <div class="is-divider-vertical"></div>
-      <div class="column">
-        <div class="card-content">
-        <p class="title titled is-size-4 has-text-dark has-text-left"> Delivered Projects</p>
+  <div class="columns is-vcentered">
+    <div class="column">
+      <div class="card-content">
+        <p class="title titled is-size-4 has-text-left"> Delivered Projects</p>
         <hr />
         {% for project in company[1].projects %}
-          <div class="notification has-background-white-bis">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-128x128">
-                  <img src="{{ site.data.technology[project.technology].card-image }}" alt="Placeholder image">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title titled is-size-5 has-text-black">{{ project.title }}</p>
-                <p class="subtitle subtited is-size-6 has-text-grey">{{ project.subtitle }}</p>
-              </div>
+        <div class="notification has-background-white-bis">
+          <div class="media">
+            <div class="media-left">
+              <figure class="image is-128x128">
+                <img src="{{ site.data.technology[project.technology].card-image }}" alt="Placeholder image">
+              </figure>
             </div>
-            <p class="subtitle bodytext is-size-6 as-text-justified has-text-black">{{ project.blurb }}</p>
-              <button class="button is-ghost">
-                  <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
-                    <div class="icon-text">
-                      <span class="icon has-text-info">
-                      <i class="fas fa-arrow-right"></i>
-                      </span>
-                      <span class="has-text-black">Case Study</span>
-                    </div>
-                  </a>
-              </button>
-          </div><!-- notification -->
+            <div class="media-content">
+              <p class="title titled is-size-5 is-size-6-mobile has-text-black">{{ project.title }}</p>
+              <p class="subtitle subtited is-size-6 is-size-7-mobile has-text-grey">{{ project.subtitle }}</p>
+            </div>
+          </div>
+          <p class="subtitle bodytext is-size-6 as-text-justified has-text-black">{{ project.blurb }}</p>
+            <button class="button is-ghost">
+                <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
+                  <div class="icon-text">
+                    <span class="icon has-text-info">
+                    <i class="fas fa-arrow-right"></i>
+                    </span>
+                    <span class="has-text-black">Case Study</span>
+                  </div>
+                </a>
+            </button>
+        </div><!-- notification -->
         {% endfor %}
-      </div><!-- card content -->  
+      </div><!-- card-content -->
     </div><!-- column -->  
-  </div><!-- columns  -->
+    
+    <div class="column">
+      <div class="card-content">
+        {% for testimonial in company[1].testimonials %}
+        <figure class="snip1167">
+          <img src="{{ testimonial.photo }}" alt="Placeholder-image">
+          <blockquote>{{ testimonial.text }}</blockquote>
+          <div class="author">
+            <h5>{{ testimonial.name }}<span>{{ testimonial.position }}</span></h5>
+          </div>
+        </figure><!-- notification -->
+        {% endfor %}
+      </div>  
+    </div><!-- what they say column -->
+  </div><!-- columns -->  
 </section><!-- section  -->
 {% endfor %}      
