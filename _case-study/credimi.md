@@ -7,6 +7,7 @@ subtitle: FinTech Startup Credimi Smashes DevOps with a Skill Sprint
 technologies: [kubernetes, git]
 ---
 
+{:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 ## FinTech Startup Credimi Smashes DevOps with a Skill Sprint
 
 From its inception, Italian-based digital lending platform, Credimi, had always looked to build a continuous integration pipeline. The B2B company aims to be the fastest, simplest and most transparent of its kind – a vision that CTO Edmondo Porcu has extended onto his development team.
@@ -19,6 +20,7 @@ Porcu began looking for microservice architecture that was new and Docker-native
 
 Codefresh and Kubernetes brought opportunity for the Credimi development team, but several challenges still remained: 1) to set up the full pipeline enabled by these platforms, and 2) to bring knowledge to the development team that would allow it to unlock the full-featured potential of these technologies.
 
+{:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 ### Transforming potential value into tangible value
 Two of Porcu’s top engineers began worked with the Skill Sprint leader over one-week to achieve these crucial steps of migration and knowledge transfer.
 
@@ -32,6 +34,7 @@ The skill sprint kept Credimi engineers in high gear for a full week, allowing t
 
 In the week immediately following the sprint, Credimi engineers migrated an additional 5-7 services. This completed the most critical part of their migration, while simultaneously putting to practice the knowledge obtained in the sprint and combating the Forgetting Curve.
 
+{:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 ### An approach with longevity in mind
 Credimi now has the largest chunk of their tasks behind them. The critical migration has been completed, and the team possesses the knowledge to finish the smaller service migrations on their own time. After the skill sprint, Credimi was able to resolve its “manual DevOps” bottleneck, create clean microservice architecture and avoid any dependencies on expensive services.
 
