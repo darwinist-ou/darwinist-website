@@ -12,7 +12,7 @@ technologies: [kubernetes, python, git]
 </figure> -->
 
 {:.titled .is-size-3 .is-size-4-mobile .has-text-left}
-## Camping.info DevOps Skill Sprint – from an AWS disaster to GKE dream in a week
+# Camping.info DevOps Skill Sprint – from an AWS disaster to GKE dream in a week
 
 Germany’s camping.info is the leading online portal for camping enthusiasts. With a database of over 23,000 campsites across 44 European countries, German-speaking campers worldwide consult camping.info’s guides and apps and share their own experiences with other members of the community. Each campsite record contains specific site information and ratings from users, so the site’s technical infrastructure needs to be both flexible and powerful.
 

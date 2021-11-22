@@ -11,7 +11,7 @@ technologies: [kubernetes, git]
 </figure> -->
 
 {:.titled .is-size-3 .is-size-4-mobile .has-text-left}
-## Berlin-based [Humanitec](https://humanitec.com/), wanted to explore Kubernetes on Google. With the Darwinist design sprint as a compass, the enterprise software company began charting a new path.
+# Berlin-based [Humanitec](https://humanitec.com/), wanted to explore Kubernetes on Google. With the Darwinist design sprint as a compass, the enterprise software company began charting a new path.
 
 When Humanitec CTO Greg Lind approached Darwinist in July 2018, he had a hunch that Google-specific Kubernetes implementation would help steer his company in the right direction.
 
@@ -28,5 +28,5 @@ In a one week design sprint, Darwinist and two of Humanitec’s engineers comple
 Moreover, the engineers’ initial expectations were surpassed after they gained new skills through the sprint. The two who participated in the sprint noted the action-oriented, engaging nature of the program, after which they felt better equipped to act on necessary changes.
 
 {:.titled .is-size-3 .is-size-4-mobile .has-text-left}
-## Ultimately, the exploration of Google-specific Kubernetes with Darwinist validated Lind’s proposed concept. 
+### Ultimately, the exploration of Google-specific Kubernetes with Darwinist validated Lind’s proposed concept. 
 With the experience gathered in just a week’s time, Humanitec’s engineers are forging ahead with lean infrastructure and optimized foundations for development.
