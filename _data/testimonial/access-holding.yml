@@ -1,7 +1,7 @@
 ---
 company: Access Holding AG
 company-url: https://accessholding.com/
-company-description: AccessHolding is a commercial microfinance investment and holding company based in Germany. They are majority shareholders in several banks in Africa, Brazil and Eastern europe.
+company-description: AccessHolding is a commercial microfinance investment and holding company based in Germany. 
 company-logo: /img/companies/access-holding-logo.png
 location: Berlin, Germany 🇩🇪
 case-study: access-holding
@@ -11,7 +11,7 @@ testimonials:
     position: Head of Risk
     linked-in-url: https://www.linkedin.com/in/kyle-lackner-9200487/
     photo: /img/people/kyle-lackner.jpeg
-    text: “Skill Sprints enabled us to drop new skills on our people without having to worry about the dependencies.”
+    text: Skill Sprints enabled us to drop new skills on our people without having to worry about the dependencies.
 
 projects:
     - blurb: Upskilling a risk team with modern software development practice and tools.

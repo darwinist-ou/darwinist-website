@@ -3,7 +3,7 @@ name:
 company: GlobalSoft d.o.o
 company-url: https://www.globalsoft.ba/
 company-logo: /img/companies/globalsoft-logo.png
-company-description: GlobalSoft is a software development company in Bosnia and Herzgovenia. Founded in 2018 they now have a staff of 20 and an international client list.
+company-description: GlobalSoft is a software development company in Bosnia and Herzgovenia.
 location: Mostar, Bosnia and Herzgovenia 🇧🇦
 case-study: globalsoft
 
@@ -12,17 +12,17 @@ testimonials:
       position: Managing Director
       linked-in-url: https://www.linkedin.com/company/globalsoft-doo/
       photo: /img/people/drago-coric.png
-      text: “It is the ideal mix of investment into the education of your workers but also the business as a whole.”
+      text: It is the ideal mix of investment into the education of your workers but also the business as a whole.
     - name: Jozo Spajic
       position: Software Developer
       linked-in-url: https://www.linkedin.com/in/jozo-spaji%C4%87-751802187/
       photo: /img/people/jozo-spajic.jpeg
-      text: “All of the knowledge I gathered in this Skill Sprint has definitely brought future projects to a higher standard.”
+      text: All of the knowledge I gathered in this Skill Sprint has definitely brought future projects to a higher standard.
     - name: Filip Galic
       position: Senior Software Developer
       linked-in-url: https://www.linkedin.com/in/jozo-spaji%C4%87-751802187/
       photo: /img/people/filip-galic.jpg
-      text: “Overall a great experience and definitely worthwhile!”
+      text: Overall a great experience and definitely worthwhile!
 
 projects:
     - blurb: Led by an expert engineer from Darwinist, three of Globalsoft developers completely refactored their CI-CD and DevOps processes. During the Skill Sprint, they accomplished a complete re-engineering of application deployment and management.  
