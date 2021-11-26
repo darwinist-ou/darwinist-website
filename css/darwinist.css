@@ -6,19 +6,21 @@
 }
 
 .titled {
-  font-family: 'Orbitron' !important;
-}
-
-.bodytext {
-  font-family: 'Nunito' !important;
+  font-family: 'Cardo' !important;
+  font-weight: 700 !important;
 }
 
 .subtitled {
-  font-family: 'Karla' !important;
-  font-size: 22px !important;
-  font-weight: 400 !important;
-  line-height: 36px !important;
+  font-family: 'Josefin Slab' !important;
+  line-height: 33px !important;
 }
+
+.bodytext {
+  font-family: 'Tajawal' !important;
+  line-height: 28px !important;
+  font-weight: 300 !important;
+}
+
 #colored-dna-back {
   background: url(/img/home/colored-dna.svg);
   background-position: center;
