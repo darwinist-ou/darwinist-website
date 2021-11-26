@@ -5,6 +5,7 @@ layout: default
 <section class="section is-small" id="colored-dna-back">
   <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered has-text-white">{{ page.title }}</h1>
   <p class="subtitle subtitled is-size-3 is-size-5-mobile has-text-centered has-text-white">{{ page.subtitle }}</p>
+
 </section>
 
 <section class="section is-small">
@@ -55,6 +56,7 @@ layout: default
   <div class="block">
     <div class="card-content">
       {% for blurb in page.blurb %}
+
         <h1 class="subtitle subtitled is-size-4">{{ blurb }}</h1>
       {% endfor %}
     </div>
@@ -116,11 +118,16 @@ layout: default
 
 <section class="section is-small">
   <h5 class="title titled is-size-3 has-text-white has-text-centered mb-6">Skill Sprint Steps</h5>
+  <div class="block mb-6">
+    <p class="title titled is-size-4 is-size-5-mobile">0. The Skill Sprint leader</p>
+    <p class="bodytext is-size-5 px-5">The Leader of a Skill Sprint is an  expert in the target technology with a 
+      deep understanding of the caveats and special cases. The Leader does not have 
+      direct hand in the delivery in the implementation.</p></div>
   <div class="columns is-12 is-multiline box has-background-grey-dark">
     {% for step in page.steps %}
-    <div class="column is-4">
+    <div class="column is-half">
       <div class="card-content">
-        <h1 class="title titled is-size-4 is-size-5-mobile">{{step.title}}</h1>
+        <h6 class="title titled is-size-4 is-size-5-mobile">{{step.title}}</h6>
         <hr />
         <span class="subtitle bodytext is-size-6">{{step.text}}</span>
       </div>

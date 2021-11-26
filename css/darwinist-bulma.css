@@ -397,7 +397,7 @@ table th {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: white;
   display: block;
-  padding: 1.25rem; }
+  padding: 0rem; }
 
 a.box:hover, a.box:focus {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #485fc7; }
@@ -3083,7 +3083,7 @@ a.tag:hover {
 
 .card-content {
   background-color: transparent;
-  padding: 1.5rem; }
+  padding: 0rem; }
 
 .card-footer {
   background-color: transparent;
