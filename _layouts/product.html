@@ -4,7 +4,7 @@ layout: default
 
 <section class="section is-small" id="colored-dna-back">
   <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered has-text-white">{{ page.title }}</h1>
-  <h1 class="subtitle subtitled is-3 has-text-centered has-text-white">{{ page.subtitle }}</h1>
+  <p class="subtitle subtitled is-size-3 is-size-5-mobile has-text-centered has-text-white">{{ page.subtitle }}</p>
 </section>
 
 <section class="section is-small">
@@ -17,8 +17,8 @@ layout: default
       </div>
       <div class="card-content">
         <div class="content">
-            <h4 class="is-size-3"><span class="has-text-danger">Retool</span> your team</h4>
-            <p class="subtitle subtitled is-size-5">Get to grips with new technology in a week.</p>
+            <h4 class="titled is-size-3"><span class="has-text-danger">Retool</span> your team</h4>
+            <p class="bodytext is-size-5">Get to grips with new technology in a week.</p>
         </div>
       </div>
     </div>
@@ -30,8 +30,8 @@ layout: default
       </div>
       <div class="card-content">
         <div class="content">
-            <h4 class="is-size-3"><span class="has-text-warning">Invest</span> in people</h4>
-            <p class="subtitle subtitled is-size-5">Everything we do accelerates professional development.</p>
+            <h4 class="titled is-size-3"><span class="has-text-warning">Invest</span> in people</h4>
+            <p class="bodytext is-size-5">Everything we do accelerates professional development.</p>
         </div>
       </div>
     </div>
@@ -43,8 +43,8 @@ layout: default
       </div>
       <div class="card-content">
         <div class="content">
-            <h4 class="is-size-3"><span class="has-text-success">Evolve</span> the business</h4>
-            <p class="subtitle subtitled is-size-5">Real change delivered by <i>your</i> staff with <i>our</i> guidance.</p>
+            <h4 class="titled is-size-3"><span class="has-text-success">Evolve</span> the business</h4>
+            <p class="bodytext is-size-5">Real change delivered by <i>your</i> staff with <i>our</i> guidance.</p>
         </div>
       </div>
     </div>
@@ -55,21 +55,21 @@ layout: default
   <div class="block">
     <div class="card-content">
       {% for blurb in page.blurb %}
-        <h1 class="subtitle subtitled is-size-5">{{ blurb }}</h1>
+        <h1 class="subtitle subtitled is-size-4">{{ blurb }}</h1>
       {% endfor %}
     </div>
   </div>
 </section>
 
 <section class="section is-medium">
-  <h1 class="title titled is-size-3 is-size-4-mobile has-text-centered has-text-white mb-6">{{ page.top-copy-title }}</h1>  
+  <h2 class="title titled is-size-2 is-size-4-mobile has-text-left has-text-white mb-6">{{ page.top-copy-title }}</h2>  
   {% for text in page.top-copy %}
-  <h1 class="subtitle subtitled is-size-5 has-text-white px-5">{{ text }}</h1>
+  <p class="subtitle bodytext is-size-5 has-text-white">{{ text }}</p>
 {% endfor %}
 </section>
 
 <section class="section is-small">
-  <h1 class="title titled is-size-3 has-text-white has-text-centered mb-6">Skill Sprint Principles</h1>
+  <h3 class="title titled is-size-2 is-size-4-mobile has-text-white has-text-centered mb-6">Skill Sprint Principles</h3>
   <div class="columns is-12 is-multiline box has-background-grey-dark">
     {% for principle in page.principles %}
     <div class="column is-4">
@@ -77,11 +77,11 @@ layout: default
         <span class="icon py-5">
           <i class="fas fa-2x {{principle.icon}}"></i>
         </span> 
-        <p class="title titled is-size-4">
+        <p class="title titled is-size-3">
           {{principle.title}}
         </p>
         <hr />
-        <p class="bodytext has-text-left is-size-6">
+        <p class="bodytext has-text-left is-size-5">
           {{principle.text}}
         </p>
       </div>  
@@ -108,14 +108,14 @@ layout: default
 </section> -->
 
 <section class="section is-medium">
-  <h1 class="title titled is-size-3 is-size-4-mobile has-text-centered has-text-white mb-6">{{ page.bottom-copy-title }}</h1>
+  <h4 class="title titled is-size-3 is-size-4-mobile has-text-left has-text-white mb-6">{{ page.bottom-copy-title }}</h4>
   {% for text in page.bottom-copy %}
-  <h1 class="subtitle subtitled is-size-5 has-text-white px-5">{{ text }}</h1>
+  <p class="subtitle bodytext is-size-5 has-text-white">{{ text }}</p>
 {% endfor %}
 </section>
 
 <section class="section is-small">
-  <h1 class="title titled is-size-3 has-text-white has-text-centered mb-6">Skill Sprint Steps</h1>
+  <h5 class="title titled is-size-3 has-text-white has-text-centered mb-6">Skill Sprint Steps</h5>
   <div class="columns is-12 is-multiline box has-background-grey-dark">
     {% for step in page.steps %}
     <div class="column is-4">

@@ -11,10 +11,10 @@ layout: default
         </figure>
       </div>
       <div class="column is-8">
-        <h1 class="title titled is-1 has-text-white">
+        <h1 class="title titled is-size-1 is-size-3-mobile has-text-white">
             {{ page.title }} Skill Sprints
         </h1>
-        <h1 class="subtitle subtitled is-3 has-text-white">{{ page.slogan }}</h1>
+        <h1 class="subtitle subtitled is-size-3 is-size-5-mobile has-text-white">{{ page.slogan }}</h1>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@ layout: default
   <div class="card-equal-height">
     <div class="columns">
       <div class="column is-one-half">
-        <div class="card-content bodytext is-size-6">
+        <div class="card-content bodytext is-size-5">
             {% for item in page.tech-card-info.blurb %}
             <div class="block">
               {% if item.subtitle != nil  %}
@@ -32,7 +32,7 @@ layout: default
                       <span class="icon">
                       <i class="fas fa-sm fa-cog"></i>
                       </span>
-                      <span class="subtitle">{{ item.subtitle }}</span>
+                      <span class="subtitle subtitled">{{ item.subtitle }}</span>
                   </span>
               {% endif %}
               <p>{{ item.text }}</p>
@@ -42,16 +42,17 @@ layout: default
       </div>
       <div class="column">
         <div class="card-content">
-          <p class="title">{{ page.title }} - Tech Profile</p>
-          <p class="subtitle">{{ page.tech-card-info.type }}</p>
+          <p class="title titled">{{ page.title }} - Tech Profile</p>
+          <p class="subtitle subtitled has-text-grey-light">{{ page.tech-card-info.type }}</p>
             {% for item in page.tech-card-info.benefits %}
-            <div class="icon-text is-flex-wrap-nowrap">
+            <div class="icon-text bodytext is-flex-wrap-nowrap">
                 <span class="icon has-text-success">
                 <i class="fas fa-check-square"></i>
                 </span>
                 <span>{{ item }}</span>
             </div>
             {% endfor %}
+            <br />
             <a target="_blank" rel="noopener noreferrer" href="{{ page.tech-card-info.url }}">
             <div class="icon-text">
                 <span class="icon has-text-info">
@@ -67,9 +68,11 @@ layout: default
 
 
 <section class="section is-small">
-    <h2 class="title titled is-3 mb-7 has-text-white">What is a Skill Sprint?</h2>
+    <h2 class="title titled is-size-2 is-size-3-mobile mb-7 has-text-white">What is a Skill Sprint?</h2>
     <br />
-    <h2 class="subtitle subtitled is-4 has-text-grey-light">A Skill Sprint is a customised course intended to help a team get to grips with a new technology. Led by a subject expert, the participants are coached as they deliver on a real goal with the target technology.</h2>
+    <p class="subtitle subtitled is-size-4 is-size-5-mobile has-text-grey-light">A Skill Sprint is a customised course intended to help a 
+      team get to grips with a new technology. Led by a subject expert, the participants are coached as they deliver 
+      on a real goal with the target technology.</p>
 </section>
 
 
@@ -78,8 +81,8 @@ layout: default
   <div class="columns is-vcentered">
     <div class="column">
       <div class="content">
-          <h2 class="title titled is-3 mb-7">{{ page.lead }}</h2>
-          <h2 class="subtitle subtitled is-4 has-text-grey-light">{{ page.sub-lead }}</h2>
+          <h3 class="title titled is-3 mb-7">{{ page.lead }}</h3>
+          <p class="subtitle subtitled is-4 has-text-grey-light">{{ page.sub-lead }}</p>
       </div>
 
       {% for item in page.features %}
@@ -88,12 +91,12 @@ layout: default
         <span class="icon">
           <i class="fas fa-check"></i>
         </span>
-        <span class="content bodytext has-text-white">{{ item }}</span>
+        <span class="content bodytext is-size-5 has-text-white">{{ item }}</span>
       </div>
       </div>
       {% endfor %}
       <div class="column is-vertical is-centered">
-        <a class="button titled is-light is-success is-medium" href="https://darwinist.io/product/skill-sprint/">
+        <a class="button titled is-rounded is-outlined is-light is-success is-medium" href="https://darwinist.io/product/skill-sprint/">
           <span>More on Skill Sprints</span> 
           </a>
       </div>
