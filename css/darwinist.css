@@ -85,76 +85,80 @@ a {
 }
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
-figure.snip1167 {
+figure.snip1192 {
   font-family: 'Nunito', Arial, sans-serif;
   position: relative;
   overflow: hidden;
   min-width: 220px;
-  max-width: 780px;
+  max-width: 720px;
   width: 100%;
   color: #333;
-  text-align: center;
+  text-align: left;
   box-shadow: none !important;
 }
-figure.snip1167 * {
+figure.snip1192 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-figure.snip1167 img {
+figure.snip1192 img {
   max-width: 100%;
   height: 100px;
   width: 100px;
+  outline-color:hsl(0, 0%, 100%);
+  outline-width: 0.2cm; 
+  outline-style: solid;
   border-radius: 50%;
-  margin: 0 auto;
-  display: block;
+  margin-bottom: 15px;
+  display: inline-block;
   z-index: 1;
   position: relative;
 }
-figure.snip1167 blockquote {
-  margin: 10;
+figure.snip1192 blockquote {
+  margin: 0;
   display: block;
   border-radius: 8px;
   position: relative;
-  background-color: hsl(204, 25%, 92%);
-  padding: 65px 50px 30px 50px;
-  font-size: 1em;
+  background-color: hsl(0, 0%, 100%);
+  padding: 50px 50px 65px 50px;
+  font-size: 0.8em;
   font-weight: 500;
-  margin: -50px 0 0;
-  line-height: 1.6em;
+  margin: 20px 0 -50px;
+  line-height: 1.75em;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
-figure.snip1167 blockquote:before,
-figure.snip1167 blockquote:after {
-  font-family: 'Nunito';
+figure.snip1192 blockquote:before,
+figure.snip1192 blockquote:after {
+  font-family: 'FontAwesome';
   content: "\201C";
   position: absolute;
   font-size: 50px;
-  opacity: 0.3;
+  opacity: 0.5;
   font-style: normal;
 }
-figure.snip1167 blockquote:before {
-  top: 70px;
+figure.snip1192 blockquote:before {
+  top: 35px;
   left: 20px;
 }
-figure.snip1167 blockquote:after {
+figure.snip1192 blockquote:after {
   content: "\201D";
-  right: 50px;
-  bottom: 0;
+  right: 20px;
+  bottom: 35px;
 }
-figure.snip1167 .author {
-  padding: 25px;
-  margin: 0px;
+figure.snip1192 .author {
+  margin: 10px;
   text-transform: uppercase;
-  color: #ffffff;
   text-align: center;
+  color: #000000;
 }
-figure.snip1167 .author h5 {
+figure.snip1192 .author h5 {
   opacity: 0.8;
   margin: 0;
+  line-height: 1.5em;
   font-weight: 800;
 }
-figure.snip1167 .author h5 span {
+figure.snip1192 .author h5 span {
   font-weight: 400;
   text-transform: none;
   display: block;
 }
+
