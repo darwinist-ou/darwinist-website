@@ -18,7 +18,7 @@ layout: default
       </div>
       <div class="card-content">
         <div class="content">
-            <h4 class="titled is-size-3"><span class="has-text-danger">Retool</span> your team</h4>
+            <h2 class="titled is-size-3"><span class="has-text-danger">Retool</span> your team</h2>
             <p class="bodytext is-size-5">Get to grips with new technology in a week.</p>
         </div>
       </div>
@@ -31,7 +31,7 @@ layout: default
       </div>
       <div class="card-content">
         <div class="content">
-            <h4 class="titled is-size-3"><span class="has-text-warning">Invest</span> in people</h4>
+            <h2 class="titled is-size-3"><span class="has-text-warning">Invest</span> in people</h2>
             <p class="bodytext is-size-5">Everything we do accelerates professional development.</p>
         </div>
       </div>
@@ -44,7 +44,7 @@ layout: default
       </div>
       <div class="card-content">
         <div class="content">
-            <h4 class="titled is-size-3"><span class="has-text-success">Evolve</span> the business</h4>
+            <h2 class="titled is-size-3"><span class="has-text-success">Evolve</span> the business</h2>
             <p class="bodytext is-size-5">Real change delivered by <i>your</i> staff with <i>our</i> guidance.</p>
         </div>
       </div>
@@ -52,12 +52,11 @@ layout: default
   </div>        
 </section>
 
-<section class="section ">
-  <div class="block">
-    <div class="card-content">
+<section class="section is-small">
+  <div class="columns is-centered">
+    <div class="column is-half has-text-justified">
       {% for blurb in page.blurb %}
-
-        <h1 class="subtitle subtitled is-size-4">{{ blurb }}</h1>
+        <p class="bodytext is-size-5">{{ blurb }}</p>
       {% endfor %}
     </div>
   </div>
