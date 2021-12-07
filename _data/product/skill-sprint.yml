@@ -15,7 +15,7 @@ top-copy:
   - Relying on external consultants or new hires to support technology investments results in unquantifiable risk as they have no context of the business. Prior to investing in new technologies, we need employees with expert knowledge of the business and the target technology to guide that investment.
   - Knowledge of the business environment is much harder to acquire than knowledge of technology. We can, however, quickly and efficiently up-skill people with technology. By blending elements of consultancy, on-the-job training and Agile, Skill Sprints are designed to make this process fast and predictable.
 
-bottom-copy-title: "Skills Sprints: Re-engineering technology education, technology consulting and technology investment"  
+bottom-copy-title: "Skills Sprints: Re-engineering technology education, consulting and investment"  
 bottom-copy:
   - Skill Sprints overcome the abstract and virtual nature of training with a learn-by-doing method. Learning, designing and executing in a safe and supportive environment, participants bond together. 
   - Liminality is the transitional phase experienced by a person during a rite of passage; a process of leaving behind an old identity, and becoming something new. Skill Sprints engineer the environment, ensuring that critical success factors are in place. Within this controlled environment participants are brought through the threshold of a liminal experience as they are able to truly enjoy the fruits of their labor.
@@ -57,7 +57,7 @@ steps:
   - title: 2. Assemble the team
     number: 2
     text: Two or three permanent members of staff are committed to the Skill Sprint. Excused from their work for the duration of the sprint, These members of staff will do all of the work required to deliver the output.
-  - title: 3. Plan to expose risks and caveats
+  - title: 3. Plan to expose risks
     number: 3
     text: New technologies have to be integrated with existing process and technology. With two or three contexting calls the leader will help team to refine the scope, expose risks, uncertainties and possible sticking points. 
   - title: 4. Just do it
