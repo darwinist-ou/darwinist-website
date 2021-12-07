@@ -40,7 +40,8 @@ layout: default
             </div>
           </div>
           <p class="subtitle bodytext is-size-6 has-text-black">{{ project.blurb }}</p>
-            <button class="button titled is-rounded is-light is-outlined is-success is-medium is-fullwidth">
+  
+            <button onclick="location.href='/case-study/{{ company[1].case-study }}';" class="button titled is-rounded is-light is-outlined is-success is-medium is-fullwidth">
                 <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
                   <div class="icon-text has-text-white">
                     <span class="icon has-text-info">
@@ -48,8 +49,8 @@ layout: default
                     </span>
                     <span class="has-text-black">Case Study</span>
                   </div>
-                </a>
             </button>
+        
           <br />  
         </div><!-- notification -->
         {% endfor %}

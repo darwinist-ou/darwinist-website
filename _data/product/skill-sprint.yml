@@ -51,6 +51,9 @@ principles:
     text: No dependencies. Skill Sprints leave the customer in a sustainable position. Able to independently drive things forward.
 
 steps:
+  - title: 0. The Skill Sprint leader
+    number: 0
+    text: The Leader of a Skill Sprint is an  expert in the target technology with a deep understanding of the caveats and special cases. The Leader does not have direct hand in the delivery in the implementation.
   - title: 1. Define the output
     number: 1
     text: Define the first implementation of the technology. It is important that something actually changes for the Skill Sprint to be successful. There are no "Proof Of Concepts" - real things have to change.

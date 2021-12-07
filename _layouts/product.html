@@ -116,18 +116,10 @@ layout: default
 </section>
 
 <section class="section is-small">
-  <h5 class="title titled is-size-2 is-size-3-mobile has-text-white has-text-centered mb-6">Skill Sprint Steps</h5>
-  <div class="column is-half">
-    <div class="block mb-6">
-        <p class="title titled is-size-3 is-size-4-mobile">0. The Skill Sprint leader</p>
-        <p class="bodytext is-size-5">The Leader of a Skill Sprint is an  expert in the target technology with a 
-          deep understanding of the caveats and special cases. The Leader does not have 
-          direct hand in the delivery in the implementation.</p>
-    </div>
-  </div>  
+  <h5 class="title titled is-size-2 is-size-3-mobile has-text-white has-text-centered mb-6">Skill Sprint Steps</h5> 
   <div class="columns is-12 is-multiline box has-background-grey-dark">
     {% for step in page.steps %}
-    <div class="column is-3">
+    <div class="column">
       <div class="card-content">
         <h6 class="title titled is-size-4 is-size-4-mobile">{{step.title}}</h6>
         <hr />
