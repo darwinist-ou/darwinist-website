@@ -6,21 +6,25 @@ subtitle: Organizing workflows on a multinational level
 technologies: [python, git, sql-server]
 ---
 
-## Business Departments from Major Microfinance Bank learn new technical tricks with Skill Sprints from Darwinist.
+# Business Departments from Major Microfinance Bank learn new technical tricks with Skill Sprints from Darwinist.
 
 AccessHolding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running Skill Sprints to help AccessHolding invest in their employees and transform their business.
 
 <span class="image right"><img src="{{ "/images/camping-info.png" | absolute_url }}" alt="" /></span>
 
-# Risk Department (Berlin)
+
+
+## Risk Department (Berlin)
 
 As the AccessHolding Risk Department expanded their data analytics, it became clear to Kyle - head of that Department - that dedicated developers were needed. This pushed the Risk Department into new territory. While the problems of overly complex and error-prone excel sheets were reduced, new problems arose.
 
 Business-side people were no longer able to independently confirm the method of the analytics, leading to a new type of model risk. Furthermore, this reliance on developers created key person risks. Previously, excel sheets could be deciphered in case of an analyst's departure, but now the work was performed inside of code that might disappear entirely.
 
-As such, Kyle commissioned a Skill Sprint to ensure that quality control was embedded into the new coding processes, ensuring four-eyes review for key analytics prior to publishing. Furthermore, the team established a code repository on Github, ensuring that the loss of one employee would not result in the loss of years of development.
+As such, Kyle commissioned a Skill Sprint to ensure that quality control was embedded into the new coding processes, ensuring four-eyes review for key analytics prior to publishing. Furthermore, the team established a code repository on Github, ensuring that the loss of one employee would not result in the loss of years of development. 
 
-# Business Department (Berlin)
+
+
+## Business Department (Berlin)
 
 Marijana and Dusko are senior business managers for AccessHolding. They are responsible for providing consultancy services to the group and cross pollination between the individual banks.
 
@@ -30,7 +34,9 @@ Marijana and Dusko showed very high aptitude for coding, however their efforts w
 
 Whilst the Skill Sprint was ultimately unsuccessful, it helped everyone understand what could be done better in subsequent Skill Sprints, especially around access to data and development environments.
 
-# Risk Manager / Mobile Payments Manager (Zambia)
+
+
+## Risk Manager / Mobile Payments Manager (Zambia)
 
 Mwaka is the head of risk and Marcus is the head of mobile payments (eTumba mobile wallet). Working with Darwinist over one month, two hours per day, they explored the core banking system relational database using Python and SQL.  
 
