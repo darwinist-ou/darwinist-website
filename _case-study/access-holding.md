@@ -10,9 +10,6 @@ technologies: [python, git, sql-server]
 
 AccessHolding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running Skill Sprints to help AccessHolding invest in their employees and transform their business.
 
-<span class="image right"><img src="{{ "/images/camping-info.png" | absolute_url }}" alt="" /></span>
-
-
 
 ## Risk Department (Berlin)
 
@@ -21,7 +18,6 @@ As the AccessHolding Risk Department expanded their data analytics, it became cl
 Business-side people were no longer able to independently confirm the method of the analytics, leading to a new type of model risk. Furthermore, this reliance on developers created key person risks. Previously, excel sheets could be deciphered in case of an analyst's departure, but now the work was performed inside of code that might disappear entirely.
 
 As such, Kyle commissioned a Skill Sprint to ensure that quality control was embedded into the new coding processes, ensuring four-eyes review for key analytics prior to publishing. Furthermore, the team established a code repository on Github, ensuring that the loss of one employee would not result in the loss of years of development. 
-
 
 
 ## Business Department (Berlin)
@@ -33,7 +29,6 @@ The Skill Sprint for Marijana and Dusko was run for a full week with the support
 Marijana and Dusko showed very high aptitude for coding, however their efforts were severely frustrated by the lack of high quality data and healthy development environment. 
 
 Whilst the Skill Sprint was ultimately unsuccessful, it helped everyone understand what could be done better in subsequent Skill Sprints, especially around access to data and development environments.
-
 
 
 ## Risk Manager / Mobile Payments Manager (Zambia)

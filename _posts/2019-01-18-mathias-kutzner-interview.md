@@ -35,8 +35,8 @@ In short, Kutzner believes in automation and education to push development forwa
 {:.title .titled .has-text-centered .is-size-4-mobile}
 Read our short Q&A below.
 
-{:.has-text-warning}
-_What kinds of challenges do you see companies facing right now in terms of development?_
+{:.has-text-success}
+* What kinds of challenges do you see companies facing right now in terms of development?
 
 {:.block}
 Definitely a lack of qualified employees and developers. That’s not just because there aren’t that many, but it’s also because those who exist can choose between too many jobs. They don’t need to improve or learn new things because they’ll find a job anyway. That already started about 10 years ago. A lot of developers – I’d say the majority – use their time now to tell companies or startups what technology they should use based on what they, the developers, would like to do – whether it’s useful or not for the specific company. This is a huge challenge.
@@ -44,14 +44,14 @@ Definitely a lack of qualified employees and developers. That’s not just becau
 {:.block}
 Another challenge is that nobody really wants to take care of the system administration or DevOps part. That’s why most startups are using cloud computing offers without really understanding the underlying infrastructure, and what that can really offer to the company or product. The result is you get a lot of unqualified developers who move to DevOps.
 
-{:.has-text-warning}
-_My understanding is that ‘training’ isn’t a word that developers tend to embrace. How can training be made useful again in  the development sphere? Do you envision this as something that can take development teams to the next level in the future?_
+{:.has-text-success}
+* My understanding is that ‘training’ isn’t a word that developers tend to embrace. How can training be made useful again in  the development sphere? Do you envision this as something that can take development teams to the next level in the future?
 
 {:.block}
 Simple answer, yes. That’s basically what I’m envisioning. Maybe taking one step back to my background: I went back to university ten years ago to do my phD, but instead I founded an e-learning teleteaching startup within the university. That’s how I got in touch with e-learning, and I find it very interesting. I still think there’s a model that can be done to train developers. There’s a lot of material out there, but it’s mostly learning a new language or framework. Learning a completely new concept, like replacing DevOps and teaching developers to do this part of work as well – this is something that I haven’t seen so far.
 
-{:.has-text-warning}
- _How does Darwinist fit into your vision for the future of development?_
+{:.has-text-success}
+* How does Darwinist fit into your vision for the future of development?
 
 {:.block}
 There’s a better way to do what DevOps engineers are doing right now. I’m interested in what Andrew is trying to achieve, and that’s supporting automation and getting rid of – it sounds harsh, but – useless jobs. That’s really what I look for in investments: those that automate [processes], or those that involve a machine or algorithm that does things better than people. Andrew is also creating a learning platform around it. That was when I became very interested.

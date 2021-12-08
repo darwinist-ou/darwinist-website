@@ -6,7 +6,9 @@ subtitle: Startup Smashes DevOps with a Skill Sprint
 technologies: [kubernetes, git]
 ---
 
+
 # Credimi solves a DevOps bottleneck in record time with a Kubernetes Skill Sprint
+
 
 From its inception, Milan-based digital lending platform Credimi had always looked to build a continuous integration pipeline. The B2B company aims to be the fastest, simplest and most transparent of its kind, a vision that CTO Edmondo Porcu has extended onto his development team. Credimi embraced microservices from day one, but it soon found that managing all the architecture components was becoming increasingly complicated.
 

@@ -10,7 +10,9 @@ technologies: [kubernetes, python, git]
   <img src="/img/case-studies/camping-info-logo.png" alt="Case study: Camping.info">
 </figure> -->
 
+
 # Camping.info retools using a Kubernetes Skill Sprint to meet major deadline
+
 
 Germany’s camping.info is the leading online portal for camping enthusiasts, with a database of over 23,000 campsites across 44 European countries. German-speaking campers worldwide consult camping.info’s guides and apps, and share their own experiences with members of the community. Each campsite record contains specific site information and ratings from users, so the site’s technical infrastructure needs to be both flexible and powerful.
 

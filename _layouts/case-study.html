@@ -2,24 +2,27 @@
 layout: default
 ---
 
-<section id="colored-dna-back" class="section">
+<section id="colored-dna-back" class="section is-small">
   <div class="columns is-mobile is-three-quarter-mobile">
     <div class="column">
-      <h1 class="title titled is-1 has-text-white has-text-right">
+      <h1 class="title titled is-size-1 is-size-3-mobile has-text-white has-text-right">
       Case Study: {{ page.company }}
       </h1>
-      <h1 class="subtitle subtitled has-text-right is-3 has-text-white">{{ page.subtitle }}</h1>
+      <h1 class="subtitle subtitled has-text-right is-size-3 is-size-5-mobile has-text-white">{{ page.subtitle }}</h1>
     </div>
   </div>
     <div class="columns is-mobile is-vcentered">
       <div class="columns is-mobile">
       {% for tech in page.technologies %}
         <div class="column is-three-quarter-desktop">
-          <a href="/technology/{{ site.data.technology[tech].url }}">
-            <figure class="image">
-              <img src="{{ site.data.technology[tech].card-image }}">
-            </figure>
-          </a>
+            <a href="/technology/{{ site.data.technology[tech].url }}">
+              <figure class="image">
+                <img src="{{ site.data.technology[tech].card-image }}">
+              </figure>
+            </a>
+          <div class="subtitle subtitled is-size-5 is-size-7-mobile has-text-centered">
+              <p><u>{{ site.data.technology[tech].name }}</u></p>
+          </div>
         </div>
       {% endfor %}
     </div> 
@@ -28,7 +31,7 @@ layout: default
 
 <section class="section">
   <div class="content">
-    <div class="bodytext py-6 is-size-6 has-text-justified">
+    <div class="bodytext py-6 is-size-5">
       {{ content }}
     </div>
   </div>

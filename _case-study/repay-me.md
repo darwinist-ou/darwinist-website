@@ -14,7 +14,6 @@ technologies: [kubernetes, git]
 Founded in 2015, Repay.me is a Berlin-based startup working on a global marketplace featuring full cashback functionalities. In parallel, Repay.me plans to issue its own cryptocurrency.
 
 
-
 ## Critical deadline collides with tangled infrastructure
 
 With a major product launch approaching, Philipp - the developer responsible for managing infrastructure resources - was out of his depth trying to automate cloud resources with Ansible. The learning curves were steep and his team lacked an overall vision. They certainly didn’t need these added challenges ahead of a mission-critical deadline.
@@ -24,13 +23,11 @@ Repay.me’s development infrastructure was becoming an unacceptable limiting fa
 Repay.me CTO/CEO Sascha recognized the issue and brought Darwinist in to streamline the process. The goal in this collaboration was to make immediate decisions related to the infrastructure, upskill the team and ensure the deadline would be met in time.
 
 
-
 ## Skill Sprint: the light at the end of the tunnel
 
 A Darwinist expert ended up planning a Skill Sprint with the team for July 2018 to rapidly deploy an out-of-the box solution that would help Repay.me meet their launch deadline. Working together over a one week span, they quickly migrated from Ansible/Azure to Kubernetes on Google Cloud, integrated with Jenkins for CI/CD and Github.
 
 This Skill Sprint resulted in a fully functional infrastructure with vastly improved CI/CD functionality, Review Apps and lower cloud hosting costs. Moreover, Phillipp was upskilled to manage and further engineer it. Darwinist also offered continued support in case there were any hiccups down the road.
-
 
 
 ## Newly empowered team meets deadline
