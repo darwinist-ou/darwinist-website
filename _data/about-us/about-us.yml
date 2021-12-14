@@ -33,9 +33,9 @@ values:
     description: We are interested in applying the strategy of Win-Win both in relations with partners and clients, and among the collective.
 
 services-list: 
-  - blurb: Our services include running Skills Sprints for many core technologies. 
+  blurb: Our services include running Skills Sprints for many core technologies. 
     Skill Sprints a training week during which an expert from Darwinist teaches a team new skills and technologies. After completing this programme participants are able to build, maintain and adjust the target technologies.
-  - list: 
+  list: 
     - Git 
     - Kubernetes
     - Python
@@ -51,9 +51,9 @@ services-list:
     - And more 
 
 bottom-copy: 
-  - Andrew Holway, the inventor of Skill Sprints and CEO of Darwinist, designed it 
+  Andrew Holway, the inventor of Skill Sprints and CEO of Darwinist, designed it 
   based on many years of experience in IT consulting, including working for the 
   CERN on the LHC. The main focus of this method is to achieve desirable goals 
   with a learning-by-doing approach. 
-  - At Darwinist, we see a future where companies are not afraid of using new  
+  At Darwinist, we see a future where companies are not afraid of using new  
   technologies, and have all the necessary knowledge to reach their goals faster and efficiently 
