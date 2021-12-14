@@ -2,16 +2,10 @@
 layout: about-us
 headline: "By Andrew Holway - Darwinist Founder"
 title: Our mission, vision and values 
-description: >- 
-AUTOMATE YOUR WORK & LEARN TO CODE
-show: true
-sitemap: true
-
+description: AUTOMATE YOUR WORK & LEARN TO CODE
 ---
 
-<p class="box has-background-dark"> We are specialists in technology education, developing approaches and methodologies that cut down the time to first value from months to days.  
-
-We are aiming to find the best tech solution for companies who are in need of business evolution and automation. ”</p>
+<p class="box has-background-dark"> We are here to assist your company in effectively investing in people by providing them safe environment for skills development, discovering the most excellent arrangement to retool your trade applications and innovations, and therefore evolving your business. </p>
 
 {:.title .titled .has-text-left .is-size-4-mobile}
 ## Our mission 
@@ -51,19 +45,21 @@ Our company adheres to the following values:
 
 Our services include running Skills Sprints for many core technologies. Skill Sprints: a training week during which an expert from Darwinist teaches a team new skills and technologies. After completing this programme participants are able to build, maintain and adjust the target technologies. The technologies that we can help you to master: 
 
-Git 
-Kubernetes
-Python
-Microsoft Azure
-Amazon Web Services
-Google Cloud Platform
-Microsoft SQL Server
-MySQL
-PostgreSQL
-Devops
-Golang 
-Elasticsearch 
-And more 
+<ul>
+<li>Git</li> 
+<li>Kubernetes</li>
+<li>Python</li>
+<li>Microsoft Azure</li>
+<li>Amazon Web Services</li>
+<li>Google Cloud Platform</li>
+<li>Microsoft SQL Server</li>
+<li>MySQL</li>
+<li>PostgreSQL</li>
+<li>Devops</li>
+<li>Golang </li>
+<li>Elasticsearch </li>
+<li>And more </li>
+</ul>
 
 {:.title .titled .has-text-left .is-size-4-mobile}
 ## Our founder 
