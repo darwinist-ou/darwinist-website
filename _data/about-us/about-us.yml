@@ -1,0 +1,58 @@
+---
+title: About us
+subtitle: AUTOMATE YOUR WORK & LEARN TO CODE
+company-introduction: We are here to assist your company in effectively investing in people by providing them a supportive environment to grow their skills. 
+Discover a new way to retool your teams and evolve your business.
+
+mission:
+Our mission is to provide technology centric transformations of your business within a training and coaching environment.
+
+values:
+  - number: 1
+    title: 1. Equal opportunities
+    description: Our company provides equal working conditions and is open to all people whose professional skills, goals and interests coincide with the interests of the company, regardless of age, gender, nationality, sexual orientation or personal characteristics and dissabilities or social status. 
+  - number: 2
+    title: 2. Teamwork:
+    description: it is important for us that each of our employees feels supported by their colleagues. 
+    Therefore, we help each other to grow and develop new skills towards a common result. 
+    We value mutual trust and respect for colleagues and clients. 
+  - number: 3
+    title: 3. Responsibility
+    description: In addition to the general accepted notion of responsibility, it is customary in our company to take personal responsibility for one's own development, improving the skills needed to provide all necessary services to our company's clients.
+  - number: 4
+    title: 4. Friendliness
+    description: In our company we always have a positive attitude because we believe that with a positive attitude and a friendly atmosphere within the team, the company can fulfil its tasks more quickly and effectively.
+  - number: 5
+    title: 5. Openness to feedback
+    description: We openly give each other feedback, initiate it ourselves, accept criticism with gratitude. 
+  - number: 6
+    title: 6. Humour 
+    description: We at Darwinist are very humorous guys and believe that humour is a catalyst for team creativity and cohesion  
+  - number: 7
+    title: 7. Love
+    description: We love what we do and we spread love via our actions. Everything we do to satisfy our customers is done with love. 
+
+services-list: 
+  blurb: Our services include running Skills Sprints for many core technologies. 
+    Skill Sprints a training week during which an expert from Darwinist teaches a team new skills and technologies. After completing this programme participants are able to build, maintain and adjust the target technologies.
+  list: 
+    - Git 
+    - Kubernetes
+    - Python
+    - Microsoft Azure
+    - Amazon Web Services
+    - Google Cloud Platform
+    - Microsoft SQL Server
+    - MySQL
+    - PostgreSQL
+    - Devops
+    - Golang 
+    - Elasticsearch 
+    - And more 
+
+bottom-copy: 
+  Andrew Holway, CEO of Darwinist, designed the Skill Sprint based on many years of experience in IT consulting, including working for the CERN on the LHC. 
+  The main focus of this method is to achieve desirable goals with a learning-by-doing approach. 
+  Andrew has been promoting Skill Sprints over the past five years as a response to the deficiencies in the technical training and consulting industries. 
+  Andrew develops people-centric transformation methodologies and he has led dozens of companies and hundreds of employees toward growth and positive change.
+
