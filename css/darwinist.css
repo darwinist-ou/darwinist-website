@@ -6,17 +6,14 @@
 }
 
 .titled {
-  font-family: 'Cardo' !important;
   font-weight: 700 !important;
 }
 
 .subtitled {
-  font-family: 'Josefin Slab' !important;
   line-height: 33px !important;
 }
 
 .bodytext {
-  font-family: 'Tajawal' !important;
   line-height: 28px !important;
   font-weight: 300 !important;
 }

@@ -4,7 +4,7 @@ title:  "To automate our world we have to find effective ways of learning new te
 date:   2020-06-30
 excerpt: "Learning by doing is the only effective way that we can acquire new technical skills. Skill Sprints are designed to approach this challenge head on."
 description: "Learning by doing is the only effective way that we can acquire new technical skills. Skill Sprints are designed to approach this challenge head on."
-image: "/img/posts/the-machines.jpg"
+image: "/img/posts/robot-office.jpeg"
 headline: "By Andrew Holway - Darwinist Founder"
 show: true
 sitemap: true
@@ -28,7 +28,8 @@ I developed a process, _the Skill Sprint_, *which is designed to upskill the Dev
 {:.block}
 There is a terrible myth in tech: Those who have the potential for coding can do so by taking some online course from providers such as Udacity or Code Academy. These providers are not incentivised by your success on these courses - only by your continuous engagement. For me, the idea that taking an online course can transform your career, is somewhat laughable. They just don't work for the vast majority of people. Especially for technical skills.
 
-## The tech industry does not understand knowledge
+{:.title.titled.is-size-1.is-size-3-mobile.block.pb-5}
+# The tech industry does not understand knowledge
 
 {:.block}
 This is primarily because of two reasons. Firstly - Tech knowledge is 'tacit knowledge' - the application of this knowledge depends completely on the context of the problem that you're trying to solve. You can't just learn something from an online course and apply that in your daily work. Their examples are too abstract and they rarely teach you anything which has any real power.

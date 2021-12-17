@@ -361,7 +361,7 @@ fieldset {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  background-color: #3B3749;
+  background-color: whitesmoke;
   color: white;
   font-size: 0.875em;
   overflow-x: auto;
@@ -397,7 +397,7 @@ table th {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
   color: white;
   display: block;
-  padding: 2rem; }
+  padding: 1.25rem; }
 
 a.box:hover, a.box:focus {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #485fc7; }
@@ -3083,7 +3083,7 @@ a.tag:hover {
 
 .card-content {
   background-color: transparent;
-  padding: 0rem; }
+  padding: 1.5rem; }
 
 .card-footer {
   background-color: transparent;
