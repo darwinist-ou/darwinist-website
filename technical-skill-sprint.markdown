@@ -1,4 +1,0 @@
----
-
-layout: technical-skill-sprint
----
