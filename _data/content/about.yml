@@ -5,7 +5,8 @@ company-introduction: We are here to assist your company in effectively investin
   Discover a new way to retool your teams and evolve your business.
 
 mission:
-  Our mission is to provide technology centric transformations of your business within a training and coaching environment.
+   title: Mission 
+   text: Our mission is to provide technology centric transformations of your business within a training and coaching environment.
 
 values:
   - number: 1
@@ -32,27 +33,13 @@ values:
     title: 7. Love
     description: We love what we do and we spread love via our actions. Everything we do to satisfy our customers is done with love. 
 
-services-list: 
-  blurb: Our services include running Skills Sprints for many core technologies. 
-    Skill Sprints a training week during which an expert from Darwinist teaches a team new skills and technologies. After completing this programme participants are able to build, maintain and adjust the target technologies.
-  list: 
-    - Git 
-    - Kubernetes
-    - Python
-    - Microsoft Azure
-    - Amazon Web Services
-    - Google Cloud Platform
-    - Microsoft SQL Server
-    - MySQL
-    - PostgreSQL
-    - Devops
-    - Golang 
-    - Elasticsearch 
-    - And more 
-
-bottom-copy: 
-  Andrew Holway, CEO of Darwinist, designed the Skill Sprint based on many years of experience in IT consulting, including working for the CERN on the LHC. 
-  The main focus of this method is to achieve desirable goals with a learning-by-doing approach. 
-  Andrew has been promoting Skill Sprints over the past five years as a response to the deficiencies in the technical training and consulting industries. 
-  Andrew develops people-centric transformation methodologies and he has led dozens of companies and hundreds of employees toward growth and positive change.
-
+history: 
+  title: History 
+  text-1:
+      The story of our company began with our founder Andrew Holway's idea to help organizations invest effectively in their people by providing a training programme. The programme, meticulously developed over the years and tested by many organizations, has proven effective. In just a week, organizations’ employees can learn and, most importantly, apply what they have learned to their jobs. 
+  text-2:
+      Skill Sprint is a unique methodology that includes the development of technical skills for development teams and business people and the development of soft skills such as leadership, responsibility, and a focus on results. 
+      We are the adherents of the idea of effective investment in people. 
+  text-3:
+      We believe that an organization consists of people who work first of all. For many employees,s work is a way to get money and an opportunity for self-realization and improvement of their skills. 
+      We provide this opportunity and always strive to achieve our goals. 

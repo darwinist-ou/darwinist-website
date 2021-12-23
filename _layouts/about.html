@@ -7,3 +7,31 @@ layout: default
     <h1 class="title is-size-1 is-size-2-mobile has-text-centered has-text-white">{{ site.data.content.about.title }}</h1>
     <p class="subtitle is-size-3 is-size-5-mobile has-text-centered has-text-white">{{ site.data.content.about.subtitle }}</p>
 </section>
+
+<section class="section">
+  <p class="subtitle has-text-white">{{ site.data.content.about.company-introduction }}</p>
+</section>
+
+<section class="section">
+    <h3 class="title is-size-1 is-size-2-mobile has-text-centered has-text-white">{{ site.data.content.about.mission.title }}</h3>
+    <br />
+    <p class="subtitle is-size-5-mobile has-text-white">{{ site.data.content.about.mission.text }}</p>
+</section>
+
+<section class="section is-small">
+    <h5 class="title is-size-2 is-size-3-mobile has-text-white has-text-centered mb-6">Values</h5>
+        {% for values in site.data.content.about.values %}
+                <div class="box has-background-white-bis">
+                    <h6 class="title is-size-3 is-size-4-mobile has-text-black">{{values.title}}</h6>
+                    <span class="subtitle is-size-5 has-text-black">{{values.description}}</span>
+                </div>
+        {% endfor %}
+</section>
+
+<section class="section">
+    <h3 class="title is-size-1 is-size-2-mobile has-text-centered has-text-white">{{ site.data.content.about.history.title }}</h3>
+    <br />
+    <p class="subtitle has-text-white">{{ site.data.content.about.history.text-1 }}</p>
+    <p class="subtitle has-text-white">{{ site.data.content.about.history.text-2 }}</p>
+    <p class="subtitle has-text-white">{{ site.data.content.about.history.text-3 }}</p>
+</section>
