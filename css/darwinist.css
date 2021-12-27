@@ -5,6 +5,35 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .slogan-text {
+    font-size: 8vw!important;
+  }
+  .slogan-div {
+    margin-bottom: 6vw!important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slogan-text {
+    font-size: 5vw!important;
+  }
+  .slogan-div {
+    margin-bottom: 6vw!important;
+    margin-left: 6vw!important
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .slogan-text {
+    font-size: 2rem!important;
+  }
+  .slogan-div {
+    margin-bottom: 1.5rem!important;
+    margin-left: 0vw!important
+  }
+}
+
 .titled {
   font-weight: 700 !important;
   font-family: Arial, Helvetica, sans-serif;
