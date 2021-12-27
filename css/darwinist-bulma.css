@@ -309,7 +309,7 @@ pre {
   font-family: monospace; }
 
 body {
-  color: white;
+  color: #0a0a0a;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5; }
@@ -362,7 +362,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: white;
+  color: #0a0a0a;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -395,7 +395,7 @@ table th {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: white;
+  color: #0a0a0a;
   display: block;
   padding: 1.25rem; }
 
@@ -446,7 +446,7 @@ a.box:active {
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: white;
+    color: #0a0a0a;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
@@ -1345,7 +1345,7 @@ a.box:active {
 .content h4,
 .content h5,
 .content h6 {
-  color: #e6ecf0;
+  color: #0a0a0a;
   font-weight: 600;
   line-height: 1.125; }
 
@@ -1676,11 +1676,11 @@ div.icon-text {
   .progress::-webkit-progress-bar {
     background-color: #ededed; }
   .progress::-webkit-progress-value {
-    background-color: white; }
+    background-color: #0a0a0a; }
   .progress::-moz-progress-bar {
-    background-color: white; }
+    background-color: #0a0a0a; }
   .progress::-ms-fill {
-    background-color: white;
+    background-color: #0a0a0a;
     border: none; }
   .progress.is-white::-webkit-progress-value {
     background-color: white; }
@@ -1768,7 +1768,7 @@ div.icon-text {
     animation-name: moveIndeterminate;
     animation-timing-function: linear;
     background-color: #ededed;
-    background-image: linear-gradient(to right, white 30%, #ededed 30%);
+    background-image: linear-gradient(to right, #0a0a0a 30%, #ededed 30%);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 150% 150%; }
@@ -1965,7 +1965,7 @@ div.icon-text {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 4px;
-  color: white;
+  color: #0a0a0a;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -2089,7 +2089,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: whitesmoke;
+  color: #0a0a0a;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -2114,7 +2114,7 @@ a.tag:hover {
     font-size: 0.75rem; }
 
 .subtitle {
-  color: white;
+  color: #0a0a0a;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25; }
@@ -2723,7 +2723,7 @@ a.tag:hover {
 
 .file-cta {
   background-color: whitesmoke;
-  color: white; }
+  color: #0a0a0a; }
 
 .file-name {
   border-color: #3b3749;
@@ -2924,7 +2924,7 @@ a.tag:hover {
   .control.has-icons-left .input:focus ~ .icon,
   .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
   .control.has-icons-right .select:focus ~ .icon {
-    color: white; }
+    color: #0a0a0a; }
   .control.has-icons-left .input.is-small ~ .icon,
   .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
   .control.has-icons-right .select.is-small ~ .icon {
@@ -3026,7 +3026,7 @@ a.tag:hover {
   background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: white;
+  color: #0a0a0a;
   max-width: 100%;
   position: relative; }
 
@@ -3137,7 +3137,7 @@ a.tag:hover {
   padding-top: 0.5rem; }
 
 .dropdown-item {
-  color: white;
+  color: #0a0a0a;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -3296,7 +3296,7 @@ button.dropdown-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 2px;
-    color: white;
+    color: #0a0a0a;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
@@ -3414,9 +3414,9 @@ button.dropdown-item {
 
 .message-header {
   align-items: center;
-  background-color: white;
+  background-color: #0a0a0a;
   border-radius: 4px 4px 0 0;
-  color: rgba(0, 0, 0, 0.7);
+  color: #fff;
   display: flex;
   font-weight: 700;
   justify-content: space-between;
@@ -3437,7 +3437,7 @@ button.dropdown-item {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: white;
+  color: #0a0a0a;
   padding: 1.25em 1.5em; }
   .message-body code,
   .message-body pre {
@@ -4024,7 +4024,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: white;
+  color: #0a0a0a;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -4062,7 +4062,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: white;
+  color: #0a0a0a;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -4547,7 +4547,7 @@ a.navbar-item,
       color: #363636; }
 
 .panel-list a {
-  color: white; }
+  color: #0a0a0a; }
   .panel-list a:hover {
     color: #485fc7; }
 
@@ -4609,7 +4609,7 @@ label.panel-block {
     border-bottom-color: #3b3749;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: white;
+    color: #0a0a0a;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;

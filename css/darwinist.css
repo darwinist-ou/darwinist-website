@@ -7,6 +7,7 @@
 
 .titled {
   font-weight: 700 !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .subtitled {
@@ -14,7 +15,7 @@
 }
 
 .bodytext {
-  line-height: 28px !important;
+  line-height: 35px !important;
   font-weight: 300 !important;
 }
 
