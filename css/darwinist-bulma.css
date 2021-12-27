@@ -4024,7 +4024,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: #0a0a0a;
+  color: white;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -4062,7 +4062,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #0a0a0a;
+  color: white;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -4081,7 +4081,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #e6ecf0;
-    color: #485fc7; }
+    color: #0a0a0a; }
 
 .navbar-item {
   flex-grow: 0;
