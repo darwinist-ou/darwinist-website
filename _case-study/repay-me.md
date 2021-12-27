@@ -6,9 +6,6 @@ logo: /img/companies/repay-me-logo.png
 subtitle: Empowering milestone hits the smart way
 technologies: [kubernetes, git]
 ---
-<!-- <figure>
-  <img src="/img/posts/repay-me/repayme.svg" alt="Case study: RepayMe" />
-</figure> -->
 
 {:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 # [Repay.me](https://www.repay.me/), a Berlin-based startup developing an exciting new global commerce platform, recently brought in Otter Networks to help find a solution to its ongoing development infrastructure problem.
