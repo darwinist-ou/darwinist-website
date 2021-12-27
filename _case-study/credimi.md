@@ -14,7 +14,7 @@ From its inception, Italian-based digital lending platform, Credimi, had always 
 
 Credimi embraced microservices from Day 1, but it soon found that the management of all the architecture components was becoming increasingly complicated.
 
-<p class="box has-background-dark">“Every time we needed to make a change, we had to set up all the right pieces,” Porcu said. “There was significant risk of broken code going through production, and significant manual work required in order to test changes. Because one small change affected several microservices, it needed to be deployed by hand.”</p>
+>“Every time we needed to make a change, we had to set up all the right pieces,” Porcu said. “There was significant risk of broken code going through production, and significant manual work required in order to test changes. Because one small change affected several microservices, it needed to be deployed by hand.”
 
 Porcu began looking for microservice architecture that was new and Docker-native. Instead of turning to Jenkins, he chose Codefresh – the first CI/CD platform built for Kubernetes. As one of Codefresh’s first customers, Credimi enjoyed faster builds and deployments, complexity reduction and automation in a fully cloud-based architecture.
 
@@ -24,11 +24,11 @@ Codefresh and Kubernetes brought opportunity for the Credimi development team, b
 ## Transforming potential value into tangible value
 Two of Porcu’s top engineers began worked with the Skill Sprint leader over one-week to achieve these crucial steps of migration and knowledge transfer.
 
-<p class="box has-background-dark">“Our participating engineers ended up having a much clearer understanding of the different features Kubernetes, and how they should use them to get the best value,” Porcu said.</p>
+>“Our participating engineers ended up having a much clearer understanding of the different features Kubernetes, and how they should use them to get the best value,” Porcu said.
 
 That’s the very idea behind DevOps skill sprint methodology. Not only do developers get flexible new infrastructure, but they build it themselves, and truly own their full pipeline.
 
-<p class="box has-background-dark">“Our engineers worked with the Sprint Leader who could guide their strategy and discuss it. They were able to validate what they thought they should be doing,” Porcu said. “Andrew was there to give help or provide quick scripts when necessary to avoid long processes. Our engineers didn’t spend precious time writing annoying scripts, and instead focused on the important work.”</p>
+>“Our engineers worked with the Sprint Leader who could guide their strategy and discuss it. They were able to validate what they thought they should be doing,” Porcu said. “Andrew was there to give help or provide quick scripts when necessary to avoid long processes. Our engineers didn’t spend precious time writing annoying scripts, and instead focused on the important work.”
 
 The skill sprint kept Credimi engineers in high gear for a full week, allowing them to migrate 10 of their most tightly coupled services into a continuous delivery pipeline. Through a pairing approach and exchange of tacit knowledge – or knowledge that is learned through repetition and quality social interaction – the team gained a firm grasp on how to build and operate their new infrastructure.
 
@@ -38,6 +38,6 @@ In the week immediately following the sprint, Credimi engineers migrated an addi
 ## An approach with longevity in mind
 Credimi now has the largest chunk of their tasks behind them. The critical migration has been completed, and the team possesses the knowledge to finish the smaller service migrations on their own time. After the skill sprint, Credimi was able to resolve its “manual DevOps” bottleneck, create clean microservice architecture and avoid any dependencies on expensive services.
 
-<p class="box has-background-dark">“I’d never heard anyone speaking openly about tacit knowledge and knowledge transfer in engineering teams,” Porcu said. “We’re now considering doing similar sprints internally, with the most experienced and specialized developers sharing their knowledge in a way that’s sustainable and valuable. We feel as though we’ve invested in our staff without resorting to outside consultants.”</p>
+>“I’d never heard anyone speaking openly about tacit knowledge and knowledge transfer in engineering teams,” Porcu said. “We’re now considering doing similar sprints internally, with the most experienced and specialized developers sharing their knowledge in a way that’s sustainable and valuable. We feel as though we’ve invested in our staff without resorting to outside consultants.”
 
 
