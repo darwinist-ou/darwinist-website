@@ -67,7 +67,7 @@ layout: default
 <section class="section">
   <div class="container pb-6">
     {% for blurb in page.blurb %}
-      <p class="bodytext is-size-4">{{ blurb }}</p>
+      <p class="subtitle bodytext is-size-4">{{ blurb }}</p>
     {% endfor %}
   </div>  
 </section>
@@ -116,10 +116,19 @@ layout: default
 
 <section class="section is-medium has-background-white">
   <div class="container">
-    <h4 class="title titled is-size-2 is-size-4-mobile has-text-left mb-6">{{ page.bottom-copy-title }}</h4>
-    {% for text in page.bottom-copy %}
-      <p class="subtitle bodytext is-size-5">{{ text }}</p>
-    {% endfor %}
+    <div class="columns is-centered">
+      <div class="column is-4">
+        <figure class="image">
+          <img src="/img/graphics/woodpeckers.png">
+        </figure>
+      </div>
+      <div class="column">
+        <h4 class="title titled is-size-2 is-size-4-mobile has-text-left mb-6">{{ page.bottom-copy-title }}</h4>
+        {% for text in page.bottom-copy %}
+          <p class="subtitle bodytext is-size-5">{{ text }}</p>
+        {% endfor %}
+      </div>  
+    </div>  
   </div>   
 </section>
 
