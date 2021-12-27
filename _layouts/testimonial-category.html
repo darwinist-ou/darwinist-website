@@ -3,70 +3,73 @@ layout: default
 # tabs: example_tabs
 ---
 
-<section class="section is-small" id="colored-dna-back">
-    <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered has-text-white">Testimonials</h1>
+<section class="section">
+    <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Testimonials</h1>
 </section>
 
 
   {% for company in site.data.testimonial %}
 <section class="section mt-6">
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
-          <figure class="image">
-            <img src="{{ company[1].company-logo }}" alt="Placeholder image">
-          </figure>
-        </a>
-      </div>
-    </div><!-- columns  -->
+  <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
+            <figure class="image">
+              <img src="{{ company[1].company-logo }}" alt="Placeholder image">
+            </figure>
+          </a>
+        </div>
+      </div><!-- columns  -->
 
 
-    <p class="subtitle subtited has-text-centered is-size-4 is-size-5-mobile">{{ company[1].company-description }}</p>
-    <br />
-  <div class="columns is-vcentered box has-background-white-bis px-3">
-    <div class="column is-mobile">
-      <div class="card-content">
-        {% for project in company[1].projects %}
-        <div class="notification has-background-white-bis">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-128x128 is-rounded">
-                <img src="{{ site.data.technology[project.technology].card-image }}" alt="Placeholder image">
-              </figure>
+      <p class="subtitle subtited has-text-centered is-size-4 is-size-5-mobile">{{ company[1].company-description }}</p>
+      <br />
+    <div class="columns is-vcentered box px-3">
+      <div class="column is-mobile">
+        <div class="card-content">
+          {% for project in company[1].projects %}
+          <div class="notification has-background-white">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-128x128 is-rounded">
+                  <img src="{{ site.data.technology[project.technology].card-image }}" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <h3 class="title titled is-size-4 is-size-5-mobile">{{ project.title }}</h3>
+                <h4 class="subtitle subtited is-size-6 is-size-7-mobile has-text-grey">{{ project.subtitle }}</h4>
+              </div>
             </div>
-            <div class="media-content">
-              <h3 class="title titled is-size-4 is-size-5-mobile has-text-black">{{ project.title }}</h3>
-              <h4 class="subtitle subtited is-size-6 is-size-7-mobile has-text-grey">{{ project.subtitle }}</h4>
-            </div>
-          </div>
-          <p class="subtitle bodytext is-size-6 has-text-black">{{ project.blurb }}</p>
-            <button class="button titled is-rounded is-light is-outlined is-success is-medium is-fullwidth">
-                <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
-                  <div class="icon-text has-text-white">
-                    <span class="icon has-text-info">
-                    <i class="fas fa-arrow-right"></i>
-                    </span>
-                    <span class="has-text-black">Case Study</span>
-                  </div>
-                </a>
-            </button>
-          <br />  
-        </div><!-- notification -->
-        {% endfor %}
-      </div><!-- card-content -->
-    </div><!-- column -->  
+            <p class="subtitle bodytext is-size-6">{{ project.blurb }}</p>
+            <br />
+              <button class="button titled is-rounded is-outlined is-success is-medium is-fullwidth">
+                  <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
+                    <div class="icon-text">
+                      <span class="icon has-text-success">
+                      <i class="fas fa-arrow-right"></i>
+                      </span>
+                      <span>Case Study</span>
+                    </div>
+                  </a>
+              </button>
+            <br />  
+          </div><!-- notification -->
+          {% endfor %}
+        </div><!-- card-content -->
+      </div><!-- column -->  
 
-    <div class="column">
-        {% for testimonial in company[1].testimonials %}
-        <figure class="snip1192">
-          <blockquote class="is-size-5 bodytext">{{ testimonial.text }}</blockquote>
-          <div class="author titled is-size-6">
-            <img src="{{ testimonial.photo }}" alt="Placeholder-image">
-            <h5>{{ testimonial.name }}<span>{{ testimonial.position }}</span></h5>
-          </div>
-        </figure><!-- notification -->
-        {% endfor %}
-    </div><!-- what they say column -->
-  </div><!-- columns -->  
+      <div class="column">
+          {% for testimonial in company[1].testimonials %}
+          <figure class="snip1192">
+            <blockquote class="is-size-5 bodytext"><i>{{ testimonial.text }}</i></blockquote>
+            <div class="author titled is-size-6">
+              <img src="{{ testimonial.photo }}" alt="Placeholder-image">
+              <h5>{{ testimonial.name }}<span>{{ testimonial.position }}</span></h5>
+            </div>
+          </figure><!-- notification -->
+          {% endfor %}
+      </div><!-- what they say column -->
+    </div><!-- columns -->  
+  </div><!-- container -->  
 </section><!-- section  -->
 {% endfor %}      
