@@ -38,6 +38,8 @@
 .icon.is-large {
 justify-content: center;
 margin-block: 0.25em;
+margin-left: 0.5em;
+margin-right: 0.5em;
 }
 
 .fa-3x {
