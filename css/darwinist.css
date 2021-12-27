@@ -175,3 +175,11 @@ figure.snip1192 .author h5 span {
   text-transform: none;
   display: block;
 }
+
+@media screen and (max-width: 420px) {
+  .media {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+}
