@@ -12,6 +12,9 @@
   .slogan-div {
     margin-bottom: 6vw!important;
   }
+  .image.is-tech-icon {
+    width: 36vw;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -22,6 +25,9 @@
     margin-bottom: 6vw!important;
     margin-left: 6vw!important
   }
+  .image.is-tech-icon {
+    width: 8vw;
+}
 }
 
 @media screen and (min-width: 1023px) {
@@ -32,6 +38,9 @@
     margin-bottom: 2.8rem!important;
     margin-left: 0vw!important
   }
+  .image.is-tech-icon {
+    width: 5vw;
+}
 }
 
 .titled {
