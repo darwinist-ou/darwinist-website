@@ -24,11 +24,11 @@ layout: default
 
       <p class="subtitle subtited has-text-centered is-size-4 is-size-5-mobile">{{ company[1].company-description }}</p>
       <br />
-    <div class="columns is-vcentered box m-0 p-0">
-      <div class="column is-mobile m-0 p-0">
+    <div class="columns is-vcentered box">
+      <div class="column is-mobile">
         <div class="card-content">
           {% for project in company[1].projects %}
-            <div class="media mb6">
+            <div class="media mb-6">
                 <figure class="image is-tech-icon is-rounded pr-3">
                   <img src="{{ site.data.technology[project.technology].card-image }}" alt="Placeholder image">
                 </figure>
@@ -45,14 +45,14 @@ layout: default
                       <span class="icon has-text-success">
                       <i class="fas fa-arrow-right"></i>
                       </span>
-                      <span>Case Study</span>
+                      <span class="has-text-black">Case Study</span>
                     </div>
                   </a>
               </button>
           {% endfor %}
         </div><!-- card-content -->
       </div><!-- column -->  
-
+      <div class="column is-1"></div>
       <div class="column">
           {% for testimonial in company[1].testimonials %}
           <figure class="snip1192">
