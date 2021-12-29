@@ -1,6 +1,5 @@
 ---
-row: 2
-column: 2
+row: 1
 card-image: /img/technologies/azure-card.png
 url: microsoft-azure
 name: Microsoft Azure

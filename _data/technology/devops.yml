@@ -1,6 +1,5 @@
 ---
-row: 5
-column: 2
+row: 1
 card-image: /img/technologies/devops-card.png
 url: devops
 name: Devops

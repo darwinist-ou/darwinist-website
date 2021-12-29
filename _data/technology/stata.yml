@@ -1,7 +1,5 @@
 ---
-meow: fuck
-row: 4
-column: 3
+row: 2
 style: is-light
 height: is-medium
 card-image: /img/technologies/stata-card.png

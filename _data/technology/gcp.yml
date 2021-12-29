@@ -1,6 +1,5 @@
 ---
-row: 2
-column: 3
+row: 1
 card-image: /img/technologies/gcp-card.png
 url: google-cloud-platform
 name: Google Cloud Platform
