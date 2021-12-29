@@ -3,28 +3,49 @@ layout: default
 # tabs: example_tabs
 ---
 
-<section class="section">
-    <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Testimonials</h1>
+<section class="section is-small">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1">
+        <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Testimonials</h1>
+        <div class="column has-text-centered is-size-5">
+          <p>Coming together is a <strong class="has-text-danger">beggining</strong>,</p>
+          <p>staying together is a <strong class="has-text-warning">progress</strong>,</p>
+          <p>and working together is <strong class="has-text-success">success</strong>.</p>
+          <p>  - <i>Henry Ford</i></p>
+        </div>
+      </div>
+      <div class="column is-4 p-6">
+        <figure class="image">
+          <img src="/img/graphics/three-birds.png">
+        </figure>
+      </div>
+    </div> 
+  </div>
 </section>
 
 
   {% for company in site.data.testimonial %}
 <section class="section mt-6">
   <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-half">
-          <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
-            <figure class="image">
-              <img src="{{ company[1].company-logo }}" alt="Placeholder image">
-            </figure>
-          </a>
-        </div>
-      </div><!-- columns  -->
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <a target="_blank" rel="noopener noreferrer" href="{{ company[1].company-url }}">
+          <figure class="image">
+            <img src="{{ company[1].company-logo }}" alt="Placeholder image">
+          </figure>
+        </a>
+      </div>
+    </div><!-- columns  -->
+    <br />
+    <p class="subtitle subtited has-text-centered is-size-4 is-size-5-mobile">{{ company[1].company-description }}</p>
+  </div>
+</section>    
 
 
-      <p class="subtitle subtited has-text-centered is-size-4 is-size-5-mobile">{{ company[1].company-description }}</p>
-      <br />
-    <div class="columns is-vcentered box">
+<section class="section has-background-white">
+  <div class="container">
+    <div class="columns is-vcentered">
       <div class="column is-mobile">
         <div class="card-content">
           {% for project in company[1].projects %}
@@ -39,13 +60,13 @@ layout: default
             </div>
             <p class="subtitle bodytext is-size-6">{{ project.blurb }}</p>
             <br />
-              <button class="button titled is-rounded is-outlined is-success is-medium is-fullwidth mb-6">
+              <button class="button titled is-rounded is-light is-outlined is-success is-medium is-fullwidth mb-6">
                   <a target="_blank" rel="noopener noreferrer" href="/case-study/{{ company[1].case-study }}">
                     <div class="icon-text">
                       <span class="icon has-text-success">
                       <i class="fas fa-arrow-right"></i>
                       </span>
-                      <span class="has-text-black">Case Study</span>
+                      <span>Case Study</span>
                     </div>
                   </a>
               </button>
