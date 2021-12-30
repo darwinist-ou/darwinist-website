@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "To automate our world we have to find effective ways of learning new technical skills"
-date:   2020-06-30
+date:   2021-12-30
 excerpt: "Learning by doing is the only effective way that we can acquire new technical skills. Skill Sprints are designed to approach this challenge head on."
 description: "Learning by doing is the only effective way that we can acquire new technical skills. Skill Sprints are designed to approach this challenge head on."
 image: "/img/posts/robot-office.jpeg"
