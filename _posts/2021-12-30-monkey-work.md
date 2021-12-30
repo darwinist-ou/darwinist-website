@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  "To automate our world we have to find effective ways of learning new technical skills"
-date:   2021-12-30
-excerpt: "Learning by doing is the only effective way that we can acquire new technical skills. Skill Sprints are designed to approach this challenge head on."
+date:   2021-12-30 
+excerpt: Our work is becoming more automated. To stay relevent we have to become the automators. Learn where Darwinist founder got his inspitation to develop a methodology that tackles technology related business issues effectively.
 description: "Learning by doing is the only effective way that we can acquire new technical skills. Skill Sprints are designed to approach this challenge head on."
 image: "/img/posts/robot-office.jpeg"
 headline: Article prepared by Andrew Holway - Darwinist Founder
 ---
-
 Creating automations is surprisingly easy as long as you have the required knowledge. Control and automation technologies are often surprisingly easy to use but developing the required tacit technical skills is a significant barrier to entry for most people. The creators of technology often neglect the learning and on-boarding journey because they do not see the value of human interaction - an essential part of learning tacit technical skills.
 
 Our work is becoming more automated. To stay relevent we have to become the automators. "Learning by doing" is the most efficient way of aquiring tacit technical skills. Online courses are a poor substitute for real hands on experience. 
@@ -23,8 +22,8 @@ There is a terrible myth in tech: Those who have the potential for coding can do
 
 >For me, the idea that taking an online course can transform your career, is somewhat laughable. They just don't work for the vast majority of people. Especially for technical skills.
 
-{:.title .titled .is-size-1 .is-size-3-mobile .block .pb-5}
-# The tech industry does not understand knowledge
+{:.title .titled .is-size-2 .is-size-4-mobile .block .pb-5}
+## The tech industry does not understand knowledge
 
 This is primarily because of two reasons. Firstly, tech knowledge is ['tacit knowledge'](https://www.starmind.ai/resources/what-is-tacit-knowledge-and-how-do-you-access-it). The application of this knowledge depends completely on the context of the problem that you're trying to solve. You can't just learn something from an online course and apply that in your daily work. Their examples are too abstract and they rarely teach you anything which has any real power.
 
