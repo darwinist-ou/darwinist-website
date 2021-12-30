@@ -2,27 +2,31 @@
 layout: default
 ---
 
-
-
 <section class="section">
-    <figure class="image">
-        <img src="{{ page.image }}">
-    </figure>
+    <div class="container">
+        <div class="column is-8 is-offset-2 is-centered">
+            <h1 class="title titled is-size-1 is-size-3-mobile has-text-centered pb-5">{{ page.title}}</h1>
+            <br />
+            <figure class="image">
+                <img src="{{ page.image }}">
+            </figure>
+            <br />
+            <div class="block"> 
+                <p class="subtitle subtitled is-size-4 is-size-5-mobile pt-5">{{ page.description}}</p>
+            </div>
+            <div class="subtitle subtitled is-size-6 has-text-right has-text-grey-darker">
+                <i>{{ page.headline }}</i>
+            </div>  
+        </div>    
+    </div>     
 </section>
 
 <section class="section">
-    <h1 class="title titled is-size-1 is-size-3-mobile has-text-centered block pb-5">{{ page.title}}</h1>
-    <h2 class="subtitle subtitled is-size-4 is-size-6-mobile has-text-centered block">{{ page.description}}</h2>
-</section>
-
-<section class="section">
-    <article class="post">
-        <div class="post-content bodytext is-size-5 is-size-6-mobile has-text-justified">
-            {{ content }}
+    <div class="container">
+        <div class="column is-8 is-offset-2">
+            <div class="content bodytext is-size-5">
+                {{ content }}
+            </div>
         </div>
-        <br />
-        <div class="subtitle subtitled is-size-5 has-text-right has-text-grey">
-            {{ page.headline }}
-        </div>
-    </article>
+    </div>
 </section>
