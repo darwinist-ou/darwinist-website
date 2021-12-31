@@ -41,10 +41,22 @@ values:
     icon: fa-check-circle
     title: Commitment
     description: We fully dedicate ourselves to what we are doing, and when it comes to helping our clients, we are doing even more than expected from us. Sticking to this value enabled us to build trustworthy relationships within our company and our clients. We are not interested in the number of our clients, but very serious about the quality of our work and client satisfaction. 
-  - numbe: 5
+  - number: 5
     icon: fa-burn
     title: Honesty
     description: We know our capabilities and our weaknesses. The lie leads to chaos, whereas truth builds to order.
  
-vision: 
-  - At Darwinist, we see a future where companies are not afraid of using new technologies and have all the necessary knowledge to reach their goals faster and efficiently.   
+vision: At Darwinist, we see a future where companies are not afraid of using new technologies and have all the necessary knowledge to reach their goals faster and efficiently.   
+
+team:  
+  - Andrew Holway - CEO, Evangelist, and the key keeper of your company technology development 
+
+  - Veronika Latanovskaya - Web designer, Developer and the style guider of our company. 
+
+  - Dinara Permyakova - Marketer, PR specialist and idea generator of our company 
+
+  - Vadim Jurkevicius - Accountant, strategist and the talisman of finance 
+
+call-to-action-2:  
+  - It is time for your company to evolve, retool, and skills boosting. Book a consultation for your new opportunities discussion.
+ 
