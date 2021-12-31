@@ -7,7 +7,7 @@ layout: default
       <div class="columns is-vcentered">
         <div class="column is-5 is-offset-1">
           <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">About us</h1>
-          <p class="subtitle subtitled is-size-3 is-size-5-mobile has-text-centered">{{ site.data.content.about.title }}</p>
+          <p class="subtitle subtitled is-size-3 is-size-5-mobile has-text-centered">{{ site.data.content.about.subtitle }}</p>
         </div>
         <div class="column is-5 p-6">
           <figure class="image">
@@ -20,29 +20,20 @@ layout: default
 
 <section class="section">
     <div class="container pb-6">
-        <p class="subtitle bodytext is-size-4">{{ site.data.content.about.subtitle }}</p>
+        <p class="subtitle bodytext is-size-5">{{ site.data.content.about.top-copy }}</p>
     </div>  
 </section>
 
 <section class="section is-medium has-background-white">
     <div class="container">
-      <div class="columns is-centered">
-        <div class="column">
-          <h2 class="title titled is-size-2 is-size-4-mobile has-text-left mb-6">{{ site.data.content.about.mission.title }}</h2>  
-            <p class="subtitle bodytext is-size-5">{{ site.data.content.about.mission.text }}</p>
+        {% for text in site.data.content.about.company-introduction %}
+            <p class="content bodytext is-size-5">{{ text }}</p>
+        {% endfor %}
+        <br />
+        <div class="container has-text-centered">
+            <p class="titled is-size-3 has-text-success"><i>{{ site.data.content.about.call-to-action }}</i></p>
         </div>
-        <div class="column is-4">
-          <figure class="image">
-            <img src="/img/graphics/birds-nest.png">
-          </figure>
-        </div>
-      </div>  
     </div>  
-</section>
-
-
-<section class="section">
-  <p class="subtitle">{{ site.data.content.about.company-introduction }}</p>
 </section>
 
 <section class="section is-small">

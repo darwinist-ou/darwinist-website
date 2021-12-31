@@ -1,17 +1,24 @@
 ---
-title: Story for your technology improvement begins with us.
-subtitle: Darwinist is a small yet powerful organization aiming to provide goal-oriented companies opportunities to evolve business with the help of new technologies, people, and the proper method of education.
+subtitle: Story for your technology improvement begins with us.
+top-copy: Darwinist is a small yet powerful organization aiming to provide goal-oriented companies opportunities to evolve business with the help of new technologies, people, and the proper method of education.
 
-company-introduction: Our story begins in the beginning of 2000, when our founder Andrew Holway decided to drop school, leave home and start his journey of finding his destiny. 
- He has worked on several projects, tried many things, and finally dug into technologies and the engineering world. 
- At this moment, he was constantly developing himself and has worked in the supercomputing industry, designing and building large-scale compute and storage systems for big science such as the Large Hadron Collider and Wellcome Trust. 
- In his CV, you could also find an experience lead architect and manager of a team of developers. 
- Furthermore, he worked as an independent IT consultant, helping clients adopt new technologies and safely migrate on cloud technologies. 
- Later on, he came up with the idea of creating a unique training program for those trying to maximize the efficiency of the business and are interested in investing in employees' potential and technical skills. 
- The idea came up in response to insufficient existing solutions for the retooling and upskilling teams since firms that provide IT consulting services want you to stay dependent on their knowledge without sharing it with you. 
- Our founder chooses a different approach. We want to share knowledge and skills with you. 
- We want you to get complete control of suitable technologies, and we want you to grow.
- Book a free call to find out the best solution for your business evolution. 
+company-introduction: 
+  - Our story begins in the beginning of 2000, when our founder Andrew Holway decided to drop school, leave home and start his journey of finding his destiny. 
+    He has worked on several projects, tried many things, and finally dug into technologies and the engineering world. 
+  
+  - At this moment, he was constantly developing himself and has worked in the supercomputing industry, designing and building large-scale compute and storage systems for big science such as the Large Hadron Collider and Wellcome Trust. 
+    In his CV, you could also find an experience lead architect and manager of a team of developers. 
+
+  - Furthermore, he worked as an independent IT consultant, helping clients adopt new technologies and safely migrate on cloud technologies. 
+  
+  - Later on, he came up with the idea of creating a unique training program for those trying to maximize the efficiency of the business and are interested in investing in employees' potential and technical skills. 
+    The idea came up in response to insufficient existing solutions for the retooling and upskilling teams since firms that provide IT consulting services want you to stay dependent on their knowledge without sharing it with you. 
+  
+  - <strong>Our founder chooses a different approach. We want to share knowledge and skills with you. 
+    We want you to get complete control of suitable technologies, and we want you to grow.</strong>
+  
+call-to-action:  
+  - Book a free call to find out the best solution for your business evolution. 
 
 mission:
    title: Mission 
