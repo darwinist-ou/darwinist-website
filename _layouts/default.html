@@ -1,23 +1,25 @@
 {%- include head.html -%}
 <body>
-  <div class="container">
-      {%- include nav-bar.html -%}
+  {%- include nav-bar.html -%}
+
         
         {{ content }}
-
-    <div class="columns py-6 mx-5">
-      <div class="column">
-        <a class="button titled is-size-4 is-rounded is-success has-text-white is-medium is-fullwidth" target="_blank" href="https://calendly.com/darwinist-andrew/">
-          <span>Book a free consultation</span>
-        </a>
+  <section class="section is-small">
+    <div class="container">
+      <div class="columns py-6 mx-5">
+        <div class="column">
+          <a class="button titled is-size-4 is-rounded is-success has-text-white is-medium is-fullwidth" target="_blank" href="https://calendly.com/darwinist-andrew/">
+            <span>Book a call</span>
+          </a>
+        </div>
+        <div class="column">
+          <a class="button titled is-size-4 is-rounded is-success is-outlined is-medium is-fullwidth" target="_blank" href="info@darwinist.io">
+            <span>Email us</span>
+          </a>
+        </div>
       </div>
-      <div class="column">
-        <a class="button titled is-size-4 is-rounded is-success is-outlined has-text-white is-medium is-fullwidth" target="_blank" href="info@darwinist.io">
-          <span>Get in contact</span>
-        </a>
-      </div>
-    </div>
-  </div>    
+    </div>  
+  </section>      
       {%- include footer.html -%}
 </body>
 

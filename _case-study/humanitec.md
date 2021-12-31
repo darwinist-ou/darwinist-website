@@ -6,9 +6,6 @@ logo: /img/companies/humanitec-logo.jpg
 subtitle: Getting to grips with Google Cloud Platform
 technologies: [kubernetes, git]
 ---
-<!-- <figure>
-  <img src="/img/posts/humanitec/humanitec.svg" alt="Case study: Humanitec" />
-</figure> -->
 
 {:.titled .is-size-3 .is-size-4-mobile .has-text-left}
 # Berlin-based [Humanitec](https://humanitec.com/), wanted to explore Kubernetes on Google. With the Darwinist design sprint as a compass, the enterprise software company began charting a new path.
