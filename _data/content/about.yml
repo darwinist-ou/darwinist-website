@@ -26,18 +26,23 @@ mission:
 
 values:
   - number: 1
+    icon: fas fa-users
     title: 1. People
     description: expanding employees' potential by embracing weaknesses and improving strengths. We believe that investing in people is the distinctive way for business evolution. Skills and knowledge drive business growth in the IT industry, and we are here to provide all you need for your company's success.
   - number: 2
+    icon: fas fa-arrows-alt
     title: 2. Growth
     description: in breadth and depth, personal and professional. We are constantly developing, challenging ourselves, and helping our clients grow. We all one day were beginners and felt stuck at some moments. We exist because we have already gone through this path of self-improvement, and we take a philosophical approach when it comes to challenges. There are no limitations in development, only the ones you put to yourself.
   - number: 3
+    icon: fab fa-angellist
     title: 3. Accountable
     description: we live in a world where talking and words are cheap. However, we choose to be different and stick to our ideals by keeping our word. Our clients have already tested our word and shifted to a new level of business evolution. We have already proved to many organizations specifically designed programs of technology consumption, and people training relieved them from stagnation. 
   - number: 4
+    icon: far fa-check-circle
     title: 4. Commitment
     description: we fully dedicate ourselves to what we are doing, and when it comes to helping our clients, we are doing even more than expected from us. Sticking to this value enabled us to build trustworthy relationships within our company and our clients. We are not interested in the number of our clients, but very serious about the quality of our work and client satisfaction. 
   - number: 5
+    icon: fas fa-burn
     title: 5. Honesty
     description: we do not lie to ourselves or clients. We know about capabilities and our weaknesses. The lie leads to chaos, whereas truth builds to order.
  
