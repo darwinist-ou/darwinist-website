@@ -48,15 +48,18 @@ values:
  
 vision: At Darwinist, we see a future where companies are not afraid of using new technologies and have all the necessary knowledge to reach their goals faster and efficiently.   
 
-team:  
-  - Andrew Holway - CEO, Evangelist, and the key keeper of your company technology development 
+team:
+  - name: Andrew Holway
+    position: CEO, Evangelist, and the key keeper of your company technology development
 
-  - Veronika Latanovskaya - Web designer, Developer and the style guider of our company. 
+  - name: Veronika Latanovskaya
+    position: Web designer, Developer and the style guider of our company
 
-  - Dinara Permyakova - Marketer, PR specialist and idea generator of our company 
+  - name: Dinara Permyakova
+    position: Marketer, PR specialist and idea generator of our company
 
-  - Vadim Jurkevicius - Accountant, strategist and the talisman of finance 
+  - name: Vadim Jurkevicius
+    position: Accountant, strategist and the talisman of finance 
 
 call-to-action-2:  
   - It is time for your company to evolve, retool, and skills boosting. Book a consultation for your new opportunities discussion.
- 
