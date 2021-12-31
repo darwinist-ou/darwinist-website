@@ -51,15 +51,19 @@ vision: At Darwinist, we see a future where companies are not afraid of using ne
 team:
   - name: Andrew Holway
     position: CEO, Evangelist, and the key keeper of your company technology development
+    photo: /img/finches.png
 
   - name: Veronika Latanovskaya
-    position: Web designer, Developer and the style guider of our company
+    position: Web designer, developer and the style guider of our company
+    photo: /img/finches.png
 
   - name: Dinara Permyakova
     position: Marketer, PR specialist and idea generator of our company
+    photo: /img/finches.png
 
   - name: Vadim Jurkevicius
     position: Accountant, strategist and the talisman of finance 
+    photo: /img/finches.png
 
 call-to-action-2:  
   - It is time for your company to evolve, retool, and skills boosting. Book a consultation for your new opportunities discussion.
