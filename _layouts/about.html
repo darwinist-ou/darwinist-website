@@ -47,6 +47,30 @@ layout: default
 </section>
 
 <section class="section">
+    <div class="container">
+      <h3 class="title titled is-size-2 is-size-4-mobile has-text-centered mb-6">Our values</h3>
+        <div class="columns is-12 is-multiline">
+            {% for values in site.data.content.about.values %}
+            <div class="column is-6">
+                <div class="card-content has-text-centered">
+                    <span class="icon py-5">
+                        <i class="fas fa-2x {{values.icon}}"></i>
+                    </span> 
+                    <p class="title titled is-size-3">
+                        {{values.title}}
+                    </p>
+                    <hr />
+                    <p class="bodytext has-text-left is-size-5">
+                        {{values.description}}
+                    </p>
+                </div>  
+            </div>  
+            {% endfor %}  
+        </div>
+    </div>
+</section>
+
+<section class="section">
     <h3 class="title is-size-1 is-size-2-mobile has-text-centered">{{ site.data.content.about.vision.title }}</h3>
     <br />
     <p class="subtitle">{{ site.data.content.about.history.text-1 }}</p>
