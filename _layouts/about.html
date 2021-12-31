@@ -36,16 +36,6 @@ layout: default
     </div>  
 </section>
 
-<section class="section is-small">
-    <h5 class="title is-size-2 is-size-3-mobile has-text-centered mb-6">Values</h5>
-        {% for values in site.data.content.about.values %}
-                <div class="box has-background-white-bis">
-                    <h6 class="title is-size-3 is-size-4-mobile">{{values.title}}</h6>
-                    <span class="subtitle is-size-5 has-text-black">{{values.description}}</span>
-                </div>
-        {% endfor %}
-</section>
-
 <section class="section">
     <div class="container">
       <h3 class="title titled is-size-2 is-size-4-mobile has-text-centered mb-6">Our values</h3>
@@ -74,4 +64,10 @@ layout: default
     <h3 class="title is-size-1 is-size-2-mobile has-text-centered">{{ site.data.content.about.vision.title }}</h3>
     <br />
     <p class="subtitle">{{ site.data.content.about.history.text-1 }}</p>
+</section>
+
+<section class="section is-medium has-background-white">
+    <div class="container">
+        <p class="content bodytext is-size-5">{{ site.data.content.about.vision }}</p>
+    </div>  
 </section>
