@@ -11,22 +11,22 @@ layout: default
         </div>
         <div class="column is-5 p-6">
           <figure class="image">
-            <img src="/img/graphics/toucan.png">
+            <img src="/img/graphics/birds-on-branch.png">
           </figure>
         </div>
       </div> 
     </div>
 </section>
 
-<section class="section">
-    <div class="container pb-6">
-        <p class="subtitle bodytext is-size-5">{{ site.data.content.about.top-copy }}</p>
+<section class="section is-small">
+    <div class="container">
+        <p class="subtitle bodytext is-size-4">{{ site.data.content.about.top-copy }}</p>
     </div>  
 </section>
 
 
 <section class="section is-small">
-    <div class="container">
+    <div class="container pb-6">
         <h4 class="title titled is-size-2 is-size-4-mobile has-text-centered mb-6">Meet our team</h4>
         <br />
         <div class="columns is-vcentered is-multiline">
@@ -46,14 +46,16 @@ layout: default
 
 <section class="section is-medium has-background-white">
     <div class="container">
-        {% for text in site.data.content.about.company-introduction %}
-            <p class="content bodytext is-size-5">{{ text }}</p>
-        {% endfor %}
-        <br />
-        <div class="container has-text-centered">
-            <p class="titled is-size-3 has-text-success"><i>{{ site.data.content.about.call-to-action }}</i></p>
-        </div>
+        <div class="column is-8 is-offset-2 is-centered">
+            {% for text in site.data.content.about.company-introduction %}
+                <p class="content bodytext is-size-5">{{ text }}</p>
+            {% endfor %}
+            <br />
+        </div>    
     </div>  
+    <div class="container has-text-centered">
+        <p class="titled is-size-3 has-text-success"><i>{{ site.data.content.about.call-to-action }}</i></p>
+    </div>
 </section>
 
 <section class="section">
@@ -61,7 +63,7 @@ layout: default
       <h3 class="title titled is-size-2 is-size-4-mobile has-text-centered mb-6">Our values</h3>
         <div class="columns is-12 is-multiline">
             {% for values in site.data.content.about.values %}
-            <div class="column is-6">
+            <div class="column is-4">
                 <div class="card-content has-text-centered">
                     <span class="icon py-5">
                         <i class="fas fa-2x {{values.icon}}"></i>
@@ -82,6 +84,6 @@ layout: default
 
 <section class="section is-medium has-background-white">
     <div class="container">
-        <p class="content bodytext is-size-5">{{ site.data.content.about.vision }}</p>
+        <p class="content bodytext is-size-4">{{ site.data.content.about.vision }}</p>
     </div>    
 </section>
