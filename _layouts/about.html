@@ -24,6 +24,26 @@ layout: default
     </div>  
 </section>
 
+
+<section class="section is-small">
+    <div class="container">
+        <h4 class="title titled is-size-2 is-size-4-mobile has-text-centered mb-6">Meet our team</h4>
+        <br />
+        <div class="columns is-vcentered is-multiline">
+            {% for team in site.data.content.about.team %}
+            <div class="column mx-1">
+                <figure class="snip1192">
+                    <div class="author titled is-size-6">
+                        <img src="{{ team.photo }}" alt="Placeholder-image">
+                        <h5>{{ team.name }}<span>{{ team.position }}</span></h5>
+                    </div>
+                </figure>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
 <section class="section is-medium has-background-white">
     <div class="container">
         {% for text in site.data.content.about.company-introduction %}
@@ -64,23 +84,4 @@ layout: default
     <div class="container">
         <p class="content bodytext is-size-5">{{ site.data.content.about.vision }}</p>
     </div>    
-</section>
-
-<section class="section is-small">
-    <div class="container">
-        <h4 class="title titled is-size-2 is-size-4-mobile has-text-centered mb-6">Meet our team</h4>
-        <br />
-        <div class="columns is-vcentered is-multiline">
-            {% for team in site.data.content.about.team %}
-            <div class="column mx-1">
-                <figure class="snip1192">
-                    <div class="author titled is-size-6">
-                        <img src="{{ team.photo }}" alt="Placeholder-image">
-                        <h5>{{ team.name }}<span>{{ team.position }}</span></h5>
-                    </div>
-                </figure>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
 </section>
