@@ -21,27 +21,35 @@ layout: default
 <section class="section is-medium has-background-white">
     <div class="container">
         <div class="columns is-centered">
-            <div class="column is-half has-text-centered">
-                <h2 class="title titled is-size-2 is-size-3-mobile mb-6">Infrastructure</h2>
-                <p class="bodytext is-size-5">Our <strong>Skill Sprint</strong> options cater to a variety of optimization needs.</p>
+            <div class="column has-text-centered">
+                <p class="bodytext is-size-3">Our <strong>Skill Sprint</strong> options cater to a variety of optimization needs.</p>
                 <br />
             </div> 
         </div>      
         <br />
-        {% for row in (1...3) %}
+        {% for row in (1..3) %}
             {% assign filtered = site.data.technology | where: 'row', row %}
             {% if row == 2 %}
                 {% break %}
                 {% else %}
-                    <div class="columns is-multiline is-centered is-mobile">
+                    <div class="columns is-multiline py-6">
                         {% for technology in filtered %}
                             <div class="column">
-                                <figure class="image is-128x128">
-                                    <a href="/technology/{{ technology.url}}/">
-                                        <img src="{{ technology.card-image }}" alt="Placeholder image">
-                                    </a>
-                                    <p class="bodytext has-text-centered is-size-7">{{ technology.name }}</p>
-                                </figure>
+                                <div class="card card-equal-height">
+                                    <div class="card-image">
+                                        <figure class="image">
+                                            <a href="/technology/{{ technology.url}}/">
+                                                <img src="{{ technology.card-image }}" alt="Placeholder image">
+                                            </a>
+                                            <p class="bodytext has-text-centered is-size-7">{{ technology.name }}</p>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <p class=" is-size-7">{{ technology.scenario }}</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         {% endfor %}
                     </div>      
@@ -52,59 +60,81 @@ layout: default
 
 <section class="section is-medium">
     <div class="container">
-        <div class="columns is-centered is-multiline">
-            <div class="column is-5 is-offset-1">
-                <h2 class="title titled is-size-2 is-size-3-mobile mb-6">Programming languages</h2>
-                <p class="bodytext is-size-5">The languages we teach can elevate your performance and bring you closer to the developement process.</p>
+        <div class="columns is-vcentered is-multiline">
+            <div class="column is-4 is-offset-1">
+                <p class="bodytext is-size-4">The languages we teach can elevate your performance and bring you closer to the developement process.</p>
             </div>
             <div class="column is-1"></div>
             <br />     
-            {% for row in (2...3) %}
+            {% for row in (2..3) %}
                 {% assign filtered = site.data.technology | where: 'row', row %}
                 {% if row == 2 %}
                     {% continue %}
                     {% else %}
                         {% for technology in filtered %}
-                            <div class="column">
-                                <figure class="image is-128x128 mr-6">
-                                    <a href="/technology/{{ technology.url}}/">
-                                        <img src="{{ technology.card-image }}" alt="Placeholder image">
-                                    </a>
-                                    <p class="bodytext has-text-centered is-size-7">{{ technology.name }}</p>
-                                </figure>
-                            </div>   
+                        <div class="column">
+                            <div class="card card-equal-height">
+                                <div class="card-image">
+                                    <figure class="image">
+                                        <a href="/technology/{{ technology.url}}/">
+                                            <img src="{{ technology.card-image }}" alt="Placeholder image">
+                                        </a>
+                                        <p class="bodytext has-text-centered is-size-7">{{ technology.name }}</p>
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <p class=" is-size-7">{{ technology.scenario }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         {% endfor %}
+                        <div class="column is-1"></div>
                 {% endif %}
             {% endfor %}
         </div>    
     </div>    
 </section>
 
+<!-- <div class="column">
+    <div class="card">
+        <div class="card-content">
+            {{ technology.scenario }}
+        </div>
+    </div>
+</div> -->
+
 <section class="section is-medium has-background-white">
     <div class="container">
-        <div class="columns is-centered">
-            <div class="column is-half has-text-centered">
-                <h2 class="title titled is-size-2 is-size-3-mobile mb-6">Data storage and management</h2>
-                <p class="bodytext is-size-5">Evolve your databases with our technologies and let your company make a step forward into the future.</p>
-                <br />
-            </div>    
+        <div class="block has-text-centered">
+            <p class="bodytext is-size-3">Evolve your business with our technologies and make a step forward into the future.</p>
         </div>
         <br />
-            {% for row in (2...3) %}
+            {% for row in (2..3) %}
                 {% assign filtered = site.data.technology | where: 'row', row %}
                 {% if row == 3 %}
                     {% break %}
                     {% else %}
-                        <div class="columns is-multiline is-mobile">
+                        <div class="columns is-multiline py-6">
                             {% for technology in filtered %}
-                                <div class="column">
-                                    <figure class="image is-128x128 is-rounded">
-                                        <a href="/technology/{{ technology.url}}/">
-                                            <img src="{{ technology.card-image }}" alt="Placeholder image">
-                                        </a>    
-                                        <p class="bodytext has-text-centered is-size-7">{{ technology.name }}</p>
-                                    </figure>
+                            <div class="column">
+                                <div class="card card-equal-height">
+                                    <div class="card-image">
+                                        <figure class="image">
+                                            <a href="/technology/{{ technology.url}}/">
+                                                <img src="{{ technology.card-image }}" alt="Placeholder image">
+                                            </a>
+                                            <p class="bodytext has-text-centered is-size-7">{{ technology.name }}</p>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <p class=" is-size-7">{{ technology.scenario }}</p>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
                             {% endfor %}
                         </div>
                 {% endif %}

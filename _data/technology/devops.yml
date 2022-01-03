@@ -4,7 +4,7 @@ card-image: /img/technologies/devops-card.png
 url: devops
 name: Devops
 slogan: Devops is the automation of application deployment, testing and monitoring.
-scenario: Devops is the automation of cloud resources and application deployments.
+scenario: Devops is a set of practices for the automation of cloud resources and application deployments that shortens development cycle.
 lead: Learn how to set up CI/CD pipelines and cloud deployments
 sub-lead: Retool DevOps and put developers in the driving seat
 features:

@@ -6,7 +6,7 @@ name: Elasticsearch
 slogan: Retool with Elasticsearch.
 lead: Retool with Elasticsearch and get control of search
 sub-lead: Get best practices and direct hands on experience
-scenario: Elasticsearch is a distributed, free and open search and analytics engine for all types of data, including textual, numerical and geospatial.
+scenario: Distributed, free and open search and analytics engine for all types of data, including textual, numerical and geospatial.
 
 features:
   - Structure, Query and analyze your data
