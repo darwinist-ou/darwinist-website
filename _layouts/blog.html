@@ -19,10 +19,10 @@ layout: default
     </div>
   </section>
 
-<section class="section is-medium has-background-white">
-    <div class="container">
+{% for posts in site.posts %}
+<section class="section is-small has-background-white">
+    <div class="container py-6">
         <div class="columns is-multiline is-centered">
-            {% for posts in site.posts %}
             <div class="column is-4">
                 <figure class="card-image">
                     <img src={{ posts.image }}>   
@@ -42,7 +42,7 @@ layout: default
                     </a>
                 </div>
             </div>
-            {% endfor %}
         </div>
     </div>
 </section>
+{% endfor %}
