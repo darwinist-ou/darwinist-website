@@ -6,7 +6,7 @@ name: Kubernetes
 slogan: We help you retool with Kubernetes.
 lead: Retool with Kubernetes and get control of DevOps
 sub-lead: Deploy your applications to Kubernetes - either in the cloud or on-premise
-scenario: Kubernetes is a hugely popular application management platform. Available from all the major cloud providers. 
+scenario: is a popular application management platform. Available from all the major cloud providers it streamlines the software dev process.
 features:
   - The Kubernetes Skill Sprint helps a development team refactor their deployments to Kubernetes
   - Learn how to leverage Kubernetes directly and get complete control of your software lifecycle

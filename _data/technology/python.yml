@@ -1,11 +1,11 @@
 ---
-row: 3
+row: 1
 card-image: /img/technologies/python-card.png
 url: python
 name: Python
 slogan: Python is an easy to use, general purpose programming language.
 lead: Take control of your data
-scenario: Python is a programming language that lets you work quickly and integrate systems more effectively.
+scenario:  is a open-source, freely usable and distributed programming language that lets you work quickly and integrate systems more effectively.
 sub-lead: Learn how to write versatile and powerful programs in Python
 features:
   - Extract more value from your data, faster

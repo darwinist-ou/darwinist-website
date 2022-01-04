@@ -1,11 +1,11 @@
 ---
-row: 3
+row: 2
 card-image: /img/technologies/golang-card.png
 url: golang
 name: Golang
 slogan: Retool with Golang.
 lead: Modernize your business and accelerate your services
-scenario: Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+scenario: is an open source programming language with a built-in concurrency and a robust standard library that makes it easy to build simple, reliable, and efficient software.
 sub-lead: Learn how to write versatile and powerful programs in Golang
 features:
   - Solve your processing-time bottlenecks
