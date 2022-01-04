@@ -27,18 +27,18 @@ layout: default
                     <div class="columns is-multiline py-6">
                         {% for technology in filtered %}
                             <div class="column">
-                                <div class="box">
-                                        <figure class="image">
-                                            <a href="/technology/{{ technology.url}}/">
-                                                <img src="{{ technology.card-image }}" alt="Placeholder image">
-                                            </a>
-                                        </figure>
-                                    <div class="card-content">
-                                        <div class="content">
-                                            <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
+                                <a href="/technology/{{ technology.url}}/">
+                                    <div class="box">
+                                            <figure class="image">
+                                                    <img src="{{ technology.card-image }}" alt="Placeholder image">
+                                            </figure>
+                                        <div class="card-content">
+                                            <div class="content">
+                                                <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         {% endfor %}
                     </div>      
@@ -58,18 +58,18 @@ layout: default
                         <div class="columns is-multiline py-6">
                             {% for technology in filtered %}
                             <div class="column">
-                                <div class="box">
-                                        <figure class="image">
-                                            <a href="/technology/{{ technology.url}}/">
+                                <a href="/technology/{{ technology.url}}/">
+                                    <div class="box">
+                                            <figure class="image">
                                                 <img src="{{ technology.card-image }}" alt="Placeholder image">
-                                            </a>
-                                        </figure>
-                                    <div class="card-content">
-                                        <div class="content">
-                                            <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
+                                            </figure>
+                                        <div class="card-content">
+                                            <div class="content">
+                                                <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             {% endfor %}
                         </div>
@@ -88,19 +88,19 @@ layout: default
                     {% else %}
                         {% for technology in filtered %}
                         <div class="column">
-                            <div class="box">
-                                <figure class="image">
-                                    <a href="/technology/{{ technology.url}}/">
-                                        <img src="{{ technology.card-image }}" alt="Placeholder image">
-                                    </a>
-                                </figure>
-                                <br />
-                                <div class="card-content">
-                                    <div class="content">
-                                        <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
+                            <a href="/technology/{{ technology.url}}/">
+                                <div class="box">
+                                    <figure class="image">
+                                            <img src="{{ technology.card-image }}" alt="Placeholder image">
+                                    </figure>
+                                    <br />
+                                    <div class="card-content">
+                                        <div class="content">
+                                            <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         {% endfor %}
                 {% endif %}
