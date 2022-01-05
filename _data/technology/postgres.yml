@@ -1,5 +1,5 @@
 ---
-row: 1
+row: 3
 card-image: /img/technologies/postgres-card.png
 url: postgresql
 name: PostgreSQL
