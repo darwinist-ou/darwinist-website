@@ -17,117 +17,33 @@ layout: default
     </div>
 </section>
 
-<div class="background">
+{% for row in (1..5) %}
+<section class="section is-medium {% cycle 'has-background-white', 'has-background-white-bis' %}">
     <div class="container">
-        <div class="panel pricing-table">
-                {% for row in (1..3) %}
-                {% assign filtered = site.data.technology | where: 'row', row %}
-                {% if row == 2 %}
-                    {% break %}
-                    {% else %}
-                        {% for technology in filtered %}
-                <div class="pricing-plan">
-                    <img src="{{ technology.card-image }}" alt="Placeholder image">
-                    <ul class="pricing-features">
-                        <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
-                    </ul>
-                    <!-- <a href="/technology/{{ technology.url}}/" class="pricing-button">{{ technology.name }}</a> -->
-                </div>     
-                {% endfor %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="background">
-    <div class="container">
-        <div class="panel pricing-table">
-            {% for row in (2..3) %}
+        <div class="columns is-12 is-multiline is-centered">
+        
             {% assign filtered = site.data.technology | where: 'row', row %}
-            {% if row == 3 %}
-                {% break %}
-                {% else %}
-                        {% for technology in filtered %}
-                <div class="pricing-plan">
-                        <img src="{{ technology.card-image }}" alt="Placeholder image">
-                    <ul class="pricing-features">
-                        <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
-                    </ul>
-                    <!-- <a href="/technology/{{ technology.url}}/" class="pricing-button">{{ technology.name }}</a> -->
-                </div>     
-                {% endfor %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="background">
-    <div class="container">
-        <div class="panel pricing-table">
-            {% for row in (3..4) %}
-            {% assign filtered = site.data.technology | where: 'row', row %}
-            {% if row == 4 %}
-                {% break %}
-                {% else %}
-                        {% for technology in filtered %}
-                <div class="pricing-plan">
-                        <img src="{{ technology.card-image }}" alt="Placeholder image">
-                    <ul class="pricing-features">
-                        <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
-                    </ul>
-                    <!-- <a href="/technology/{{ technology.url}}/" class="pricing-button">{{ technology.name }}</a>-->  
-                </div>     
-                {% endfor %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="background">
-    <div class="container">
-        <div class="panel pricing-table">
-            {% for row in (4..5) %}
-            {% assign filtered = site.data.technology | where: 'row', row %}
-            {% if row == 5 %}
-                {% break %}
-                {% else %}
-                        {% for technology in filtered %}
-                <div class="pricing-plan">
-                        <img src="{{ technology.card-image }}" alt="Placeholder image">
-                    <ul class="pricing-features">
-                        <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
-                    </ul>
-                    <!--<a href="/technology/{{ technology.url}}/" class="pricing-button">{{ technology.name }}</a>-->                
-                </div>     
-                {% endfor %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="background">
-    <div class="container">
-        <div class="panel pricing-table">
-            {% for row in (4..5) %}
-            {% assign filtered = site.data.technology | where: 'row', row %}
-            {% if row == 4 %}
-                {% continue %}
-                {% else %}
-                    {% for technology in filtered %}
-                <div class="pricing-plan">
-                        <img src="{{ technology.card-image }}" alt="Placeholder image">
-                    <ul class="pricing-features">
-                        <p><strong>{{ technology.name }}</strong> {{ technology.scenario }}</p>
-                    </ul>
-                    <!--<a href="/technology/{{ technology.url}}/" class="pricing-button">{{ technology.name }}</a>-->                
-                </div>     
-                {% endfor %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-</div>
+            {% for technology in filtered %}
+            <div class="column">
+                <div class="block-tech">
+                    <a href="{{ technology.url }}">
+                        <figure class="image mx-6">
+                            <img src="{{ technology.card-image }}">        
+                        </figure> 
+                    </a>                        
+                    <hr />
+                    <p class="bodytext is-size-5 is-size-6-mobile mx-4">
+                        <strong>{{ technology.name }}</strong> {{ technology.scenario }}
+                    </p>
+                    <div class="block is-flex is-horizontal-center">
+                        <a class="button is-rounded my-6 is-outlined is-success" target="_blank" href="{{ technology.url }}">
+                            <span class="is-flex-wrap">Learn more</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}  
+        </div>  
+    </div>   
+</section>
+{% endfor %}
