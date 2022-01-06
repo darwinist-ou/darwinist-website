@@ -1,52 +1,10 @@
 ---
-subtitle: Story for your technology improvement begins with us.
-top-copy: Darwinist is a small yet powerful organization aiming to provide goal-oriented companies opportunities to evolve business with the help of new technologies, people, and the proper method of education.
 
 company-introduction: 
-  - Our story begins in the beginning of 2000, when our founder Andrew Holway decided to drop school, leave home and start his journey of finding his destiny. 
-    He has worked on several projects, tried many things, and finally dug into technologies and the engineering world. 
-  
-  - At this moment, he was constantly developing himself and has worked in the supercomputing industry, designing and building large-scale compute and storage systems for big science such as the Large Hadron Collider and Wellcome Trust. 
-    In his CV, you could also find an experience lead architect and manager of a team of developers. 
-
-  - Furthermore, he worked as an independent IT consultant, helping clients adopt new technologies and safely migrate on cloud technologies. 
-  
-  - Later on, he came up with the idea of creating a unique training program for those trying to maximize the efficiency of the business and are interested in investing in employees' potential and technical skills. 
-    The idea came up in response to insufficient existing solutions for the retooling and upskilling teams since firms that provide IT consulting services want you to stay dependent on their knowledge without sharing it with you. 
-  
-  - <strong>Our founder chooses a different approach. We want to share knowledge and skills with you. 
-    We want you to get complete control of suitable technologies, and we want you to grow.</strong>
-  
-call-to-action:  
-  - Book a free call to find out the best solution for your business evolution. 
-
-mission:
-   title: Mission 
-   text: Our mission is to provide technology centric transformations of your business within a training and coaching environment.
-
-values:
-  - number: 1
-    icon: fa-users
-    title: People
-    description: Expanding employees' potential by embracing weaknesses and improving strengths. We believe that investing in people is the distinctive way for business evolution. Skills and knowledge drive business growth in the IT industry, and we are here to provide all you need for your company's success.
-  - number: 2
-    icon: fa-arrows-alt
-    title: Growth
-    description: In breadth and depth, personal and professional. We are constantly developing, challenging ourselves, and helping our clients grow. We all one day were beginners and felt stuck at some moments. We exist because we have already gone through this path of self-improvement, and we take a philosophical approach when it comes to challenges. There are no limitations in development, only the ones you put to yourself.
-  - number: 3
-    icon: fa-thumbs-up
-    title: Accountable
-    description: We live in a world where talking and words are cheap. However, we choose to be different and stick to our ideals by keeping our word. Our clients have already tested our word and shifted to a new level of business evolution. We have already proved to many organizations specifically designed programs of technology consumption, and people training relieved them from stagnation. 
-  - number: 4
-    icon: fa-check-circle
-    title: Commitment
-    description: We fully dedicate ourselves to what we are doing, and when it comes to helping our clients, we are doing even more than expected from us. Sticking to this value enabled us to build trustworthy relationships within our company and our clients. We are not interested in the number of our clients, but very serious about the quality of our work and client satisfaction. 
-  - number: 5
-    icon: fa-burn
-    title: Honesty
-    description: We know our capabilities and our weaknesses. The lie leads to chaos, whereas truth builds to order.
- 
-vision: At Darwinist, we see a future where companies are not afraid of using new technologies and have all the necessary knowledge to reach their goals faster and efficiently.   
+  - Darwinist develops new techniques for technology education and adoption. Our methodologies are used to retool teams, invest in people, and evolve businesses.
+  - Using, learning and creating technology is a social activity. However, the technology consulting and education services are trying to disconnect us from each other and push learners to online platforms which are ineffective and isolating. 
+  - Our goal is to reintroduce things like apprenticeship through careful designed programme where teamwork is putted on the first place. Team of developers get knowledge through learning on the job process which already proved the efficiency. 
+  - The technology industry is a monoculture of autodidacts who struggle with knowledge sharing. Darwinist brings strong instructional design principles to make our industry more accessible, more diverse and more social. 
 
 team:
   - name: Andrew Holway
@@ -64,6 +22,3 @@ team:
   - name: Vadim Jurkevicius
     position: Accountant, strategist and finance enforcer 
     photo: /img/people/vadim.png
-
-call-to-action-2:  
-  - It is time for your company to evolve, retool, and skills boosting. Book a consultation for your new opportunities discussion.
