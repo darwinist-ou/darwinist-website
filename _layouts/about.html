@@ -19,12 +19,19 @@ layout: default
 
 <section class="section is-medium has-background-white">
     <div class="container">
-        <div class="column is-8 is-offset-2 is-centered">
-            {% for text in site.data.content.about.company-introduction %}
-                <p class="content bodytext is-size-5">{{ text }}</p>
-            {% endfor %}
-            <br />
-        </div>    
+        <div class="columns reverse-columns">
+            <div class="column is-4">
+                <figure class="image p-4">
+                    <img src="/img/graphics/two-birds.png">
+                </figure>
+            </div>
+            <div class="column is-8 is-centered">
+                {% for text in site.data.content.about.company-introduction %}
+                    <p class="content bodytext is-size-5">{{ text }}</p>
+                {% endfor %}
+                <br />
+            </div> 
+        </div> 
     </div>  
 </section>
 
