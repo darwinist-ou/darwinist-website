@@ -1,47 +1,37 @@
 ---
 layout: default
 ---
-
 <section class="section is-small">
   <div class="container">
-      <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Case studies</h1>
+    <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1">
+        <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Case study</h1>
+      </div>
+      <div class="column is-5 p-6">
+        <figure class="image">
+          <img src="/img/graphics/toucan.png">
+        </figure>
+      </div>
+    </div> 
   </div>
 </section>
 
-<section class="section py-5">
+{% for case-study in site.case-study %}
+<section class="section {% cycle 'has-background-white', 'has-background-white-bis' %}">
   <div class="container">
-    {% for case-study in site.case-study %}
-      <div class="block py-2">
-        <a href="{{ case-study.url }}">
-          <div class="box">
-            <div class="columns is-vcentered">
-              <div class="column is-4">
-                <figure class="image pt-2">
-                  <img src="{{ case-study.logo }}">
-                </figure>
-                  <span class="sutitle subtitled is-size-6 has-text-centered">{{ case-study.subtitle }}</span>
-              </div>
-              <div class="column is-8">
-                <div class="columns is-mobile is-gapless">
-                  {% for tech in case-study.technologies %}
-                  <div class="column is-3">
-                    <div class="column is-1"></div>
-                    <figure class="image is-4by3 is-fullwidth mx-0 my-0">
-                      <img src={{ site.data.technology[tech].card-image }}>
-                    </figure>
-                  </div>
-                  {% endfor %}
-                </div>  
-              </div>
-            </div>
-          </div>
-        </a>
-      </div> 
-    {% endfor %}
+      <figure class="image">
+        <img src="{{ case-study.logo }}">
+      </figure>
+      <span class="sutitle subtitled is-size-6 has-text-centered">{{ case-study.subtitle }}</span>
+    <div class="columns is-multiline is-centered">
+      {% for tech in case-study.technologies %}
+      <div class="column is-2">
+        <figure class="image">
+          <img src="{{ site.data.technology[tech].card-image }}">
+        </figure>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
-
-
-
-
-
+{% endfor %}
