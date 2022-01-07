@@ -14,7 +14,13 @@
   }
   .image.is-tech-icon {
     width: 36vw;
-}
+  }
+  .blog-picture-left {
+    float: left; 
+    width: 100vw; 
+    margin-top: 4vw; 
+    margin-bottom: 8vw;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -40,6 +46,13 @@
   }
   .image.is-tech-icon {
     width: 5vw;
+}
+  .blog-picture-left {
+    float: left; 
+    width: 25vw; 
+    margin-top: 1vw; 
+    margin-bottom: 1vw;
+    margin-right: 2vw;
 }
 }
 
