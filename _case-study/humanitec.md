@@ -2,7 +2,7 @@
 layout: case-study
 company: Humanitec
 technology: Kubernetes
-logo: /img/companies/humanitec-logo.jpg
+logo: /img/companies/humanitec.png
 subtitle: Getting to grips with Google Cloud Platform
 technologies: [kubernetes, git]
 ---

@@ -1,7 +1,7 @@
 ---
 layout: case-study
 company: AccessHolding
-logo: /img/companies/access-holding-logo.png
+logo: /img/companies/accessholding.png
 subtitle: Organizing workflows on a multinational level
 technologies: [python, git, sql-server]
 ---

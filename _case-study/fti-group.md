@@ -2,7 +2,7 @@
 layout: case-study
 company: FTI Group
 technology: Kubernetes
-logo: /img/companies/fti-group-logo.png
+logo: /img/companies/fti-group.png
 subtitle: Identifying and solving a year-long problem in a week
 technologies: [kubernetes, git]
 ---
