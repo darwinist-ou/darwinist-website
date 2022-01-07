@@ -1,7 +1,7 @@
 ---
 layout: case-study
 company: Globalsoft d.o.o
-logo: /img/companies/globalsoft-logo.png
+logo: /img/companies/globalsoft.png
 subtitle: Retooling with Skill Sprints
 technologies: [kubernetes, elastic, golang, postgres]
 ---
