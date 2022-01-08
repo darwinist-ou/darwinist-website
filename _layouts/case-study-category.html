@@ -5,7 +5,7 @@ layout: default
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-5 is-offset-1">
-        <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Case study</h1>
+        <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Case studies</h1>
       </div>
       <div class="column is-5 p-6">
         <figure class="image">
@@ -17,20 +17,32 @@ layout: default
 </section>
 
 {% for case-study in site.case-study %}
-<section class="section {% cycle 'has-background-white', 'has-background-white-bis' %}">
+<section class="section is-small {% cycle 'has-background-white', 'has-background-white-bis' %}">
+  <hr />
+    <h2 class="title is-size-4 is-size-5-mobile has-text-centered pb-7">{{ case-study.subtitle }}</h2>
+  <hr />
   <div class="container">
-      <figure class="image">
-        <img src="{{ case-study.logo }}">
-      </figure>
-      <span class="sutitle subtitled is-size-6 has-text-centered">{{ case-study.subtitle }}</span>
-    <div class="columns is-multiline is-centered">
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <a href="{{ case-study.url }}">
+          <figure class="image">
+            <img src="{{ case-study.logo }}">
+          </figure>
+        </a>
+      </div>
+    </div>
+    <h2 class="bodytext is-size-5 is-size-6-mobile has-text-centered"><i>Technologies introduced:</i></h2>
+    <div class="columns is-multiline is-centered is-mobile pt-5 pb-6">  
       {% for tech in case-study.technologies %}
       <div class="column is-2">
-        <figure class="image">
-          <img src="{{ site.data.technology[tech].card-image }}">
-        </figure>
+        <a href="/technology/{{ site.data.technology[tech].url }}/">
+          <figure class="image">
+            <img src="{{ site.data.technology[tech].card-image }}">
+          </figure>
+        </a>
       </div>
       {% endfor %}
+      </div>
     </div>
   </div>
 </section>
