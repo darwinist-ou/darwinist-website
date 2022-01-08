@@ -14,7 +14,7 @@
   }
   .image.is-tech-icon {
     width: 36vw;
-}
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -27,7 +27,7 @@
   }
   .image.is-tech-icon {
     width: 8vw;
-}
+  }
 }
 
 @media screen and (min-width: 1023px) {
@@ -40,7 +40,7 @@
   }
   .image.is-tech-icon {
     width: 5vw;
-}
+  }
 }
 
 .titled {
