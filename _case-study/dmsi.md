@@ -3,7 +3,7 @@ layout: case-study-new
 company: DMSi
 technology: Kubernetes
 logo: /img/companies/dmsi-logo.png
-subtitle: Retooling a development team with Kubernetes with a Skill Sprint
+subtitle: Retooling a development team with with a Kubernetes Skill Sprint
 technologies: [kubernetes, git, gcp]
 ---
 
@@ -37,4 +37,4 @@ We ran across Skill Sprints from Darwinist. Having implemented week-long, sprint
 
 DMSi actively maintains a culture of developer autonomy and clearly embraces the value of investing in their people as a main driver for quality and innovation. The success of the Skill Sprint is testament to the advanced skills and mentality of the team. Within a couple of days we'd already broken the back of the problem and were able to reliably deploy their microservices into a Google Cloud hosted Kubernetes cluster.
 
-Now with a strong foundation and the right skills inhouse, DMSi are able to independantly move forward with Kubernetes.git 
+Now with a strong foundation and the right skills inhouse, DMSi are able to independantly move forward with Kubernetes.
