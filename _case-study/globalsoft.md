@@ -4,6 +4,7 @@ company: Globalsoft d.o.o
 logo: /img/companies/globalsoft.png
 subtitle: Retooling with Skill Sprints
 technologies: [kubernetes, elastic, golang, postgres]
+image: /img/graphics/swallows.png
 ---
 
 {:.titled .is-size-5}

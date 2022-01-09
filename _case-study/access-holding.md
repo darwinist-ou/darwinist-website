@@ -4,6 +4,7 @@ company: AccessHolding
 logo: /img/companies/accessholding.png
 subtitle: Organizing workflows on a multinational level
 technologies: [python, git, sql-server]
+image: /img/graphics/swallows-2.png
 ---
 AccessHolding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running [**Skill Sprints**](/product/skill-sprint/) to help AccessHolding invest in their employees and transform their business.
 

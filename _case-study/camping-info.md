@@ -5,6 +5,7 @@ technology: Kubernetes
 logo: /img/companies/camping-info.png
 subtitle: From an AWS disaster to GKE dream in a week
 technologies: [kubernetes, gcp, python, git]
+image: /img/graphics/swallows-in-a-nest.png
 ---
 
 {:.titled .is-size-5}
