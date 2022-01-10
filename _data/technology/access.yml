@@ -1,13 +1,12 @@
 ---
-row: 4
-column: 1
+row: 5
 card-image: /img/technologies/access-card.png
 url: microsoft-access
 name: Microsoft Access
 slogan: The strength and weaknesses of Access, and how discovering alternatives to it means simplifying your life.
 lead: Simplify your life by learning the modern way of doing databases
 sub-lead: Easier, faster and safer access to your business' data
-scenario: Microsoft Access is a database management system from Microsoft that combines the relational Microsoft Jet Database Engine with a graphical user interface and software-development tools.
+scenario: is a database management system that combines Microsoft Jet Database Engine with a graphical UI and development tools.
 features:
   - Improved user experience
   - Virtually unlimited database complexity

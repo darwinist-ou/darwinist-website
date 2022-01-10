@@ -1,11 +1,10 @@
 ---
 row: 3
-column: 1
 card-image: /img/technologies/mysql-card.png
 url: mysql
 name: MySQL
 slogan: MySQL allows us to store large volumes of structured data.
-scenario: MySQL is an open-source relational database management system
+scenario: is an open-source relational database management system. It's best suited to easily manage large volumes of complex data.
 lead: Get access to data stored in MySQL databases
 sub-lead: Extract and transform data directly from MySQL
 features:

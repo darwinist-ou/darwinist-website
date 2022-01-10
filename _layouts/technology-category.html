@@ -2,38 +2,48 @@
 layout: default
 # tabs: example_tabs
 ---
-<section class="section is-medium">
-    <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Technologies</h1>
-    <p class="subtitle subtitled is-size-3 is-size-5-mobile has-text-centered">The reach of our expertise</p>
+<section class="section is-small">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-5 is-offset-1">
+          <h1 class="title titled is-size-1 is-size-2-mobile has-text-centered">Technologies</h1>
+        </div>
+        <div class="column is-4 p-6">
+          <figure class="image">
+            <img src="/img/graphics/toucans.png">
+          </figure>
+        </div>
+      </div> 
+    </div>
 </section>
 
-
-<section class="mx-3 py-5">
+{% for row in (1..5) %}
+<section class="section is-medium {% cycle 'has-background-white', 'has-background-white-bis' %}">
     <div class="container">
-        {% for row in (1..5) %}
+        <div class="columns is-12 is-multiline is-centered">
         
-        {% assign filtered = site.data.technology | where: 'row', row %}
-        <div class="tile is-ancestor is-centered">
+            {% assign filtered = site.data.technology | where: 'row', row %}
             {% for technology in filtered %}
-            <a href="/technology/{{ technology.url}}/">
-                <div class="tile is-parent">
-                    <div class="tile is-child card has-background-white">
-                        <div class="card-image">
-                            <figure class="image">
-                            <img src="{{ technology.card-image }}" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <a href="/technology/{{ technology.url }}/" class="button is-info is-fullwidth">{{ technology.name }}</a>
-                            </br>
-                            <p class="bd-notification has-text-black">{{ technology.scenario }} <b><a href="/technology/{{ technology.url }}">more info</a></b></p>
-                            </br>
-                        </div>
+            <div class="column">
+                <div class="block-tech">
+                    <a href="{{ technology.url }}">
+                        <figure class="image mx-6">
+                            <img src="{{ technology.card-image }}">        
+                        </figure> 
+                    </a>                        
+                    <hr />
+                    <p class="bodytext is-size-5 is-size-6-mobile mx-4">
+                        <strong>{{ technology.name }}</strong> {{ technology.scenario }}
+                    </p>
+                    <div class="block is-flex is-horizontal-center">
+                        <a class="button is-rounded my-6 is-outlined is-success" target="_blank" href="{{ technology.url }}">
+                            <span class="is-flex-wrap">Learn more</span>
+                        </a>
                     </div>
                 </div>
-            </a>
-            {% endfor %}
-        </div>
-        {% endfor %}
-    </div>
-</section>       
+            </div>
+            {% endfor %}  
+        </div>  
+    </div>   
+</section>
+{% endfor %}
