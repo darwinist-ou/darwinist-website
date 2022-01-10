@@ -1,8 +1,9 @@
 ---
+order: 2
 layout: case-study
 company: Globalsoft d.o.o
 logo: /img/companies/globalsoft.png
-subtitle: Retooling with Skill Sprints
+subtitle: From PHP monoliths to Golang Microservices
 technologies: [kubernetes, elastic, golang, postgres]
 image: /img/graphics/swallows.png
 ---

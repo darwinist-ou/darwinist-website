@@ -1,4 +1,5 @@
 ---
+order: 7
 layout: case-study
 company: Humanitec
 technology: Kubernetes

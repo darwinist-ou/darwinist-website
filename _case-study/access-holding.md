@@ -1,4 +1,5 @@
 ---
+order: 3
 layout: case-study
 company: AccessHolding
 logo: /img/companies/accessholding.png

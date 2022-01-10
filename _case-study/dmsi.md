@@ -1,4 +1,5 @@
 ---
+order: 1
 layout: case-study
 company: DMSi
 technology: Kubernetes

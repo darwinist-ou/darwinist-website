@@ -1,4 +1,5 @@
 ---
+order: 5
 layout: case-study
 company: Credimi
 technology: Kubernetes

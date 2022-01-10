@@ -1,4 +1,5 @@
 ---
+order: 6
 layout: case-study
 company: FTI Group
 technology: Kubernetes

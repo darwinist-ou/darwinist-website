@@ -1,4 +1,5 @@
 ---
+order: 4
 layout: case-study
 company: Camping.info
 technology: Kubernetes
