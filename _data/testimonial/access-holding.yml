@@ -15,7 +15,7 @@ testimonials:
 
 projects:
     - blurb: Upskilling a risk team with modern software development practice and tools.
-      technology: python
+      technology: aws
       title: Python, Git and AWS Skill Sprint
       subtitle: Two participants - one week
     - blurb: Introducing a senior business team to data analytics using Python Pandas.
