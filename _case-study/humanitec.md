@@ -6,7 +6,7 @@ technology: Kubernetes
 logo: /img/companies/humanitec.png
 subtitle: Getting to grips with Google Cloud Platform
 technologies: [kubernetes, git, gcp]
-image: /img/graphics/colibri-flowers.png
+image: /img/graphics/blue-birds-with-snake.png
 ---
 
 {:.titled .is-size-5}

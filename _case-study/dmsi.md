@@ -6,7 +6,7 @@ technology: Kubernetes
 logo: /img/companies/dmsi.png
 subtitle: Retooling a development team with with a Kubernetes Skill Sprint
 technologies: [kubernetes, git, gcp]
-image: /img/graphics/blue-birds-with-snake.png
+image: /img/graphics/two-mini-eagles.png
 ---
 
 Nebraska has a small but thriving tech scene. Since 1976, Omaha-based [DMSi](https://www.dmsi.com/)
