@@ -1,20 +1,18 @@
 ---
-meow: fuck
-row: 4
-column: 3
+row: 5
 style: is-light
 height: is-medium
 card-image: /img/technologies/stata-card.png
 url: stata
 name: Stata
-scenario: Stata is a general-purpose statistical software package developed by StataCorp for data manipulation, visualization, statistics, and automated reporting.
+scenario: is a general-purpose statistical software package for data manipulation, visualization, statistics, and automated reporting.
 slogan: The strength and weaknesses of Stata, and how learning code is the next step for your business.
 lead: Unlock access to more powerful statistical tools and large data sets
 sub-lead: Discover complementary and alternative tools to Stata
 tech-card-info:
   name: Stata
   type: Statistical software
-  url: https://www.microsoft.com/en-us/microsoft-365/excel
+  url: https://www.stata.com/
   description: Excel is...
   benefits:
     - Accessible GUI

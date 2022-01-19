@@ -1,13 +1,12 @@
 ---
 row: 1
-column: 1
 card-image: /img/technologies/git-card.png
 url: git
 name: Git
 slogan: Better collaboration, change control and security for teams working with code.
 lead: Learn to harness the power of Git
 sub-lead: Designed for teams at the begining of their journey toward coding
-scenario: Git is the most commonly used version control system. It makes collaboration easier, allowing changes by multiple people to all be merged into one source. 
+scenario: is the most commonly used version control system. Makes collaboration easier, allowing changes to be merged into one source. 
 features:
   - Available in both beginner and advanced levels
   - Master the technology that makes dev teams so effective

@@ -1,11 +1,10 @@
 ---
 row: 3
-column: 2
 card-image: /img/technologies/postgres-card.png
 url: postgresql
 name: PostgreSQL
 slogan: PostgreSQL allows us to store large volumes of structured data.
-scenario: PostgreSQL is an open-source relational database management system
+scenario: is a open-source database management system with a strong reputation for reliability, feature robustness, and performance. 
 lead: Get access to data stored in PostgreSQL databases
 sub-lead: Extract and transform data directly from PostgreSQL
 features:

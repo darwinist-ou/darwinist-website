@@ -1,11 +1,10 @@
 ---
 row: 3
-column: 3
 card-image: /img/technologies/sql-server-card.png
 url: microsoft-sql-server
 name: Microsoft SQL Server
 slogan: SQL Server is a key Microsoft technology which enables storage of large structured data.
-scenario: Microsoft SQL Server is a relational database management system developed by Microsoft
+scenario: is a relational database management system developed by Microsoft. Helps innovate, accelerate, build and gain insights.
 lead: Get access to data stored in SQL Server databases
 sub-lead: Extract and transform data directly from SQL Server
 features:

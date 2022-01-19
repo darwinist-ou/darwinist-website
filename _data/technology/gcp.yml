@@ -1,13 +1,12 @@
 ---
 row: 2
-column: 3
 card-image: /img/technologies/gcp-card.png
 url: google-cloud-platform
 name: Google Cloud Platform
 slogan: Getting to grips with Google Cloud Platform.
 lead: Learn best practices for GCP
 sub-lead: Get power from cloud computing without breaking the bank
-scenario: Google Cloud Platform is a cloud computing platform from Google.
+scenario: is a cloud computing platform that transforms your operations and protects data with advanced security tools.
 features:
   - Develop a DevOps strategy for GCP
   - Designed to help teams leverage cloud computing in GCP

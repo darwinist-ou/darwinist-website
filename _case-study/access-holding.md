@@ -1,26 +1,25 @@
 ---
+order: 3
 layout: case-study
 company: AccessHolding
-logo: /img/companies/access-holding-logo.png
+logo: /img/companies/accessholding.png
 subtitle: Organizing workflows on a multinational level
 technologies: [python, git, sql-server]
+image: /img/graphics/swallows-2.png
 ---
-{:.titled .is-size-3 .is-size-4-mobile .has-text-left}
-# Business Departments from Major Microfinance Bank learn new technical tricks with Skill Sprints from Darwinist.
+AccessHolding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running [**Skill Sprints**](/product/skill-sprint/) to help AccessHolding invest in their employees and transform their business.
 
-AccessHolding is a Major microfinance operation running financial institutions in 12 countries. Darwinist has been running Skill Sprints to help AccessHolding invest in their employees and transform their business.
+{:.titled .is-size-5}
+### Risk Department (Berlin)
 
-{:.titled .is-size-4 .is-size-6-mobile . .has-text-left}
-## Risk Department (Berlin)
-
-As the AccessHolding Risk Department expanded their data analytics, it became clear to Kyle - head of that Department - that dedicated developers were needed. This pushed the Risk Department into new territory. While the problems of overly complex and error-prone excel sheets were reduced, new problems arose.
+As the AccessHolding Risk Department expanded their data analytics, it became clear to Kyle - head of that Department - that dedicated developers were needed. This pushed the Risk Department into new territory. While the problems of overly complex and error-prone [excel sheets](/technology/microsoft-excel/) were reduced, new problems arose.
 
 Business-side people were no longer able to independently confirm the method of the analytics, leading to a new type of model risk. Furthermore, this reliance on developers created key person risks. Previously, excel sheets could be deciphered in case of an analyst's departure, but now the work was performed inside of code that might disappear entirely.
 
-As such, Kyle commissioned a Skill Sprint to ensure that quality control was embedded into the new coding processes, ensuring four-eyes review for key analytics prior to publishing. Furthermore, the team established a code repository on Github, ensuring that the loss of one employee would not result in the loss of years of development.
+As such, Kyle commissioned a Skill Sprint to ensure that quality control was embedded into the new coding processes, ensuring four-eyes review for key analytics prior to publishing. Furthermore, the team established a code repository on [**Github**](/technology/git/), ensuring that the loss of one employee would not result in the loss of years of development.
 
-{:.titled .is-size-4 .is-size-6-mobile .has-text-left}
-## Business Department (Berlin)
+{:.titled .is-size-5}
+### Business Department (Berlin)
 
 Marijana and Dusko are senior business managers for AccessHolding. They are responsible for providing consultancy services to the group and cross pollination between the individual banks.
 
@@ -30,11 +29,10 @@ Marijana and Dusko showed very high aptitude for coding, however their efforts w
 
 Whilst the Skill Sprint was ultimately unsuccessful, it helped everyone understand what could be done better in subsequent Skill Sprints, especially around access to data and development environments.
 
-{:.titled .is-size-4 .is-size-6-mobile .has-text-left} 
-## Risk Manager / Mobile Payments Manager (Zambia)
+{:.titled .is-size-5} 
+### Risk Manager / Mobile Payments Manager (Zambia)
 
-
-Mwaka is the head of risk and Marcus is the head of mobile payments (eTumba mobile wallet). Working with Darwinist over one month, two hours per day, they explored the core banking system relational database using Python and SQL.  
+Mwaka is the head of risk and Marcus is the head of mobile payments (eTumba mobile wallet). Working with Darwinist over one month, two hours per day, they explored the core banking system relational database using [**Python**](/technology/python/) and [**SQL**](/technology/microsoft-sql-server/).  
 
 Based on the lessons of the previous Skill Sprint with Marijana and Dusko, high quality data and access to a good development environment were provided. 
 
