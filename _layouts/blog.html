@@ -2,47 +2,47 @@
 layout: default
 ---
 <section class="section is-small">
-    <div class="container">
-      <div class="columns is-vcentered">
-        <div class="column is-5 is-offset-1">
-          <h1 class="title titled is-size-1 has-text-centered">Blog</h1>
-          <p class="subtitled is-size-4 is-size-5-mobile has-text-centered">
-             There's always <i>'one more thing'</i> to learn.
-          </p>
-        </div>
-        <div class="column is-5 p-6">
-          <figure class="image">
-            <img src="/img/graphics/possums.png">
-          </figure>
-        </div>
-      </div> 
-    </div>
-  </section>
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1">
+        <h1 class="title titled is-size-1 has-text-centered">Blog</h1>
+        <p class="subtitled is-size-4 is-size-5-mobile has-text-centered">
+            There's always <i>'one more thing'</i> to learn.
+        </p>
+      </div>
+      <div class="column is-5 p-6">
+        <figure class="image">
+          <img src="/img/graphics/possums.png">
+        </figure>
+      </div>
+    </div> 
+  </div>
+</section>
 
 {% for posts in site.posts %}
-<section class="section is-small has-background-white">
-    <div class="container py-6">
-        <div class="columns is-multiline is-centered">
-            <div class="column is-4">
-                <figure class="card-image">
-                    <img src={{ posts.image }}>   
-                </figure>
-            </div>
-            <div class="column is-1"></div>
-            <div class="column is-5">
-                <a href="{{ posts.url }}">
-                    <h3 class="title titled is-size-4">{{ posts.title }}</h3>
-                </a>
-                <hr />
-                <p class="bodytext is-size-5">{{ posts.excerpt }}</p>
-                <br />
-                <div class="block">
-                    <a class="button is-rounded is-success is-outlined is-fullwidth has-text-black" href="{{ posts.url }}">
-                        Continue reading
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="section is-small has-background-white">
+  <div class="container py-6">
+      <div class="columns is-multiline is-centered">
+          <div class="column is-4">
+              <figure class="card-image">
+                  <img src={{ posts.image }}>   
+              </figure>
+          </div>
+          <div class="column is-1"></div>
+          <div class="column is-5">
+              <a href="{{ posts.url }}">
+                  <h3 class="title titled is-size-4">{{ posts.title }}</h3>
+              </a>
+              <hr />
+              <p class="bodytext is-size-5">{{ posts.excerpt }}</p>
+              <br />
+              <div class="block">
+                  <a class="button is-rounded is-success is-outlined is-fullwidth has-text-black" href="{{ posts.url }}">
+                      Continue reading
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 {% endfor %}
