@@ -20,7 +20,7 @@ layout: default
 </section>
 
 {% for posts in site.posts %}
-<div class="section is-small has-background-white">
+<div class="section is-small  {% cycle 'has-background-white', 'has-background-white-bis' %}">
   <div class="container py-6">
       <div class="columns is-multiline is-centered">
           <div class="column is-4">

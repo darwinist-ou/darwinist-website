@@ -2,9 +2,10 @@
 layout: post
 title:  "The machines are coming for your job! How to fight back."
 date:   2021-01-07
+excerpt: A few years ago, I discovered that my high paying tech job had been automated away by new technology from Google. My 'DevOps Engineer' role was in jeopardy. As this new technology, Kubernetes, became ubiquitous, I have had to move on to new pastures.
 description: "Our only hope is to automate it first and become the master of these machines."
 image: "/img/posts/robot-office.jpeg"
-headline: Andrew Holway
+headline: Article prepared by Andrew Holway - Darwinist Founder
 ---
 
 A few years ago, I discovered that my high paying tech job had been automated away by new technology from Google. Kubernetes was released as a free and open-source project to make deploying and managing applications much easier. My 'DevOps Engineer' role, specialising in deploying and managing these programs, was in jeopardy. As this new technology became ubiquitous, I have had to move on to new pastures.
