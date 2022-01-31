@@ -6,8 +6,6 @@ excerpt: "Python is much more powerful and less risky than Excel for business pr
 description: "Python is much more powerful and less risky than Excel for business processes"
 image: "/img/posts/excel-has-stopped-responding.png"
 headline: "By Andrew Holway - Darwinist Founder"
-show: true
-sitemap: true
 ---
 
 {:.block}

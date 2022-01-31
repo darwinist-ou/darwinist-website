@@ -1,78 +1,45 @@
 ---
 layout: default
 ---
-<section id="colored-dna-back" class="section is-medium has-text-centered">
-    <h1 class="title titled is-size-1">Blog</h1>
+<section class="section is-small">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1">
+        <h1 class="title titled is-size-1 has-text-centered">Blog</h1>
+      </div>
+      <div class="column is-5 p-6">
+        <figure class="image">
+          <img src="/img/graphics/possums.png">
+        </figure>
+      </div>
+    </div> 
+  </div>
 </section>
-<section class="section">
-    <div class="columns is-multiline">
-        <div class="column is-8">
-            <div class="column is multiline">
-                {% for posts in site.posts %}
-                <div class="column is-12">
-                    <div class="card has-background-dark my-3">
-                        <div class="card-content">
-                            <div class="content has-text-centered">
-                                <a class="title titled is-size-4" href="{{ posts.url }}">{{ posts.title }}</a>
-                                <p></p>
-                                <p class="subtitled is-size-6">{{ posts.description }}</p>
-                                <p></p>
-                            </div>
-                            <div class="card-image my-3 ">
-                                <img src={{ posts.image }}>   
-                             </div>
-                            <p></p>
-                            <div class="has-text-centered">
-                                <a href="{{ posts.url }}" class="button is-fullwidth is-warning mt-3 has-text-black">Full Story</a>
-                            </div>
-                            <footer class="card-footer-item has-text-grey">By Andew Holway - Darwinist founder</footer>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        <div class="column is-4-desktop is-4-tablet">
-            <p class="title titled is-size-5 has-text-centered">Latest posts</p>
-            <hr />
-            <div class="columns is-multiline">
-                <div class="column is-12">
-                    <div class="card has-background-dark">
-                        <div class="card-image">
-                            <img src="/img/posts/propeller-head.png" alt="...">
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <a class="title is-size-5" href="../2020/09/08-how-and-why">Business Managed I.T. - How and Why</a>
-                                <p></p>
-                                <p>"Business departments have to improve their own technology game for better capabilities and a better relationship with central I.T."</p>
-                                <p></p>
-                            </div>
-                            <div class="has-text-centered">
-                                <a href="../2020/09/08-how-and-why" class="button is-warning">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-12">
-                    <div class="card has-background-dark">
-                        <div class="card-image">
-                            <img src="/img/posts/prometheus_git.png" alt="...">
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <a class="title is-size-5" href="../2020/07/28/fire-of-the-gods">Git - The Fire of the Gods</a>
-                                <p></p>
-                                <p>"Git is ubiquitous in technology development - why is it so important?"</p>
-                                <p></p>
-                            </div>
-                            <div class="has-text-centered">
-                                <a href="../2020/07/28/fire-of-the-gods." class="button is-warning">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
+{% for posts in site.posts %}
+<div class="section is-small  {% cycle 'has-background-white', 'has-background-white-bis' %}">
+  <div class="container py-6">
+      <div class="columns is-multiline is-centered">
+          <div class="column is-4">
+              <figure class="card-image">
+                  <img src={{ posts.image }}>   
+              </figure>
+          </div>
+          <div class="column is-1"></div>
+          <div class="column is-5">
+              <a href="{{ posts.url }}">
+                  <h3 class="title titled is-size-4">{{ posts.title }}</h3>
+              </a>
+              <hr />
+              <p class="bodytext is-size-5">{{ posts.excerpt }}</p>
+              <br />
+              <div class="block">
+                  <a class="button is-rounded is-success is-outlined is-fullwidth has-text-black" href="{{ posts.url }}">
+                      Continue reading
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+{% endfor %}
