@@ -202,5 +202,15 @@ figure.snip1192 .author h5 span {
   display: block;
 }
 
+.menu{
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-
+.menu-item{
+  border-radius: 50px;
+  border-style: solid;
+  border-color: aliceblue;
+  content: center;
+}
