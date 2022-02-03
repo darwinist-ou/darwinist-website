@@ -43,8 +43,8 @@
   </div>
 </nav>
 
-<!-- Bottom bar -->
-<nav class="navbar has-background-dark is-hidden-tablet">
+<!-- 
+<div class="navbar has-background-dark is-hidden-tablet">
   <div class="navbar-brand">
     <span class="icon-text">
       <a href="/#">
@@ -54,32 +54,163 @@
         <span class="title is-1 has-text-white">Darwinist</span>
       </a>
   </div>
-</nav>
 
-<nav class="navbar is-dark is-fixed-bottom is-hidden-tablet" role="navigation">
-  <div class="menu">
-    <div class="navbar-brand">
-        <a href="/product/skill-sprint/" class="navbar-item is-expanded is-block has-text-centered">
-            <i class="fa fa-running"></i>
-            <p class="is-size-7"></p>
+  <div class="has-background-dark py-4 is-flex is-horizontal-center is-hidden-tablet">
+    <div class="card">
+      <div class="card-header card-toggle">
+        <div class="snip1212" aria-haspopup="true" aria-controls="dropdown-menu">
+          <span class="card-header-title">Menu</span>
+          <span class="icon is-small">
+            <i class="fas fa-angle-down" aria-hidden="true"></i>
+          </span> 
+        </div>
+      </div>
+
+      <div class="card-content" id="dropdown-menu" role="menu">
+        <div class="content snip1212">
+          <a href="/#" class="dropdown-item">
+            <span class="icon">
+              <i class="fas fa-home" aria-hidden="true"></i>
+            </span>
+            Home
+          </a>
+
+          <hr class="dropdown-divider">
+          <a href="/product/skill-sprint/" class="dropdown-item">
+            <span class="icon">
+              <i class="fas fa-running" aria-hidden="true"></i>
+            </span>
+            Skill Sprint
+          </a>
+
+          <hr class="dropdown-divider">
+          <a href="/technology/" class="dropdown-item">
+            <span class="icon">
+              <i class="fas fa-laptop-code" aria-hidden="true"></i>
+            </span>
+            Technologies
+          </a>
+
+          <hr class="dropdown-divider">
+          <a href="/case-study/" class="dropdown-item">
+            <span class="icon">
+              <i class="fas fa-briefcase" aria-hidden="true"></i>
+            </span>
+            Case Studies
+          </a>
+
+          <hr class="dropdown-divider">
+          <a href="/blog/" class="dropdown-item">
+            <span class="icon">
+              <i class="far fa-newspaper" aria-hidden="true"></i>
+            </span>
+            Blog
+          </a>
+
+          <hr class="dropdown-divider">
+          <a href="/testimonial/" class="dropdown-item">
+            <span class="icon">
+              <i class="fas fa-comments" aria-hidden="true"></i>
+            </span>
+            Testimonials
+          </a>
+        </div>
+      </div>
+    </div>    
+  </div>
+</div> 
+-->
+
+
+
+<div class="container has-background-dark is-hidden-tablet">
+  <div class="card has-background-dark">
+    <header class="card-header">
+      <span class="icon-text">
+        <a href="/#">
+            <span class="icon is-large has-text-success">
+              <i class="fas fa-2x fa-dna"></i>
+            </span>
+          <span class="title has-text-white">Darwinist</span>
         </a>
-        <a href="/technology/" class="navbar-item is-expanded is-block has-text-centered">
-            <i class="fa fa-laptop-code"></i>
-            <p class="is-size-7"></p>
+      </span>  
+      <p class="card-header-title has-text-dark card-toggle">Menu</p>
+      <a class="card-header-icon card-toggle">
+        <i class="fa fa-bars has-text-white"></i>
+      </a>
+    </header>
+
+    <div class="card-content is-hidden">
+      <div class="content">
+        <a href="/#" class="dropdown-item has-text-white">
+          <span class="icon">
+            <i class="fas fa-home" aria-hidden="true"></i>
+          </span>
+          Home
         </a>
-        <a href="/case-study/" class="navbar-item is-expanded is-block has-text-centered">
-            <i class="fa fa-book"></i>
-            <p class="is-size-7"></p>
+
+        <a href="/product/skill-sprint/" class="dropdown-item has-text-white">
+          <span class="icon">
+            <i class="fas fa-running" aria-hidden="true"></i>
+          </span>
+          Skill sprint
         </a>
-        <a href="/testimonial/" class="navbar-item is-expanded is-block has-text-centered">
-          <i class="fa fa-comments"></i>
-          <p class="is-size-7"></p>
+
+        <a href="/technology/" class="dropdown-item has-text-white">
+          <span class="icon">
+            <i class="fas fa-laptop-code" aria-hidden="true"></i>
+          </span>
+          Technologies
         </a>
-        <a href="/blog/" class="navbar-item is-expanded is-block has-text-centered">
-          <i class="fa fa-blog"></i>
-          <p class="is-size-7"></p>
+
+        <a href="/case-study/" class="dropdown-item has-text-white">
+          <span class="icon">
+            <i class="fas fa-briefcase" aria-hidden="true"></i>
+          </span>
+          Case studies
         </a>
+
+        <a href="/blog/" class="dropdown-item has-text-white">
+          <span class="icon">
+            <i class="far fa-newspaper" aria-hidden="true"></i>
+          </span>
+          Blog
+        </a>
+
+        <a href="/testimonial/" class="dropdown-item has-text-white">
+          <span class="icon">
+            <i class="fas fa-comments" aria-hidden="true"></i>
+          </span>
+          Testimonials
+        </a>
+      </div>
     </div>
   </div>
-</nav>
-<!-- End bottom bar -->
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+	let cardToggles = document.getElementsByClassName('card-toggle');
+	for (let i = 0; i < cardToggles.length; i++) {
+		cardToggles[i].addEventListener('click', e => {
+			e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
+		});
+	  }
+  });
+</script>
+<!-- <script>
+  const dropdown =
+        document.querySelector('.dropdown');
+  const active =
+        document.querySelector('.is-active')
+  document.body.addEventListener('click', function () {
+    if (active) {
+      dropdown.classList.remove('is-active')
+    }
+  })
+  dropdown.addEventListener('click', function (event) {
+    event.stopPropagation();
+    this.classList.toggle('is-active');
+  });
+</script> -->
