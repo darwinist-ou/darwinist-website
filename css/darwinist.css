@@ -223,18 +223,16 @@ button.snip1212 {
   padding-top: calc(0.5em - 2px);
   text-align: center;
   white-space: nowrap;
-  font-size: 13px;
+  font-size: 12px;
   font-family: Helvetica, sans-serif;
 }
 
 .card-content.snip1010 {
-  box-sizing: content-box;
   display: block;
   padding-bottom: 145px;
   padding-top: 96px;
   pointer-events: auto;
   overflow: hidden;
-  width: 100vw;
 }
 
 .dropdown-item {
