@@ -233,7 +233,7 @@ figure.snip1192 .author h5 span {
   font-family: 'Helvetica', sans-serif;
   font-weight: 500;
   font-size: 15px;
-  padding: 5px 5px;
+  padding: 3px 3px;
 }
 
 .card-header.snip1012 button.card-header-title {
@@ -243,7 +243,8 @@ figure.snip1192 .author h5 span {
   border-radius: 20px;
   margin-left: 20px;
   background-color: transparent;
-  border-color: hsl(84, 85%, 32%); 
+  border-color: hsl(84, 85%, 32%);
+  border-width: 3px; 
 }
 
 nav.navbar {
