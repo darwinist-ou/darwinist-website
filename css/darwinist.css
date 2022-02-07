@@ -212,15 +212,6 @@ figure.snip1192 .author h5 span {
   display: block;
 }
 
-button.snip1212 {
-  border-radius: 15px;
-  padding: 20px 25px;
-  font-family: 'Helvetica', sans-serif;
-  font-weight: 500;
-  display: inline-block;
-  font-size: 15px;
-}
-
 .card-content.snip1010 {
   display: block;
   padding-bottom: 145px;
@@ -230,6 +221,34 @@ button.snip1212 {
   background-color: #0E131B;
 }
 
-.card-header {
+.container.snip1011 {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.card-header.snip1012 {
   background-color: #0E131B !important;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px 5px;
+}
+
+.card-header.snip1012 button.card-header-title {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: transparent;
+  border-color: hsl(84, 85%, 32%); 
+}
+
+nav.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
