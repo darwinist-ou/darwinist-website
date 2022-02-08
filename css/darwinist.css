@@ -240,11 +240,9 @@ figure.snip1192 .author h5 span {
   font-family: 'Helvetica', sans-serif;
   font-weight: 500;
   font-size: 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-left: 20px;
-  background-color: transparent;
-  border-color: hsl(84, 85%, 32%);
-  border-width: 3px; 
+  background-color: hsl(84, 85%,  32%)
 }
 
 nav.navbar {
@@ -253,3 +251,16 @@ nav.navbar {
   z-index: 1;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+
+
+.btn {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   border-radius: 10px;
+   display: block;
+ }
