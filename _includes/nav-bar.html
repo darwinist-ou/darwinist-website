@@ -1,11 +1,9 @@
-<nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+<nav class="navbar is-spaced is-hidden-mobile" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <span class="icon-text">
-        <span class="icon is-large has-text-success">
-          <i class="fas fa-3x fa-dna"></i>
-        </span>
-      <span class="title is-1 has-text-white">Darwinist</span>
+      <a class="navbar-item" href="/#">
+          <img src="/img/logo-white.png">
+      </a>
     </div>
 
     <div class="navbar-menu is-active mx-5">
@@ -40,3 +38,82 @@
   </div>
 </nav>
 
+<div class="container snip1011 is-hidden-tablet">
+  <div class="card has-background-dark">
+    <header class="card-header snip1012">
+        <a href="/#">
+          <figure class="image m-3">
+            <img src="/img/logo-white.png">
+          </figure>
+        </a>
+      <button class="btn card-header-title has-text-white card-toggle">MENU</button>
+      <hr/>
+    </header>
+
+
+    
+    <div class="card-content snip1010 is-hidden">
+      <div class="content">
+        <a href="/#" class="dropdown-item is-size-3 has-text-white">
+          <span class="icon pr-5">
+            <i class="fas fa-home" aria-hidden="true"></i>
+          </span>
+          Home
+        </a>
+        <hr class="dropdown-divider has-background-dark">
+
+        <a href="/product/skill-sprint/" class="dropdown-item is-size-3 has-text-white">
+          <span class="icon pr-5">
+            <i class="fas fa-running" aria-hidden="true"></i>
+          </span>
+          Skill sprint
+        </a>
+        <hr class="dropdown-divider has-background-dark">
+
+        <a href="/technology/" class="dropdown-item is-size-3 has-text-white">
+          <span class="icon pr-5">
+            <i class="fas fa-laptop-code" aria-hidden="true"></i>
+          </span>
+          Technologies
+        </a>
+        <hr class="dropdown-divider has-background-dark">
+
+        <a href="/case-study/" class="dropdown-item is-size-3 has-text-white">
+          <span class="icon pr-5">
+            <i class="fas fa-briefcase" aria-hidden="true"></i>
+          </span>
+          Case studies
+        </a>
+        <hr class="dropdown-divider has-background-dark">
+
+        <a href="/blog/" class="dropdown-item is-size-3 has-text-white">
+          <span class="icon pr-5">
+            <i class="far fa-newspaper" aria-hidden="true"></i>
+          </span>
+          Blog
+        </a>
+        <hr class="dropdown-divider has-background-dark">
+
+        <a href="/testimonial/" class="dropdown-item is-size-3 has-text-white">
+          <span class="icon pr-5">
+            <i class="fas fa-comments" aria-hidden="true"></i>
+          </span>
+          Testimonials
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+	let cardToggles = document.getElementsByClassName('card-toggle');
+	for (let i = 0; i < cardToggles.length; i++) {
+		cardToggles[i].addEventListener('click', e => {
+			e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
+		});
+	  }
+  });
+</script>

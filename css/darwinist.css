@@ -218,5 +218,56 @@ figure.snip1192 .author h5 span {
   display: block;
 }
 
+.card-content.snip1010 {
+  display: block;
+  padding-bottom: 145px;
+  padding-top: 96px;
+  pointer-events: auto;
+  overflow: hidden;
+  background-color: #0E131B;
+}
 
+.container.snip1011 {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.card-header.snip1012 {
+  background-color: #0E131B !important;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 3px 3px;
+}
+
+.card-header.snip1012 button.card-header-title {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: hsl(146, 42%, 60%) 
+}
+
+nav.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   border-radius: 10px;
+   display: block;
+ }
 
