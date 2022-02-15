@@ -5,7 +5,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
   .slogan-text {
     font-size: 8vw!important;
   }
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 770px) {
   .slogan-text {
     font-size: 5vw!important;
   }
