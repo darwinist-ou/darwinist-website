@@ -74,6 +74,14 @@
   justify-content: center;
 }
 
+.is-horizontal-right {
+  justify-content: right;
+}
+
+.is-horizontal-left {
+  justify-content: left;
+}
+
 .titled {
   font-weight: 700 !important;
   font-family: Arial, sans-serif;
@@ -158,7 +166,7 @@ figure.snip1192 img {
   max-width: 100%;
   height: 100px;
   width: 100px;
-  outline-color:white;
+  outline-color:  hsl(204, 25%, 92%) ;
   outline-width: 0.2cm; 
   outline-style: solid;
   border-radius: 50%;
@@ -172,7 +180,7 @@ figure.snip1192 blockquote {
   display: block;
   border-radius: 8px;
   position: relative;
-  background-color: white;
+  background-color: #ffffff ;
   padding: 50px 50px 65px 50px;
   font-size: 0.8em;
   font-weight: 500;

@@ -6,7 +6,7 @@ technology: Kubernetes
 logo: /img/companies/fti-group.png
 subtitle: Identifying and solving a year-long problem in a week
 technologies: [kubernetes, git]
-image: /img/graphics/yellow-birds.png
+image: /img/graphics/2-parrots.png
 ---
 
 {:.titled .is-size-5}

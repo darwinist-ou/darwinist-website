@@ -46,30 +46,23 @@ layout: default
   <div class="container">
     <div class="columns">
       <div class="column">
-<!--         <p class="content subtitled has-text-centered is-size-5">
-          Are you a <b>more technical</b> team trying to get to grips with a new stack? 
-        </p> -->
           <h2 class="title titled is-size-4 mb-7 has-text-centered"><i class="fas fa-hand-sparkles"></i> Technology team retooling</h2>
           <hr />
           <p class="content bodytext is-size-5 has-text-black">We are specialists in technology education, developing approaches and methodologies that cut down the <b>time to first value</b> from months to days. We ensure that your retooling goes smoothly with deterministic outcomes.</p>
       </div>
       <div class="column is-1"></div>
       <div class="column">
-<!--         <p class="content subtitled has-text-centered is-size-5">
-          Are you a <b>less technical</b> business team wanting to be more independent with technology? 
-        </p> -->
           <h2 class="title titled is-size-4 mb-7 has-text-centered"><i class="fas fa-user-tie"></i> Business team tech up-skilling</h2>
           <hr />
           <p class="content bodytext is-size-5">We work with business teams, up-skilling and enabling them to create their own basic I.T. systems. We support and educate teams that aspire to become more technology literate. Our customers are joining the <b>Data Democracy</b>.</p>
       </div>  
     </div>
-    <br />
-    <a class="button is-rounded titled is-success is-light is-outlined is-medium is-fullwidth" target="_blank" href="https://darwinist.io/testimonial/">
-      <span class="is-flex-wrap">What our customers say</span>
-    </a>
+    <br>
+      <a class="button is-rounded titled is-success is-light is-outlined is-fullwidth is-medium" target="_blank" href="https://darwinist.io/case-study/">
+        Read our case studies
+      </a>
   </div>
 </section>
-
 
 <section class="section is-medium">
   <div class="container">
@@ -141,4 +134,22 @@ layout: default
       </div>  
     </div>
   </div>   
+</section>
+
+<section class="section is-medium">
+  <div class="columns is-multiline">
+    {% for company in site.data.testimonial %}
+    <div class="column">
+      {% for testimonial in company[1].testimonials %}
+        <figure class="snip1192">
+          <blockquote class="is-size-5 bodytext"><i>{{ testimonial.text }}</i></blockquote>
+          <div class="author titled is-size-6">
+            <img src="{{ testimonial.photo }}" alt="Placeholder-image">
+            <h5>{{ testimonial.name }}<span>{{ testimonial.position }}</span></h5>
+          </div>
+        </figure>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>  
 </section>
